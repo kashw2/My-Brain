@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "b603c4cba3e0a0ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e2b3febd04c22bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "419f770185c97d3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/Algorithms/Dijkstra.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b1f817eb9534b7b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "126e02fa433a7a24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed413258811dc5ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "38be26605a3420d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "77927c5f7752a2a9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3d1b3a3fc34502ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "9be1aa0cb7fb1ee7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0373fb61cfd6461",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Software Engineering/Algorithms/Dijkstra.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1d30a7be385606da",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Software Engineering/Algorithms/Dijkstra.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c71adba1bf5e8ffc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b94c06813756acca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Software Engineering/Algorithms/Dijkstra.md"
+              }
+            }
+          },
+          {
+            "id": "265260b56ac10b26",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "419f770185c97d3f",
+  "lastOpenFiles": [
+    "Software Engineering/Software Engineering.md",
+    "Software Engineering/Cloud.md",
+    "My Brain.md",
+    "Software Engineering/Cloud/Cloud.md",
+    "Software Engineering/Algorithms/Dijkstra.md",
+    "Software Engineering/Cloud/Azure",
+    "Excalidraw/Dijkstra Graph.md",
+    "Pasted image 20230426181733.png.md",
+    "Software Engineering/Pasted image 20230426181733.png",
+    "Excalidraw",
+    "Untitled.canvas",
+    "Software Engineering/Algorithms/Algorithms.md",
+    "Software Engineering/Functional Programming/Functional Programming.md",
+    "Software Engineering/Databases/Databases.md",
+    "Software Engineering/Cloud",
+    "Software Engineering/Networking",
+    "Software Engineering/Functional Programming/Concepts/Functor.md",
+    "Software Engineering/Functional Programming/Concepts/Monad.md",
+    "Software Engineering/Functional Programming/Concepts/Monoid.md",
+    "Software Engineering/Functional Programming/Concepts/Semigroup.md",
+    "Software Engineering/Algorithms",
+    "Software Engineering/Databases",
+    "Software Engineering/Functional Programming/Concepts/Kinds.md",
+    "Software Engineering/Functional Programming/Languages/Scala",
+    "Software Engineering/Functional Programming/Languages",
+    "Software Engineering/Functional Programming/Concepts/TypeClass.md",
+    "Software Engineering/Functional Programming/Concepts/Applicative.md",
+    "2023-04-21.md",
+    "Concepts",
+    "Software Engineering/Functional Programming/Concepts/Concepts.md",
+    "Higher Kinded Type.md",
+    "Untitled 1.canvas",
+    "Concepts/Functor.md",
+    "Functor.md",
+    "Software Engineering/Functional Programming/Concepts/Index.md",
+    "Software Engineering/Functional Programming/Concepts",
+    "Software Engineering/Functional Programming/Concepts.md",
+    "Functional Programming/Concepts.md",
+    "2023-04-20.md"
+  ]
+}
