@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0e2b3febd04c22bf",
+        "id": "ca2ae4c069c9f528",
         "type": "tabs",
         "children": [
           {
-            "id": "419f770185c97d3f",
+            "id": "beb0df01f9a864de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Algorithms/Dijkstra.md",
+                "file": "Yearly Goals/2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Algorithms/Dijkstra.md",
+                "file": "Yearly Goals/2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Algorithms/Dijkstra.md",
+                "file": "Yearly Goals/2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Algorithms/Dijkstra.md"
+                "file": "Yearly Goals/2023.md"
               }
             }
           },
@@ -155,46 +155,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "419f770185c97d3f",
+  "active": "beb0df01f9a864de",
   "lastOpenFiles": [
-    "Software Engineering/Software Engineering.md",
-    "Software Engineering/Cloud.md",
-    "My Brain.md",
+    "Software Engineering/Functional Programming/Concepts/Semigroup.md",
+    "Yearly Goals/2023.md",
+    "Software Engineering/Functional Programming/Concepts/Monad.md",
+    "Software Engineering/Functional Programming/Concepts/Applicative.md",
+    "Software Engineering/Functional Programming/Concepts/Monoid.md",
+    "Software Engineering/Functional Programming/Concepts/Functor.md",
+    "Software Engineering/Functional Programming/Concepts/TypeClass.md",
+    "Software Engineering/Functional Programming/Functional Programming.md",
+    "Software Engineering/Frameworks/React/React.md",
+    "Software Engineering/Frameworks/React",
+    "Software Engineering/Frameworks",
     "Software Engineering/Cloud/Cloud.md",
+    "Yearly Goals/Yearly Goals.md",
+    "Software Engineering/Software Engineering.md",
+    "Software Engineering/Methodologies/Methodologies.md",
+    "Software Engineering/Methodologies/Chaos Engineering.md",
+    "Methodologies/Chaos Engineering.md",
+    "Methodologies",
+    "Software Engineering/Methodologies/Methodologies/Chaos Engineering.md",
+    "Software Engineering/Methodologies/Methodologies",
+    "Software Engineering/Methodologies",
+    "2023.md",
+    "My Brain.md",
+    "Yearly Goals",
+    "Yearly Goals.md",
+    "Software Engineering/Functional Programming/Concepts/Kinds.md",
+    "Software Engineering/Algorithms/Algorithms.md",
     "Software Engineering/Algorithms/Dijkstra.md",
+    "Untitled.canvas",
+    "Software Engineering/Cloud.md",
     "Software Engineering/Cloud/Azure",
     "Excalidraw/Dijkstra Graph.md",
     "Pasted image 20230426181733.png.md",
     "Software Engineering/Pasted image 20230426181733.png",
     "Excalidraw",
-    "Untitled.canvas",
-    "Software Engineering/Algorithms/Algorithms.md",
-    "Software Engineering/Functional Programming/Functional Programming.md",
     "Software Engineering/Databases/Databases.md",
     "Software Engineering/Cloud",
     "Software Engineering/Networking",
-    "Software Engineering/Functional Programming/Concepts/Functor.md",
-    "Software Engineering/Functional Programming/Concepts/Monad.md",
-    "Software Engineering/Functional Programming/Concepts/Monoid.md",
-    "Software Engineering/Functional Programming/Concepts/Semigroup.md",
-    "Software Engineering/Algorithms",
-    "Software Engineering/Databases",
-    "Software Engineering/Functional Programming/Concepts/Kinds.md",
-    "Software Engineering/Functional Programming/Languages/Scala",
-    "Software Engineering/Functional Programming/Languages",
-    "Software Engineering/Functional Programming/Concepts/TypeClass.md",
-    "Software Engineering/Functional Programming/Concepts/Applicative.md",
-    "2023-04-21.md",
-    "Concepts",
-    "Software Engineering/Functional Programming/Concepts/Concepts.md",
-    "Higher Kinded Type.md",
-    "Untitled 1.canvas",
-    "Concepts/Functor.md",
-    "Functor.md",
-    "Software Engineering/Functional Programming/Concepts/Index.md",
-    "Software Engineering/Functional Programming/Concepts",
-    "Software Engineering/Functional Programming/Concepts.md",
-    "Functional Programming/Concepts.md",
-    "2023-04-20.md"
+    "Untitled 1.canvas"
   ]
 }
