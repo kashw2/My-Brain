@@ -19,8 +19,11 @@
 - [[Semigroup|Semigroup]]
 - [[Concepts/FlatMap|FlatMap]]
 - [[Concepts/Bifunctor|Bifunctor]]
+- [[Concepts/Bimonad|Bimonad]]
+- [[Concepts/Bifoldable|Bifoldable]]
 - [[Concepts/Free Monad|Free Monad]]
+- [[Concepts/Higher Order Functions|Higher Order Functions]]
 
 ## Languages
 
-[[Languages/Scala|Scala]]
+- [[Languages/Scala|Scala]]
