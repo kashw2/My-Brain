@@ -22,6 +22,14 @@ trait FlatMap[F[_]] extends Apply[F] {
 trait Monad[F[_]] extends FlatMap[F] with Applicative[F]
 ```
 
+
+---
+
+## Hierarchy
+
+![[Monad Hierarchy]]
+
+
 ### References
 
 [Haskell Monad Laws](https://wiki.haskell.org/Monad_laws)

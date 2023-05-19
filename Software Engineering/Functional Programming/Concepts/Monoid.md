@@ -32,6 +32,13 @@ interface Monoid<A> extends Semigroup<A> {
 }
 ```
 
+---
+
+## Hierarchy
+
+![[Monoid Hierarchy]]
+
+
 ### References
 
 [TypeLevel Scala](https://typelevel.org/cats/typeclasses/monoid.html)

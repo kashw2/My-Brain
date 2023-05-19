@@ -46,6 +46,13 @@ const Array: Functor<Array<any>> = {
 };
 ```
 
+---
+
+## Hierarchy
+
+![[Functor Hierarchy]]
+
+
 ### References
 
 [Haskell Wiki](https://wiki.haskell.org/Typeclassopedia#Functor)

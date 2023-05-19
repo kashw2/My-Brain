@@ -24,6 +24,14 @@ trait Applicative[F[_]] extends Functor[F] {
 }
 ```
 
+---
+
+## Hierarchy
+
+![[Applicative Hierarchy]]
+
+
+
 ### References 
 
 [Haskell Wiki](https://wiki.haskell.org/Typeclassopedia#Applicative)

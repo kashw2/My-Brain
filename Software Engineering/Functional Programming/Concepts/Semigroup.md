@@ -26,6 +26,12 @@ interface Semigroup<A> {
 }
 ```
 
+---
+
+## Hierarchy
+
+![[Semigroup Hierarchy]]
+
 ### References
 
 [TypeLevel Scala](https://typelevel.org/cats/typeclasses/semigroup.html)
