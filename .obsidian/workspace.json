@@ -11,8 +11,12 @@
             "id": "6e778bdf0ee292d6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/Functional Programming/Concepts/Higher Order Functions.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Software Engineering/Functional Programming/Concepts/Higher Order Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Software Engineering/Functional Programming/Concepts/Higher Order Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Software Engineering/Functional Programming/Concepts/Higher Order Functions.md"
+              }
             }
           },
           {
@@ -157,6 +165,12 @@
   },
   "active": "6e778bdf0ee292d6",
   "lastOpenFiles": [
+    "Software Engineering/Functional Programming/Functional Programming.md",
+    "Software Engineering/Functional Programming/Concepts/Higher Order Functions.md",
+    "Concepts/FlatMap.md",
+    "Concepts",
+    "Software Engineering/Functional Programming/Concepts/Applicative.md",
+    "Concepts/Higher Order Functions.md",
     "Software Engineering/Functional Programming/Concepts/Semigroup.md",
     "Software Engineering/Functional Programming/Concepts/TypeClass.md",
     "Software Engineering/Functional Programming/Concepts/Monoid.md",
@@ -164,8 +178,6 @@
     "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
     "Software Engineering/Functional Programming/Concepts/Kinds.md",
     "Concepts/Arity.md",
-    "Software Engineering/Functional Programming/Concepts/Applicative.md",
-    "Concepts",
     "Software Engineering/Functional Programming/Concepts/Functor.md",
     "Excalidraw/Semigroup Hierarchy.md",
     "Excalidraw/Functor Hierarchy.md",
@@ -179,13 +191,9 @@
     "Yearly Goals/2023.md",
     "Yearly Goals/Yearly Goals.md",
     "My Brain.md",
-    "Software Engineering/Functional Programming/Functional Programming.md",
     "Software Engineering/Frameworks/React/React.md",
     "Software Engineering/Frameworks/React",
     "Software Engineering/Frameworks",
-    "Software Engineering/Cloud/Cloud.md",
-    "Software Engineering/Software Engineering.md",
-    "Software Engineering/Methodologies/Methodologies.md",
     "Methodologies",
     "Software Engineering/Methodologies/Methodologies",
     "Software Engineering/Methodologies",
