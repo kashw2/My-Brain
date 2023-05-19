@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "18c468f944601971",
+        "id": "6590bfc265728b31",
         "type": "tabs",
         "children": [
           {
-            "id": "b356cef8d1578f73",
+            "id": "6e778bdf0ee292d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/Functional Programming/Concepts/Kinds.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Functional Programming/Concepts/Kinds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Functional Programming/Concepts/Kinds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Software Engineering/Functional Programming/Concepts/Kinds.md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,23 +155,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b356cef8d1578f73",
+  "active": "6e778bdf0ee292d6",
   "lastOpenFiles": [
-    "Software Engineering/Functional Programming/Concepts/Monad.md",
-    "Software Engineering/Functional Programming/Concepts/Monoid.md",
     "Software Engineering/Functional Programming/Concepts/Semigroup.md",
+    "Software Engineering/Functional Programming/Concepts/TypeClass.md",
+    "Software Engineering/Functional Programming/Concepts/Monoid.md",
+    "Software Engineering/Functional Programming/Concepts/Monad.md",
+    "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
+    "Software Engineering/Functional Programming/Concepts/Kinds.md",
+    "Concepts/Arity.md",
+    "Software Engineering/Functional Programming/Concepts/Applicative.md",
+    "Concepts",
+    "Software Engineering/Functional Programming/Concepts/Functor.md",
     "Excalidraw/Semigroup Hierarchy.md",
     "Excalidraw/Functor Hierarchy.md",
     "Excalidraw/Monad Hierarchy.md",
     "Excalidraw/Monoid Hierarchy.md",
     "Excalidraw/Applicative Hierarchy.md",
-    "Software Engineering/Functional Programming/Concepts/Applicative.md",
     "Appicative Hierarchy.md",
-    "Software Engineering/Functional Programming/Concepts/Functor.md",
     "Software Engineering/Algorithms/Dijkstra.md",
     "Excalidraw/Dijkstra Graph.md",
     "Software Engineering/Algorithms/Algorithms.md",
-    "Software Engineering/Functional Programming/Concepts/TypeClass.md",
     "Yearly Goals/2023.md",
     "Yearly Goals/Yearly Goals.md",
     "My Brain.md",
@@ -190,10 +186,7 @@
     "Software Engineering/Cloud/Cloud.md",
     "Software Engineering/Software Engineering.md",
     "Software Engineering/Methodologies/Methodologies.md",
-    "Software Engineering/Methodologies/Chaos Engineering.md",
-    "Methodologies/Chaos Engineering.md",
     "Methodologies",
-    "Software Engineering/Methodologies/Methodologies/Chaos Engineering.md",
     "Software Engineering/Methodologies/Methodologies",
     "Software Engineering/Methodologies",
     "Yearly Goals",
@@ -202,7 +195,6 @@
     "Software Engineering/Pasted image 20230426181733.png",
     "Excalidraw",
     "Software Engineering/Cloud",
-    "Software Engineering/Networking",
     "Untitled 1.canvas"
   ]
 }
