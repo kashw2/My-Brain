@@ -11,12 +11,8 @@
             "id": "4781e8a2228c17c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/Data Structures/Bloom Filter.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Data Structures/Bloom Filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Data Structures/Bloom Filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Software Engineering/Data Structures/Bloom Filter.md"
-              }
+              "state": {}
             }
           },
           {
@@ -165,36 +157,36 @@
   },
   "active": "4781e8a2228c17c9",
   "lastOpenFiles": [
-    "Software Engineering/Data Structures/Data Structures.md",
-    "Software Engineering/Data Structures/Bloom Filter.md",
-    "Software Engineering/Software Engineering.md",
+    "Software Engineering/Databases/Concepts/Automatic Failover.md",
     "Untitled.canvas",
+    "Excalidraw/Automatic Failover.md",
+    "Excalidraw/Drawing 2023-06-16 10.45.32.excalidraw.md",
+    "Software Engineering/Databases/Databases.md",
+    "Software Engineering/Databases/Concepts",
+    "Software Engineering/Data Structures/Bloom Filter.md",
+    "Software Engineering/Algorithms/Dijkstra.md",
+    "Software Engineering/Functional Programming/Concepts/Higher Order Functions.md",
+    "Excalidraw/Monad Hierarchy.md",
+    "Software Engineering/Functional Programming/Concepts/Monad.md",
+    "Software Engineering/Functional Programming/Functional Programming.md",
+    "Software Engineering/Functional Programming/Concepts/TypeClass.md",
+    "Software Engineering/Functional Programming/Concepts/Functor.md",
+    "Software Engineering/Software Engineering.md",
+    "My Brain.md",
+    "Software Engineering/Data Structures/Data Structures.md",
     "Untitled 1.canvas",
     "Software Engineering/Functional Programming/Concepts/Applicative.md",
     "Software Engineering/Cloud/Cloud.md",
     "Software Engineering/Algorithms/Algorithms.md",
     "Software Engineering/Data Structures",
     "Software Engineering/Methodologies/Methodologies.md",
-    "Software Engineering/Functional Programming/Functional Programming.md",
     "Excalidraw/Applicative Hierarchy.md",
     "Software Engineering/Functional Programming/Concepts/Kinds.md",
-    "Software Engineering/Functional Programming/Concepts/Higher Order Functions.md",
     "Concepts/FlatMap.md",
     "Concepts",
     "Concepts/Higher Order Functions.md",
     "Software Engineering/Functional Programming/Concepts/Semigroup.md",
-    "Software Engineering/Functional Programming/Concepts/TypeClass.md",
     "Software Engineering/Functional Programming/Concepts/Monoid.md",
-    "Software Engineering/Functional Programming/Concepts/Monad.md",
-    "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
-    "Concepts/Arity.md",
-    "Software Engineering/Functional Programming/Concepts/Functor.md",
-    "Excalidraw/Semigroup Hierarchy.md",
-    "Excalidraw/Functor Hierarchy.md",
-    "Excalidraw/Monad Hierarchy.md",
-    "Excalidraw/Monoid Hierarchy.md",
-    "Appicative Hierarchy.md",
-    "Software Engineering/Algorithms/Dijkstra.md",
     "Software Engineering/Frameworks/React",
     "Software Engineering/Frameworks",
     "Methodologies",
@@ -202,7 +194,6 @@
     "Software Engineering/Methodologies",
     "Yearly Goals",
     "Software Engineering/Cloud/Azure",
-    "Software Engineering/Pasted image 20230426181733.png",
-    "Excalidraw"
+    "Software Engineering/Pasted image 20230426181733.png"
   ]
 }
