@@ -1,6 +1,7 @@
 ## Concepts
 
 - [[Software Engineering/Cloud/Distributed Systems|Distributed Systems]]
+- [[Software Engineering/Cloud/High Availability|High Availability]]
 
 ## Providers
 

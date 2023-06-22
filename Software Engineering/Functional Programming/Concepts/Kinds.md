@@ -1,4 +1,4 @@
-Types can be organised into Kinds. Kinded Types, often refered to in practice as [Kind Polymorphism](https://docs.scala-lang.org/scala3/reference/other-new-features/kind-polymorphism.html), provide us a way to reason about types with an understanding of their abilities and purpose. Recognising Kinded Types as we work with increasingly complex systems give us the ability to group [[Types]] that follow patterns into other [[Types]], an easy and probably practical example could be:
+Types can be organised into Kinds. Kinded Types, often referred to in practice as [Kind Polymorphism](https://docs.scala-lang.org/scala3/reference/other-new-features/kind-polymorphism.html), provide us a way to reason about types with an understanding of their abilities and purpose. Recognizing Kinded Types as we work with increasingly complex systems give us the ability to group [[Types]] that follow patterns into other [[Types]], an easy and probably practical example could be:
 
 ```scala
 case class Animal() {
@@ -31,7 +31,7 @@ In complex systems we want to be able to perform an abstraction like this, howev
 
 In scenarios dealing with Kind Polymorphism there are two primary Kinds that matter:
 
-1) **First Order Kinded Types**: This umbrella consists of any type that does not take a type parameter. All primatives (`Int`, `String`, `Char`, `Boolean` etc) fall under this however so to can a class with zero type parameters or [[Generics]].
+1) **First Order Kinded Types**: This umbrella consists of any type that does not take a type parameter. All primitives (`Int`, `String`, `Char`, `Boolean` etc) fall under this however so to can a class with zero type parameters or [[Generics]].
 2) **Higher Kinded Types**: These Types represent some of the highest level of abstraction in a type system, they power much of the [[TypeClass|TypeLevel]] stack through their abstraction over type constructors. Popular examples include [[Functor]], [[Applicative]], [[Monad]] and many more.
 
 So with this in mind we can take our previous example and change it to something like:
