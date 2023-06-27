@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4b54629d9bc39794",
+        "id": "a5d6a24273728e60",
         "type": "tabs",
         "children": [
           {
-            "id": "4781e8a2228c17c9",
+            "id": "3c9c6b1e755b3a54",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,11 +163,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4781e8a2228c17c9",
+  "active": "3c9c6b1e755b3a54",
   "lastOpenFiles": [
+    "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
     "Software Engineering/Functional Programming/Functional Programming.md",
-    "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
     "Software Engineering/Functional Programming/Concepts/Kinds.md",
+    "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
     "Yearly Goals/2023.md",
     "Software Engineering/Databases/Concepts/Automatic Failover.md",
     "Software Engineering/Databases/Databases.md",
@@ -195,7 +196,6 @@
     "Concepts/FlatMap.md",
     "Concepts",
     "Concepts/Higher Order Functions.md",
-    "Software Engineering/Functional Programming/Concepts/Semigroup.md",
     "Software Engineering/Frameworks/React",
     "Software Engineering/Frameworks",
     "Methodologies",

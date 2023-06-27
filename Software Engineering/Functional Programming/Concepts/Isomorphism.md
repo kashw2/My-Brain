@@ -17,7 +17,7 @@ A type is Isomorphic is there exists a process between itself and another type t
 ```scala
 object Isomorphism {
 	val createList: String => List[Char] =  _.toList()
-	val createString: List[Char] => String = _._
+	val createString: List[Char] => String = _.mkString()
 }
 ```
 
