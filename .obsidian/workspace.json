@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
+                "file": "Software Engineering/Cloud/Azure/Azure Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
+                "file": "Software Engineering/Cloud/Azure/Azure Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
+                "file": "Software Engineering/Cloud/Azure/Azure Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Functional Programming/Languages/Scala/Scala.md"
+                "file": "Software Engineering/Cloud/Azure/Azure Linux.md"
               }
             }
           },
@@ -165,14 +165,18 @@
   },
   "active": "3c9c6b1e755b3a54",
   "lastOpenFiles": [
+    "Software Engineering/Cloud/Azure/Azure.md",
+    "Software Engineering/Cloud/Azure/Azure Linux.md",
+    "Software Engineering/Cloud/Azure.md",
+    "Software Engineering/Cloud/Cloud.md",
+    "Software Engineering/Cloud/Azure",
+    "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
     "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
     "Software Engineering/Functional Programming/Functional Programming.md",
     "Software Engineering/Functional Programming/Concepts/Kinds.md",
-    "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
     "Yearly Goals/2023.md",
     "Software Engineering/Databases/Concepts/Automatic Failover.md",
     "Software Engineering/Databases/Databases.md",
-    "Software Engineering/Cloud/Cloud.md",
     "Untitled.canvas",
     "Excalidraw/Automatic Failover.md",
     "Excalidraw/Drawing 2023-06-16 10.45.32.excalidraw.md",
@@ -192,17 +196,13 @@
     "Software Engineering/Algorithms/Algorithms.md",
     "Software Engineering/Data Structures",
     "Software Engineering/Methodologies/Methodologies.md",
-    "Excalidraw/Applicative Hierarchy.md",
-    "Concepts/FlatMap.md",
     "Concepts",
-    "Concepts/Higher Order Functions.md",
     "Software Engineering/Frameworks/React",
     "Software Engineering/Frameworks",
     "Methodologies",
     "Software Engineering/Methodologies/Methodologies",
     "Software Engineering/Methodologies",
     "Yearly Goals",
-    "Software Engineering/Cloud/Azure",
     "Software Engineering/Pasted image 20230426181733.png"
   ]
 }
