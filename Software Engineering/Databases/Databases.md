@@ -1,8 +1,8 @@
-- [[Databases/PostgreSQL|PostgreSQL]]
-- [[Databases/Microsoft SQL Server|Microsoft SQL Server]]
-- [[Databases/NeonDB|NeonDB]]
-- [[Databases/Fauna|Fauna]]
-- [[Databases/PlanetScale|PlanetScale]]
+- [[Software Engineering/Databases/PostgreSQL|PostgreSQL]]
+- [[Software Engineering/Databases/Microsoft SQL Server|Microsoft SQL Server]]
+- [[Software Engineering/Databases/NeonDB|NeonDB]]
+- [[Software Engineering/Databases/Fauna|Fauna]]
+- [[Software Engineering/Databases/PlanetScale|PlanetScale]]
 
 ----
 

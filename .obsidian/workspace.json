@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "75c86cea948a5298",
+        "id": "d3eebe6fe7291f97",
         "type": "tabs",
         "children": [
           {
-            "id": "b3b3c02632e2a221",
+            "id": "620e5bac73d98879",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Software Engineering.md",
+                "file": "Software Engineering/Algorithms/Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -93,14 +93,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Software Engineering.md",
+                "file": "Software Engineering/Algorithms/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -110,9 +110,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Software Engineering.md",
+                "file": "Software Engineering/Algorithms/Algorithms.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Software Engineering.md"
+                "file": "Software Engineering/Algorithms/Algorithms.md"
               }
             }
           },
@@ -145,7 +145,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -163,12 +164,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b3b3c02632e2a221",
+  "active": "620e5bac73d98879",
   "lastOpenFiles": [
+    "Software Engineering/Databases/Concepts/Automatic Failover.md",
+    "Software Engineering/Databases/PostgreSQL.md",
+    "Software Engineering/Databases/Databases.md",
+    "Software Engineering/Cloud/Azure/Azure.md",
+    "Software Engineering/Data Structures/Data Structures.md",
+    "Software Engineering/Data Structures/Bloom Filter.md",
+    "My Brain.md",
+    "10/07/2023.md",
+    "10/07",
+    "10",
+    "Software Engineering/Software Engineering.md",
+    "Software Engineering/Methodologies/Methodologies.md",
     "Excalidraw/Applicative Hierarchy.md",
     "Software Engineering/Cloud/Cloud.md",
     "Software Engineering/Cloud/Azure/Azure Linux.md",
-    "Software Engineering/Cloud/Azure/Azure.md",
     "Software Engineering/Algorithms/Dijkstra.md",
     "Software Engineering/Algorithms/Algorithms.md",
     "Excalidraw/Semigroup Hierarchy.md",
@@ -178,21 +190,12 @@
     "Excalidraw/Dijkstra Graph.md",
     "Excalidraw/Automatic Failover.md",
     "Software Engineering/Functional Programming/Functional Programming.md",
-    "Software Engineering/Software Engineering.md",
-    "My Brain.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2023-07-10 17.32.39.excalidraw.md",
-    "Software Engineering/Data Structures/Bloom Filter.md",
-    "Software Engineering/Data Structures/Data Structures.md",
     "Software Engineering/Cloud/Azure.md",
     "Software Engineering/Cloud/Azure",
     "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
     "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
-    "Software Engineering/Functional Programming/Concepts/Kinds.md",
-    "Yearly Goals/2023.md",
-    "Software Engineering/Databases/Concepts/Automatic Failover.md",
-    "Software Engineering/Databases/Databases.md",
-    "Excalidraw/Drawing 2023-06-16 10.45.32.excalidraw.md",
     "Software Engineering/Databases/Concepts",
     "Untitled 1.canvas",
     "Software Engineering/Data Structures",
@@ -201,8 +204,6 @@
     "Software Engineering/Frameworks",
     "Methodologies",
     "Software Engineering/Methodologies/Methodologies",
-    "Software Engineering/Methodologies",
-    "Yearly Goals",
     "Software Engineering/Pasted image 20230426181733.png"
   ]
 }

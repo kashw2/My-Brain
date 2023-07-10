@@ -6,7 +6,7 @@ Bloom filters are probabilistic [[Software Engineering/Data Structures/Data Stru
 
 The purpose of a **Bloom Filter** is to provide a way to quickly and efficiently determine if a record is possibly in a record set or if it is definitely not in a record set. It's backwards like approach to logic and reason is what powers many of the tools and pieces of software we use today. Examples of their usage can be found in:
 
-- PostgreSQL
+- [[Software Engineering/Databases/PostgreSQL|PostgreSQL]]
 - Redis
 - Cassandra
 - Oracle
