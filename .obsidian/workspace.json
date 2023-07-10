@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Algorithms/Algorithms.md",
+                "file": "Software Engineering/Databases/PostgreSQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Algorithms/Algorithms.md",
+                "file": "Software Engineering/Databases/PostgreSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Algorithms/Algorithms.md",
+                "file": "Software Engineering/Databases/PostgreSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Algorithms/Algorithms.md"
+                "file": "Software Engineering/Databases/PostgreSQL.md"
               }
             }
           },
@@ -166,6 +166,7 @@
   },
   "active": "620e5bac73d98879",
   "lastOpenFiles": [
+    "Software Engineering/Algorithms/Algorithms.md",
     "Software Engineering/Databases/Concepts/Automatic Failover.md",
     "Software Engineering/Databases/PostgreSQL.md",
     "Software Engineering/Databases/Databases.md",
@@ -182,7 +183,6 @@
     "Software Engineering/Cloud/Cloud.md",
     "Software Engineering/Cloud/Azure/Azure Linux.md",
     "Software Engineering/Algorithms/Dijkstra.md",
-    "Software Engineering/Algorithms/Algorithms.md",
     "Excalidraw/Semigroup Hierarchy.md",
     "Excalidraw/Monoid Hierarchy.md",
     "Excalidraw/Monad Hierarchy.md",
