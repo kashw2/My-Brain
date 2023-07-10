@@ -16,11 +16,13 @@ Refers to the process of state change in a database during a transaction. A data
 
 ## Isolation
 
-Refers to the flexibility to run concurrent transactions in isolation without interference often in circumstances where simultaneous transactions are hitting the same table. Isolation ensures that the database and it's [[Software Engineering/Databases/Concepts/Data File|Data files]] are consistent with what the results of the transactions would have been if they were to have been run sequentially; Somewhat similarly to the law of **Associativity** found in Functional Programmi[[Software Engineering/Functional Programming]]
+Refers to the flexibility to run concurrent transactions in isolation without interference often in circumstances where simultaneous transactions are hitting the same table. Isolation ensures that the database and it's [[Software Engineering/Databases/Concepts/Data File|Data files]] are consistent with what the results of the transactions would have been if they were to have been run sequentially; Somewhat similarly to the law of **Associativity** found in Functional Programming concepts such as the [[Monad]].
 
 ---
 
 ## Durability
+
+Refers to the guarantee that on transaction success and committal, any [[Software Engineering/Databases/Concepts/Data File|Data files]] that had been altered by a transaction will remain so in case of failure.  
 
 ---
 
