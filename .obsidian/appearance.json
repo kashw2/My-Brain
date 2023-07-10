@@ -1,4 +1,7 @@
 {
-  "accentColor": "",
-  "cssTheme": "80s Neon"
+  "accentColor": "#df6d83",
+  "cssTheme": "Red Graphite",
+  "theme": "obsidian",
+  "showViewHeader": true,
+  "nativeMenus": true
 }
