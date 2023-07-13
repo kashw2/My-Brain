@@ -164,8 +164,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c4d19f637b973efe",
+  "active": "ed413258811dc5ab",
   "lastOpenFiles": [
+    "Information Communication Technology",
     "Software Engineering/Databases/Concepts/ACID.md",
     "Software Engineering/Functional Programming/Concepts/Monad.md",
     "Software Engineering/Functional Programming/Concepts/Applicative.md",
@@ -193,7 +194,6 @@
     "Excalidraw/Functor Hierarchy.md",
     "Excalidraw/Dijkstra Graph.md",
     "Excalidraw/Automatic Failover.md",
-    "Software Engineering/Functional Programming/Functional Programming.md",
     "Untitled.canvas",
     "Software Engineering/Cloud/Azure",
     "Software Engineering/Databases/Concepts",
