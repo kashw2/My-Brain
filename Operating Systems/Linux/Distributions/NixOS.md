@@ -15,3 +15,10 @@ NixOS employs the following concepts:
 ## Features
 
 - [[Operating Systems/Linux/Distributions/NixOS/Nix Shell|Nix Shell]]
+
+---
+
+### References
+
+[NixOS Manual](https://nixos.org/manual/nixos/stable/)
+[nix.dev](https://nix.dev/tutorials/#tutorials)
