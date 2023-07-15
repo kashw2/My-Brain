@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS.md"
+                "file": "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md"
               }
             }
           },
@@ -166,8 +166,9 @@
   },
   "active": "c4d19f637b973efe",
   "lastOpenFiles": [
-    "Operating Systems/Linux/Linux.md",
     "Operating Systems/Linux/Distributions/NixOS.md",
+    "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
+    "Operating Systems/Linux/Linux.md",
     "Operating Systems/Operating Systems.md",
     "Software Engineering/Databases/PostgreSQL.md",
     "Operating Systems/Windows",
@@ -200,7 +201,6 @@
     "Excalidraw/Semigroup Hierarchy.md",
     "Excalidraw/Monoid Hierarchy.md",
     "Excalidraw/Monad Hierarchy.md",
-    "Excalidraw/Functor Hierarchy.md",
     "Untitled.canvas",
     "Software Engineering/Cloud/Azure",
     "Untitled 1.canvas",

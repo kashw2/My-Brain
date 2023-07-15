@@ -11,3 +11,7 @@ NixOS employs the following concepts:
 - Declarative System Configuration
 
 ---
+
+## Features
+
+- [[Operating Systems/Linux/Distributions/NixOS/Nix Shell|Nix Shell]]
