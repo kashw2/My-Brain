@@ -166,10 +166,12 @@
   },
   "active": "c4d19f637b973efe",
   "lastOpenFiles": [
-    "Operating Systems/Linux/Distributions/NixOS.md",
+    "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
     "Software Engineering/Programming Languages/Nix.md",
-    "Software Engineering/Programming Languages",
+    "Software Engineering/Functional Programming/Functional Programming.md",
     "Operating Systems/Linux/Linux.md",
+    "Operating Systems/Linux/Distributions/NixOS.md",
+    "Software Engineering/Programming Languages",
     "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
     "Operating Systems/Operating Systems.md",
     "Software Engineering/Databases/PostgreSQL.md",
@@ -200,8 +202,6 @@
     "Software Engineering/Cloud/Cloud.md",
     "Software Engineering/Cloud/Azure/Azure Linux.md",
     "Software Engineering/Algorithms/Dijkstra.md",
-    "Excalidraw/Semigroup Hierarchy.md",
-    "Excalidraw/Monoid Hierarchy.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Software Engineering/Pasted image 20230426181733.png"
