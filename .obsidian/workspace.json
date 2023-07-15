@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Databases/PostgreSQL.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Databases/PostgreSQL.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Databases/PostgreSQL.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Databases/PostgreSQL.md"
+                "file": "Operating Systems/Linux/Distributions/NixOS.md"
               }
             }
           },
@@ -164,14 +164,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ed413258811dc5ab",
+  "active": "c4d19f637b973efe",
   "lastOpenFiles": [
+    "Operating Systems/Linux/Linux.md",
+    "Operating Systems/Linux/Distributions/NixOS.md",
+    "Operating Systems/Operating Systems.md",
+    "Software Engineering/Databases/PostgreSQL.md",
+    "Operating Systems/Windows",
+    "Operating Systems/Linux/Distributions/Arch",
+    "Operating Systems/Linux/Distributions/NixOS",
+    "Operating Systems/Linux/Distributions",
+    "Operating Systems/Linux",
+    "Operating Systems",
     "Information Communication Technology",
     "Software Engineering/Databases/Concepts/ACID.md",
     "Software Engineering/Functional Programming/Concepts/Monad.md",
     "Software Engineering/Functional Programming/Concepts/Applicative.md",
     "Software Engineering/Databases/Databases.md",
-    "Software Engineering/Databases/PostgreSQL.md",
     "Software Engineering/Functional Programming/Concepts/Functor.md",
     "Software Engineering/Databases/Concepts/Automatic Failover.md",
     "Software Engineering/Algorithms/Algorithms.md",
@@ -192,18 +201,9 @@
     "Excalidraw/Monoid Hierarchy.md",
     "Excalidraw/Monad Hierarchy.md",
     "Excalidraw/Functor Hierarchy.md",
-    "Excalidraw/Dijkstra Graph.md",
-    "Excalidraw/Automatic Failover.md",
     "Untitled.canvas",
     "Software Engineering/Cloud/Azure",
-    "Software Engineering/Databases/Concepts",
     "Untitled 1.canvas",
-    "Software Engineering/Data Structures",
-    "Concepts",
-    "Software Engineering/Frameworks/React",
-    "Software Engineering/Frameworks",
-    "Methodologies",
-    "Software Engineering/Methodologies/Methodologies",
     "Software Engineering/Pasted image 20230426181733.png"
   ]
 }
