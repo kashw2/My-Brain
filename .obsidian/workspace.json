@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS.md",
+                "file": "Software Engineering/Programming Languages/Nix.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS.md",
+                "file": "Software Engineering/Programming Languages/Nix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS.md",
+                "file": "Software Engineering/Programming Languages/Nix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS.md"
+                "file": "Software Engineering/Programming Languages/Nix.md"
               }
             }
           },
@@ -166,9 +166,11 @@
   },
   "active": "c4d19f637b973efe",
   "lastOpenFiles": [
+    "Operating Systems/Linux/Distributions/NixOS.md",
+    "Software Engineering/Programming Languages/Nix.md",
+    "Software Engineering/Programming Languages",
     "Operating Systems/Linux/Linux.md",
     "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
-    "Operating Systems/Linux/Distributions/NixOS.md",
     "Operating Systems/Operating Systems.md",
     "Software Engineering/Databases/PostgreSQL.md",
     "Operating Systems/Windows",
@@ -200,9 +202,7 @@
     "Software Engineering/Algorithms/Dijkstra.md",
     "Excalidraw/Semigroup Hierarchy.md",
     "Excalidraw/Monoid Hierarchy.md",
-    "Excalidraw/Monad Hierarchy.md",
     "Untitled.canvas",
-    "Software Engineering/Cloud/Azure",
     "Untitled 1.canvas",
     "Software Engineering/Pasted image 20230426181733.png"
   ]
