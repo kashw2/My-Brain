@@ -29,8 +29,7 @@ Also known as a 'let expression' or 'let binding'. The [`let`](https://nix.dev/t
 let 
 	a = 1;
 	b = 2;
-in
-	a + b
+in a + b
 # Yields 3
 ```
 
