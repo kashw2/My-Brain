@@ -6,4 +6,8 @@
 
 NixOS employs the following concepts:
 
-- Immutabi
+- Immutability
+- Reproducibility 
+- Declarative System Configuration
+
+---
