@@ -38,17 +38,15 @@ in
 Attributes can be accessed by calling the assignment followed by the name of the attribute within. For example:
 
 ```nix
-let 
-	a = { x = 1; y = 2; z = 3;};
-in
-	a.x + a.y + a.z
+let a = { x = 1; y = 2; z = 3;};
+in a.x + a.y + a.z
 # Yields 6
 ```
 
 Furthermore the following syntax is also valid with an attribute set inside of an attribute set.
 
 ```nix
-let a = { b = { c = 1; d = { e = 1};};};
+let a = { b = { c = 1; d = { e = 1;};};};
 in a.b.c + a.b.d.e
 # Yields 2
 ```
