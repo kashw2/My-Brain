@@ -49,3 +49,14 @@ let a = { b = { c = 1; d = { e = 1;};};};
 in a.b.c + a.b.d.e
 # Yields 2
 ```
+
+## with ... ; ...
+The with expression allows access to attributes within a variable (let) or attribute without having to repeatedly use longhand access syntax. For example:
+
+```nix
+let a = {b = 1; c = 2; d = 3};
+in
+with a; [b c d]
+# Yields [ 1 2 3 ]
+```
+

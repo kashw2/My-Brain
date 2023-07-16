@@ -6,7 +6,7 @@ Written in mostly [[Software Engineering/Programming Languages/C|C]], **PostgreS
 
 ## Features
 
-- High Amount of Flexibility and Customization
+- High Amount of Flexibility and Customisation
 - Conforming to many International Standards
 - High industry adoption
 - Write Ahead Logging

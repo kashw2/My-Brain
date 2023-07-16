@@ -6,4 +6,4 @@
 - [[Software Engineering/Data Structures/Data Structures|Data Structures]]
 - [[Software Engineering/Cloud/Cloud|Cloud]]
 - [[Software Engineering/Frameworks/Frameworks|Frameworks]]
-- [[Software Engineering/Methodologies|Methodologies]]
+- [[Software Engineering/Methodologies/Methodologies|Methodologies]]

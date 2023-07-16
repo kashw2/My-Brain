@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7b334da8a5bb7b87",
+        "id": "715ed7ead771690d",
         "type": "tabs",
         "children": [
           {
-            "id": "c4d19f637b973efe",
+            "id": "fa3712b9ac854085",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yearly Goals/2023.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yearly Goals/2023.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yearly Goals/2023.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yearly Goals/2023.md"
+                "file": "Operating Systems/Linux/Distributions/NixOS/NixOS.md"
               }
             }
           },
@@ -164,17 +164,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c4d19f637b973efe",
+  "active": "fa3712b9ac854085",
   "lastOpenFiles": [
-    "Software Engineering/Programming Languages/Nix.md",
+    "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
     "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
+    "Software Engineering/Programming Languages/Nix.md",
+    "Yearly Goals/2023.md",
+    "Software Engineering/Functional Programming/Concepts/TypeClass.md",
+    "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
+    "Software Engineering/Software Engineering.md",
+    "Software Engineering/Databases/PostgreSQL.md",
+    "Software Engineering/Databases/Concepts/ACID.md",
+    "Software Engineering/Methodologies/Methodologies.md",
+    "Software Engineering/Functional Programming/Concepts/Semigroup.md",
+    "Software Engineering/Functional Programming/Concepts/Monoid.md",
+    "Software Engineering/Functional Programming/Concepts/Monad.md",
+    "Software Engineering/Functional Programming/Concepts/Applicative.md",
+    "Software Engineering/Functional Programming/Concepts/Functor.md",
     "Software Engineering/Functional Programming/Functional Programming.md",
     "Operating Systems/Linux/Linux.md",
     "Operating Systems/Linux/Distributions/NixOS.md",
     "Software Engineering/Programming Languages",
-    "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
     "Operating Systems/Operating Systems.md",
-    "Software Engineering/Databases/PostgreSQL.md",
     "Operating Systems/Windows",
     "Operating Systems/Linux/Distributions/Arch",
     "Operating Systems/Linux/Distributions/NixOS",
@@ -182,26 +193,15 @@
     "Operating Systems/Linux",
     "Operating Systems",
     "Information Communication Technology",
-    "Software Engineering/Databases/Concepts/ACID.md",
-    "Software Engineering/Functional Programming/Concepts/Monad.md",
-    "Software Engineering/Functional Programming/Concepts/Applicative.md",
     "Software Engineering/Databases/Databases.md",
-    "Software Engineering/Functional Programming/Concepts/Functor.md",
     "Software Engineering/Databases/Concepts/Automatic Failover.md",
     "Software Engineering/Algorithms/Algorithms.md",
     "Software Engineering/Cloud/Azure/Azure.md",
     "Software Engineering/Data Structures/Data Structures.md",
     "Software Engineering/Data Structures/Bloom Filter.md",
     "My Brain.md",
-    "10/07/2023.md",
     "10/07",
     "10",
-    "Software Engineering/Software Engineering.md",
-    "Software Engineering/Methodologies/Methodologies.md",
-    "Excalidraw/Applicative Hierarchy.md",
-    "Software Engineering/Cloud/Cloud.md",
-    "Software Engineering/Cloud/Azure/Azure Linux.md",
-    "Software Engineering/Algorithms/Dijkstra.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Software Engineering/Pasted image 20230426181733.png"
