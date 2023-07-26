@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
+                "file": "Yearly Goals/2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
+                "file": "Yearly Goals/2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
+                "file": "Yearly Goals/2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS/NixOS.md"
+                "file": "Yearly Goals/2023.md"
               }
             }
           },
@@ -166,8 +166,8 @@
   },
   "active": "fa3712b9ac854085",
   "lastOpenFiles": [
-    "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
     "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
+    "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
     "Software Engineering/Programming Languages/Nix.md",
     "Yearly Goals/2023.md",
     "Software Engineering/Functional Programming/Concepts/TypeClass.md",
