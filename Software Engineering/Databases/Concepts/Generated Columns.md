@@ -7,12 +7,10 @@
 ### PostgreSQL
 
 **Generated Columns** in [[Software Engineering/Databases/PostgreSQL|PostgreSQL]] have the following characteristics:
-- Storage
-	- **Stored Generated Columns** occupy storage as if they were normal columns
-	- **Virtual Generated Columns** do not occupy any storage
-- Compute
-	- **Stored Generated Columns** are updated on write to any of the columns required for it to be calculated. Write in this example refers to `INSERT` and `UPDATE`.
-	- **Virtual Generated Columns** are updated only on read.
+- **Stored Generated Columns** occupy storage as if they were normal columns.
+- **Stored Generated Columns** are updated on write to any of the columns required for it to be calculated. Write in this example refers to `INSERT` and `UPDATE`.
+- Expressions are allowed but must be [[Software Engineering/Concepts/Immutability|Immutable]].
+- Expressions cannot reference another **Generated Column**.
 
 
 ---
