@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yearly Goals/2023.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yearly Goals/2023.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yearly Goals/2023.md",
+                "file": "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Yearly Goals/2023.md"
+                "file": "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md"
               }
             }
           },
@@ -168,8 +168,10 @@
   "lastOpenFiles": [
     "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
     "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
-    "Software Engineering/Programming Languages/Nix.md",
+    "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
     "Yearly Goals/2023.md",
+    "Yearly Goals/Yearly Goals.md",
+    "Software Engineering/Programming Languages/Nix.md",
     "Software Engineering/Functional Programming/Concepts/TypeClass.md",
     "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
     "Software Engineering/Software Engineering.md",
@@ -198,8 +200,6 @@
     "Software Engineering/Algorithms/Algorithms.md",
     "Software Engineering/Cloud/Azure/Azure.md",
     "Software Engineering/Data Structures/Data Structures.md",
-    "Software Engineering/Data Structures/Bloom Filter.md",
-    "My Brain.md",
     "10/07",
     "10",
     "Untitled.canvas",
