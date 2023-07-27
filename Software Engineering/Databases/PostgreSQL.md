@@ -7,6 +7,7 @@ Written in mostly [[Software Engineering/Programming Languages/C|C]], **PostgreS
 ## Features
 
 - High Amount of Flexibility and Customisation
+- [[Software Engineering/Databases/Concepts/Generated Columns|Generated Columns]]
 - Conforming to many International Standards
 - High industry adoption
 - Write Ahead Logging

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "715ed7ead771690d",
+        "id": "899763b6cd0d2b6a",
         "type": "tabs",
         "children": [
           {
-            "id": "fa3712b9ac854085",
+            "id": "d25f8d2692f5c73f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Databases/Concepts/ACID.md",
+                "file": "Software Engineering/Databases/Concepts/Generated Columns.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Databases/Concepts/ACID.md",
+                "file": "Software Engineering/Databases/Concepts/Generated Columns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Databases/Concepts/ACID.md",
+                "file": "Software Engineering/Databases/Concepts/Generated Columns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Databases/Concepts/ACID.md"
+                "file": "Software Engineering/Databases/Concepts/Generated Columns.md"
               }
             }
           },
@@ -164,8 +164,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fa3712b9ac854085",
+  "active": "d25f8d2692f5c73f",
   "lastOpenFiles": [
+    "Software Engineering/Databases/PostgreSQL.md",
+    "Software Engineering/Databases/Concepts/Generated Columns.md",
+    "Software Engineering/Databases/Concepts/ACID.md",
     "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
     "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
     "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
@@ -175,8 +178,6 @@
     "Software Engineering/Functional Programming/Concepts/TypeClass.md",
     "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
     "Software Engineering/Software Engineering.md",
-    "Software Engineering/Databases/PostgreSQL.md",
-    "Software Engineering/Databases/Concepts/ACID.md",
     "Software Engineering/Methodologies/Methodologies.md",
     "Software Engineering/Functional Programming/Concepts/Semigroup.md",
     "Software Engineering/Functional Programming/Concepts/Monoid.md",
@@ -199,7 +200,6 @@
     "Software Engineering/Databases/Concepts/Automatic Failover.md",
     "Software Engineering/Algorithms/Algorithms.md",
     "Software Engineering/Cloud/Azure/Azure.md",
-    "Software Engineering/Data Structures/Data Structures.md",
     "10/07",
     "10",
     "Untitled.canvas",
