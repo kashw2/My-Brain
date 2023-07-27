@@ -16,6 +16,7 @@ NixOS employs the following concepts:
 
 - [[Operating Systems/Linux/Distributions/NixOS/Nix Shell|Nix Shell]]
 - [[Software Engineering/Programming Languages/Nix|Nix Programming Language]]
+- [[Operating Systems/Linux/Distributions/NixOS/NixPkgs|NixPkgs]]
 
 ---
 

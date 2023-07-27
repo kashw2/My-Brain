@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
+                "file": "Software Engineering/Databases/Concepts/ACID.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
+                "file": "Software Engineering/Databases/Concepts/ACID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
+                "file": "Software Engineering/Databases/Concepts/ACID.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md"
+                "file": "Software Engineering/Databases/Concepts/ACID.md"
               }
             }
           },
@@ -166,9 +166,9 @@
   },
   "active": "fa3712b9ac854085",
   "lastOpenFiles": [
+    "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
     "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
     "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
-    "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
     "Yearly Goals/2023.md",
     "Yearly Goals/Yearly Goals.md",
     "Software Engineering/Programming Languages/Nix.md",
