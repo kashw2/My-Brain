@@ -3,6 +3,6 @@ An **Operating System** is Software that provides an interface for working with 
 ## Software
 
 - [[Operating Systems/Windows/Windows|Windows]]
-[[Operating Systems/Linux/Linux|GNU Linux]]
-[[Operating Systems/Unix/Unix|Unix]]
-[[Operating systems/MacOS/MacOS|MacOS]]
+- [[Operating Systems/Linux/Linux|GNU Linux]]
+- [[Operating Systems/Unix/Unix|Unix]]
+- [[Operating systems/MacOS/MacOS|MacOS]]
