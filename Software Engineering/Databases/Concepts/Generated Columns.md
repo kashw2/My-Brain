@@ -18,7 +18,7 @@
 
 ### Stored Generated Columns
 
-When using **Stored Generated Columns** one should be aware that the value is recomputed during each write operation. This can mean that the implementation of a **Stored Generated Column** could prove detrimental to a [[Software Engineering/Databases/Databases|Databases]] performance at scale if you are having to recalculate the columns value because of a write to a value it depends on for calculation. An ideal usage of a **Stored Generated Column** is for 
+When using **Stored Generated Columns** one should be aware that the value is recomputed during each write operation. This can mean that the implementation of a **Stored Generated Column** could prove detrimental to a [[Software Engineering/Databases/Databases|Databases]] performance at scale if you are having to recalculate the columns value because of a write to a value it depends on for calculation. An ideal usage of a **Stored Generated Column** is for calculating values that are unlikely to change when they are inserted.
 
 ### Virtual Generated Columns
 
