@@ -10,5 +10,5 @@ The **Nix Shell** provides a shell environment inside of [[NixOS]] that can be u
 
 ### References
 
-[nix.dev](https://nix.dev/tutorials/first-steps/ad-hoc-shell-environments)
-[NixOS Manual](https://nixos.org/manual/nix/stable/command-ref/nix-shell)
+- [nix.dev](https://nix.dev/tutorials/first-steps/ad-hoc-shell-environments)
+- [NixOS Manual](https://nixos.org/manual/nix/stable/command-ref/nix-shell)

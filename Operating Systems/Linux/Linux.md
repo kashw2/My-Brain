@@ -4,5 +4,5 @@ Linux is a family of open source operating systems based upon the [[Operating Sy
 
 ## Distributions
 
-[[Operating Systems/Linux/Distributions/NixOS/NixOS|NixOS]]
-[[Operating Systems/Linux/Distributions/Arch|Arch]]
+- [[Operating Systems/Linux/Distributions/NixOS/NixOS|NixOS]]
+- [[Operating Systems/Linux/Distributions/Arch|Arch]]

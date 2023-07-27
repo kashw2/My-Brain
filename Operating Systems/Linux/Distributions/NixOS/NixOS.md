@@ -22,5 +22,5 @@ NixOS employs the following concepts:
 
 ### References
 
-[NixOS Manual](https://nixos.org/manual/nixos/stable/)
-[nix.dev](https://nix.dev/tutorials/#tutorials)
+- [NixOS Manual](https://nixos.org/manual/nixos/stable/)
+- [nix.dev](https://nix.dev/tutorials/#tutorials)
