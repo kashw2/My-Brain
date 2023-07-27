@@ -29,4 +29,13 @@ Trivial package updates are those that usually just involve updating the package
 In cases where the package in question is hosted on GitHub, `nix-update` can do most of the work.
 
 In this case you can follow the following steps:
-- Clone **NixPkgs**
+- Clone [**NixPkgs**](https://github.com/NixOS/nixpkgs)
+- Run `nix-update myPathToPackageInNixPkgs` (Ex: to update act we would run `nix-update pkgs.act`)
+- Find the package you want to update (You can usually run find all and search for `pname = "your package name"`)
+- 
+
+
+## References
+- [NixPkgs](https://github.com/NixOS/nixpkgs)
+- [NixOS Documentation](https://nixos.org/manual/nixos/stable/index.html#ch-development)
+- [Jon Ringer Video (How to update a package)](https://www.youtube.com/watch?v=D_IZ2EfW_8U)
