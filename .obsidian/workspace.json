@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Programming Languages/Nix.md",
+                "file": "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Programming Languages/Nix.md",
+                "file": "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Programming Languages/Nix.md",
+                "file": "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Programming Languages/Nix.md"
+                "file": "Software Engineering/Functional Programming/Concepts/Isomorphism.md"
               }
             }
           },
@@ -166,8 +166,9 @@
   },
   "active": "d25f8d2692f5c73f",
   "lastOpenFiles": [
-    "Software Engineering/Functional Programming/Concepts/Applicative.md",
     "Software Engineering/Functional Programming/Functional Programming.md",
+    "Software Engineering/Programming Languages/Nix.md",
+    "Software Engineering/Functional Programming/Concepts/Applicative.md",
     "Software Engineering/Databases/Databases.md",
     "Operating Systems/Operating Systems.md",
     "Operating Systems/Linux/Linux.md",
@@ -179,7 +180,6 @@
     "Software Engineering/Databases/Concepts/ACID.md",
     "Yearly Goals/2023.md",
     "Yearly Goals/Yearly Goals.md",
-    "Software Engineering/Programming Languages/Nix.md",
     "Software Engineering/Functional Programming/Concepts/TypeClass.md",
     "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
     "Software Engineering/Software Engineering.md",

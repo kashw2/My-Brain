@@ -1,4 +1,4 @@
-An Isomorphism is occurance of a bidirectional process of transformation between two objects or types
+An Isomorphism is occurrence of a bidirectional process of transformation between two objects or types
 
 ----
 
@@ -20,6 +20,8 @@ object Isomorphism {
 	val createString: List[Char] => String = _.mkString()
 }
 ```
+
+The above allows us to freely transform between a List and a String and back without any data loss meaning the two share an Isomorphism.
 
 ---
 
