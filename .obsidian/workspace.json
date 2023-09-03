@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "899763b6cd0d2b6a",
+        "id": "1c4a54195502e8fb",
         "type": "tabs",
         "children": [
           {
-            "id": "d25f8d2692f5c73f",
+            "id": "60a55b111171cc07",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Software Engineering/Functional Programming/Concepts/Isomorphism.md"
-              }
+              "state": {}
             }
           },
           {
@@ -164,8 +156,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d25f8d2692f5c73f",
+  "active": "ed413258811dc5ab",
   "lastOpenFiles": [
+    "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
     "Software Engineering/Functional Programming/Functional Programming.md",
     "Software Engineering/Programming Languages/Nix.md",
     "Software Engineering/Functional Programming/Concepts/Applicative.md",
@@ -199,7 +192,6 @@
     "Information Communication Technology",
     "Software Engineering/Databases/Concepts/Automatic Failover.md",
     "Software Engineering/Algorithms/Algorithms.md",
-    "Software Engineering/Cloud/Azure/Azure.md",
     "10/07",
     "10",
     "Untitled.canvas",
