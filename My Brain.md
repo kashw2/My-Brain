@@ -6,3 +6,7 @@
 ## Yearly Goals
 
 - [[Yearly Goals/Yearly Goals|Yearly Goals]]
+
+## TODO:
+
+- [ ] Look into [Qovery](https://www.qovery.com/)

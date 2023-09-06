@@ -11,8 +11,12 @@
             "id": "60a55b111171cc07",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "My Brain.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My Brain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "My Brain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "My Brain.md"
+              }
             }
           },
           {
@@ -156,8 +164,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ed413258811dc5ab",
+  "active": "60a55b111171cc07",
   "lastOpenFiles": [
+    "Yearly Goals/Yearly Goals.md",
+    "Yearly Goals/2023.md",
+    "My Brain.md",
     "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
     "Software Engineering/Functional Programming/Functional Programming.md",
     "Software Engineering/Programming Languages/Nix.md",
@@ -171,8 +182,6 @@
     "Software Engineering/Databases/Concepts/Generated Columns.md",
     "Software Engineering/Databases/PostgreSQL.md",
     "Software Engineering/Databases/Concepts/ACID.md",
-    "Yearly Goals/2023.md",
-    "Yearly Goals/Yearly Goals.md",
     "Software Engineering/Functional Programming/Concepts/TypeClass.md",
     "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
     "Software Engineering/Software Engineering.md",
@@ -191,7 +200,6 @@
     "Operating Systems",
     "Information Communication Technology",
     "Software Engineering/Databases/Concepts/Automatic Failover.md",
-    "Software Engineering/Algorithms/Algorithms.md",
     "10/07",
     "10",
     "Untitled.canvas",
