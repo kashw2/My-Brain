@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6e0125dccbee5f20",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +175,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "60a55b111171cc07",
+  "active": "6e0125dccbee5f20",
   "lastOpenFiles": [
     "Yearly Goals/Yearly Goals.md",
     "Yearly Goals/2023.md",
