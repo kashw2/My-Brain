@@ -60,3 +60,8 @@ with a; [b c d]
 # Yields [ 1 2 3 ]
 ```
 
+---
+## Patterns
+
+### finalAttrs
+The `finalAttrs` pattern is used in standard environment derivations to allow people to have greater flexibility in overriding and accessing members, steps or phases inside of a derivation. 

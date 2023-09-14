@@ -7,6 +7,8 @@ The **Nix Shell** provides a shell environment inside of [[NixOS]] that can be u
 - --pure
 	- Allows the discarding of parent environment variables
 	- Enables a completely isolated environment
+- -p
+	- Allows you to specify the package you want to install in a shell
 
 ### References
 
