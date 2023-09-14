@@ -155,6 +155,16 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "c18fea3a7317a3c6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 4
