@@ -64,4 +64,12 @@ with a; [b c d]
 ## Patterns
 
 ### finalAttrs
-The `finalAttrs` pattern is used in standard environment derivations to allow people to have greater flexibility in overriding and accessing members, steps or phases inside of a derivation. 
+The `finalAttrs` pattern is used in standard environment derivations to allow people to have greater flexibility in overriding attributes to and accessing members, steps or phases inside of a derivation. 
+
+It's usefulness is described in a few sources:
+[Rryantm](https://ryantm.github.io/nixpkgs/using/overrides/)
+[NixOS](https://ryantm.github.io/nixpkgs/using/overrides/)
+
+--- 
+
+## RFCs
