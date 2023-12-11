@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Programming Languages/Nix.md",
+                "file": "Software Engineering/Cloud/Azure/Azure PostgreSQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Programming Languages/Nix.md",
+                "file": "Software Engineering/Cloud/Azure/Azure PostgreSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Programming Languages/Nix.md",
+                "file": "Software Engineering/Cloud/Azure/Azure PostgreSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Programming Languages/Nix.md"
+                "file": "Software Engineering/Cloud/Azure/Azure PostgreSQL.md"
               }
             }
           },
@@ -176,9 +176,12 @@
   },
   "active": "60a55b111171cc07",
   "lastOpenFiles": [
+    "Software Engineering/Databases/PostgreSQL.md",
+    "Software Engineering/Cloud/Azure/Azure PostgreSQL.md",
+    "Software Engineering/Cloud/Azure/Untitled",
+    "Software Engineering/Programming Languages/Nix.md",
     "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
     "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
-    "Software Engineering/Programming Languages/Nix.md",
     "Operating Systems/Linux/Package Manager.md",
     "Yearly Goals/2023.md",
     "Operating Systems/Linux/Distributions/NixOS.md",
@@ -192,7 +195,6 @@
     "Operating Systems/Linux/Linux.md",
     "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
     "Software Engineering/Databases/Concepts/Generated Columns.md",
-    "Software Engineering/Databases/PostgreSQL.md",
     "Software Engineering/Databases/Concepts/ACID.md",
     "Software Engineering/Functional Programming/Concepts/TypeClass.md",
     "Software Engineering/Functional Programming/Languages/Scala/Scala.md",
@@ -201,7 +203,6 @@
     "Software Engineering/Functional Programming/Concepts/Semigroup.md",
     "Software Engineering/Functional Programming/Concepts/Monoid.md",
     "Software Engineering/Functional Programming/Concepts/Monad.md",
-    "Software Engineering/Functional Programming/Concepts/Functor.md",
     "Software Engineering/Programming Languages",
     "Operating Systems/Windows",
     "Operating Systems/Linux/Distributions/Arch",
@@ -211,7 +212,6 @@
     "Operating Systems",
     "Information Communication Technology",
     "10/07",
-    "10",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Software Engineering/Pasted image 20230426181733.png"
