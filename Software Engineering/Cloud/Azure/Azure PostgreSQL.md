@@ -12,7 +12,7 @@ Using the below Terraform, you create the following resources:
 
 ```terraform
 resource "azuread_application" "application" {  
-  display_name = "PostgreSQL"  
+  display_name = "PostgreSQL Application"  
 }  
   
 resource "azuread_service_principal" "principal" {  
@@ -66,4 +66,14 @@ resource "azurerm_postgresql_flexible_server_active_directory_administrator" "ad
 }
 ```
 
-Following this, you can authenticate to
+Following this, you must do the following to authenticate to the PostgreSQL Server.
+
+The following assumes a Flexible Server.
+
+- Login to Azure using the CLI under the Service Principal's credentials
+	- `az login --service-principal -u "your principal application id" -p "your principal password / secret value" --tenant "your tenant id"`
+- Obtain your authentication token
+	- `az account get-access-token --resource https://ossrdbms-aad.database.windows.net`
+- Login to PostgreSQL
+	- `psql -h psql-managed-identity.postgres.database.azure -p 5432 -U PostgreSQL Application`
+	- When prompted for the password, use the access token you got from step 2
