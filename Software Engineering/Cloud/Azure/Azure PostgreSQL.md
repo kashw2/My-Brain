@@ -65,3 +65,5 @@ resource "azurerm_postgresql_flexible_server_active_directory_administrator" "ad
   depends_on = [azurerm_postgresql_flexible_server.test]  
 }
 ```
+
+Following this, you can authenticate to
