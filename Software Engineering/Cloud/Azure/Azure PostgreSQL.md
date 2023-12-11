@@ -1,7 +1,7 @@
 
 # Authentication with Managed Identity
 
-Both [PostgreSQL Single Server]() and [PostgreSQL Flexible Server]() offer Authentication via Entra ID (Formally Active Directory). 
+Both [PostgreSQL Single Server](https://learn.microsoft.com/en-us/azure/postgresql/single-server/overview-single-server) and [PostgreSQL Flexible Server](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/overview) offer Authentication via Entra ID (Formally Active Directory). 
 
 Using the below Terraform, you create the following resources:
 - Entra ID Application
