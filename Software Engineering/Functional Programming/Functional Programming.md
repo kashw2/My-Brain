@@ -27,4 +27,4 @@
 
 ## Languages
 
-- [[Software Engineering/Functional Programming/Languages/Scala/Scala|Scala]]
+- [[Scala]]

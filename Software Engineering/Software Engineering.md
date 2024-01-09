@@ -7,3 +7,8 @@
 - [[Software Engineering/Cloud/Cloud|Cloud]]
 - [[Software Engineering/Frameworks/Frameworks|Frameworks]]
 - [[Software Engineering/Methodologies/Methodologies|Methodologies]]
+
+## Languages
+
+- [[Scala]]
+- [[Rust]]
