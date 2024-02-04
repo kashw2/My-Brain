@@ -92,6 +92,16 @@ Basically just means doing the right thing however is made up of:
 - Commitment to the system of government
 - Accountability and transparency
 
+---
+
+### Key Values
+
+- Respect
+- Integrity
+- Courage
+- Loyalty
+- Trust
+
 ## Notes
 
 - Involved in many types of disasters and emergency
