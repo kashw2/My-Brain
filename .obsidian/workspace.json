@@ -11,8 +11,12 @@
             "id": "c773fa1ec73032e3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SES/Introduction.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SES/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SES/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SES/Introduction.md"
+              }
             }
           },
           {
@@ -170,13 +178,19 @@
   },
   "active": "c773fa1ec73032e3",
   "lastOpenFiles": [
+    "Yearly Goals/2024.md",
+    "SES/Introduction.md",
+    "SES",
+    "SES.md",
+    "History.md",
+    "Yearly Goals/2023.md",
+    "Yearly Goals/Yearly Goals.md",
+    "My Brain.md",
     "Software Engineering/Programming Languages/Rust/Rust.md",
     "Software Engineering/Software Engineering.md",
     "Software Engineering/Programming Languages/Scala/Scala.md",
     "Software Engineering/Programming Languages/Rust",
     "Software Engineering/Functional Programming/Functional Programming.md",
-    "Yearly Goals/Yearly Goals.md",
-    "Yearly Goals/2023.md",
     "Software Engineering/Cloud/Azure/Azure PostgreSQL.md",
     "Software Engineering/Cloud/Azure/Azure Linux.md",
     "Software Engineering/Cloud/Cloud.md",
@@ -188,16 +202,11 @@
     "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
     "Operating Systems/Linux/Package Manager.md",
     "Operating Systems/Linux/Distributions/NixOS.md",
-    "My Brain.md",
     "Software Engineering/Functional Programming/Concepts/Isomorphism.md",
     "Software Engineering/Functional Programming/Concepts/Applicative.md",
     "Software Engineering/Databases/Databases.md",
     "Operating Systems/Operating Systems.md",
     "Operating Systems/Linux/Linux.md",
-    "Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
-    "Software Engineering/Databases/Concepts/Generated Columns.md",
-    "Software Engineering/Databases/Concepts/ACID.md",
-    "Software Engineering/Functional Programming/Concepts/TypeClass.md",
     "Software Engineering/Programming Languages",
     "Operating Systems/Windows",
     "Operating Systems/Linux/Distributions/Arch",
@@ -205,7 +214,6 @@
     "Operating Systems/Linux/Distributions",
     "Operating Systems/Linux",
     "Operating Systems",
-    "Information Communication Technology",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Software Engineering/Pasted image 20230426181733.png"
