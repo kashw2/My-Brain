@@ -10,7 +10,7 @@
 - Saw the State Firefighting Emergency Act amended to mention the SES's establishment.
 
 ---
-## Roles
+## Roles within the community
 
 - State government coordination support component
 - Assist the most vulnerable members of the community
@@ -31,9 +31,7 @@
 - Supporting other agencies
 - many more
 
-## Notes
-
-- Involved in many types of disasters and emergency
+---
 
 ### Stakeholders and Clients
 
@@ -58,4 +56,23 @@ A client is any external stakeholder that requests service from the SES.
 
 An example of the above is:
 - When a local community (Usually an **External Stakeholder**) in times of need requests the assistance of the SES, this transitions them to a **Client**.
-- When QPS is searching f
+- When QPS is searching for a missing person and enlists the help of the SES, this transitions them to a **Client**.
+
+---
+## Structure
+
+Comprised of volunteers and paid staff.
+
+1) State
+2) Region
+3) Area
+4) Unit
+5) Group
+
+---
+
+### Roles within organisation
+
+## Notes
+
+- Involved in many types of disasters and emergency
