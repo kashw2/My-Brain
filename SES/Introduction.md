@@ -19,7 +19,6 @@
 - Primary responder for storm and flood events
 
 ---
-
 ## Responsible for responding to
 
 - Floods
@@ -32,7 +31,6 @@
 - many more
 
 ---
-
 ### Stakeholders and Clients
 
 Stakeholders are broken down into internal and external stakeholders.
@@ -70,8 +68,20 @@ Comprised of volunteers and paid staff.
 5) Group
 
 ---
-
 ### Roles within organisation
+
+- Local Controller (E)
+- Deputy Local Controller (E)
+- Group Leader (E)
+- Deputy Group Leader (E)
+- Training Officer
+- Safety Officer
+- Public Relations and Media Officer
+- First Aid Officer
+- Welfare Officer
+- Authorised Rescue Officers
+
+---
 
 ## Notes
 
