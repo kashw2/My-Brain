@@ -34,3 +34,28 @@
 ## Notes
 
 - Involved in many types of disasters and emergency
+
+### Stakeholders and Clients
+
+Stakeholders are broken down into internal and external stakeholders.
+
+#### Internal Stakeholders
+
+- Members of QFES, RFS, FRS
+- Members of SES
+
+#### External Stakeholders
+
+- Other agencies (QPS, QAS, etc)
+- Local government
+- Queensland parks and wildlife
+- Landowners
+- Community members
+
+#### Clients
+
+A client is any external stakeholder that requests service from the SES.
+
+An example of the above is:
+- When a local community (Usually an **External Stakeholder**) in times of need requests the assistance of the SES, this transitions them to a **Client**.
+- When QPS is searching f
