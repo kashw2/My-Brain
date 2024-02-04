@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "31607f187af9f4b7",
+        "id": "c4d31f6cba1af59d",
         "type": "tabs",
         "children": [
           {
-            "id": "bfa140f2348c4fcf",
+            "id": "c773fa1ec73032e3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/Programming Languages/Rust/Rust.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Programming Languages/Rust/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Programming Languages/Rust/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Software Engineering/Programming Languages/Rust/Rust.md"
-              }
+              "state": {}
             }
           },
           {
@@ -176,11 +168,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bfa140f2348c4fcf",
+  "active": "c773fa1ec73032e3",
   "lastOpenFiles": [
+    "Software Engineering/Programming Languages/Rust/Rust.md",
     "Software Engineering/Software Engineering.md",
     "Software Engineering/Programming Languages/Scala/Scala.md",
-    "Software Engineering/Programming Languages/Rust/Rust.md",
     "Software Engineering/Programming Languages/Rust",
     "Software Engineering/Functional Programming/Functional Programming.md",
     "Yearly Goals/Yearly Goals.md",
