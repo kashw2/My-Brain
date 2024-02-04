@@ -83,6 +83,15 @@ Comprised of volunteers and paid staff.
 
 ---
 
+### Code of Conduct
+
+Basically just means doing the right thing however is made up of:
+
+- Integrity and Impartiality
+- Promoting the public good
+- Commitment to the system of government
+- Accountability and transparency
+
 ## Notes
 
 - Involved in many types of disasters and emergency
