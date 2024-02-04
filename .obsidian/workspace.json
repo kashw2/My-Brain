@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SES/Introduction.md",
+                "file": "SES/QFES.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SES/Introduction.md",
+                "file": "SES/QFES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SES/Introduction.md",
+                "file": "SES/QFES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SES/Introduction.md"
+                "file": "SES/QFES.md"
               }
             }
           },
@@ -178,8 +178,9 @@
   },
   "active": "c773fa1ec73032e3",
   "lastOpenFiles": [
-    "Yearly Goals/2024.md",
     "SES/Introduction.md",
+    "SES/QFES.md",
+    "Yearly Goals/2024.md",
     "SES",
     "SES.md",
     "History.md",
@@ -206,7 +207,6 @@
     "Software Engineering/Functional Programming/Concepts/Applicative.md",
     "Software Engineering/Databases/Databases.md",
     "Operating Systems/Operating Systems.md",
-    "Operating Systems/Linux/Linux.md",
     "Software Engineering/Programming Languages",
     "Operating Systems/Windows",
     "Operating Systems/Linux/Distributions/Arch",
