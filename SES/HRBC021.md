@@ -119,4 +119,24 @@ QFES has a network of FSOs across all sites. They are responsible for First Aid 
 
 ### Risk Management
 
-QFES uses Quantitative and Qualitative techniques for risk mass
+QFES uses Quantitative and Qualitative techniques for risk assessment.
+
+**Process**:
+1. Risk identification
+	1. Physical work environment hazards
+	2. Equipment hazards
+	3. Work task hazards
+	4. Work design and management hazards
+2. Risk analysis
+	1. Severity
+	2. Likelihood
+	3. Rating
+3. Risk evaluation
+	1. Consulting workers
+	2. Referring to WHS Queensland Code of Practice
+	3. Consulting QFES doctrine
+	4. Consulting manufacturer manual
+	5. Speaking with similar workplaces
+	6. Conducting research
+4. Risk treatment
+5. 
