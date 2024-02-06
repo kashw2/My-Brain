@@ -19,5 +19,16 @@ Everyone at QFES has a responsibility to ensure the health, safety and wellbeing
 
 Work Health and Safety Management System
 
-#### Step 1
+##### Step 1
 
+**WHS Consultation, Cooperation and Coordination Procedure**
+
+- Designed to be complementary to QFES systems
+
+Workers are required to:
+
+- Comply so far as reasonable to do so
+- Participate voluntarily in HSR election processes for their work group 
+- Participate in consultation opportunities related to WHS
+- Raise any WHS issues and matters
+- Report WHS hazards, near misses and incidents 
