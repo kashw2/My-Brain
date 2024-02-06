@@ -59,4 +59,4 @@ Workers are to:
 
 **Emergency Preparedness and Response Procedure**
 
-Purpose is to provide info on meeting the requirements of the **Work Health and Safety Regulation 2011**, **Building Fire Safety Regulation 2018** and **AS 374502010
+Purpose is to provide info on meeting the requirements of the **Work Health and Safety Regulation 2011**, **Building Fire Safety Regulation 2018** and **AS 3745-2010 Planning for Emergency in Facilities**
