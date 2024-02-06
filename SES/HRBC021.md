@@ -100,3 +100,13 @@ Workers are encouraged to have input either **Formally** or **Informally** with 
 Health and Safety Committees have 'Service Streams' that facilitate effective consultation between management and workers.
 
 ---
+
+### Provisions
+
+QFES Volunteers and Employees are entitled to the following:
+
+- Health Promotion Events
+- Fitness Passport Programs
+- Flu Vaccination Programs
+
+---
