@@ -119,3 +119,4 @@ QFES has a network of FSOs across all sites. They are responsible for First Aid 
 
 ### Risk Management
 
+QFES uses Quantitative and Qualitative techniques for risk mass
