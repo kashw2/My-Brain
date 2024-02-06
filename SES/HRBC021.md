@@ -32,3 +32,31 @@ Workers are required to:
 - Participate in consultation opportunities related to WHS
 - Raise any WHS issues and matters
 - Report WHS hazards, near misses and incidents 
+
+#### Step 2
+
+**WHS Risk Management Procedure**
+
+Workers are to ensure they are:
+
+- Aware of the policies and procedures for managing risk
+- Identify and report hazards,. near misses and incidents
+- Participate in risk assessment and review
+- Complete mandatory training
+- Inform management if they are concerned about procedures and processes
+- Undertake duties with care and dilligence
+
+#### Step 3
+
+**WHS Incident Management Procedure**
+
+Workers are to:
+
+- Report all near misses and incidents in the WHS reporting system
+- Participate in the investigation when requested
+
+#### Step 4
+
+**Emergency Preparedness and Response Procedure**
+
+Purpose is to provide info on meeting the requirements of the **Work Health and Safety Regulation 2011**, **Building Fire Safety Regulation 2018** and **AS 374502010
