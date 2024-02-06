@@ -114,3 +114,8 @@ QFES Volunteers and Employees are entitled to the following:
 ### First Aid Officer (FSO)
 
 QFES has a network of FSOs across all sites. They are responsible for First Aid facilities in the workplace or to administer first aid when required
+
+----
+
+### Risk Management
+
