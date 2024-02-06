@@ -44,7 +44,7 @@ Workers are to ensure they are:
 - Participate in risk assessment and review
 - Complete mandatory training
 - Inform management if they are concerned about procedures and processes
-- Undertake duties with care and dilligence
+- Undertake duties with care and diligence
 
 #### Step 3
 
@@ -60,3 +60,33 @@ Workers are to:
 **Emergency Preparedness and Response Procedure**
 
 Purpose is to provide info on meeting the requirements of the **Work Health and Safety Regulation 2011**, **Building Fire Safety Regulation 2018** and **AS 3745-2010 Planning for Emergency in Facilities**
+
+Workers are responsible for:
+
+- Completing generate evacuation and first response training
+- Following any reasonable instruction
+- Assisting in evacuation of a facility
+- Following ECO instruction in emergencies
+- Participating in evacuation exercises
+
+#### Step 5
+
+**WHS Audits and Inspections Procedure**
+
+Purpose of this procedure is to detail and implement a WHS inspection and audit program to ensure health and safety compliance with **WHS Act 2011**, **Electrical Safety Act 2002** and **QFES WHSMS** Requirements
+
+Responsibilities include:
+
+- Participate in WHS inspections and audits
+- Undertake WHS inspections in accordance with schedule
+
+#### Step 6
+
+**WHS Inductions, Training and Competency Procedure**
+
+Purpose of this procedure is to detail mandatory requirements to meet regulation.
+
+Requirements:
+
+- Ensure the required training and competency has been completed before undertaking work
+- Undertake the required inductions
