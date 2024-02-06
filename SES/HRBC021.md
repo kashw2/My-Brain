@@ -138,5 +138,5 @@ QFES uses Quantitative and Qualitative techniques for risk assessment.
 	4. Consulting manufacturer manual
 	5. Speaking with similar workplaces
 	6. Conducting research
-4. Risk treatment
-5. 
+4. Risk treatment (Monitor and review)
+	1. Review control measures
