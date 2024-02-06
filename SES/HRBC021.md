@@ -90,3 +90,13 @@ Requirements:
 
 - Ensure the required training and competency has been completed before undertaking work
 - Undertake the required inductions
+
+---
+
+### Consultation
+
+Workers are encouraged to have input either **Formally** or **Informally** with either supervisor and colleges (Informal) or via workgroup meetings (Formal).
+
+Health and Safety Committees have 'Service Streams' that facilitate effective consultation between management and workers.
+
+---
