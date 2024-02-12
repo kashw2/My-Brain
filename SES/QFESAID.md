@@ -80,4 +80,8 @@ Workplaces **MUST**:
 
 - Australian law does not compel you to render assistance
 - Some employees with First Aid training are expected to offer assistance to workmates if needed
-- Queensland law places an obligation on the driver of a motor vehicle to 
+- Queensland law places an obligation on the driver of a motor vehicle to render assistance when involved in an accident
+- Obligation can be taken on voluntarily
+- Required to act in good faith and without recklessness
+- Good Samaritan - Act with reasonable care and skill
+- Volunteer - In accordance with organisation policies and procedures have a **[[#Duty to Assist]]** 
