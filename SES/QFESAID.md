@@ -4,10 +4,10 @@ What is First Aid?
 
 A First Aid provider is someone who can:
 - **Recognise** the need for **First Aid**
+- **Recognise** Limitations of **First Aid**
 - **Assess** the need for **First Aid**
 - **Prioritise** the need for **First Aid**
 - **Provide First Aid**
-- **Recognise** Limitations of **First Aid**
 - **Seek** Additional care
 
 ---
@@ -31,4 +31,19 @@ Members include:
 - New Zealand Resuscitation Council (NZRC)
 
 Through **ANZCOR**, both Australian and New Zealand interests are represented on the **International Liaison Committee of Resuscitation**.
+
+---
+
+### Legal Considerations
+
+#### Consent and Capacity to Consent
+
+Consent is **Required** when the patients:
+
+- Decision is voluntary
+- Decision is informed
+- Decision covers the first aid treatment to be performed
+- They have the [[*|Capacity To Provide]] consent
+- Are not in immediate and emergency circumstances implied due to risk of loss of life
+
 
