@@ -38,12 +38,21 @@ Through **ANZCOR**, both Australian and New Zealand interests are represented on
 
 #### Consent and Capacity to Consent
 
+##### Consent
+
 Consent is **Required** when the patients:
 
 - Decision is voluntary
 - Decision is informed
 - Decision covers the first aid treatment to be performed
-- They have the [[*|Capacity To Provide]] consent
+- They have the [[#Legal Considerations#Consent and Capacity to Consent#Capacity|Capacity To Provide]] consent
 - Are not in immediate and emergency circumstances implied due to risk of loss of life
+
+##### Capacity
+
+A patient **Lacks** the **Capacity** to [[#Consent|Consent]] when the patient is someone who:
+
+- Is a **Minor** - Person under 18 in **Queensland**
+- Has diminished ability to understand or communicate the nature and consequences of their own decision
 
 
