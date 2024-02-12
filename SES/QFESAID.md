@@ -48,6 +48,8 @@ Consent is **Required** when the patients:
 - They have the [[#Legal Considerations#Consent and Capacity to Consent#Capacity|Capacity To Provide]] consent
 - Are not in immediate and emergency circumstances implied due to risk of loss of life
 
+In cases where dealing with a **Minor**, [[#Consent]] can be obtained from a **Parents** / **Guardian**
+
 ##### Capacity
 
 A patient **Lacks** the **Capacity** to [[#Consent|Consent]] when the patient is someone who:
@@ -55,4 +57,11 @@ A patient **Lacks** the **Capacity** to [[#Consent|Consent]] when the patient is
 - Is a **Minor** - Person under 18 in **Queensland**
 - Has diminished ability to understand or communicate the nature and consequences of their own decision
 
+---
 
+### Duty of Care
+
+#### Training
+
+
+#### Workplace
