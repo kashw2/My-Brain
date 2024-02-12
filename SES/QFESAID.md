@@ -33,7 +33,6 @@ Members include:
 Through **ANZCOR**, both Australian and New Zealand interests are represented on the **International Liaison Committee of Resuscitation**.
 
 ---
-
 ### Legal Considerations
 
 #### Consent and Capacity to Consent
@@ -58,10 +57,27 @@ A patient **Lacks** the **Capacity** to [[#Consent|Consent]] when the patient is
 - Has diminished ability to understand or communicate the nature and consequences of their own decision
 
 ---
-
 ### Duty of Care
 
 #### Training
 
+First Aid providers **MUST**:
+
+- Be trained and hold recognised statements of attainment for the competencies
+- Follow guidelines determined by international peer reviewed evidence
+- Strive to follow **[[#ANZCOR]]** recommendations on refreshing CPR knowledge. 
 
 #### Workplace
+
+Workplaces **MUST**:
+
+- Provide First Aid equipment
+- Ensure access to facilities for First Aid administration
+- Ensure there is an adequate number of trained first aid officers proportional to the number of employees
+
+---
+### Duty to Assist
+
+- Australian law does not compel you to render assistance
+- Some employees with First Aid training are expected to offer assistance to workmates if needed
+- Queensland law places an obligation on the driver of a motor vehicle to 
