@@ -78,7 +78,7 @@ Workplaces **MUST**:
 ---
 ### Duty to Assist
 
-- Australian law does not compel you to render assistance
+- Australian law does **NOT** compel you to render assistance
 - Some employees with First Aid training are expected to offer assistance to workmates if needed
 - Queensland law places an obligation on the driver of a motor vehicle to render assistance when involved in an accident
 - Obligation can be taken on voluntarily
