@@ -10,6 +10,7 @@ A First Aid provider is someone who can:
 - **Recognise** Limitations of **First Aid**
 - **Seek** Additional care
 
+---
 ### Objectives
 
 The 5 Ps'
@@ -20,6 +21,14 @@ The 5 Ps'
 4. Promote - Recovery
 5. Provide - Reassurance
 
+---
 ### ANZCOR
 
-Australian 
+Australian New Zealand Committee on Resuscitation
+
+Members include:
+- Australian Resuscitation Council (ARC)
+- New Zealand Resuscitation Council (NZRC)
+
+Through **ANZCOR**, both Australian and New Zealand interests are represented on the **International Liaison Committee of Resuscitation**.
+
