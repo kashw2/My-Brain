@@ -117,3 +117,28 @@ The 'Code' provides information on:
 - Procedures
 - Facilities
 - Training
+
+Applicable to all workplaces covered by the WHS Act.
+
+The Code of Practice addresses topics such as:
+
+- Privacy and Confidentiality
+- Cultural awareness and sensitivity
+- Knowing your skills and limitations
+- Providing information on casuality condition to other EMS personnel
+
+#### Social
+
+- Treat everyone with respect and observe their rights not to be touched or treated
+- Understand barriers
+	- Gender
+	- Language
+	- Religion
+- Respect beliefs
+- Provide privacy and dignity
+- Retain confidentiality
+- Adhere to consent
+
+#### Communication
+
+- 
