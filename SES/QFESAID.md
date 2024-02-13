@@ -141,4 +141,30 @@ The Code of Practice addresses topics such as:
 
 #### Communication
 
-- 
+Guidelines
+
+- Communicate in an assertive but non aggressive manner
+- Speak clearly
+- Use appropriate language
+- Adjust communication styles to suit the causality's level of consciousness
+
+---
+### Report and Recording
+
+It's a good practice to keep a record of any first aid treatment undertaken. This can be done:
+
+- Verbally to [[SES/FireCom|FireCom]] / Phone Operator
+- Wordback
+- SHE Report
+- Notebook Entry
+
+#### Requirements
+
+- Only use a black / blue pen
+- Record only **FACTS**
+- Maintain confidentiality
+- Sign and date
+- Cross errors out with a single line and initial
+- Use a scribe if available and appropriate
+
+---
