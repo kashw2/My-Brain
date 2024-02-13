@@ -544,4 +544,31 @@ Assuming a [[#Airways|clear airway]]:
 	- Upper airway is easily obstructed
 	- Tranchea is soft
 	- Tongue is relatively large
-	- Enlargment of t
+	- Enlargement of tonsils and adenoids increase tenancy for obstruction 
+	- Infants nose breath 
+
+---
+### Airway assessment
+
+A casualty should not be routinely rolled onto the side to assess airways
+
+---
+
+### Breathing
+
+Normal breathing is dependant on casualty, use the guide provided in [[#Breathing]]
+
+#### Methods of Rescue
+
+**Adult**: Two full breaths
+**Child**: Two gentle puffs
+**Infant**: Two very gentle puffs
+
+---
+### Compressions
+
+Compression should start if there is:
+- No breathing
+- Abnormal breathing
+
+Compressions 
