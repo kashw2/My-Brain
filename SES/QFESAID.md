@@ -155,7 +155,7 @@ Guidelines
 
 It's a good practice to keep a record of any first aid treatment undertaken. This can be done:
 
-- Verbally to [[SES/FireCom|FireCom]] / Phone Operator
+- Verbally to [[SES/FireCom|FireCom]]
 - Wordback
 - SHE Report
 - Notebook Entry
