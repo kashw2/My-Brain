@@ -597,3 +597,27 @@ Continue chest compressions
 
 ---
 
+### Resuscitation
+
+During resuscitation the following can occur:
+
+- Vomit
+	- Wipe the mouth clean
+	- Ensure using gloves
+	- Roll the casualty onto their side
+	- Remove external material and allow drainage to occur
+	- Two finger sweep if required
+- Late Pregnancy
+	- Place a pillow or similar under the right buttock
+	- Lay them on their back with shoulders flat
+- Mouth to stoma rescue breathing
+	- Place the head in a backward tilt position
+	- Make an airtight seal with your lips around the stoma
+	- Blow for one second
+	- Give rescue breaths
+
+### Defibrillation
+
+And AED is used only for people who are unresponsive and not breathing normally
+
+CPR must be continued until the AED is turned on and pads attached
