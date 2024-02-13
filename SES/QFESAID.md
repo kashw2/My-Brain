@@ -182,3 +182,7 @@ Handovers refer to the process of quickly transferring care from an initial firs
 **P** - Previous injury or illness
 **L** - Last input and output
 **E** - Events leading to the crisis
+
+#### Example
+
+John Doe has 
