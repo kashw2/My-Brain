@@ -382,8 +382,8 @@ When attending an **RTC** it is suggested you follow the following in conjunctio
 
 Assess vital signs including:
 
-- Response
-- Airway
+- [[#Level of Consciousness|Response]]
+- [[#Airways|Airway]]
 - Breathing
 - Life threatening bleeding
 
@@ -394,4 +394,29 @@ Use the **COWS** acronym when checking for response:
 **W** - What's your name?
 **S** - Squeeze my hands!
 
-These prompts are used to determine **casualty orientation** to **time**, **place**, **commands**, 
+These prompts are used to determine **casualty orientation** to **time**, **place**, **commands**, **[[#Level of consciousness|level of consciousness]]** and **assessing reflexes/strength/function/impairment**.
+
+---
+#### Level of Consciousness
+
+Use the **AVPU** system to measure and record a casualties level of consciousness.
+
+**A** - Alert
+**V** - Verbal
+**P** - Pain
+**U** - Unresponsive
+
+Unconscious casualties are those that are unable to:
+
+- Protect themselves
+- Manage their airway
+
+Manage an unconscious casualty where you find them unless:
+
+- Their life or yours is in jeopardy
+- Required to reposition to manage life threatening bleed, airways or allow aid to be given
+
+---
+#### Airways
+
+To ensure appropriate airway m
