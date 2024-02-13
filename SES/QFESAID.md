@@ -765,4 +765,48 @@ Can include:
 
 #### Asthma
 
-- Condition in 
+- Condition in which there is narrowing and spasms of small air passages in the lungs
+- Further complicated by swelling and excessive mucus
+
+##### Signs and Symptoms
+
+- Pale skin
+- Anxiety
+- Chest tightness
+- Shortness of breath
+- Wheezing during exhalation
+- Exhaustion
+- Cyanosis
+- Dry persistent cough
+- Altered levels of consciousness
+- Speaking in single word stenences
+
+##### Triggers
+
+- Dust mites
+- Pollens
+- Temperature
+- Weather
+- Exercise
+- Stress
+- Upper respiratory tract infections
+- Environmental conditions
+
+##### Management
+
+**Relievers**:
+
+- Work by relaxing the muscles around the air passages
+
+**Preventers**:
+
+- Designed to give long term relief, takes 2 - 4 weeks to become effective
+
+**Controllers**:
+
+- Longer lasting relief for up to 12 hours
+- Dialates airways
+
+**Combination Medications**:
+
+- Combine preventers with symptom controllers
