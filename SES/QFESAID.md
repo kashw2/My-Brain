@@ -311,7 +311,7 @@ Steps:
 2. Determine if the scene is safe
 3. [[#Calling for help|Phone for help]]
 4. Assessing for life threatening injuries
-5. Conducting secondary survey
+5. Conducting [[#Secondary Survey|secondary survey]]
 
 ---
 ### Scene Survey
@@ -638,3 +638,28 @@ You can cease CPR when:
 - It is impossible to continue
 - A health care professional takes over
 - A health care professional directs you to stop
+
+---
+
+## Secondary Survey
+
+Used as a more comprehensive and systematic assessment of a casualty to identify less obvious conditions
+
+**SAMPLE**
+
+**S** - Signs and Symptoms
+**A** - Allergies
+**M** - Medications
+**P** - Past medical history
+**L** - Last meal
+**E** - Events prior
+
+- History - Question casualties/witnesses on the lead up
+- Symptoms - What if any do they have
+- Signs - Head to toe examination
+
+### Head to Toe examination
+
+- Breathing + Pulse
+- Bleeding
+- Head and Neck - Bleeding swelling, sen
