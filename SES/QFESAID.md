@@ -97,3 +97,5 @@ Occurs if:
 
 - You fail to act in accordance with your first aid training
 - You act outside the limits of your first aid training (Scope of Practice)
+
+---
