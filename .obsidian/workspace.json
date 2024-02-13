@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3d1b3a3fc34502ab",
@@ -176,7 +177,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c773fa1ec73032e3",
+  "active": "ed413258811dc5ab",
   "lastOpenFiles": [
     "SES/Introduction.md",
     "SES/QFESAID.md",
