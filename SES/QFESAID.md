@@ -186,3 +186,10 @@ Handovers refer to the process of quickly transferring care from an initial firs
 ---
 ### WHS & Manual Handling
 
+#### Manual Handling
+
+Manual handling is any form of work that may require:
+
+- Pushing
+- Pulling
+- L
