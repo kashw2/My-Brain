@@ -353,4 +353,45 @@ The following prompts will be asked:
 - The nearest cross street
 - The number you are calling from
 - What has happened
-- Number of casualties, 
+- Number of casualties, their injuries, condition and age
+- Are you with the casualty
+- Is the casualty conscious / breathing
+
+---
+
+### Road Traffic Crash Priorities
+
+When attending an **RTC** it is suggested you follow the following in conjunction with any operational or organisation directives:
+
+- Turn off the ignition
+- Isolate the battery where possible
+- Remove negative terminal first
+- Be aware of fallen powerlines
+- Remain at least 10 metres away
+- Be aware of inground power supply
+- Remove ignition sources
+
+#### Chemicals / HAZMAT
+
+- Attempt to ID using placards
+- Call 000
+- Maintain safe distance
+- Wait for specialist assistance
+
+## Assess for life threatening injuries
+
+Assess vital signs including:
+
+- Response
+- Airway
+- Breathing
+- Life threatening bleeding
+
+Use the **COWS** acronym when checking for response:
+
+**C** - Can you hear me?
+**O** - Open your eyes!
+**W** - What's your name?
+**S** - Squeeze my hands!
+
+These prompts are used to determine **casualty orientation** to **time**, **place**, **commands**, 
