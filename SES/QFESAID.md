@@ -280,3 +280,20 @@ Follow stress management techniques such as:
 - Healthy diet
 - Having adequate rest
 - Having scheduled leisure time
+
+---
+### Basic Life Support
+
+#### DRSABCD
+
+DRSABCD is the recommended process to follow when administering first aid.
+
+**D** - Danger
+**R** - Response
+**S** - Send (Request Assistance)
+**A** - Airway
+**B** - Breathing
+**C** - CPR (30x Chest Compression - 2x Breaths)
+**D** - Defibrillation
+
+### Emergency Action Plan
