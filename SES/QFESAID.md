@@ -439,5 +439,22 @@ To ascertain if a casualty is breathing or not do the following:
 
 Respiration Rates:
 
-- Newborns 40-60 bpm
+- Newborns 40 - 60 bpm
 - 1 - 12 mths 25 - 40 bpm
+- 1 - 5 yrs 25 - 30 bpm
+- 6 - 12 yrs 16 - 25 bpm
+- > 12 yrs 12 - 20 bpm
+
+##### Inhalation
+
+Air pressure in the chest is less than outside
+
+##### Exhalation
+
+Air pressure in the chest is greater than outside
+
+---
+
+### Recovery (lateral) Position
+
+Care of the airway takes priority over any other injury unless there is an obvious arterial bleed that required immediate attention.
