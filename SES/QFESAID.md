@@ -810,3 +810,29 @@ Can include:
 **Combination Medications**:
 
 - Combine preventers with symptom controllers
+
+#### Asthma Spacer
+
+A spacer is preferable for delivery as it:
+
+- Greatly reduces side effects of medication
+- Medication is less likely to stay in the throat and mouth
+- Greater concentration of medication
+
+#### Technique
+
+**4x4x4** Technique
+
+- Sit casually in a comfortable upright position
+- Remain calm
+- Try to remain with the casualty
+- Have the casualty put one puff of reliever into the spacer
+- Take 4 breaths from spacer
+- Wait 4 minutes
+- Repeat if no improvment
+- Call 000
+
+--- 
+### Choking
+
+**Mechani
