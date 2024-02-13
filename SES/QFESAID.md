@@ -621,3 +621,10 @@ During resuscitation the following can occur:
 And AED is used only for people who are unresponsive and not breathing normally
 
 CPR must be continued until the AED is turned on and pads attached
+
+**For every minute defibrillation is delayed, there is a ~10% reduction in chance of survival**
+
+#### AED Setup and Use
+
+- Attach the AED pads and follow verbal prompts
+- Casualty may need to have excessive hair removed
