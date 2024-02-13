@@ -234,4 +234,25 @@ Communicable diseases are transmitted through contact such as:
 
 #### Vector borne
 
-Vector borne illnesses are Human illnesses caused by parasites, viruses and bacteria that are trans
+Vector borne illnesses are Human illnesses caused by parasites, viruses and bacteria that are transmitted by vectors, common examples include but are not limited to:
+
+- Malaria
+- Dengue
+- Japanese Encephalitis
+
+A **Vector** is an organism that can function as a carrier or transmitter of an illness.
+
+##### Standard Precautions
+
+The following steps can be taken to reduce the likelihood of infection:
+
+1. Washing hands
+2. Covering exposed cuts
+3. Wearing disposable gloves
+4. Changing gloves between treatment of casualties
+5. Using a mask
+6. Wearing eye protection
+7. Not eating or drinking in first aid areas while providing treatment or care
+
+---
+### Needle stick injury
