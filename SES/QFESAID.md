@@ -959,4 +959,14 @@ Breathing at an abnormal rapid rate
 - Rapid pulse
 - Altered conscious state
 - Hand and finger spasms
-- Shortness of 
+- Shortness of breath
+- Discomfort
+- Stabbing pains
+- Pressure across the chest
+- Feeling of panic
+
+#### Management
+
+- Calm and reassure the casalty
+- Encourage slower breathing
+- Call 000
