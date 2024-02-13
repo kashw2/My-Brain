@@ -307,9 +307,9 @@ Sometimes due to the proximity to QAS, initial responders may not progress past 
 Emergencies can be either medical or trauma related.
 
 Steps:
-1. Surveying the scene
+1. [[#Scene Survey|Surveying]] the scene
 2. Determine if the scene is safe
-3. Phone for help
+3. [[#Calling for help|Phone for help]]
 4. Assessing for life threatening injuries
 5. Conducting secondary survey
 
@@ -322,4 +322,35 @@ Maintain situational awareness by:
 - Reduce risk of existing hazards
 - Determine what has happened
 - Determine the number and nature of casualties
-- Use bys
+- Use bystanders to call for help
+
+---
+
+### Triage
+
+Triage is the process of categorising casualties into order of treatment.
+
+Those who are at greater risk of death are prioritised
+
+---
+
+### Calling for help
+
+Australia wide the emergency number is: **000**
+FRS & RFS gain assistance from: **FireCom**
+SES gain assistance from: **000**
+
+Deaf people can use TTY/TDD phones on: **106**
+
+Secondary emergency number: **112**
+
+---
+### Phoning QAS
+
+The following prompts will be asked:
+
+- Exact location
+- The nearest cross street
+- The number you are calling from
+- What has happened
+- Number of casualties, 
