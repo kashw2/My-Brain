@@ -387,6 +387,8 @@ Assess vital signs including:
 - [[#Breathing|Breathing]]
 - Life threatening bleeding
 
+#### COWS
+
 Use the **COWS** acronym when checking for response:
 
 **C** - Can you hear me?
@@ -501,4 +503,23 @@ Ensure the safety of:
 Do not move the casualty unless:
 
 - Extreme weather conditions deem it essential
-- To make 
+- To make possible the care of airways
+- To make possible the control of severe bleeding
+
+**Airways take priority over any fractures or broken bones**
+
+### Response
+
+Is the casualty:
+
+- Conscious
+- Semi conscious
+- Unconscious
+
+In difference situations different techniques may be applied to determine Response:
+
+- Adults / Children (**[[#COWS]]**)
+- Infant (Gently squeeze or flick the soles of the feet)
+
+### Opening the Airway
+
