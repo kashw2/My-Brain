@@ -474,3 +474,5 @@ Steps:
 	- Blood that is pooling on the ground
 	- Clothes that are soaked with blood
 	- Bandages that are soaked with blood
+	- Loss of all or part of an arm or leg
+- Bleeding in a victim who is now confused or unconscious
