@@ -760,8 +760,8 @@ Can include:
 - [[#Choking]]
 - [[#Drowning]]
 - [[#Anaphylaxis]]
-- Croup
-- Hyperventilation
+- [[#Croup]]
+- [[#Hyperventilation]]
 
 #### Asthma
 
@@ -937,3 +937,26 @@ Most severe form of allergic reaction
 ---
 
 ### Croup
+
+Condition that impact children between 3 months and 5 years caused by a viral infection
+
+#### Management
+
+- Run hot water in a shower to create steam
+- Keep child warm
+- Call 00 if no improvement
+- Follow up with GP
+
+---
+
+### Hyperventilation
+
+Breathing at an abnormal rapid rate
+
+#### Signs and Symptoms
+
+- Rapid breathing
+- Rapid pulse
+- Altered conscious state
+- Hand and finger spasms
+- Shortness of 
