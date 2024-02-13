@@ -99,3 +99,21 @@ Occurs if:
 - You act outside the limits of your first aid training (Scope of Practice)
 
 ---
+
+### Ethical Issues
+
+#### Code of Practice
+
+Governed by the [First aid in the workplace code of practice 2014](https://www.worksafe.qld.gov.au/__data/assets/pdf_file/0012/20901/first-aid-in-the-workplace-cop-2014.pdf). 
+
+Used to provide practical guidance for:
+
+- People undertaking duties under the WHS Act
+- Businesses undertaking duties under the WHS Act
+
+The 'Code' provides information on:
+
+- First Aid Kits
+- Procedures
+- Facilities
+- Training
