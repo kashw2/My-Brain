@@ -628,3 +628,13 @@ CPR must be continued until the AED is turned on and pads attached
 
 - Attach the AED pads and follow verbal prompts
 - Casualty may need to have excessive hair removed
+
+### Ceasing CPR
+
+You can cease CPR when:
+
+- Casualty responds or begins breathing normally
+- You are in danger
+- It is impossible to continue
+- A health care professional takes over
+- A health care professional directs you to stop
