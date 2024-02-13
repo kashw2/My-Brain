@@ -82,6 +82,18 @@ Workplaces **MUST**:
 - Some employees with First Aid training are expected to offer assistance to workmates if needed
 - Queensland law places an obligation on the driver of a motor vehicle to render assistance when involved in an accident
 - Obligation can be taken on voluntarily
-- Required to act in good faith and without recklessness
+- Required to act in [[#Negligence|good faith and without recklessness]]
 - Good Samaritan - Act with reasonable care and skill
 - Volunteer - In accordance with organisation policies and procedures have a **[[#Duty to Assist]]** 
+
+#### Example Scenarios
+
+1. A driver of a vehicle or rider of an animal is involved in a traffic accident and someone dies or is injured. The driver has a [[#Duty to Assist]] and must not knowingly fail to stop to give assistance.
+
+---
+### Negligence
+
+Occurs if:
+
+- You fail to act in accordance with your first aid training
+- You act outside the limits of your first aid training (Scope of Practice)
