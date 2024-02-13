@@ -1,4 +1,6 @@
 
+## Introduction to First Aid
+
 What is First Aid?
 - Helping behaviours and initial care provided for an acute illness or injury
 
@@ -282,6 +284,8 @@ Follow stress management techniques such as:
 - Having scheduled leisure time
 
 ---
+## Responding to an Emergency Situation
+
 ### Basic Life Support
 
 #### DRSABCD
@@ -297,3 +301,25 @@ DRSABCD is the recommended process to follow when administering first aid.
 **D** - Defibrillation
 
 ### Emergency Action Plan
+
+Sometimes due to the proximity to QAS, initial responders may not progress past the **EAP** stage.
+
+Emergencies can be either medical or trauma related.
+
+Steps:
+1. Surveying the scene
+2. Determine if the scene is safe
+3. Phone for help
+4. Assessing for life threatening injuries
+5. Conducting secondary survey
+
+---
+### Scene Survey
+
+Maintain situational awareness by:
+
+- Ensuring the scene is safe for all in the area
+- Reduce risk of existing hazards
+- Determine what has happened
+- Determine the number and nature of casualties
+- Use bys
