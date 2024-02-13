@@ -475,4 +475,12 @@ Steps:
 	- Clothes that are soaked with blood
 	- Bandages that are soaked with blood
 	- Loss of all or part of an arm or leg
-- Bleeding in a victim who is now confused or unconscious
+	- Bleeding in a victim who is now confused or unconscious
+
+---
+## Resuscitation
+
+#### Cardiac Arrest
+
+- Early Recognition and call for help
+- Early CPR is begin within 4 minutes of the heart stopping
