@@ -384,7 +384,7 @@ Assess vital signs including:
 
 - [[#Level of Consciousness|Response]]
 - [[#Airways|Airway]]
-- Breathing
+- [[#Breathing|Breathing]]
 - Life threatening bleeding
 
 Use the **COWS** acronym when checking for response:
@@ -395,8 +395,6 @@ Use the **COWS** acronym when checking for response:
 **S** - Squeeze my hands!
 
 These prompts are used to determine **casualty orientation** to **time**, **place**, **commands**, **[[#Level of consciousness|level of consciousness]]** and **assessing reflexes/strength/function/impairment**.
-
----
 #### Level of Consciousness
 
 Use the **AVPU** system to measure and record a casualties level of consciousness.
@@ -416,7 +414,30 @@ Manage an unconscious casualty where you find them unless:
 - Their life or yours is in jeopardy
 - Required to reposition to manage life threatening bleed, airways or allow aid to be given
 
----
 #### Airways
 
-To ensure appropriate airway m
+To ensure appropriate airway management, do the following:
+
+- Do not tilt the head until the mouth has been cleared
+- Dentures are only removed if they are loose
+- All foreign material (blood, vomit, food etc) needs to be removed
+- Basic airway manoeuvre can prevent asphyxiation
+
+Tilting the head can cause obstructions to move further into the airway
+
+Dentures stay in as they provide support if CPR is required
+
+Foreign objects are removed by two finder sweeping methods
+
+#### Breathing
+
+To ascertain if a casualty is breathing or not do the following:
+
+- Look - Rise and fall of chest
+- Listen - For air escaping the nose 
+- Feel - Feel for air movement and movement of the upper abdomen/lower chest
+
+Respiration Rates:
+
+- Newborns 40-60 bpm
+- 1 - 12 mths 25 - 40 bpm
