@@ -180,4 +180,5 @@ Handovers refer to the process of quickly transferring care from an initial firs
 **A** - Allergies
 **M** - Medications
 **P** - Previous injury or illness
-**L** - 
+**L** - Last input and output
+**E** - Events leading to the crisis
