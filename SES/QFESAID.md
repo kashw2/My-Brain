@@ -523,3 +523,25 @@ In difference situations different techniques may be applied to determine Respon
 
 ### Opening the Airway
 
+#### Adults / Children
+
+Assuming a [[#Airways|clear airway]]:
+- Tilt the head backwards
+- Lift the chin; or
+- Jaw thrust
+
+#### Infant
+
+Assuming a [[#Airways|clear airway]]:
+- Perform a jaw lift
+
+#### Reasoning
+
+- Anatomical differences
+	- Infant head is larger and the neck is shorter
+	- Chest is smaller
+	- Sternum is softer
+	- Upper airway is easily obstructed
+	- Tranchea is soft
+	- Tongue is relatively large
+	- Enlargment of t
