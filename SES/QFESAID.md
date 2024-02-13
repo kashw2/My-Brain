@@ -168,3 +168,16 @@ It's a good practice to keep a record of any first aid treatment undertaken. Thi
 - Use a scribe if available and appropriate
 
 ---
+### Handovers
+
+Handovers refer to the process of quickly transferring care from an initial first aid responder to emergency service personnel a process known as **IMISTAMPLE** is used to do this.
+
+**I** - Introduce casualty
+**M** - Mechanism of injury
+**I** - Injuries identified
+**S** - Signs and symptoms
+**T** - Treatment
+**A** - Allergies
+**M** - Medications
+**P** - Previous injury or illness
+**L** - 
