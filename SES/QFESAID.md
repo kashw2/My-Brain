@@ -835,4 +835,39 @@ A spacer is preferable for delivery as it:
 --- 
 ### Choking
 
-**Mechani
+**Mechanical Blockage** caused by:
+
+- Food
+- Vomit
+- Toy
+- Blood
+
+**Anatomical Blockage** caused by:
+
+- Tongue
+- Swelling
+- Laryngeal spasm
+
+#### Assessing Severity
+
+###### Effective Cough
+- Encourage coughing
+- Continue to check for recovery or deterioration
+- Call 000
+
+###### Ineffective Cough
+
+**Conscious**
+
+- Call 000
+- Observe airway closely
+- Lie casualty on their side
+- Give 5 back blows
+- Give 5 chest thrusts (if above ineffective) (NOT THE **Heimlich Manoeuvre**)
+
+**Unconscious**
+
+- Call 000
+- Commence [[#CPR Cycle|CPR]]
+
+### Drown
