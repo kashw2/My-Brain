@@ -458,3 +458,19 @@ Air pressure in the chest is greater than outside
 ### Recovery (lateral) Position
 
 Care of the airway takes priority over any other injury unless there is an obvious arterial bleed that required immediate attention.
+
+---
+
+### Life Threatening Bleeding
+
+Bleeding is considered life threatening when it can not be controlled by pressure.
+
+Steps:
+- Find where the victim is bleeding from
+	- Open or remove the clothing so you can see the wound
+- Look for and identify life threatening bleeding
+	- Blood that is spurting out
+	- Blood that wont stop coming out
+	- Blood that is pooling on the ground
+	- Clothes that are soaked with blood
+	- Bandages that are soaked with blood
