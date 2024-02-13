@@ -192,4 +192,46 @@ Manual handling is any form of work that may require:
 
 - Pushing
 - Pulling
-- L
+- Lifting
+- Lowering
+- Moving
+- Holding things, animals or persons
+
+Involvement with first aid:
+
+- Carrying first aid kits or other equipment to the casualty
+- Moving the casualty away from a hazard to make it easier to provide treatment
+
+What do we need to know and understand to avoid injury?
+
+- Understand your own limitations and strength
+- Avoid bending or twisting your back when lifting
+- Be careful not to twist or bend a casualty's neck or back
+- If you are to move a casualty, [[SES/PLAN|PLAN]] what you are going to do and explain your plan to the casualty
+
+---
+### Communicable Diseases
+
+#### What are they?
+
+Any disease that can be communicated from one person to another such as:
+
+- Colds
+- Flu
+- STI's
+- COVID-19
+- SARS
+
+#### How they are transmitted
+
+Communicable diseases are transmitted through contact such as:
+
+- Blood
+- Saliva
+- Faeces
+- Herpes
+- Hepatitis
+
+#### Vector borne
+
+Vector borne illnesses are Human illnesses caused by parasites, viruses and bacteria that are trans
