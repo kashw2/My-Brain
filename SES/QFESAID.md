@@ -757,9 +757,9 @@ Record findings and regularly check:
 
 Can include:
 - [[#Asthma]]
-- Choking
-- Drowning
-- Anaphylaxis
+- [[#Choking]]
+- [[#Drowning]]
+- [[#Anaphylaxis]]
 - Croup
 - Hyperventilation
 
@@ -870,4 +870,35 @@ A spacer is preferable for delivery as it:
 - Call 000
 - Commence [[#CPR Cycle|CPR]]
 
-### Drown
+---
+### Drowning
+
+- Only attempt rescue to your abilities
+- Be prepared for vomiting
+- Water in lungs impact resistance to rescue breaths during [[#CPR Cycle|CPR]]
+- Consider the spine when removing from water
+
+#### Signs and Symptoms
+
+- Coughing
+- Chest Pain
+- Frothy Sputum
+- Clenched Teeth
+- Shortness of breath
+- Cyanosis
+- Unconsciousness
+- Irregular / Absent breathing
+
+#### Management
+
+- Ensure scene safety
+- Removed casualty from the water
+- Assume spinal injury
+- Call 000
+
+**Note**:
+
+**Priapism** - Sign of spinal injury in males, associated with diving into water and striking an object
+
+---
+### Anaphylaxis
