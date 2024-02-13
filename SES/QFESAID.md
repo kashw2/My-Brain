@@ -484,3 +484,21 @@ Steps:
 
 - Early Recognition and call for help
 - Early CPR is begin within 4 minutes of the heart stopping
+- Early defibrillation within 9 - 12 minutes
+- Post resus care, clearing the airways and administering medication
+
+### Priorities in an Emergency
+
+Assess the situation for DANGER.
+
+Ensure the safety of:
+
+- Rescuer
+- Bystanders
+- Casualty
+- Commence appropriate treatment following the [[#Basic Life Support]] flowchart
+
+Do not move the casualty unless:
+
+- Extreme weather conditions deem it essential
+- To make 
