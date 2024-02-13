@@ -902,3 +902,38 @@ A spacer is preferable for delivery as it:
 
 ---
 ### Anaphylaxis
+
+Most severe form of allergic reaction
+
+#### Signs and Symptoms
+
+- Difficult / noisy breathing
+- Wheeze
+- Persistent cough
+- Swelling of face and tongue
+- Difficulty talking
+- Loss of consciousness
+- Tightness of throat
+- Hives, Welts, Body redness
+- Abdominal pain
+- Vomiting
+
+#### Management
+
+- Ask about Action Plan
+- Adrenaline (Epinephrine) Injection
+	- Yellow for Adults
+	- Green for Children
+
+##### How to use an EpiPen
+
+1. Inject EpiPen into Thigh
+2. Firmly hold in place for 3 seconds
+3. Remove from thigh and record time of administration
+4. Call 000
+5. If no improvement after 5 minutes, repeat
+6. Hand over used EpiPen to paramedics
+
+---
+
+### Croup
