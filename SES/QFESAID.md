@@ -737,3 +737,32 @@ Used as a more comprehensive and systematic assessment of a casualty to identify
 - Movement
 - Position
 - Feeling
+
+**Feet**:
+
+- Penetration
+- Obvious Fractures
+- Colour
+- Temperature
+
+Record findings and regularly check:
+
+- Levels of consciousness
+- Breathing
+- Pulse
+- Skin colour / temperature
+
+---
+## Respiratory Emergencies
+
+Can include:
+- [[#Asthma]]
+- Choking
+- Drowning
+- Anaphylaxis
+- Croup
+- Hyperventilation
+
+#### Asthma
+
+- Condition in 
