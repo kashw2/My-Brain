@@ -571,4 +571,29 @@ Compression should start if there is:
 - No breathing
 - Abnormal breathing
 
-Compressions 
+Compressions should:
+- Start in the middle of the chest
+- Be at a rate of 100 - 120 per minute
+- Go to a depth of 1/3 of the chest depth
+- Allow full chest recoil
+
+**Method**:
+- Adult - Two hands
+- Child - One hand
+- Infant - Two fingers
+
+#### CPR Cycle
+
+##### Regular Cycle
+
+- 30x Compressions
+- 2x Breaths
+
+5x Cycles in 2 minutes
+
+##### Compression Only CPR
+
+Continue chest compressions
+
+---
+
