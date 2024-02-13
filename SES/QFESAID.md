@@ -256,3 +256,27 @@ The following steps can be taken to reduce the likelihood of infection:
 
 ---
 ### Needle stick injury
+
+- Wash with soapy water
+- Apply antiseptic
+- Cover with a dressing / band aid
+- Seek medical attention and inform
+	- How long ago it occurred
+	- How deep penetration was
+	- Was the needle contaminated
+- Follow organisation reporting process
+
+---
+### Debriefing
+
+Encourage people involved in an incident to talk to a **Peer Support Officer** / [[SES/FESSN|FESSN]].
+
+Follow stress management techniques such as:
+
+- Accepting that that are events you cannot control
+- Learning to relax
+- Being assertive instead of aggressive
+- Talking with trusted and understanding confidant
+- Healthy diet
+- Having adequate rest
+- Having scheduled leisure time
