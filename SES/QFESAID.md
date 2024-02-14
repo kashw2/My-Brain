@@ -1790,3 +1790,30 @@ Any trauma, injury or underlying medical condition to the jaw
 - Maintain [[#Airways]]
 
 ---
+## Chest, Pelvic and Abdomen Injuries
+
+### Types
+
+- [[#Rib Fractures]]
+- [[#Flail Chest]]
+- [[#Sucking Chest Wound]]
+- [[#Abdominal Injury]]
+- [[#Pelvic Injury]]
+
+### Rib Fractures
+
+#### Signs and Symptoms
+
+- Pain
+- Bruising
+- Difficulty Breathing
+- Tenderness
+- Deformity
+- [[#Shock]]
+- Distress
+
+#### Management
+
+- Comfortable 
+
+### Flail Chest
