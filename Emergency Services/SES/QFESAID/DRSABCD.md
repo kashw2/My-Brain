@@ -27,3 +27,6 @@ Is the casualty breathing?
 **2 Breaths**
 
 ## D - Defibrillation
+
+Follow guides on **[[#AED|Defibrillation]]**
+
