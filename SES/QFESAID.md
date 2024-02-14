@@ -2082,10 +2082,10 @@ Protective covering that provides:
 - [[#Hypothermia]]
 - [[#Frostbite]]
 - [[#Dehydration]]
-- Heat Illness
-	- Heat Cramps
-	- Heat Exhaustion
-	- Heat Stroke
+- [[#Heat Illness]]
+	- [[#Heat Cramps]]
+	- [[#Heat Exhaustion]]
+	- [[#Heat Stroke]]
 
 ---
 ### Hypothermia
@@ -2133,8 +2133,8 @@ Occurs when you dont have enough fluids in your body
 
 To avoid:
 
-Children should drink 1-2 litres a day
-Adults should drink 2-2
+- Children should drink 1-2 litres a day
+- Adults should drink 2-2.5 litres a day
 
 #### Signs and Symptoms
 
@@ -2158,3 +2158,44 @@ Adults should drink 2-2
 **Severely Dehydrated**
 
 - Call 000
+
+---
+### Heat Illness
+
+Occurs when the body is unable to cool itself sufficiently through sweating
+
+#### Severity Ranking
+
+1. [[#Heat Cramps]]
+2. [[#Heat Exhaustion]]
+3. [[#Heat Stoke]]
+
+#### Heat Cramps
+
+- Rest casualty in shade
+- Gently stretch affected muscle
+- Apply cold pack to affected muscle
+- Give sips of water when nausea passes
+
+#### Heat Exhaustion
+
+- Lay casualty down in cool place
+- Loosen or remove excess clothing
+- Cool by fanning or sponging with water
+
+If conscious:
+
+- Give sips of water
+- Call 000
+
+#### Heat Stroke
+
+- Call 000
+- Remove casualty from source of exposure
+- Remove excess clothing
+- Cool by damping skin and fanning
+- Treat for [[#Shock]]
+- Apply cold packs to areas such as neck, armpits, groin, behind knees
+
+---
+## Burns
