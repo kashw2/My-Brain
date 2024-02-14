@@ -1814,6 +1814,52 @@ Any trauma, injury or underlying medical condition to the jaw
 
 #### Management
 
-- Comfortable 
+- Comfortable sitting position
+- Inclinded to injured side
+- Support casualty's arm against chest with sling
+- Breathe slowly
+- Call 000
 
+---
 ### Flail Chest
+
+#### Signs and Symptoms
+
+- Deformity
+- Severe Pain
+- Breathing difficulties
+- Bruising
+- Tenderness
+- [[#Shock]]
+- Paradoxical Movement
+
+#### Management
+
+- Comfortable sitting position
+- Inclined to injured side
+- Stabilise floating segment
+- Support casualty's arm
+- Breathe slowly
+- Call 000
+
+---
+### Sucking Chest Wound
+
+Difficult to diagnose, all types should be treated as one
+
+#### Signs and Symptoms
+
+- Sucking / Hissing sound at wound site
+- Bulging neck veins
+
+#### Management
+
+- Comfortable position
+- Leaning to injured side
+- Cover wound with dressing or hand until dressed on 3 sides
+- Maintain temperature
+- Treat for [[#Shock]]
+- Call 000
+
+---
+### Abdominal Injury
