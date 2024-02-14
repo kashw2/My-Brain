@@ -10,7 +10,7 @@ Provide Initial information such as the casualty's:
 
 ## M - Mechanism of Injury
 
-Refers to 
+Refers to how the injury has occurred, it is useful in describing the type of injury without having to give high levels of specificity that require more information
 
 ## I - Injuries Identified
 ## S - Signs and Symptoms
