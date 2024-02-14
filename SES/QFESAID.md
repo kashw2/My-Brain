@@ -976,3 +976,30 @@ Breathing at an abnormal rapid rate
 
 ### Circulatory System
 
+Consists of:
+
+- Heart
+- Blood Vessels
+	- Arteries
+	- Veins
+	- Capillaries
+- Blood
+	- Plasma
+	- Solid Components
+		- White blood cells
+		- Red blood cells
+		- Platelets
+
+#### Major Functions of Blood
+
+- Transport oxygen, nutrients and wastes
+- Protects against disease
+- Maintains body temperature
+
+---
+### Common Cardiac Emergencies
+
+#### Angina
+
+##### Signs and Symptoms
+
