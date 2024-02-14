@@ -37,7 +37,7 @@ Stakeholders are broken down into internal and external stakeholders.
 
 #### Internal Stakeholders
 
-- Members of [[SES/QFES|QFES]], RFS, FRS
+- Members of [[QFES|QFES]], RFS, FRS
 - Members of SES
 
 #### External Stakeholders

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SES/QFESAID/IMISTAMPLE.md",
+                "file": "Emergency Services/SES/QFESAID/IMISTAMPLE.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SES/QFESAID/IMISTAMPLE.md",
+                "file": "Emergency Services/SES/QFESAID/IMISTAMPLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SES/QFESAID/IMISTAMPLE.md",
+                "file": "Emergency Services/SES/QFESAID/IMISTAMPLE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SES/QFESAID/IMISTAMPLE.md"
+                "file": "Emergency Services/SES/QFESAID/IMISTAMPLE.md"
               }
             }
           },
@@ -178,20 +178,21 @@
   },
   "active": "c773fa1ec73032e3",
   "lastOpenFiles": [
-    "SES/QFESAID.md",
-    "SES/QFESAID/IMISTAMPLE.md",
-    "SES/QFESAID",
+    "Emergency Services/SES/HRBC021.md",
+    "Emergency Services/SES/QFESAID.md",
+    "Emergency Services/SES/Introduction.md",
+    "Emergency Services/QFES.md",
+    "Emergency Services/SES",
+    "SES/PLAN.md",
+    "Emergency Services/SES/QFESAID/IMISTAMPLE.md",
+    "Emergency Services/SES/QFESAID",
     "Software Engineering/Programming Languages/Scala/Scala.md",
     "Software Engineering/Cloud/Azure/Azure.md",
     "Software Engineering/Cloud/Azure/Azure Linux.md",
     "Excalidraw/Dijkstra Graph.md",
-    "SES/PLAN.md",
-    "SES/Introduction.md",
     "A*.md",
-    "SES/HRBC021.md",
-    "SES/QFES.md",
     "Yearly Goals/2024.md",
-    "SES",
+    "Emergency Services",
     "SES.md",
     "History.md",
     "Yearly Goals/2023.md",
@@ -207,13 +208,11 @@
     "Software Engineering/Cloud/Azure/Untitled",
     "Software Engineering/Programming Languages/Nix.md",
     "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
-    "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
     "Software Engineering/Programming Languages",
     "Operating Systems/Windows",
     "Operating Systems/Linux/Distributions/Arch",
     "Operating Systems/Linux/Distributions/NixOS",
     "Operating Systems/Linux/Distributions",
-    "Operating Systems/Linux",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Software Engineering/Pasted image 20230426181733.png"

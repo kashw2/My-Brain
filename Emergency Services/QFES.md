@@ -21,4 +21,4 @@
 
 - [[QFES]]
 - [[SES/FRS|FRS]]
-- [[SES/Introduction|SES]]
+- [[Introduction|SES]]
