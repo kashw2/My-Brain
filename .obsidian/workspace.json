@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Programming Languages/Scala/Scala.md",
+                "file": "SES/QFESAID/IMISTAMPLE.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3d1b3a3fc34502ab",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Programming Languages/Scala/Scala.md",
+                "file": "SES/QFESAID/IMISTAMPLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Programming Languages/Scala/Scala.md",
+                "file": "SES/QFESAID/IMISTAMPLE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Programming Languages/Scala/Scala.md"
+                "file": "SES/QFESAID/IMISTAMPLE.md"
               }
             }
           },
@@ -179,10 +178,13 @@
   },
   "active": "c773fa1ec73032e3",
   "lastOpenFiles": [
+    "SES/QFESAID.md",
+    "SES/QFESAID/IMISTAMPLE.md",
+    "SES/QFESAID",
+    "Software Engineering/Programming Languages/Scala/Scala.md",
     "Software Engineering/Cloud/Azure/Azure.md",
     "Software Engineering/Cloud/Azure/Azure Linux.md",
     "Excalidraw/Dijkstra Graph.md",
-    "SES/QFESAID.md",
     "SES/PLAN.md",
     "SES/Introduction.md",
     "A*.md",
@@ -197,7 +199,6 @@
     "My Brain.md",
     "Software Engineering/Programming Languages/Rust/Rust.md",
     "Software Engineering/Software Engineering.md",
-    "Software Engineering/Programming Languages/Scala/Scala.md",
     "Software Engineering/Programming Languages/Rust",
     "Software Engineering/Functional Programming/Functional Programming.md",
     "Software Engineering/Cloud/Azure/Azure PostgreSQL.md",
@@ -207,14 +208,12 @@
     "Software Engineering/Programming Languages/Nix.md",
     "Operating Systems/Linux/Distributions/NixOS/NixOS.md",
     "Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
-    "Operating Systems/Linux/Package Manager.md",
     "Software Engineering/Programming Languages",
     "Operating Systems/Windows",
     "Operating Systems/Linux/Distributions/Arch",
     "Operating Systems/Linux/Distributions/NixOS",
     "Operating Systems/Linux/Distributions",
     "Operating Systems/Linux",
-    "Operating Systems",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Software Engineering/Pasted image 20230426181733.png"
