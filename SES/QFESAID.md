@@ -1757,3 +1757,36 @@ A foreign body is a foreign object
 - Call 000
 - Flush with running water > 20m
 - Do not remove contact lenses
+
+---
+
+### Jaw Injury
+
+Any trauma, injury or underlying medical condition to the jaw
+
+#### Signs and Symptoms
+
+- Pain
+- Bleeding
+- Deformity
+- Dribbling
+- Inability to open or close mouth
+- Swelling
+
+#### Management
+
+**Conscious**
+
+- Maintain open [[#Airways]]
+- Support the jaw
+- Lean casualty forward
+- Call 000
+- Do not bandage jaw
+
+**Unconscious**
+
+- Call 000
+- Lie in [[#Recovery (lateral) Position]]
+- Maintain [[#Airways]]
+
+---
