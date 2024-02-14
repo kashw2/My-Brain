@@ -1974,6 +1974,16 @@ The abuse of any legal or illegal substance such as:
 
 - Use [[#Anaphylaxis]] treatment in addition to usual Bite and Sting treatment (below)
 
+#### Ticks
+
+- Remove as soon as possible
+- **DO NOT** squeeze the tick
+- Use ether based sprays such as wart off or medifreeze (adult ticks)
+- Use permethrin cream (small ticks)
+- Wait for the tick to drop off or remove after 10 minutes
+- Seek medical advice
+- If unconscious follow [[#DRSABCD]]
+
 #### PIT
 
 **Do's**
@@ -2047,3 +2057,5 @@ The abuse of any legal or illegal substance such as:
 - [[#Cold / Ice Compress]]
 - [[#Hot Water]]
 - [[#Vinegar]]
+
+---
