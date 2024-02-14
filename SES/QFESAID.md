@@ -1466,3 +1466,62 @@ Altered supply of blood to the brain
 - Cool by fanning
 - Do not overcool
 - Seek medical advice
+
+---
+
+## Musculoskeletal Injuries
+
+### Musculoskeletal system
+
+**Physical**
+
+- Skeleton
+- Ligaments
+- Muscle
+- Tendons
+- Connective tissuers
+
+**Functional**
+- body shape
+- Protection of internal organs
+- mechanisms of movement
+
+#### Types of Injuries
+
+- Fractures
+- Dislocations
+- Soft tissue injuries
+	- Join sprain
+	- Muscle strain
+
+**Immobilisation methods**
+
+- Slings
+- Binds
+- Figure of eight
+- Splints
+
+#### Fractures
+
+Caused by:
+
+- Direct force
+	- Kick / RTC
+- Indirect force
+	- Break distant from impact
+- Abnormal muscular contraction
+
+##### Types
+
+- Closed fracture
+- Open fracture
+- Complicated fracture
+
+##### Identification
+
+**P** - Pain near fracture
+**A** - Abnormallity
+**S** - Swelling
+**L** - Loss of movement
+**U** - Unnatural position
+**C** - Crepitus (grating of bones)
