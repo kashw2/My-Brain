@@ -1099,4 +1099,53 @@ Pumping efficiency of heart muscle is impacted and decreased
 
 When dealing with external bleeds, look for the following:
 
-- Arterial
+- Arterial - Rapid bleeding
+- Venous - Steady flowing
+- Capillary - Oozing
+
+#### Types of Emergencies
+
+- Shock
+- Wounds
+- Life threatening bleeds
+- Crush injury
+- Nose bleeds
+- Internal bleeding
+
+#### Shock
+
+Caused by:
+
+- Severe bleeding
+- Major or multiple fractures
+- Major trauma
+- Severe burns
+- Severe diarrhoea / vomiting
+- Heart disorders
+- Heat stroke
+- Allergic reactions
+- Severe infection
+- Severe brain / spinal cord injury
+
+##### Signs and Symptoms
+
+- Cold / Pale / Sweaty skin
+- Rapid / Weak pulse
+- Rapid shallow breathing
+- Nausea
+- Anxious
+- Collapse
+- Confusion
+- Muscle weakness
+- Thirst
+- Drowsiness 
+
+##### Management
+
+- [[#DRSABCD]]
+- Control bleeding
+- Reassurance
+- Call 000
+- Maintain body tempreture
+- Loosen constrictive clothing
+- Elevate blee
