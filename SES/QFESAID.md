@@ -1589,3 +1589,15 @@ Remember:
 ---
 
 ## Head and Spinal Injuries
+
+#### Types
+
+- Skull
+- Brain
+- Spine
+	- Spinal Cord
+- Face
+- Mouth
+- Teeth
+- Eyes
+- Jaw
