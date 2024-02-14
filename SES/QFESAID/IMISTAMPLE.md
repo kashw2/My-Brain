@@ -1,5 +1,5 @@
 
-**IMISTAMPLE** is a way to conduct handovers between Initial Responders and Emergency Services. It is also used to conduct inter-service handovers within other agencies such as **QAS**. 
+**IMISTAMPLE** is a way to conduct handovers between Initial Responders and Emergency Services. It is also used to conduct inter-service handovers within other agencies such as **QAS**.
 
 ## I - Introduce the Casualty
 
@@ -38,10 +38,11 @@ Does the casualty have any previous ailments
 
 ## L - Last Input or Output
 
-What was the last method of communication
-
+What was the last method of communication. This can be:
+- Verbal (Spoken)
+- Physical (Gesture)
 ## E - Events Leading to Crisis
 
+What was the casualty doing in the minutes, hours or days in the lead up to the crisis
 
-
-
+---
