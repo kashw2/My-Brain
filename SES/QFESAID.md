@@ -1105,9 +1105,9 @@ When dealing with external bleeds, look for the following:
 
 #### Types of Emergencies
 
-- Shock
-- Wounds
-- Life threatening bleeds
+- [[#Shock]]
+- [[#Wounds and Life Threatening Bleeds]]
+- [[#Severe / Life Threatening Bleeds]]
 - Crush injury
 - Nose bleeds
 - Internal bleeding
@@ -1148,4 +1148,39 @@ Caused by:
 - Call 000
 - Maintain body tempreture
 - Loosen constrictive clothing
-- Elevate blee
+- Elevate bleeding parts
+
+#### Wounds and Life Threatening Bleeds
+
+- Clean with water
+- Disinfect during initial treatment
+- Apply sterile dressing
+
+##### Embedded objects
+
+- Do not remove object
+- Expose object
+- Apply indirect pressure
+- Stabilise object
+- Donut bandage
+- Treat for [[#Shock]]
+- Call 000
+
+##### Amputation
+
+- Apply direct pressure
+- Treat for shock
+- Call 000
+
+##### Severe / Life Threatening Bleeds
+
+###### Impact
+
+- Decreased blood volume
+- Decreased supply of oxygenated blood
+- Lead to [[#Shock]]
+
+###### Management
+
+- Apply direct pressure
+- Apply additional 
