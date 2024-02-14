@@ -17,11 +17,29 @@ Refers to how the injury has occurred, it is useful in describing the type of in
 What injuries have been identified that either need to be addressed or are related to the [[#E - Events Leading to Crisis|Crisis]]
 
 ## S - Signs and Symptoms
+
+What Signs of [[#I - Injuries Identified|Injury]] and Symptoms are being presented by the casualty
+
 ## T - Treatment
+
+What has been done to treat the [[#I - Injuries Identified|Injuries]]
+
 ## A - Allergies
+
+What allergies if any does the casualty have
+
 ## M - Medications
+
+What medications is the casualty currently taking
+
 ## P - Previous Illness of Injuries
+
+Does the casualty have any previous ailments
+
 ## L - Last Input or Output
+
+What was the last method of communication
+
 ## E - Events Leading to Crisis
 
 
