@@ -1490,7 +1490,7 @@ Altered supply of blood to the brain
 
 - [[#Fractures]]
 - [[#Dislocations]]
-- Soft tissue injuries
+- [[#Soft tissue injuries]]
 	- Join sprain
 	- Muscle strain
 
@@ -1563,3 +1563,29 @@ Remember:
 - Apply cold pack
 - Immobilise
 - Call 000
+
+---
+### Soft Tissue Injuries
+
+- Involves muscle, tendons, ligaments, cartilage
+- Bruised, strained, sprained, ruptured
+
+#### Signs and Symptoms
+
+- Pain
+- Swelling
+- Bruising
+
+#### Management
+
+**RICER**
+
+**R** - Rest
+**I** - Ice
+**C** - Compress
+**E** - Elevate
+**R** - Refer
+
+---
+
+### Immobilisation
