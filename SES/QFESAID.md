@@ -972,7 +972,7 @@ Breathing at an abnormal rapid rate
 - Call 000
 
 ---
-## Respiratory Emergencies
+## Cardiac Emergencies
 
-### Cardiac Emergencies
+### Circulatory System
 
