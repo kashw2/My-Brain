@@ -1026,6 +1026,40 @@ If there is no history of Anagina, it is to be treated as heart failure
 
 #### Cardiac Arrest
 
+Cardiac Arrest outside of hospital has a 7% - 8% survival rate
 
+##### Heart Attack
+
+Partial or complete blockage of coronary artery
+
+##### Cardiac Arrest
+
+Failure or interruption of heart electrical circuit
+
+#### Signs and Symptoms
+
+- Crushing chest pain > 10 mins
+- Pain radiating up the neck and jaw, down the arm and shoulder
+- Shortness of breath
+- Increased breathing rate
+- Pale, cold, sweaty skin
+- Nausea
+- Dizziness or fatigue
+
+#### Management
+
+**Conscious**
+
+- Position of comfort
+- Call 000
+- Remain with the casualty
+- Loosen any tight clothing
+- Give aspirin if directed by QAS
+- Calm and reassure
+
+**Unconscious**
+
+- Clear airway and follow [[#Basic Life Support]] flow chart
+- Call 000
 
 
