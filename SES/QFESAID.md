@@ -1599,8 +1599,8 @@ Remember:
 - Face
 - [[#Tooth and Gum injuries|Mouth]]
 - [[#Tooth and Gum injuries|Teeth]]
-- Eyes
-- Jaw
+- [[#Eye Injury|Eyes]]
+- [[#Jaw Injury|Jaw]]
 
 #### Concussion
 
@@ -1720,6 +1720,40 @@ Any injury or trauma to the external ear or blood and fluids leaking from the ea
 - Position casualty with injured side down for drainage
 - Call 000
 
-**Foreign Body**
+**[[#Foreign Body]]**
+
+- Seek medical aid
+
+---
+## Eye injury
+
+#### Foreign Body
+
+A foreign body is a foreign object
+
+##### Management
+
+- Check under eyelid for any foreign bodies
+- If not embedded flush out with eyewash
+- If not removed, cover both eyes and seek medical aid
+- Do not apply direct pressure
+
+#### Penetrating Object
+
+##### Management
 
 - Call 000
+- Do not remove
+- IF eyeball is out of socket, do not attempt replacement
+- Stabilise penetrating object
+- Place drink cup or similar over eye and secure
+- Cover uninjured eye to reduce eye movement
+- Lie casualty on back with head raised
+
+#### Chemical Burn
+
+##### Management
+
+- Call 000
+- Flush with running water > 20m
+- Do not remove contact lenses
