@@ -2216,4 +2216,26 @@ Used to estimate the percentage of burns a person has suffered
 - Straw coloured liquid (plasma) oozing from blisters
 - Pain
 - Severe [[#Shock]]
-- Altered 
+- Altered consciousness
+
+#### Management
+
+- Call 000
+- Cool with clean water
+- > 20 mins thermal, radiation or chemical burns
+- > 30 mins, bitumen burns
+- **NEVER** let casualty shiver
+- Cover with burn dressing, damp dressing or cling wrap
+
+##### Chemical Burns
+
+- Control danger / remove hazard
+- Immediately dilute the chemical by irrigating affected area with cool running water for one hour
+- Use appropriate PPE
+- If shivering, cease irrigation and manage appropriately
+
+##### Electrical Burns
+
+- Always switch off power
+- If conscious - control danger, cool burnt areas
+- Cover impact
