@@ -2059,3 +2059,4 @@ The abuse of any legal or illegal substance such as:
 - [[#Vinegar]]
 
 ---
+## Extremes of Temperature
