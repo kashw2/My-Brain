@@ -1003,3 +1003,29 @@ Consists of:
 
 ##### Signs and Symptoms
 
+- Crushing in the chest
+- Heaviness in the chest
+- Discomfort
+- Shortness of Breath
+
+If there is no history of Anagina, it is to be treated as heart failure
+
+##### Management
+
+**Conscious**:
+
+- Sit comfortably
+- Assist administration of medication
+
+**Unconscious**:
+
+- [[#DRSABCD]]
+- Call 000
+
+---
+
+#### Cardiac Arrest
+
+
+
+
