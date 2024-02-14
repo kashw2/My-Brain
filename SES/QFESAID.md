@@ -1156,6 +1156,7 @@ Caused by:
 - Disinfect during initial treatment
 - Apply sterile dressing
 
+---
 ##### Embedded objects
 
 - Do not remove object
@@ -1166,12 +1167,14 @@ Caused by:
 - Treat for [[#Shock]]
 - Call 000
 
+---
 ##### Amputation
 
 - Apply direct pressure
 - Treat for shock
 - Call 000
 
+---
 ##### Severe / Life Threatening Bleeds
 
 ###### Impact
@@ -1183,4 +1186,28 @@ Caused by:
 ###### Management
 
 - Apply direct pressure
-- Apply additional 
+- Apply additional dressings
+- Elevate wound
+- Immobilise
+
+---
+##### Tourniquets
+
+- Applied to a limb
+- Not applied over a joint
+- Minimum of 5cm wide
+- Apply to bare skin above wound
+- Recheck for controlled bleeding
+- Call 000 and notify of time of placement
+
+---
+##### Bleeding Pressure Point Control
+
+- Apply pressure to main artery above the wound
+- 4 main pressure points
+	- One for each arm
+	- One for each leg
+
+---
+
+##### Crush injury
