@@ -1597,8 +1597,8 @@ Remember:
 - [[#Spinal Injuries|Spine]]
 	- Spinal Cord
 - Face
-- Mouth
-- Teeth
+- [[#Tooth and Gum injuries|Mouth]]
+- [[#Tooth and Gum injuries|Teeth]]
 - Eyes
 - Jaw
 
@@ -1658,4 +1658,45 @@ Resulting from:
 
 #### Signs and Symptoms
 
-- Pai
+- Pain, Tingling, Numbness
+- Weakness
+- Nausea
+- Headache
+- Altered sensation
+- Abnormal head or neck position
+- Head injury
+- Altered consciousness
+- Breathing difficulties
+- Loss of function
+- Priapism
+
+#### Management
+
+**Conscious**
+
+- Call 000
+- Move if necessary
+- Immobilise
+- Control external bleeding
+- Do not rush treatment
+- Maintain body temperature
+
+**Unconscious**
+
+- Call 000
+- If breathing, place in recovery position
+- Immobilise
+- Control external bleeding
+- Do not rush treatment
+- Maintain body temperature
+
+[[#Airways|Airway]] management take priority over any spinal injury
+
+#### Cervical Soft Collar
+
+- Provide both a physical and conscious acknowledgement of potential for spinal injury
+- Disposable and single use only
+- Apply if trained to do so
+
+---
+## Tooth and Gum injuries
