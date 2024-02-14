@@ -2028,6 +2028,13 @@ The abuse of any legal or illegal substance such as:
 - Stingray
 - Blue-bottle Jellyfish
 
+#### Vinegar
+
+- Stops stinging cells discharging
+- May not provide pain relief
+- Primary treatment in tropical waters
+- **DO NOT** use if clearly stung by **Blue-bottle Jellyfish**
+
 #### Management
 
 ##### Bites
@@ -2039,4 +2046,4 @@ The abuse of any legal or illegal substance such as:
 - [[#PIT|Pressure Immobilisation Technique]]
 - [[#Cold / Ice Compress]]
 - [[#Hot Water]]
-- Vinegar
+- [[#Vinegar]]
