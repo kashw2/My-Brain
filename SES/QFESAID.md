@@ -999,7 +999,7 @@ Consists of:
 ---
 ### Common Cardiac Emergencies
 
-#### Angina
+### Angina
 
 ##### Signs and Symptoms
 
@@ -1024,7 +1024,7 @@ If there is no history of Anagina, it is to be treated as heart failure
 
 ---
 
-#### Cardiac Arrest
+### Cardiac Arrest
 
 Cardiac Arrest outside of hospital has a 7% - 8% survival rate
 
@@ -1062,4 +1062,41 @@ Failure or interruption of heart electrical circuit
 - Clear airway and follow [[#Basic Life Support]] flow chart
 - Call 000
 
+---
+### Heart Failure
 
+Pumping efficiency of heart muscle is impacted and decreased
+
+#### Signs and Symptoms
+
+- Acute shortness of breath
+- Noisy, gurgling breath
+- Rapid pulse
+- Cold, pale, sweaty skin
+- Cyanosis
+- Anxiety
+- Fatigue
+- Swollen legs and ankles
+
+#### Management
+
+**Conscious**
+
+- Rest in an upright position
+- Assist to self medicate if chest pain is present
+- Call 000
+- Administer oxygen therapy mast (if trained)
+
+**Unconscious**
+
+- Clear airway
+- Follow [[#Basic Life Support]] flow chart
+- Administer oxygen therapy mast (if trained)
+
+---
+
+### Bleeding and Shock
+
+When dealing with external bleeds, look for the following:
+
+- Arterial
