@@ -1976,6 +1976,20 @@ The abuse of any legal or illegal substance such as:
 
 #### PIT
 
+**Do's**
+
+- Immediately rest
+- Promptly apply a firm board heavy elasticised bandage
+- Check capillary refiles to ensure circulation
+- In case of only one bandage, use it to apply pressure on the bite
+- Apply bandage up length of limb 
+
+**Donts'**
+
+- Cut or incise the wound
+- Wash or suck bite site
+- Use arterial [[#Tourniquets|Tourniquet]]
+
 ##### Applicable to
 
 - All Australian venomous snakes
@@ -1983,11 +1997,24 @@ The abuse of any legal or illegal substance such as:
 - Blue ringed octopus
 - Cone shell
 
-#### Cold / 
+#### Cold / Ice Compress
+
+- Never place ice directly against the skin
+- Refresh regularly to maintain chill
+- If stung, remove stinger
+- Call 000
+
+##### Applicable to
+
+- Redback spider
+- Scorpions
+- Centipedes
+- Bees and Wasps
+- Ants
 
 #### Management
 
 - [[#PIT|Pressure Immobilisation Technique]]
-- Cold / Ice Compress
+- [[#Cold / Ice Compress]]
 - Hot Water
 - Vinegar
