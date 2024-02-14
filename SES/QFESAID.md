@@ -185,6 +185,8 @@ Handovers refer to the process of quickly transferring care from an initial firs
 **L** - Last input and output
 **E** - Events leading to the crisis
 
+More information available at [[IMISTAMPLE]]
+
 ---
 ### WHS & Manual Handling
 

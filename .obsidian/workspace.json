@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SES/QFESAID/IMISTAMPLE.md",
+                "file": "SES/QFESAID.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SES/QFESAID/IMISTAMPLE.md",
+                "file": "SES/QFESAID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SES/QFESAID/IMISTAMPLE.md",
+                "file": "SES/QFESAID.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SES/QFESAID/IMISTAMPLE.md"
+                "file": "SES/QFESAID.md"
               }
             }
           },
@@ -178,8 +178,8 @@
   },
   "active": "c773fa1ec73032e3",
   "lastOpenFiles": [
-    "SES/QFESAID.md",
     "SES/QFESAID/IMISTAMPLE.md",
+    "SES/QFESAID.md",
     "SES/QFESAID",
     "Software Engineering/Programming Languages/Scala/Scala.md",
     "Software Engineering/Cloud/Azure/Azure.md",
