@@ -2012,9 +2012,31 @@ The abuse of any legal or illegal substance such as:
 - Bees and Wasps
 - Ants
 
+#### Hot Water
+
+- Use water as hot as the first aid provider can tolerate
+- Don't use boiling water
+- If pain is not alleviated, try [[#Cold / Ice Compress]]
+- Call 000
+- Monitor vitals
+
+##### Applicable to
+
+- Stonefish
+- Bullrout
+- Platypus
+- Stingray
+- Blue-bottle Jellyfish
+
 #### Management
+
+##### Bites
+
+- [[#PIT|Pressure Immobilisation Technique]]
+
+##### Stings
 
 - [[#PIT|Pressure Immobilisation Technique]]
 - [[#Cold / Ice Compress]]
-- Hot Water
+- [[#Hot Water]]
 - Vinegar
