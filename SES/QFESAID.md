@@ -970,3 +970,9 @@ Breathing at an abnormal rapid rate
 - Calm and reassure the casalty
 - Encourage slower breathing
 - Call 000
+
+---
+## Respiratory Emergencies
+
+### Cardiac Emergencies
+
