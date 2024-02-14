@@ -1923,3 +1923,38 @@ Any injury or trauma to the pelvic region
 ---
 
 ## Poison, Substance Abuse, Bites and Stings
+
+### How can Poisons enter the body?
+
+- Inhilation
+- Absorption
+- Ingestion
+- Injection
+
+### Hotlines
+
+- PIC - 13 11 26
+- Emergency Services - 000
+
+When talking to operators try to:
+
+- Find out what the substance is
+- Find out how much has entered
+- Find out when
+- Keep any containers
+- Refer to SDS
+- [[#DRSABCD]]
+
+### Substance Abuse
+
+The abuse of any legal or illegal substance such as:
+- Alcohol
+- Drugs
+- Prescription Medication
+
+#### Management
+
+**Conscious**:
+
+- Provide reassurance
+- 
