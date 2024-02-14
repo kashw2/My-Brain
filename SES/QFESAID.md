@@ -1396,7 +1396,7 @@ Altered supply of blood to the brain
 - Weakness
 - Loss of consciousness
 - Blurred vision
-- Absent or slurred speach
+- Absent or slurred speech
 - Loss of bowel or bladder control
 - Facial drooping
 
@@ -1408,7 +1408,7 @@ Altered supply of blood to the brain
 **Conscious**
 
 - Provide reassurance
-- Raise head and sholders
+- Raise head and shoulders
 - Monitor vital signs
 
 **Unconscious**
@@ -1422,4 +1422,47 @@ Altered supply of blood to the brain
 
 **Seizure**:
 
-- Caused by a disturbance in electrical activity
+- Caused by a disturbance in electrical activity in the brain
+
+**Epilepsy**:
+
+- Disorder causing repeated seizures
+
+#### Signs and Symptoms
+
+- Can vary depending on location of seizure
+- Transient seizures are loss of awareness and consciousness
+- Often results in falling to the floor
+- Muscle spasms
+
+#### Management
+
+- Call 000
+- Time the duration of seizure
+- Keep casualty from harming themselves (do not restrain)
+- Place in recovery position when spasms cease
+- Observe and monitor
+- Provide reassurance
+
+---
+### Febrile convulsions
+
+[[#Seizure and Epilepsy|Epileptic type seizure]] due to high temperature in children under 4
+
+#### Signs and Symptoms
+
+- History of infection
+- Hot sweaty, flushed skin
+- Generalised stiffness
+- Eyes may roll
+- Frothing from mouth
+- Projectile vomiting
+- Breath holding
+
+#### Management
+
+- [[#DRSABCD]]
+- Reduce clothing to minimum
+- Cool by fanning
+- Do not overcool
+- Seek medical advice
