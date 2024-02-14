@@ -997,9 +997,9 @@ Consists of:
 - Maintains body temperature
 
 ---
-## Common Cardiac Emergencies
+### Common Cardiac Emergencies
 
-### Angina
+#### Angina
 
 ##### Signs and Symptoms
 
@@ -1024,7 +1024,7 @@ If there is no history of Anagina, it is to be treated as heart failure
 
 ---
 
-### Cardiac Arrest
+#### Cardiac Arrest
 
 Cardiac Arrest outside of hospital has a 7% - 8% survival rate
 
@@ -1063,7 +1063,7 @@ Failure or interruption of heart electrical circuit
 - Call 000
 
 ---
-### Heart Failure
+#### Heart Failure
 
 Pumping efficiency of heart muscle is impacted and decreased
 
@@ -1095,7 +1095,7 @@ Pumping efficiency of heart muscle is impacted and decreased
 
 ---
 
-### Bleeding and Shock
+#### Bleeding and Shock
 
 When dealing with external bleeds, look for the following:
 
@@ -1103,7 +1103,7 @@ When dealing with external bleeds, look for the following:
 - Venous - Steady flowing
 - Capillary - Oozing
 
-#### Types of Emergencies
+##### Types of Emergencies
 
 - [[#Shock]]
 - [[#Wounds and Life Threatening Bleeds]]
@@ -1112,7 +1112,7 @@ When dealing with external bleeds, look for the following:
 - [[#Nose bleed]]
 - [[#Internal bleeding]]
 
-#### Shock
+##### Shock
 
 Caused by:
 
@@ -1150,7 +1150,7 @@ Caused by:
 - Loosen constrictive clothing
 - Elevate bleeding parts
 
-#### Wounds and Life Threatening Bleeds
+##### Wounds and Life Threatening Bleeds
 
 - Clean with water
 - Disinfect during initial treatment
@@ -1249,4 +1249,16 @@ Caused by:
 - Do not give medication, alcohol, food or drink
 
 ---
-## 
+## Acute Medical Emergencies
+### Digestive System
+
+High profile diseases:
+- [[#Diabetes]]
+- [[#Hypoglycemia]]
+- [[#Hyperglycemia]]
+- [[#Acute abdomen]]
+
+#### Diabetes
+
+- Metabolic disease
+- Imbalanced levels of Glucose & Insulin
