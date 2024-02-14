@@ -10,9 +10,12 @@ Provide Initial information such as the casualty's:
 
 ## M - Mechanism of Injury
 
-Refers to how the injury has occurred, it is useful in describing the type of injury without having to give high levels of specificity that require more information
+Refers to how the injury has occurred, it is useful in describing the type of injury without having to give high levels of specificity that require more information and aids in quick delivery of said information.
 
 ## I - Injuries Identified
+
+What injuries have been identified that either need to be addressed or are related to the [[#E - Events Leading to Crisis|Crisis]]
+
 ## S - Signs and Symptoms
 ## T - Treatment
 ## A - Allergies
