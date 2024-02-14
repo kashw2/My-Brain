@@ -1307,3 +1307,44 @@ High profile diseases:
 - Only [[#Hypoglycemia]] cases respond to sugar
 
 **Conscious**
+
+- Give fluids
+- Provide sugar
+- Call 000
+
+**Unconscious**
+
+- Give nothing by mouth
+- Call 000
+
+---
+
+#### Acute Abdomen
+
+General term for a multitude of abdominal conditions
+
+##### Signs and Symptoms
+
+- Abdominal pain
+- Nausea
+- Diarrhoea
+- Raised tempreture
+- Abdominal rigidity
+- Shock
+- Blood in urine
+- Protrusion of intestines
+
+##### Management
+
+- Requires urgent medical review
+
+---
+
+### Nervous System
+
+Common consitions
+
+- Fainting
+- Stroke
+- Seizure
+- Febril
