@@ -997,7 +997,7 @@ Consists of:
 - Maintains body temperature
 
 ---
-### Common Cardiac Emergencies
+## Common Cardiac Emergencies
 
 ### Angina
 
@@ -1108,9 +1108,9 @@ When dealing with external bleeds, look for the following:
 - [[#Shock]]
 - [[#Wounds and Life Threatening Bleeds]]
 - [[#Severe / Life Threatening Bleeds]]
-- Crush injury
-- Nose bleeds
-- Internal bleeding
+- [[#Crush injury]]
+- [[#Nose bleed]]
+- [[#Internal bleeding]]
 
 #### Shock
 
@@ -1209,5 +1209,44 @@ Caused by:
 	- One for each leg
 
 ---
-
 ##### Crush injury
+
+- Call 000
+- If able, remove crushing force
+- Remain with casualty
+- Reassure
+- Monitor and record vital signs
+
+---
+##### Nose bleed
+
+- Tilt head slightly forward
+- Apply pressure to soft part of nose for 10m
+- Apply a cold compress to back of neck and forehead
+- Avoid blowing nose
+- Seek medical assistance if bleeding > 20m
+- If result of head injury, call 000
+
+---
+##### Internal Bleeding
+
+###### Signs and Symptoms
+
+- Pale, Cold, Sweaty skin
+- Anxiety
+- Rapid / weak pulse
+- Rapid or shallow breathing
+- Fainting
+- Pain, tenderness or swelling
+- Blood appearing from body opening
+
+###### Treatment / Management
+
+- Call 000
+- Reassure
+- Lie casualty down
+- Raise legs
+- Do not give medication, alcohol, food or drink
+
+---
+## 
