@@ -34,6 +34,8 @@ Members include:
 
 Through **ANZCOR**, both Australian and New Zealand interests are represented on the **International Liaison Committee of Resuscitation**.
 
+**ANZCOR** recommend CPR to be refreshed annually.
+
 ---
 ### Legal Considerations
 
