@@ -1346,9 +1346,9 @@ Common conditions
 
 - [[#Fainting]]
 - [[#Stroke]]
-- [[#Seizure]]
+- [[#Seizure and Epilepsy|Seizure]]
 - [[#Febrile convulsions]]
-- [[#Epilepsy]]
+- [[#Seizure and Epilepsy|Epilepsy]]
 
 #### Fainting
 
@@ -1382,6 +1382,44 @@ Common conditions
 
 Altered supply of blood to the brain
 
+**FAST**
+
+**F** - Has their **face** drooped
+**A** - Can they lift **arms**
+**S** - Is their **speech slurred**
+**T** - Call 000, **time** is critical
+
 #### Signs and Symptoms
 
-- Sudde
+- Sudden severe headache
+- Uneven pupils
+- Weakness
+- Loss of consciousness
+- Blurred vision
+- Absent or slurred speach
+- Loss of bowel or bladder control
+- Facial drooping
+
+#### Management
+
+- Call 000
+- Nothing to eat or drink
+
+**Conscious**
+
+- Provide reassurance
+- Raise head and sholders
+- Monitor vital signs
+
+**Unconscious**
+
+- [[#DRSABCD]]
+- Recovery position
+- Monitor vital signs
+
+---
+### Seizure and Epilepsy
+
+**Seizure**:
+
+- Caused by a disturbance in electrical activity
