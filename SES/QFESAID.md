@@ -1894,3 +1894,32 @@ Any injury or trauma to the abdominal area resulting in open or closed injuries
 **IF BOWELS ARE EXPOSED COVER WITH MOIST NON STICK DRESSING**
 
 **DO NOT GIVE FOOD OR DRINK**
+
+---
+### Pelvic Injury
+
+Any injury or trauma to the pelvic region
+
+#### Signs and Symptoms
+
+- History of the incident
+- Pain with pressure on hip bones
+- Internal pain
+- Inability to walk
+- Signs of [[#Shock]]
+- Rigid abdominal muscles
+- Pain with movement
+
+#### Management
+
+- Comfortable position
+- Control bleeding
+- Remove items from pockets with consent
+- Support and protect fractured injury
+- Encourage not to urinate
+- Keep warm
+- Call 000
+
+---
+
+## Poison, Substance Abuse, Bites and Stings
