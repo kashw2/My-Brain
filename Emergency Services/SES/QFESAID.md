@@ -290,7 +290,7 @@ Follow stress management techniques such as:
 
 ### Basic Life Support
 
-#### DRSABCD
+#### [[DRSABCD]]
 
 DRSABCD is the recommended process to follow when administering first aid.
 
