@@ -1957,4 +1957,37 @@ The abuse of any legal or illegal substance such as:
 **Conscious**:
 
 - Provide reassurance
-- 
+- Prevent casualty from further harming
+- Monitor [[#Airways]]
+- Call 000
+
+**Unconscious**:
+
+- Monitor [[#Airways]]
+- Lie in [[#Recovery (lateral) Position]]
+- Call 000
+
+---
+### Bites and Stings
+
+#### Allergic Reactions
+
+- Use [[#Anaphylaxis]] treatment in addition to usual Bite and Sting treatment (below)
+
+#### PIT
+
+##### Applicable to
+
+- All Australian venomous snakes
+- Funnel web spiders
+- Blue ringed octopus
+- Cone shell
+
+#### Cold / 
+
+#### Management
+
+- [[#PIT|Pressure Immobilisation Technique]]
+- Cold / Ice Compress
+- Hot Water
+- Vinegar
