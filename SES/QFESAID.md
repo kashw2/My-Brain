@@ -2238,4 +2238,28 @@ Used to estimate the percentage of burns a person has suffered
 
 - Always switch off power
 - If conscious - control danger, cool burnt areas
-- Cover impact
+- Cover impacted area with sterile non fluffy dressing or cling wrap
+- Call 000
+- If unconscious - control danger, clear [[#Airways]], follow [[#Basic Life Support]] flow chart, [[#CPR Cycle]] f required
+
+##### Inhalation Burns
+
+**Recognition**
+
+- Difficulty swallowing
+- Difficulty breathing
+- Pain to injured area
+- Smoke or soot around mouth / nose
+
+**Conscious**
+
+- Reassure
+- Remove constrictive clothing
+- Administer oxygen therapy if trained
+- Call 000
+
+**Unconscious**
+
+- Clear airway
+- Follow [[#Basic Life Support]] flow chart
+- Call 000
