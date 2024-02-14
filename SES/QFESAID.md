@@ -2199,3 +2199,21 @@ If conscious:
 
 ---
 ## Burns
+
+#### Severities
+
+1. Superficial
+2. Partial Thickness
+3. Full Thickness
+
+#### Rule of Nines
+
+Used to estimate the percentage of burns a person has suffered
+
+#### Signs and Symptoms
+
+- Red, blistered, white or blackened skin
+- Straw coloured liquid (plasma) oozing from blisters
+- Pain
+- Severe [[#Shock]]
+- Altered 
