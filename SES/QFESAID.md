@@ -2060,3 +2060,57 @@ The abuse of any legal or illegal substance such as:
 
 ---
 ## Extremes of Temperature
+
+### Skin
+
+#### Structure of Skin
+
+There's 3 layers of skin
+
+- Epidermis
+- Dermis
+- Hypodermis
+
+Protective covering that provides:
+
+- Defence against infection
+- Regulation of core body temperature
+- Sends messages to brain
+
+#### Common temperature related illnesses / injuries
+
+- [[#Hypothermia]]
+- [[#Frostbite]]
+- [[#Dehydration]]
+- Heat Illness
+	- Heat Cramps
+	- Heat Exhaustion
+	- Heat Stroke
+
+---
+### Hypothermia
+
+Occurs when the body core temperature drops below **35** degrees
+
+#### Management
+
+- Reduce heat loss
+	- Protect from wind, rain, snow
+	- Remove wet clothing
+	- Put on dry warm clothing
+	- Wrap something warm and dry over wet clothing
+
+If not shivering:
+
+- Increase muscular activity
+- Increase heat
+- Wrap in blankets
+- Apply heat packs
+- Share body heat
+- If conscious, give warm food and drink
+- Call 000
+
+---
+### Frostbite
+
+Occurs when the skin and underlying 
