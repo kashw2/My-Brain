@@ -1488,8 +1488,8 @@ Altered supply of blood to the brain
 
 #### Types of Injuries
 
-- Fractures
-- Dislocations
+- [[#Fractures]]
+- [[#Dislocations]]
 - Soft tissue injuries
 	- Join sprain
 	- Muscle strain
@@ -1525,3 +1525,41 @@ Caused by:
 **L** - Loss of movement
 **U** - Unnatural position
 **C** - Crepitus (grating of bones)
+
+Also consider bleeding and shock
+
+##### Management
+
+- Paramedics < 30m 
+	-  Don't require splint
+- Paramedics > 30m or move casualty
+	- Immobilise the fracture
+		- Splint
+		- Figure eight
+		- Bind
+		- Sling
+- Position comfortably
+- Control any bleeding
+- Immobilise
+- Check circulation
+- Monitor skin temperature and colour below fracture
+- Call 000
+
+Remember:
+- Listen to casualty and plan accordingly
+- Minimise movement
+- Tie bandages and splits on the uninjured side
+
+---
+### Dislocations
+
+- Displacement of bone ends
+- Often looks like fracture, if in doubt, treat as fracture
+
+#### Management
+
+- Never replace joint into socket
+- Rest and support limb
+- Apply cold pack
+- Immobilise
+- Call 000
