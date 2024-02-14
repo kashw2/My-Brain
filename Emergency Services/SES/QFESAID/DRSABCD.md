@@ -9,6 +9,6 @@
 
 **30 Chest Compressions**
 
-**2 Breaths
+**2 Breaths**
 
 ## D - Defibrillation
