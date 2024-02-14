@@ -18,7 +18,7 @@ Are the airways clear?
 
 ## B - Breathing
 
-
+Is the casualty breathing?
 
 ## C - CPR
 
