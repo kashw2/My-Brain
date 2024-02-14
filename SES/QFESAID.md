@@ -1863,3 +1863,34 @@ Difficult to diagnose, all types should be treated as one
 
 ---
 ### Abdominal Injury
+
+Any injury or trauma to the abdominal area resulting in open or closed injuries
+
+#### Signs and Symptoms
+
+- Pain at site of injury
+- Nausea
+- Onset of [[#Shock]]
+- Distension and Rigidity of abdominal wall
+- Difficulty breathing
+- Evidence at wound site
+- Possible protruding intestines
+- Odour - Faeces or urine
+
+#### Management
+
+- Control bleeding
+- Call 000
+
+**Conscious**
+
+- Elevate on back torso
+- Support under knees
+
+**Unconscious**
+
+- [[#Recovery (lateral) Position]]
+
+**IF BOWELS ARE EXPOSED COVER WITH MOIST NON STICK DRESSING**
+
+**DO NOT GIVE FOOD OR DRINK**
