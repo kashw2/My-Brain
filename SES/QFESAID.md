@@ -1262,3 +1262,48 @@ High profile diseases:
 
 - Metabolic disease
 - Imbalanced levels of Glucose & Insulin
+
+##### Type 1 (IDDM)
+
+- Usually develops in childhood
+- Requires daily insuling injections
+- Inability to produce significant insulin
+
+##### Type 2 (NIDDM)
+
+- Usually develops in adulthood
+- Typically still secrete some insulin
+- Generally controlled by diet and exercise
+
+##### Signs and Symptoms
+
+###### Hypoglycemia
+
+- Rapid / Weak / Bounding pulse
+- Increased breathing rate
+- Cold and clammy skin
+- Profuse sweating
+- Muscular weakness
+- Confusion
+- Trembling
+- Hunger
+- Seizures
+- Bizare behaviour
+- Anxious
+- Unconsciousness
+
+###### Hyperglycemia
+
+- Deep rapid breathing
+- Nausea
+- Excessive thirst or need to urinate
+- Warm dry skin
+- Abdominal pain
+- Sickly sweet breath
+- Unconsciousness
+
+##### Management
+
+- Only [[#Hypoglycemia]] cases respond to sugar
+
+**Conscious**
