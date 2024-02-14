@@ -1592,12 +1592,70 @@ Remember:
 
 #### Types
 
-- Skull
-- Brain
-- Spine
+- [[#Head Injuries|Skull]]
+- [[#Concussion|Brain]]
+- [[#Spinal Injuries|Spine]]
 	- Spinal Cord
 - Face
 - Mouth
 - Teeth
 - Eyes
 - Jaw
+
+#### Concussion
+
+A traumatic brain injury
+
+#### Signs and Symptoms
+
+- Temporary confusion
+- Inability to recall
+- Irritability
+
+#### Management
+
+- Call 000
+
+---
+### Head Injuries
+
+#### Signs and Symptoms
+
+- Skull deformity
+- Obvious signs of head wound
+- Unconsciousness
+- Drowsiness
+- Vagueness
+- Loss of memory
+- Slurred speach
+- Bleeding into eyes
+- Bruising around edges of eyes
+- Blood or straw coloured fluid coming from ears, nose, mouth
+- Changes in pupils
+
+#### Management
+
+- Call 000
+- Only move if necessary
+- Immobilise before moving
+- Support head and neck
+- Control external bleeding
+- Lightly cover open head wounds
+
+---
+### Spinal Injuries
+
+Resulting from:
+
+- RTC
+- Bike accidents
+- Falls
+- Falling weights
+- Gunshot
+- Stabs
+- Sporting injuries
+- Vehicle injuries
+
+#### Signs and Symptoms
+
+- Pai
