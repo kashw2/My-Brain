@@ -2113,4 +2113,48 @@ If not shivering:
 ---
 ### Frostbite
 
-Occurs when the skin and underlying 
+Occurs when the skin and underlying [[#Structure of Skin|Tissue]] is exposed to extreme cold
+
+#### Management
+
+- Remove restrictive clothing and jewellery
+- Call 000
+- If medical assistance delayed, place affected part in warm water for 15 - 60 mins
+- Monitor for [[#Shock]]
+- Cover with dry sterile bulky protective dressing
+- **DO NOT** actively warm tissue which has thawed
+- No Alcohol or Tobacco
+
+---
+
+### Dehydration
+
+Occurs when you dont have enough fluids in your body
+
+To avoid:
+
+Children should drink 1-2 litres a day
+Adults should drink 2-2
+
+#### Signs and Symptoms
+
+- Thirsty
+- Dry mouth, lips, tongue
+- Headache
+- Dark urine
+- Not much urine
+- Dizzy or light headed
+- Fast breathing (Severe)
+- Fast heart rate (Severe)
+- Fever (Severe)
+- Irritable (Severe)
+
+#### Management
+
+**Mildly Dehydrated**
+
+- Drink more water in small amounts regularly
+
+**Severely Dehydrated**
+
+- Call 000
