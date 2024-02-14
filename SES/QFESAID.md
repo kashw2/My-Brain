@@ -295,7 +295,7 @@ DRSABCD is the recommended process to follow when administering first aid.
 **D** - Danger
 **R** - Response
 **S** - Send (Request Assistance)
-**A** - Airway
+**A** - [[#Airways]]
 **B** - Breathing
 **C** - CPR (30x Chest Compression - 2x Breaths)
 **D** - Defibrillation
