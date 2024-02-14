@@ -1342,9 +1342,46 @@ General term for a multitude of abdominal conditions
 
 ### Nervous System
 
-Common consitions
+Common conditions
 
-- Fainting
-- Stroke
-- Seizure
-- Febril
+- [[#Fainting]]
+- [[#Stroke]]
+- [[#Seizure]]
+- [[#Febrile convulsions]]
+- [[#Epilepsy]]
+
+#### Fainting
+
+- Sudden dilation of blood vessels
+- Change in heart rhythm
+- Reduction in flow of blood to brain
+
+##### Signs and Symptoms
+
+- Pale, cold, clammy skin
+- Slow weak pulse
+- Yawning
+- Light headiness 
+
+##### Management
+
+**Conscious**
+
+- Lie flat
+- Elevate legs
+- Reassure
+
+**Unconscious**
+
+- [[#DRSABCD]]
+- [[#Recovery (lateral) Position]]
+
+---
+
+### Stroke
+
+Altered supply of blood to the brain
+
+#### Signs and Symptoms
+
+- Sudde
