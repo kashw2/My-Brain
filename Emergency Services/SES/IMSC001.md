@@ -16,7 +16,7 @@ Australasian Inter-service Incident Management System
 
 ## QFES Implementation of AIIMS
 
-## QFES Doctrine Framework
+### QFES Doctrine Framework
 
 Consists of:
 - IMS Directives
@@ -25,3 +25,27 @@ Consists of:
 - Incident Worksheets
 - Field Incident Guides
 - Operational Guides
+
+### Management
+
+**QFES** direct agencies such as [[SES/FRS|FRS]], [[SES/RFS|RFS]] and the [[SES/Introduction|SES]] to incidents
+
+---
+
+## Five Key Principles
+
+1. Management by Objectives
+2. Span of control
+3. Functional Delegation
+4. Flexibility
+5. Unity of Command
+
+### Management by Objective
+
+TO - What we want to achieve
+AT - Where the activity will occur
+BY - When the objective should be achieved by
+
+### Objective - What we want to do
+
+**Example:** We want **TO** have tarpaulins on all the storm damaged roofs **AT** Beaty Street, Merrickville **BY** 2200h today.
