@@ -64,3 +64,4 @@ BY - When the objective should be achieved by
 
 ## Span of Control
 
+Optimum Ration: 1:5 plus or minus 2
