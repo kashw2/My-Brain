@@ -49,3 +49,18 @@ BY - When the objective should be achieved by
 ### Objective - What we want to do
 
 **Example:** We want **TO** have tarpaulins on all the storm damaged roofs **AT** Beaty Street, Merrickville **BY** 2200h today.
+
+---
+
+## SMART
+
+### S - Specific
+### M - Measurable
+### A - Achievable
+### R - Relevant
+### T - Time-framed
+
+---
+
+## Span of Control
+
