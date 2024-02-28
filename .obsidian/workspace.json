@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Emergency Services/SES/IMSC001.md",
+                "file": "Emergency Services/SES/SEM0002.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Emergency Services/SES/IMSC001.md",
+                "file": "Emergency Services/SES/SEM0002.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Emergency Services/SES/IMSC001.md",
+                "file": "Emergency Services/SES/SEM0002.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Emergency Services/SES/IMSC001.md"
+                "file": "Emergency Services/SES/SEM0002.md"
               }
             }
           },
@@ -178,8 +178,9 @@
   },
   "active": "c773fa1ec73032e3",
   "lastOpenFiles": [
-    "Emergency Services/SES/QFESAID.md",
     "Emergency Services/SES/IMSC001.md",
+    "Emergency Services/SES/SEM0002.md",
+    "Emergency Services/SES/QFESAID.md",
     "Software Engineering/Functional Programming/Concepts/Monad.md",
     "Software Engineering/Functional Programming/Concepts/Functor.md",
     "Emergency Services/SES/QFESAID/IMISTAMPLE.md",
@@ -208,7 +209,6 @@
     "Software Engineering/Programming Languages/Rust",
     "Software Engineering/Functional Programming/Functional Programming.md",
     "Software Engineering/Cloud/Azure/Azure PostgreSQL.md",
-    "Software Engineering/Cloud/Cloud.md",
     "Software Engineering/Cloud/Azure/Untitled",
     "Software Engineering/Programming Languages",
     "Operating Systems/Windows",
