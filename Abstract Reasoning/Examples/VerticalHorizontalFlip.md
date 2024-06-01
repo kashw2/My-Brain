@@ -49,7 +49,7 @@ In this example **A** is the correct answer, the reasoning is:
 
 The first fold is a [[Abstract Reasoning/Introduction#Horizontal|Horizontal Flip]], the second is a [[Abstract Reasoning/Introduction#Vertical|Vertical Flip]]. This means that upon unfolding, you will first be given a Vertically flipped image, upon unfolding again, you would be given a Horizontally flipped image.
 
-The reason the cut in the A on the first unfold is facing the otherway to how the bottom A's slash is, is because only the whole shape cannot have it's orientation flipped horizontally, however certain aspect inside of the shape may.
+The reason the cut in the A on the first unfold is facing the other way to how the bottom A's slash is, is because only the whole shape cannot have it's orientation flipped horizontally, however certain aspect inside of the shape may.
 
 2.
 
