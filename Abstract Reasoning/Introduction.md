@@ -13,11 +13,13 @@ Abstract Reasoning tests ones ability to **Identify Patterns**, **Logical Rules*
 ### Vertical / Horizontal Flip
 
 #### Horizontal
+Also known as **Mirrored**
 - Inverted **Horizontally**
 - Right Hand Side becomes your Left Hand Side and vice versa
 - Top and Bottom remain as they are
 
 #### Vertical
+Also known as **Watered**
 - Inverted **Vertically**
 - Bottom becomes your Top and vice versa
 - Left and Right remain as they are
