@@ -2,8 +2,8 @@ Abstract Reasoning tests ones ability to **Identify Patterns**, **Logical Rules*
 
 # Categories
 
-## [Figure Series](Abstract Reasoning/Figure Series)
+## [[Abstract Reasoning/Figure Series|Figure Series]]
 
-## [Odd One Out](Abstract Reasoning/Odd One Out)
+## [[Abstract Reasoning/Odd One Out|Odd One Out]]
 
-## [Matrix](Abstract Reasoning/Matrix)
+## [[Abstract Reasoning/Matrix|Matrix]]
