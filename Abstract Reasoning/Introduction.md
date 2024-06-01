@@ -17,6 +17,7 @@ Also known as **Mirrored**
 - Inverted **Horizontally**
 - Right Hand Side becomes your Left Hand Side and vice versa
 - Top and Bottom remain as they are
+- [[Abstract Reasoning/Examples/VerticalHorizontalFlip|Example]]
 
 #### Vertical
 Also known as **Watered**
