@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Emergency Services/SES/SEM0002.md",
+                "file": "Abstract Reasoning/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Emergency Services/SES/SEM0002.md",
+                "file": "Abstract Reasoning/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Emergency Services/SES/SEM0002.md",
+                "file": "Abstract Reasoning/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Emergency Services/SES/SEM0002.md"
+                "file": "Abstract Reasoning/Introduction.md"
               }
             }
           },
@@ -178,8 +178,10 @@
   },
   "active": "d991bbadfafbd9d3",
   "lastOpenFiles": [
-    "Emergency Services/SES/SEM1005.md",
     "Emergency Services/SES/SEM0002.md",
+    "Abstract Reasoning/Introduction.md",
+    "Abstract Reasoning",
+    "Emergency Services/SES/SEM1005.md",
     "Emergency Services/SES/IMSC001.md",
     "Emergency Services/SES/QFESAID.md",
     "Software Engineering/Functional Programming/Concepts/Monad.md",
@@ -208,13 +210,11 @@
     "Software Engineering/Programming Languages/Rust/Rust.md",
     "Software Engineering/Software Engineering.md",
     "Software Engineering/Programming Languages/Rust",
-    "Software Engineering/Functional Programming/Functional Programming.md",
     "Software Engineering/Cloud/Azure/Untitled",
     "Software Engineering/Programming Languages",
     "Operating Systems/Windows",
     "Operating Systems/Linux/Distributions/Arch",
     "Operating Systems/Linux/Distributions/NixOS",
-    "Operating Systems/Linux/Distributions",
     "Untitled 1.canvas",
     "Software Engineering/Pasted image 20230426181733.png"
   ]
