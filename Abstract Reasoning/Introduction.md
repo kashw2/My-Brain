@@ -1,4 +1,4 @@
-Abstract Reasoning tests ones ability to **Identify Patterns**, **Logical Rules** and **Trends**.
+ Abstract Reasoning tests ones ability to **Identify Patterns**, **Logical Rules** and **Trends**.
 
 # Categories
 
@@ -6,7 +6,7 @@ Abstract Reasoning tests ones ability to **Identify Patterns**, **Logical Rules*
 
 ## [[Abstract Reasoning/Odd One Out|Odd One Out]]
 
-## [[Abstract Reasoning/Matrix|Matrix]]
+## [[Abstract Reasoning/Matrix|Matrix]] 
 
 ## Types
 
