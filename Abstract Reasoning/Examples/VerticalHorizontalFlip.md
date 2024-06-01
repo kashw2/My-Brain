@@ -1,5 +1,5 @@
 
-# Vertical Flip
+# Horizontal Flip
 
 1.
 
@@ -19,8 +19,16 @@ In this example **D** is the correct answer as the #, $, @ and & symbols have be
 
 ![[Pasted image 20240601205355.png]]
 
-In this example **D** is the answer, this is because the top arrow and the lines associated with it have been flipped and the bottom
+In this example **D** is the answer, this is because the top arrow and the lines associated with it have been flipped and the bottom arrow has also been flipped but has maintained it's position in the same corner
 
 ---
 
-# Horizontal Flip
+# Vertical Flip
+
+1.
+
+![[Pasted image 20240601205734.png]]
+
+In this example **B** is the answer as it has been flipped vertically, the semi circle has been moved to the top and the right angle has had it's orientation changed to face the bottom.
+
+Further more, it is not option A as the right angle in the sample is pointing to the left so therefore must also point to the left in the answer.
