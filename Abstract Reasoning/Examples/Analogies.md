@@ -19,4 +19,4 @@ In this example, **B** is the correct answer, to figure this out:
 - Find the pattern in the change that occurs from images A -> B, that being:
 	- The outermost shape only has one of itself
 	- The two inner shapes are the same
-	- On B, the innermost shape has positioned itself to the top left of the previous outermost shape, overlapping it
+	- On B, the innermost shape has positioned itself to the top left of the previous outermost shape, overlapping it where the two now inner shapes have become what the previous outermost shape was
