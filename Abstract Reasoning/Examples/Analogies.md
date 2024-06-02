@@ -37,4 +37,6 @@ Between 2 and 3 however, there is a mutation that happens between the items whic
 
 ![[Pasted image 20240602210339.png]]
 
-In this example, t
+In this example, **C** is the answer.
+
+We can think of the shapes as petals, we can see that to form the next shape, the shaded petal moves 3 'petals' anti-clockwise whereas the unshaded, 3 'petals' clockwise. While doing so the shaded part of the shaded image is found on the inside and there are no flips occurring.
