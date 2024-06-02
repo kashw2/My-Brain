@@ -31,5 +31,6 @@ Also known as **Watered**
 ### Analogy
 
 - Uses relationships to determine the next image in a sequence
+- Can make use of other [[#Types]] of abstract reasoning
 - [[Abstract Reasoning/Examples/Analogies|Examples]]
 ###
