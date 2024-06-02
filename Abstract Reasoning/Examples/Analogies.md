@@ -25,4 +25,10 @@ In this example, **B** is the correct answer, to figure this out:
 
 ![[Pasted image 20240602185638.png]]
 
-In this example, **C** is the answer
+In this example, **C** is the answer.
+
+![[Drawing 2024-06-02 18.57.02.excalidraw]]
+
+The above image denotes the pattern in which the items move in the image.
+
+Between 2 and 3 however, there is a mutation that happens between the items which sees it no longer just move it's position to the next spot but also change to a new item that isn't already in the image.
