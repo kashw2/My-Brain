@@ -30,6 +30,6 @@ Also known as **Watered**
 
 ### Analogy
 
-Uses relationships to determine the next image in a sequence
-
+- Uses relationships to determine the next image in a sequence
+- [[Abstract Reasoning/Examples/Analogies|Examples]]
 ###

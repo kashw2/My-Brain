@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abstract Reasoning/Introduction.md",
+                "file": "Abstract Reasoning/Examples/Analogies.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Abstract Reasoning/Introduction.md",
+                "file": "Abstract Reasoning/Examples/Analogies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Abstract Reasoning/Introduction.md",
+                "file": "Abstract Reasoning/Examples/Analogies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Abstract Reasoning/Introduction.md"
+                "file": "Abstract Reasoning/Examples/Analogies.md"
               }
             }
           },
@@ -178,8 +178,10 @@
   },
   "active": "d991bbadfafbd9d3",
   "lastOpenFiles": [
-    "Abstract Reasoning/Examples/VerticalHorizontalFlip.md",
+    "Software Engineering/Pasted image 20240602182628.png",
     "Abstract Reasoning/Introduction.md",
+    "Abstract Reasoning/Examples/Analogies.md",
+    "Abstract Reasoning/Examples/VerticalHorizontalFlip.md",
     "Software Engineering/Pasted image 20240601211930.png",
     "Software Engineering/Pasted image 20240601211017.png",
     "Software Engineering/Pasted image 20240601211014.png",
@@ -217,7 +219,6 @@
     "Yearly Goals/2024.md",
     "Emergency Services",
     "SES.md",
-    "History.md",
     "Software Engineering/Programming Languages/Rust",
     "Software Engineering/Cloud/Azure/Untitled",
     "Software Engineering/Programming Languages",
