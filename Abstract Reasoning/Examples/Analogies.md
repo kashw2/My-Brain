@@ -32,3 +32,9 @@ In this example, **C** is the answer.
 The above image denotes the pattern in which the items move in the image.
 
 Between 2 and 3 however, there is a mutation that happens between the items which sees it no longer just move it's position to the next spot but also change to a new item that isn't already in the image.
+
+4.
+
+![[Pasted image 20240602210339.png]]
+
+In this example, t
