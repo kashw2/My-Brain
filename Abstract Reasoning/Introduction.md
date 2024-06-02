@@ -27,4 +27,9 @@ Also known as **Watered**
 - Left and Right remain as they are
 - [[Abstract Reasoning/Examples/VerticalHorizontalFlip#Vertical Flip|Example]]
 
+
+### Analogy
+
+Uses relationships to determine the next image in a sequence
+
 ###
