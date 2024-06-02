@@ -20,3 +20,9 @@ In this example, **B** is the correct answer, to figure this out:
 	- The outermost shape only has one of itself
 	- The two inner shapes are the same
 	- On B, the innermost shape has positioned itself to the top left of the previous outermost shape, overlapping it where the two now inner shapes have become what the previous outermost shape was
+
+3.
+
+![[Pasted image 20240602185638.png]]
+
+In this example, **C** is the answer

@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ed64cfad35615888",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-02 18.57.02.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Abstract Reasoning/Examples/Analogies.md",
+                "file": "Excalidraw/Drawing 2024-06-02 18.57.02.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Abstract Reasoning/Examples/Analogies.md",
+                "file": "Excalidraw/Drawing 2024-06-02 18.57.02.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Abstract Reasoning/Examples/Analogies.md"
+                "file": "Excalidraw/Drawing 2024-06-02 18.57.02.excalidraw.md"
               }
             }
           },
@@ -176,12 +187,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d991bbadfafbd9d3",
+  "active": "ed64cfad35615888",
   "lastOpenFiles": [
+    "Abstract Reasoning/Examples/Analogies.md",
+    "Excalidraw/Drawing 2024-06-02 18.57.02.excalidraw.md",
+    "Software Engineering/Pasted image 20240602185638.png",
     "Software Engineering/Pasted image 20240602184541.png",
     "Software Engineering/Pasted image 20240602183830.png",
     "Abstract Reasoning/Introduction.md",
-    "Abstract Reasoning/Examples/Analogies.md",
     "Abstract Reasoning/Examples/VerticalHorizontalFlip.md",
     "Software Engineering/Pasted image 20240602182628.png",
     "Software Engineering/Pasted image 20240601211930.png",
@@ -190,8 +203,6 @@
     "Software Engineering/Pasted image 20240601210251.png",
     "Software Engineering/Pasted image 20240601205734.png",
     "Software Engineering/Pasted image 20240601205732.png",
-    "Software Engineering/Pasted image 20240601205355.png",
-    "Software Engineering/Pasted image 20240601204953.png",
     "Abstract Reasoning/Examples",
     "Emergency Services/SES/QFESAID/DRSABCD.md",
     "\"Abstract.md",
