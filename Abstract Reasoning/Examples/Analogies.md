@@ -40,3 +40,9 @@ Between 2 and 3 however, there is a mutation that happens between the items whic
 In this example, **C** is the answer.
 
 We can think of the shapes as petals, we can see that to form the next shape, the shaded petal moves 3 'petals' anti-clockwise whereas the unshaded, 3 'petals' clockwise. While doing so the shaded part of the shaded image is found on the inside and there are no flips occurring.
+
+5.
+
+![[Pasted image 20240608194341.png]]
+
+In this example, the answer is **B**. This is because in the first two images the pattern is that the top left shape must have both and inner and outer (2 layers) and the bottom right must be a single. Alongside this
