@@ -1,14 +1,5 @@
  Abstract Reasoning tests ones ability to **Identify Patterns**, **Logical Rules** and **Trends**.
 
-# Categories
-
-## [[Abstract Reasoning/Figure Series|Figure Series]]
-
-## [[Abstract Reasoning/Odd One Out|Odd One Out]]
-
-## [[Abstract Reasoning/Matrix|Matrix]]
-
-
 ## Types
 
 ### Vertical / Horizontal Flip
@@ -32,4 +23,8 @@ Also known as **Watered**
 - Uses relationships to determine the next image in a sequence
 - Can make use of other [[#Types]] of abstract reasoning
 - [[Abstract Reasoning/Examples/Analogies|Examples]]
-###
+
+### Odd One Out
+
+- Uses patterns of relationships between a sequence to determine what image in the sequence is non conforming
+- [[Abstract Reasoning/Examples/OddOneOut|Examples]]
