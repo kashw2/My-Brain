@@ -28,3 +28,11 @@ Also known as **Watered**
 
 - Uses patterns of relationships between a sequence to determine what image in the sequence is non conforming
 - [[Abstract Reasoning/Examples/OddOneOut|Examples]]
+
+### Rearrangement
+
+- Uses a pattern of relationships in a sequence
+	- Movement of items
+	- Position swapping
+	- Directional and or orientation
+- [[Abstract Reasoning/Examples/Rearrangement|Examples]]

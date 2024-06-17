@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abstract Reasoning/Examples/Analogies.md",
+                "file": "Abstract Reasoning/Examples/Rearrangement.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Abstract Reasoning/Examples/Analogies.md",
+                "file": "Abstract Reasoning/Examples/Rearrangement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Abstract Reasoning/Examples/Analogies.md",
+                "file": "Abstract Reasoning/Examples/Rearrangement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Abstract Reasoning/Examples/Analogies.md"
+                "file": "Abstract Reasoning/Examples/Rearrangement.md"
               }
             }
           },
@@ -178,10 +178,12 @@
   },
   "active": "d991bbadfafbd9d3",
   "lastOpenFiles": [
+    "Software Engineering/Pasted image 20240617215827.png",
+    "Abstract Reasoning/Introduction.md",
+    "Abstract Reasoning/Examples/Rearrangement.md",
+    "Abstract Reasoning/Examples/Analogies.md",
     "Abstract Reasoning/Examples/VerticalHorizontalFlip.md",
     "Abstract Reasoning/Examples/OddOneOut.md",
-    "Abstract Reasoning/Examples/Analogies.md",
-    "Abstract Reasoning/Introduction.md",
     "Software Engineering/Pasted image 20240608200551.png",
     "Software Engineering/Pasted image 20240608200131.png",
     "Software Engineering/Pasted image 20240608195209.png",
@@ -218,7 +220,6 @@
     "Software Engineering/Programming Languages/Scala/Scala.md",
     "Software Engineering/Cloud/Azure/Azure.md",
     "Software Engineering/Cloud/Azure/Azure Linux.md",
-    "Excalidraw/Dijkstra Graph.md",
     "Emergency Services",
     "Software Engineering/Programming Languages/Rust",
     "Software Engineering/Cloud/Azure/Untitled",
