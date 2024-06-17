@@ -6,4 +6,5 @@ In this example, **C** is the answer.
 
 Reasoning:
 
-In the series, the
+- The circle transitions from top left to just below it on the right
+- The circle then becomes the last shape on the far right
