@@ -7,4 +7,6 @@
 
 ### Workloads
 
-- [Workloads/Deployments|Deployments]
+- [[Workloads/Deployments|Deployments]]
+- [[Workloads/DaemonSets|DaemonSets]]
+- [[Workloads/StatefulSets|StatefulSets]]
