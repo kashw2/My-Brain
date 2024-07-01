@@ -7,5 +7,6 @@ Deployments provide a way to provision pods in a Kubernetes cluster. A Deploymen
 - Attempts to ensure rollout across nodes
 
 # Cons
-- Ephemeral state
--  
+- Ephemeral state / Stateless
+	- Data is lost the on container termination
+- Doesn't provide predictive termination of Pods

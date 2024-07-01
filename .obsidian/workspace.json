@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workloads/Deployments.md",
+                "file": "My Brain.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workloads/Deployments.md",
+                "file": "My Brain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Workloads/Deployments.md",
+                "file": "My Brain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workloads/Deployments.md"
+                "file": "My Brain.md"
               }
             }
           },
@@ -178,11 +178,13 @@
   },
   "active": "00f2f1a45572362a",
   "lastOpenFiles": [
-    "Information Communication Technology/Operations/Operations.md",
+    "Emergency Services/SES/HRBC021.md",
+    "My Brain.md",
+    "Abstract Reasoning/Introduction.md",
     "Workloads/Deployments.md",
+    "Information Communication Technology/Operations/Operations.md",
     "Workloads",
     "Information Communication Technology/Operations/Kubernetes",
-    "My Brain.md",
     "Information Communication Technology/Development/Development.md",
     "Information Communication Technology/Operations.md",
     "Information Communication Technology/Development/Programming Languages/Nix.md",
@@ -199,7 +201,6 @@
     "Excalidraw/Abstract Reasoning/Pasted image 20240617215827.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608194341.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240602210339.png",
-    "Abstract Reasoning/Introduction.md",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608200551.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608200131.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608195209.png",
@@ -221,7 +222,6 @@
     "Emergency Services/SES/IMSC001.md",
     "Emergency Services/SES/QFESAID.md",
     "Information Communication Technology/Development/Functional Programming/Concepts/Functor.md",
-    "Emergency Services/SES/QFESAID/IMISTAMPLE.md",
     "Untitled.canvas",
     "Emergency Services/SES",
     "Emergency Services/SES/QFESAID",
