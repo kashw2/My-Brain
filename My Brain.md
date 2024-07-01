@@ -1,7 +1,8 @@
 
 ## Area's of Interest
 
-- [[Software Engineering|Software Engineering]]
+- [[Development|Development]]
+- [[Information Communication Technology/Operations/Operations|Operations]]
 
 ## Yearly Goals
 
