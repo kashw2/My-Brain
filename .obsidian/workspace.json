@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4db1411cd38fa714",
+        "id": "260732d41ea1845c",
         "type": "tabs",
         "children": [
           {
-            "id": "d991bbadfafbd9d3",
+            "id": "00f2f1a45572362a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Abstract Reasoning/Examples/Rearrangement.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Abstract Reasoning/Examples/Rearrangement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Abstract Reasoning/Examples/Rearrangement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Abstract Reasoning/Examples/Rearrangement.md"
-              }
+              "state": {}
             }
           },
           {
@@ -176,11 +168,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d991bbadfafbd9d3",
+  "active": "00f2f1a45572362a",
   "lastOpenFiles": [
+    "Abstract Reasoning/Examples/Rearrangement.md",
     "Software Engineering/Pasted image 20240617215827.png",
     "Abstract Reasoning/Introduction.md",
-    "Abstract Reasoning/Examples/Rearrangement.md",
     "Abstract Reasoning/Examples/Analogies.md",
     "Abstract Reasoning/Examples/VerticalHorizontalFlip.md",
     "Abstract Reasoning/Examples/OddOneOut.md",
@@ -197,7 +189,6 @@
     "Software Engineering/Pasted image 20240602184541.png",
     "Software Engineering/Pasted image 20240602183830.png",
     "Software Engineering/Pasted image 20240602182628.png",
-    "Software Engineering/Pasted image 20240601211930.png",
     "Abstract Reasoning/Examples",
     "Emergency Services/SES/QFESAID/DRSABCD.md",
     "\"Abstract.md",
