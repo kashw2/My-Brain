@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Communication Technology/Operations/Operations.md",
+                "file": "Workloads/Deployments.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Communication Technology/Operations/Operations.md",
+                "file": "Workloads/Deployments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Communication Technology/Operations/Operations.md",
+                "file": "Workloads/Deployments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Communication Technology/Operations/Operations.md"
+                "file": "Workloads/Deployments.md"
               }
             }
           },
@@ -176,12 +176,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ed413258811dc5ab",
+  "active": "00f2f1a45572362a",
   "lastOpenFiles": [
+    "Information Communication Technology/Operations/Operations.md",
+    "Workloads/Deployments.md",
+    "Workloads",
     "Information Communication Technology/Operations/Kubernetes",
     "My Brain.md",
     "Information Communication Technology/Development/Development.md",
-    "Information Communication Technology/Operations/Operations.md",
     "Information Communication Technology/Operations.md",
     "Information Communication Technology/Development/Programming Languages/Nix.md",
     "Information Communication Technology/Operations",
@@ -223,8 +225,6 @@
     "Untitled.canvas",
     "Emergency Services/SES",
     "Emergency Services/SES/QFESAID",
-    "Emergency Services",
-    "Information Communication Technology/Development/Programming Languages/Rust",
     "Untitled 1.canvas"
   ]
 }
