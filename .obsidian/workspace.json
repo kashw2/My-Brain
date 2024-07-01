@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workloads/Deployments.md",
+                "file": "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workloads/Deployments.md",
+                "file": "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Workloads/Deployments.md",
+                "file": "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workloads/Deployments.md"
+                "file": "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md"
               }
             }
           },
@@ -178,12 +178,16 @@
   },
   "active": "00f2f1a45572362a",
   "lastOpenFiles": [
+    "Information Communication Technology/Operations/Kubernetes/Introduction.md",
+    "DaemonSets.md",
+    "Workloads/DaemonSets.md",
+    "Workloads",
     "Information Communication Technology/Operations/Operations.md",
+    "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
     "My Brain.md",
     "Emergency Services/SES/HRBC021.md",
     "Abstract Reasoning/Introduction.md",
-    "Workloads/Deployments.md",
-    "Workloads",
+    "Information Communication Technology/Operations/Kubernetes/Workloads",
     "Information Communication Technology/Operations/Kubernetes",
     "Information Communication Technology/Development/Development.md",
     "Information Communication Technology/Operations.md",
@@ -219,12 +223,8 @@
     "Emergency Services/SES/SEM0002.md",
     "Abstract Reasoning",
     "Emergency Services/SES/SEM1005.md",
-    "Emergency Services/SES/IMSC001.md",
-    "Emergency Services/SES/QFESAID.md",
-    "Information Communication Technology/Development/Functional Programming/Concepts/Functor.md",
     "Untitled.canvas",
     "Emergency Services/SES",
-    "Emergency Services/SES/QFESAID",
     "Untitled 1.canvas"
   ]
 }
