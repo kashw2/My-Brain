@@ -1,4 +1,4 @@
-Deployments provide a way to provision pods in a Kubernetes cluster. A Deployment's orchestration methodology involves maintaining a set number of replicas across all nodes. A deployment is not ideal in situation where state is to be persisted across Pod restarts .
+Deployments provide a way to provision pods in a Kubernetes cluster. A Deployment's orchestration methodology involves maintaining a set number of replicas across all nodes. A deployment is not ideal in situation where state is to be persisted across multiple Pods because all Pods in a Deployment share a Volume.
 
 # Pros
 
@@ -7,6 +7,7 @@ Deployments provide a way to provision pods in a Kubernetes cluster. A Deploymen
 - Attempts to ensure rollout across nodes
 
 # Cons
-- Ephemeral state / Stateless
-	- Data is lost the on container termination
+- Data in memory is lost the on container termination
+- Multi Pod Persistent Volume Claims can be problematic due to multiple writes to the same file system.
 - Doesn't provide predictive termination of Pods
+- Non DNS addressable
