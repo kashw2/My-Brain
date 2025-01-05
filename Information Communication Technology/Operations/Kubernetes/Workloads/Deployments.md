@@ -7,7 +7,7 @@ Deployments provide a way to provision pods in a Kubernetes cluster. A Deploymen
 - Attempts to ensure rollout across nodes
 
 # Cons
-- Data in memory is lost the on container termination
+- Data in memory is lost on container termination
 - Multi Pod Persistent Volume Claims can be problematic due to multiple writes to the same file system.
 - Doesn't provide predictive termination of Pods
 - Non DNS addressable

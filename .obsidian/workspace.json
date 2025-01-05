@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
+                "file": "Information Communication Technology/Operations/Kubernetes/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deployments"
+              "title": "Introduction"
             }
           }
         ]
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
+                "file": "Information Communication Technology/Operations/Kubernetes/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Deployments"
+              "title": "Backlinks for Introduction"
             }
           },
           {
@@ -122,12 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
+                "file": "Information Communication Technology/Operations/Kubernetes/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Deployments"
+              "title": "Outgoing links from Introduction"
             }
           },
           {
@@ -149,10 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md"
+                "file": "Information Communication Technology/Operations/Kubernetes/Introduction.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Deployments"
+              "title": "Outline of Introduction"
             }
           },
           {
@@ -194,17 +194,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "00f2f1a45572362a",
   "lastOpenFiles": [
+    "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
     "Information Communication Technology/Operations/Kubernetes/Introduction.md",
     "DaemonSets.md",
     "Workloads/DaemonSets.md",
     "Workloads",
     "Information Communication Technology/Operations/Operations.md",
-    "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
     "My Brain.md",
     "Emergency Services/SES/HRBC021.md",
     "Abstract Reasoning/Introduction.md",
