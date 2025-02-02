@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Multiplication"
             }
+          },
+          {
+            "id": "3c0bfde954565cef",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-02 20.15.57.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-02 20.15.57.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,12 +211,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ed413258811dc5ab",
+  "active": "3c0bfde954565cef",
   "lastOpenFiles": [
-    "Excalidraw/Math/Untitled",
+    "Education/Math/Multiplication.md",
+    "Excalidraw/Drawing 2025-02-02 20.15.57.excalidraw.md",
+    "Excalidraw/Math/Multiplication/Untitled.canvas",
+    "Excalidraw/Math/Multiplication",
     "Excalidraw/Math",
     "Education/Abstract Reasoning/Introduction.md",
-    "Education/Math/Multiplication.md",
     "Education/Math/Math.md",
     "Education/Math",
     "Education/Math.md",
@@ -242,7 +257,6 @@
     "Excalidraw/Abstract Reasoning/Pasted image 20240608200551.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608200131.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608195209.png",
-    "Excalidraw/Abstract Reasoning",
     "Excalidraw/Abstract Reasoning/Pasted image 20240602185638.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240602184541.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240602183830.png",
