@@ -9,3 +9,6 @@ Allows us to calculate a result of given numerical inputs without having to use 
 5191 x 53
 
 ![[5191 * 53]]
+
+205101 x 12999
+![[205101 * 12999]]

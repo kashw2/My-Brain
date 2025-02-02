@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Math/Multiplication.md",
+                "file": "Education/Abstract Reasoning/Examples/Rearrangement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiplication"
+              "title": "Rearrangement"
             }
           },
           {
@@ -27,10 +27,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Math/Multiplication/Drawing 2025-02-02 20.57.44.excalidraw.md"
+                "file": "Excalidraw/Math/Multiplication/205101 * 12999.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-02 20.57.44.excalidraw"
+              "title": "205101 * 12999"
             }
           },
           {
@@ -45,8 +45,7 @@
               "title": "5191 * 53"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,10 +222,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e7c132637f4cace0",
+  "active": "00f2f1a45572362a",
   "lastOpenFiles": [
+    "Education/Abstract Reasoning/Examples/OddOneOut.md",
     "Education/Math/Multiplication.md",
-    "Excalidraw/Math/Multiplication/Drawing 2025-02-02 20.57.44.excalidraw.md",
+    "Excalidraw/Math/Multiplication/205101 * 12999.md",
     "Software Engineering/Pasted image 20250202205006.png",
     "Excalidraw/Math/Multiplication/921851 * 9213.md",
     "Excalidraw/Math/Multiplication/5191 * 53.md",
@@ -263,7 +263,6 @@
     "Information Communication Technology/Development/Programming Languages/Nix.md",
     "Information Communication Technology/Operations",
     "Information Communication Technology",
-    "Information Communication Technology/Development/Programming Languages/Scala/Scala.md",
     "Excalidraw/Abstract Reasoning/Pasted image 20240601211930.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240617215827.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608194341.png",
