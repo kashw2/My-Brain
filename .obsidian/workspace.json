@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "e7c132637f4cace0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Math/Multiplication/Drawing 2025-02-02 20.57.44.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-02 20.57.44.excalidraw"
+            }
+          },
+          {
             "id": "5bdf57c0c7527258",
             "type": "leaf",
             "state": {
@@ -33,7 +45,8 @@
               "title": "5191 * 53"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,10 +223,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "00f2f1a45572362a",
+  "active": "e7c132637f4cace0",
   "lastOpenFiles": [
-    "Software Engineering/Pasted image 20250202205006.png",
     "Education/Math/Multiplication.md",
+    "Excalidraw/Math/Multiplication/Drawing 2025-02-02 20.57.44.excalidraw.md",
+    "Software Engineering/Pasted image 20250202205006.png",
     "Excalidraw/Math/Multiplication/921851 * 9213.md",
     "Excalidraw/Math/Multiplication/5191 * 53.md",
     "Excalidraw/Math/Multiplication/Untitled.md",
