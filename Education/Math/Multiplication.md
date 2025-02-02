@@ -2,4 +2,6 @@ Allows us to calculate a result of given numerical inputs without having to use 
 
 ### Examples
 
-[[]]
+921851 x 9213
+
+![[Pasted image 20250202204130.png]]

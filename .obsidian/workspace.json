@@ -11,29 +11,28 @@
             "id": "00f2f1a45572362a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Education/Math/Multiplication.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Math/Multiplication/921851 * 9213.md"
               },
-              "icon": "lucide-file",
-              "title": "Multiplication"
+              "icon": "excalidraw-icon",
+              "title": "921851 * 9213"
             }
           },
           {
-            "id": "3c0bfde954565cef",
+            "id": "5bdf57c0c7527258",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-02-02 20.15.57.excalidraw.md"
+                "file": "Excalidraw/Math/Multiplication/Drawing 2025-02-02 20.42.40.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-02 20.15.57.excalidraw"
+              "title": "Drawing 2025-02-02 20.42.40.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,10 +209,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "00f2f1a45572362a",
+  "active": "5bdf57c0c7527258",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-02-02 20.15.57.excalidraw.md",
+    "Excalidraw/Math/Multiplication/921851 * 9213.md",
+    "Excalidraw/Math/Multiplication/Drawing 2025-02-02 20.42.40.excalidraw.md",
+    "Excalidraw/Math/Multiplication/Untitled.md",
     "Education/Math/Multiplication.md",
+    "Software Engineering/Pasted image 20250202204130.png",
+    "Software Engineering",
+    "Education/Abstract Reasoning/Examples/Analogies.md",
+    "Excalidraw/Functor Hierarchy.md",
     "Excalidraw/Math/Multiplication/Untitled.canvas",
     "Excalidraw/Math/Multiplication",
     "Excalidraw/Math",
@@ -242,13 +247,8 @@
     "Information Communication Technology/Development/Programming Languages/Nix.md",
     "Information Communication Technology/Operations",
     "Information Communication Technology",
-    "Software Engineering/Untitled",
     "Information Communication Technology/Development/Programming Languages/Scala/Scala.md",
     "Information Communication Technology/Development/Programming Languages/Rust/Rust.md",
-    "Education/Abstract Reasoning/Examples/VerticalHorizontalFlip.md",
-    "Education/Abstract Reasoning/Examples/OddOneOut.md",
-    "Education/Abstract Reasoning/Examples/Analogies.md",
-    "Education/Abstract Reasoning/Examples/Rearrangement.md",
     "Excalidraw/Abstract Reasoning/Pasted image 20240601211930.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240617215827.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608194341.png",
@@ -258,7 +258,6 @@
     "Excalidraw/Abstract Reasoning/Pasted image 20240608195209.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240602185638.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240602184541.png",
-    "Excalidraw/Abstract Reasoning/Pasted image 20240602183830.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
