@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Communication Technology/Operations/Kubernetes/Introduction.md",
+                "file": "Education/Math/Math.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Math"
             }
           }
         ]
@@ -200,15 +200,24 @@
   },
   "active": "00f2f1a45572362a",
   "lastOpenFiles": [
-    "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
+    "Education/Abstract Reasoning/Introduction.md",
+    "Education/Math/Math.md",
+    "Education/Math",
+    "Education/Math.md",
+    "My Brain.md",
+    "Yearly Goals/2025.md",
+    "Education",
+    "Yearly Goals/Yearly Goals.md",
+    "Yearly Goals/2024.md",
+    "Yearly Goals/2023.md",
+    "Emergency Services/SES/Introduction.md",
     "Information Communication Technology/Operations/Kubernetes/Introduction.md",
+    "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
     "DaemonSets.md",
     "Workloads/DaemonSets.md",
     "Workloads",
     "Information Communication Technology/Operations/Operations.md",
-    "My Brain.md",
     "Emergency Services/SES/HRBC021.md",
-    "Abstract Reasoning/Introduction.md",
     "Information Communication Technology/Operations/Kubernetes/Workloads",
     "Information Communication Technology/Operations/Kubernetes",
     "Information Communication Technology/Development/Development.md",
@@ -219,10 +228,10 @@
     "Software Engineering/Untitled",
     "Information Communication Technology/Development/Programming Languages/Scala/Scala.md",
     "Information Communication Technology/Development/Programming Languages/Rust/Rust.md",
-    "Abstract Reasoning/Examples/VerticalHorizontalFlip.md",
-    "Abstract Reasoning/Examples/OddOneOut.md",
-    "Abstract Reasoning/Examples/Analogies.md",
-    "Abstract Reasoning/Examples/Rearrangement.md",
+    "Education/Abstract Reasoning/Examples/VerticalHorizontalFlip.md",
+    "Education/Abstract Reasoning/Examples/OddOneOut.md",
+    "Education/Abstract Reasoning/Examples/Analogies.md",
+    "Education/Abstract Reasoning/Examples/Rearrangement.md",
     "Excalidraw/Abstract Reasoning/Pasted image 20240601211930.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240617215827.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608194341.png",
@@ -232,21 +241,12 @@
     "Excalidraw/Abstract Reasoning/Pasted image 20240608195209.png",
     "Excalidraw/Abstract Reasoning/Drawing 2024-06-02 18.57.02.excalidraw.md",
     "Information Communication Technology/Development/Functional Programming/Concepts/Monad.md",
-    "!Drawing 2024-06-02 18.57.02.excalidraw.md",
     "Excalidraw/Abstract Reasoning",
     "Excalidraw/Abstract Reasoning/Pasted image 20240602185638.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240602184541.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240602183830.png",
-    "Abstract Reasoning/Examples",
-    "Emergency Services/SES/QFESAID/DRSABCD.md",
-    "\"Abstract.md",
-    "Abstract.md",
-    "Odd.md",
-    "Emergency Services/SES/SEM0002.md",
-    "Abstract Reasoning",
-    "Emergency Services/SES/SEM1005.md",
+    "Education/Abstract Reasoning/Examples",
     "Untitled.canvas",
-    "Emergency Services/SES",
     "Untitled 1.canvas"
   ]
 }
