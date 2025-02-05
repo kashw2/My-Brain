@@ -12,3 +12,6 @@ Allows us to calculate a result of given numerical inputs without having to use 
 
 205101 x 12999
 ![[205101 * 12999]]
+
+95131 x 7392
+![[95131 * 7392]]

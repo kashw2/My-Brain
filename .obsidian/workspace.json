@@ -23,12 +23,14 @@
             "id": "e0c252046194a7d6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Math/Multiplication/95131 * 7392.md"
+                "file": "Education/Math/Multiplication.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "95131 * 7392"
+              "icon": "lucide-file",
+              "title": "Multiplication"
             }
           },
           {
@@ -222,10 +224,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ed413258811dc5ab",
+  "active": "e0c252046194a7d6",
   "lastOpenFiles": [
-    "Excalidraw/Math/Multiplication/205101 * 12999.md",
     "Excalidraw/Math/Multiplication/95131 * 7392.md",
+    "Excalidraw/Math/Multiplication/205101 * 12999.md",
     "Education/Abstract Reasoning/Examples/Analogies.md",
     "Education/Abstract Reasoning/Examples/Rearrangement.md",
     "Education/Abstract Reasoning/Examples/OddOneOut.md",
