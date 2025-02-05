@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "e0c252046194a7d6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Math/Multiplication/95131 * 7392.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "95131 * 7392"
+            }
+          },
+          {
             "id": "5bdf57c0c7527258",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               "title": "5191 * 53"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,13 +222,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e7c132637f4cace0",
+  "active": "ed413258811dc5ab",
   "lastOpenFiles": [
+    "Excalidraw/Math/Multiplication/205101 * 12999.md",
+    "Excalidraw/Math/Multiplication/95131 * 7392.md",
     "Education/Abstract Reasoning/Examples/Analogies.md",
     "Education/Abstract Reasoning/Examples/Rearrangement.md",
     "Education/Abstract Reasoning/Examples/OddOneOut.md",
     "Education/Math/Multiplication.md",
-    "Excalidraw/Math/Multiplication/205101 * 12999.md",
     "Software Engineering/Pasted image 20250202205006.png",
     "Excalidraw/Math/Multiplication/921851 * 9213.md",
     "Excalidraw/Math/Multiplication/5191 * 53.md",
@@ -247,7 +261,6 @@
     "Information Communication Technology/Operations/Kubernetes/Workloads",
     "Information Communication Technology/Operations/Kubernetes",
     "Information Communication Technology/Development/Development.md",
-    "Information Communication Technology/Operations.md",
     "Information Communication Technology/Operations",
     "Information Communication Technology",
     "Excalidraw/Abstract Reasoning/Pasted image 20240601211930.png",
