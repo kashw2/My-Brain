@@ -4,83 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "260732d41ea1845c",
+        "id": "1484e7f750af11ea",
         "type": "tabs",
         "children": [
           {
-            "id": "e7c132637f4cace0",
+            "id": "ab6c0e380e3522f6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Math/Multiplication/205101 * 12999.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "205101 * 12999"
-            }
-          },
-          {
-            "id": "e0c252046194a7d6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Math/Multiplication/92810 * 318.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "92810 * 318"
-            }
-          },
-          {
-            "id": "7d37306e3f07c3a7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Math/Multiplication/Drawing 2025-02-08 17.03.22.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-08 17.03.22.excalidraw"
-            }
-          },
-          {
-            "id": "9dc561e065b8dddb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Math/Multiplication/92810 * 318.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "92810 * 318"
-            }
-          },
-          {
-            "id": "8d2e5245f388a14e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Math/Multiplication/39173 * 921.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "39173 * 921"
-            }
-          },
-          {
-            "id": "5bdf57c0c7527258",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Math/Multiplication/5191 * 53.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "5191 * 53"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,20 +195,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7d37306e3f07c3a7",
+  "active": "ab6c0e380e3522f6",
   "lastOpenFiles": [
-    "Excalidraw/Math/Multiplication/92810 * 318.md",
-    "Excalidraw/Math/Multiplication/Drawing 2025-02-08 17.03.22.excalidraw.md",
-    "Education/Math/Multiplication.md",
+    "Excalidraw/Math/Multiplication/5191 * 53.md",
     "Excalidraw/Math/Multiplication/39173 * 921.md",
-    "Excalidraw/Math/Multiplication/95131 * 7392.md",
     "Excalidraw/Math/Multiplication/205101 * 12999.md",
+    "Excalidraw/Math/Multiplication/Drawing 2025-02-08 17.03.22.excalidraw.md",
+    "Excalidraw/Math/Multiplication/92810 * 318.md",
+    "Education/Math/Multiplication.md",
+    "Excalidraw/Math/Multiplication/95131 * 7392.md",
     "Education/Abstract Reasoning/Examples/Analogies.md",
     "Education/Abstract Reasoning/Examples/Rearrangement.md",
     "Education/Abstract Reasoning/Examples/OddOneOut.md",
     "Software Engineering/Pasted image 20250202205006.png",
     "Excalidraw/Math/Multiplication/921851 * 9213.md",
-    "Excalidraw/Math/Multiplication/5191 * 53.md",
     "Excalidraw/Math/Multiplication/Untitled.md",
     "Software Engineering/Pasted image 20250202204130.png",
     "Software Engineering",
