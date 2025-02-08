@@ -15,3 +15,4 @@ Allows us to calculate a result of given numerical inputs without having to use 
 
 95131 x 7392
 ![[95131 * 7392]]
+
