@@ -23,14 +23,24 @@
             "id": "e0c252046194a7d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Education/Math/Multiplication.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Math/Multiplication/92810 * 318.md"
               },
-              "icon": "lucide-file",
-              "title": "Multiplication"
+              "icon": "excalidraw-icon",
+              "title": "92810 * 318"
+            }
+          },
+          {
+            "id": "9dc561e065b8dddb",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Math/Multiplication/92810 * 318.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "92810 * 318"
             }
           },
           {
@@ -236,10 +246,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e0c252046194a7d6",
+  "active": "ed413258811dc5ab",
   "lastOpenFiles": [
-    "Excalidraw/Math/Multiplication/39173 * 921.md",
     "Education/Math/Multiplication.md",
+    "Excalidraw/Math/Multiplication/92810 * 318.md",
+    "Excalidraw/Math/Multiplication/39173 * 921.md",
     "Excalidraw/Math/Multiplication/95131 * 7392.md",
     "Excalidraw/Math/Multiplication/205101 * 12999.md",
     "Education/Abstract Reasoning/Examples/Analogies.md",
@@ -272,7 +283,6 @@
     "Workloads/DaemonSets.md",
     "Workloads",
     "Information Communication Technology/Operations/Operations.md",
-    "Emergency Services/SES/HRBC021.md",
     "Information Communication Technology/Operations/Kubernetes/Workloads",
     "Information Communication Technology/Operations/Kubernetes",
     "Information Communication Technology/Operations",
