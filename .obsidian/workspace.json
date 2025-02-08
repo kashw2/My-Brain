@@ -34,6 +34,18 @@
             }
           },
           {
+            "id": "8d2e5245f388a14e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Math/Multiplication/Drawing 2025-02-08 12.42.43.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-08 12.42.43.excalidraw"
+            }
+          },
+          {
             "id": "5bdf57c0c7527258",
             "type": "leaf",
             "state": {
@@ -46,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,14 +236,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e0c252046194a7d6",
+  "active": "8d2e5245f388a14e",
   "lastOpenFiles": [
+    "Education/Math/Multiplication.md",
+    "Excalidraw/Math/Multiplication/Drawing 2025-02-08 12.42.43.excalidraw.md",
     "Excalidraw/Math/Multiplication/95131 * 7392.md",
     "Excalidraw/Math/Multiplication/205101 * 12999.md",
     "Education/Abstract Reasoning/Examples/Analogies.md",
     "Education/Abstract Reasoning/Examples/Rearrangement.md",
     "Education/Abstract Reasoning/Examples/OddOneOut.md",
-    "Education/Math/Multiplication.md",
     "Software Engineering/Pasted image 20250202205006.png",
     "Excalidraw/Math/Multiplication/921851 * 9213.md",
     "Excalidraw/Math/Multiplication/5191 * 53.md",
@@ -262,7 +275,6 @@
     "Emergency Services/SES/HRBC021.md",
     "Information Communication Technology/Operations/Kubernetes/Workloads",
     "Information Communication Technology/Operations/Kubernetes",
-    "Information Communication Technology/Development/Development.md",
     "Information Communication Technology/Operations",
     "Information Communication Technology",
     "Excalidraw/Abstract Reasoning/Pasted image 20240601211930.png",
