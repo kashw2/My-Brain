@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Communication Technology/Development/Databases/Concepts/Automatic Failover.md",
+                "file": "Information Communication Technology/Development/Functional Programming/Concepts/Applicative.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automatic Failover"
+              "title": "Applicative"
             }
           }
         ]
@@ -201,6 +201,12 @@
   },
   "active": "ab6c0e380e3522f6",
   "lastOpenFiles": [
+    "Information Communication Technology/Development/Functional Programming/Concepts/Functor.md",
+    "Information Communication Technology/Development/Functional Programming/Concepts/Higher Order Functions.md",
+    "Information Communication Technology/Development/Databases/PostgreSQL.md",
+    "Information Communication Technology/Development/Databases/Databases.md",
+    "Information Communication Technology/Development/Databases/Concepts/Generated Columns.md",
+    "Information Communication Technology/Development/Databases/Concepts/Automatic Failover.md",
     "Information Communication Technology/Development/Databases/Concepts/ACID.md",
     "Information Communication Technology/Development/Data Structures/Bloom Filter.md",
     "Information Communication Technology/Development/Data Structures/Data Structures.md",
@@ -223,12 +229,6 @@
     "Education/Abstract Reasoning/Examples/OddOneOut.md",
     "Education/Abstract Reasoning/Examples/VerticalHorizontalFlip.md",
     "Education/Math/Multiplication.md",
-    "Excalidraw/Math/Multiplication/92810 * 318.md",
-    "Excalidraw/Automatic Failover.md",
-    "Excalidraw/Dijkstra Graph.md",
-    "Excalidraw/Applicative Hierarchy.md",
-    "Excalidraw/Semigroup Hierarchy.md",
-    "Excalidraw/Monoid Hierarchy.md",
     "Software Engineering",
     "Excalidraw/Math/Multiplication/Untitled.canvas",
     "Excalidraw/Math/Multiplication",
