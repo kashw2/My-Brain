@@ -5,6 +5,7 @@ Open System Interconnect Model
 The OSI model's purpose is to distinguish between roles and responsibilities in computer network communication. It provides a hierarchical approach to understanding of the networking stack
 
 ### Hierarchy
+From lowest to highest on the [[#Structure]]
 - Bit
 - Frame
 - Packet
@@ -25,7 +26,9 @@ This layer is not aware of anything other than individual bits.
 
 ### 2. Data Link Layer
 
-The **Data Link Layer** is responsible for organisation of individual bits (as the [[#1. Physical Layer]] would see them) into [[#Network Frames]]. 
+The **Data Link Layer** is responsible for organisation of individual bits (as the [[#1. Physical Layer]] would see them) into [[#Network Frames]].
+
+The MAC header lives at this Layer
 ### 3. Network Layer
 
 The **Network Layer** is responsible for routing packets between networks. The packet specifically does not exist as a concept below this layer.
@@ -46,7 +49,7 @@ The responsibility of this layer is to provide data for the lower layers.
 
 ## Network Frames
 
-Network Frames or as they are more commonly referred to as **Frames** make up individual segments of a packet such as the:
+Network Frames or as they are more commonly referred to as **Frames** make up individual headers from other layers such as:
 - MAC header [[#1. Physical Layer]]
 - IP header [[#3. Network Layer]]
 - TCP header [[#4. Network Layer]]
