@@ -9,7 +9,7 @@ From lowest to highest on the [[#Structure]]
 - Bit
 - Frame
 - Packet
-- Segment ^1c4a4d
+- Segment
 - Data
 
 ## Structure
@@ -31,11 +31,11 @@ The **Data Link Layer** is responsible for organisation of individual bits (as t
 The MAC header lives at this Layer
 ### 3. Network Layer
 
-The **Network Layer** is responsible for routing packets between networks. The packet specifically does not exist as a concept below this layer.
+The **Network Layer** is responsible for routing packets between networks. The **Packet** specifically does not exist as a concept below this layer.
 
 ### 4. Transport Layer
 
-The **Transport Layer** implements various lower level transport protocols such as TCP and UDP. It is responsible for the transport of packets between nodes.
+The **Transport Layer** implements various lower level transport protocols such as TCP and UDP. It is responsible the transport of data via **Segments** from a source to an application on the host.
 
 This layer is where the **Segment** exists
 
