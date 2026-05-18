@@ -32,7 +32,7 @@ The **Transport Layer** implements various lower level transport protocols such 
 
 ### 7. Application Layer
 
-Operates with higher level client networking protocols such as HTTP, HTTPS, FTP, SMTP, SSH.
+The **Application Layer** operates with higher level client networking protocols such as HTTP, HTTPS, FTP, SMTP, SSH.
 
 ## Network Frames
 
