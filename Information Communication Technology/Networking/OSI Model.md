@@ -9,7 +9,7 @@ From lowest to highest on the [[#Structure]]
 - Bit
 - Frame
 - Packet
-- Segment
+- Segment ^1c4a4d
 - Data
 
 ## Structure
@@ -37,6 +37,8 @@ The **Network Layer** is responsible for routing packets between networks. The p
 
 The **Transport Layer** implements various lower level transport protocols such as TCP and UDP. It is responsible for the transport of packets between nodes.
 
+This layer is where the **Segment** exists
+
 ### 5. Session Layer
 
 ### 6. Presentation Layer
@@ -50,8 +52,6 @@ The responsibility of this layer is to provide data for the lower layers.
 ## Network Frames
 
 Network Frames or as they are more commonly referred to as **Frames** make up individual headers from other layers such as:
-- MAC header [[#1. Physical Layer]]
-- IP header [[#3. Network Layer]]
-- TCP header [[#4. Network Layer]]
-- HTTP header [[#7. Application Layer]]
-- Data
+- The MAC Header ([[#2. Data Link Layer]])
+- Embedded upper layer headers such as:
+	- Data [[#7. Application Layer]]
