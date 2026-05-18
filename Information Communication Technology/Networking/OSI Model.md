@@ -20,7 +20,7 @@ The **Data Link Layer** is responsible for organisation of individual bits in th
 
 ### 3. Network Layer
 
-The **Network Layer** is responsible for routing [[#Network Frames]] between networks
+The **Network Layer** is responsible for routing packets between networks. The packet specifically does not exist as a concept below this layer.
 
 ### 4. Transport Layer
 
