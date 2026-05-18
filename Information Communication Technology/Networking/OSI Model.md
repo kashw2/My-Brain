@@ -1,0 +1,35 @@
+Open System Interconnect Model
+
+## Purpose
+
+The OSI model's purpose is to distinguish between roles and responsibilities in computer network communication. It provides a hierarchical approach to understanding of the networking stack
+
+## Structure
+
+The OSI Model separates networking into 7 distinct layers.
+
+In most cases, Layer 4 to Layer 7 are collapsed into a single layer (Layer 7) and known colloquially as the Application Layer.
+
+### 1. Physical Layer
+
+The **Physical Layer** represents the transport of individual bits over a physical medium (such as copper, fiber, radio) on a network
+
+### 2. Data Link Layer
+
+The **Data Link Layer** is responsible for organisation of individual bits in the [[#1. Physical Layer]] and organising them into [[#Frames]]
+
+### 3. Network Layer
+
+### 4. Transport Layer
+
+### 5. Session Layer
+
+### 6. Presentation Layer
+
+### 7. Application Layer
+
+Operates with higher level client networking protocols such as HTTP, HTTPS, FTP, SMTP, SSH.
+
+## Network Frames
+
+Network Frames or as they are more commonly referred to as **Frames** make up individual segments 

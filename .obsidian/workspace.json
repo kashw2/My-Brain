@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1484e7f750af11ea",
+        "id": "712ca601b2d85c49",
         "type": "tabs",
         "children": [
           {
-            "id": "ab6c0e380e3522f6",
+            "id": "e9d6b7e64b6cd4bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Communication Technology/Development/Functional Programming/Concepts/Applicative.md",
+                "file": "Information Communication Technology/Development/Algorithms/Dijkstra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Applicative"
-            }
-          },
-          {
-            "id": "10bb465bdd6f9214",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "title": "Dijkstra"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,8 +162,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -209,12 +196,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "10bb465bdd6f9214",
+  "active": "e9d6b7e64b6cd4bc",
   "lastOpenFiles": [
+    "Excalidraw/Dijkstra Graph.md",
+    "Information Communication Technology/Development/Algorithms/Dijkstra.md",
+    "Information Communication Technology/Development/Algorithms/Algorithms.md",
+    "Information Communication Technology/Networking/OSI Model.md",
+    "Frames.md",
+    "Information Communication Technology/Networking",
+    "Information Communication Technology/Development/Functional Programming/Concepts/Applicative.md",
     "Information Communication Technology/Development/Functional Programming/Concepts/Functor.md",
     "Information Communication Technology/Development/Functional Programming/Concepts/Higher Order Functions.md",
     "Information Communication Technology/Development/Databases/PostgreSQL.md",
@@ -228,8 +221,6 @@
     "Information Communication Technology/Development/Cloud/Azure/Azure.md",
     "Information Communication Technology/Development/Cloud/Azure/Azure PostgreSQL.md",
     "Information Communication Technology/Development/Cloud/Azure/Azure Linux.md",
-    "Information Communication Technology/Development/Algorithms/Algorithms.md",
-    "Information Communication Technology/Development/Algorithms/Dijkstra.md",
     "Information Communication Technology/Operations/Kubernetes/Introduction.md",
     "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
     "Information Communication Technology/Operations/Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
@@ -239,10 +230,6 @@
     "Software Engineering/Pasted image 20250202204130.png",
     "Education/Abstract Reasoning/Examples/Analogies.md",
     "Education/Abstract Reasoning/Introduction.md",
-    "Education/Abstract Reasoning/Examples/Rearrangement.md",
-    "Education/Abstract Reasoning/Examples/OddOneOut.md",
-    "Education/Abstract Reasoning/Examples/VerticalHorizontalFlip.md",
-    "Education/Math/Multiplication.md",
     "Software Engineering",
     "Excalidraw/Math/Multiplication/Untitled.canvas",
     "Excalidraw/Math/Multiplication",
@@ -253,7 +240,6 @@
     "Information Communication Technology/Operations/Kubernetes/Workloads",
     "Information Communication Technology/Operations/Kubernetes",
     "Information Communication Technology/Operations",
-    "Information Communication Technology",
     "Excalidraw/Abstract Reasoning/Pasted image 20240601211930.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240617215827.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608194341.png",
