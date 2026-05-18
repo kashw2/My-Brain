@@ -3,5 +3,7 @@
   "cssTheme": "Catppuccin",
   "theme": "obsidian",
   "showViewHeader": true,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "textFontFamily": "Helvetica,Inter",
+  "interfaceFontFamily": ""
 }
