@@ -24,7 +24,7 @@ The **Network Layer** is responsible for routing [[#Network Frames]] between net
 
 ### 4. Transport Layer
 
-The **Transport Layer** implements various lower level transport protocols such as TCP and UDP. It is responsible for the transport of packets between nodes
+The **Transport Layer** implements various lower level transport protocols such as TCP and UDP. It is responsible for the transport of packets between nodes.
 
 ### 5. Session Layer
 
@@ -33,6 +33,8 @@ The **Transport Layer** implements various lower level transport protocols such 
 ### 7. Application Layer
 
 The **Application Layer** operates with higher level client networking protocols such as HTTP, HTTPS, FTP, SMTP, SSH.
+
+The responsibility of this layer is to provide data for the lower layers.
 
 ## Network Frames
 
