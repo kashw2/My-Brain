@@ -51,7 +51,9 @@ The responsibility of this layer is to provide data for the lower layers.
 
 ## Network Frames
 
-Network Frames or as they are more commonly referred to as **Frames** make up individual headers from other layers such as:
+Network Frames or as they are more commonly referred to as **Frames** make up the payload from [[#3. Network Layer]] and above. A single **Frame** includes headers like:
 - The MAC Header ([[#2. Data Link Layer]])
 - Embedded upper layer headers such as:
+	- IP Header [[#3. Network Layer]]
+	- TCP/UDP Header [[#4. Transport Layer]]
 	- Data [[#7. Application Layer]]
