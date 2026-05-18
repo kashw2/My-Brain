@@ -20,9 +20,11 @@ The **Data Link Layer** is responsible for organisation of individual bits in th
 
 ### 3. Network Layer
 
-The **Network Layer** 
+The **Network Layer** is responsible for routing [[#Network Frames]] between networks
 
 ### 4. Transport Layer
+
+The **Transport Layer** implements various lower level transport protocols such as TCP and UDP. It is responsible for the transport of packets between nodes
 
 ### 5. Session Layer
 
