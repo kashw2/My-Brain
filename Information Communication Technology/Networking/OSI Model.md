@@ -4,6 +4,13 @@ Open System Interconnect Model
 
 The OSI model's purpose is to distinguish between roles and responsibilities in computer network communication. It provides a hierarchical approach to understanding of the networking stack
 
+### Hierarchy
+- Bit
+- Frame
+- Packet
+- Segment
+- Data
+
 ## Structure
 
 The OSI Model separates networking into 7 distinct layers.
@@ -12,12 +19,13 @@ In most cases, Layer 4 to Layer 7 are collapsed into a single layer (Layer 7) an
 
 ### 1. Physical Layer
 
-The **Physical Layer** represents the transport of individual bits over a physical medium (such as copper, fiber, radio) on a network
+The **Physical Layer** represents the transport of individual bits over a physical medium (such as copper, fiber, radio) on a network.
+
+This layer is not aware of anything other than individual bits.
 
 ### 2. Data Link Layer
 
-The **Data Link Layer** is responsible for organisation of individual bits in the [[#1. Physical Layer]] and organising them into [[#Frames]].
-
+The **Data Link Layer** is responsible for organisation of individual bits (as the [[#1. Physical Layer]] would see them) into [[#Network Frames]]. 
 ### 3. Network Layer
 
 The **Network Layer** is responsible for routing packets between networks. The packet specifically does not exist as a concept below this layer.
