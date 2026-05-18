@@ -35,7 +35,7 @@ The **Network Layer** is responsible for routing packets between networks. The *
 
 ### 4. Transport Layer
 
-The **Transport Layer** implements various lower level transport protocols such as TCP and UDP. It is responsible the transport of data via **Segments** from a source to an application on the host.
+The **Transport Layer** implements various lower level transport protocols such as TCP and UDP. It is responsible the transport of data via **Segments** from a source to an application on the host via an address and a port.
 
 This layer is where the **Segment** exists
 
