@@ -16,7 +16,7 @@ The **Physical Layer** represents the transport of individual bits over a physic
 
 ### 2. Data Link Layer
 
-The **Data Link Layer** is responsible for organisation of individual bits in the [[#1. Physical Layer]] and organising them into [[#Frames]]
+The **Data Link Layer** is responsible for organisation of individual bits in the [[#1. Physical Layer]] and organising them into [[#Frames]].
 
 ### 3. Network Layer
 
@@ -32,4 +32,9 @@ Operates with higher level client networking protocols such as HTTP, HTTPS, FTP,
 
 ## Network Frames
 
-Network Frames or as they are more commonly referred to as **Frames** make up individual segments 
+Network Frames or as they are more commonly referred to as **Frames** make up individual segments of a packet such as the:
+- MAC header [[#1. Physical Layer]]
+- IP header [[#3. Network Layer]]
+- TCP header [[#4. Network Layer]]
+- HTTP header [[#7. Application Layer]]
+- Data

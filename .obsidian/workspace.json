@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Communication Technology/Development/Algorithms/Dijkstra.md",
+                "file": "Information Communication Technology/Networking/OSI Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dijkstra"
+              "title": "OSI Model"
             }
           }
         ]
@@ -196,14 +196,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "e9d6b7e64b6cd4bc",
   "lastOpenFiles": [
-    "Excalidraw/Dijkstra Graph.md",
     "Information Communication Technology/Development/Algorithms/Dijkstra.md",
     "Information Communication Technology/Development/Algorithms/Algorithms.md",
+    "Excalidraw/Dijkstra Graph.md",
     "Information Communication Technology/Networking/OSI Model.md",
     "Frames.md",
     "Information Communication Technology/Networking",

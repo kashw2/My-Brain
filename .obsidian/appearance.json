@@ -1,6 +1,6 @@
 {
-  "accentColor": "#df6d83",
-  "cssTheme": "Red Graphite",
+  "accentColor": "",
+  "cssTheme": "Catppuccin",
   "theme": "obsidian",
   "showViewHeader": true,
   "nativeMenus": true
