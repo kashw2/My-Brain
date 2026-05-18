@@ -20,6 +20,8 @@ The **Data Link Layer** is responsible for organisation of individual bits in th
 
 ### 3. Network Layer
 
+The **Network Layer** 
+
 ### 4. Transport Layer
 
 ### 5. Session Layer
