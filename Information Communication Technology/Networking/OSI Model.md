@@ -66,21 +66,23 @@ The **PDU** for this layer is **[[#Data]]**
 
 ---
 
-## Bit
+
+## PDU (Protocol Data Unit)
+### Bit
 A **Bit** is the smallest unit of measurement of digital information in computing. It is a binary representation of data with It's purpose being to facilitate interaction with hardware logic gates. In networking this is usually implemented via an electrical, optical or radio signal.
 
-## Network Frame
+### Network Frame
 A Network Frame (commonly referred to as a **Frame**) is the **[[#^d95b46|PDU]]** that exists at the **[[#2. Data Link Layer|Data Link Layer]]**. It consists of a single header with information on the:
 - Source MAC Address
 - Destination MAC Address
 As well as a payload consisting of a single **[[#Packet]]**
-## Packet
+### Packet
 A **Packet** is the **[[#^d95b46|PDU]]** that exists at the **[[#3. Network Layer|Network Layer]]**. It consists of a single header with information on the:
 - Source IP Address
 - Destination IP Address
 As well as a payload consisting of a single **[[#Segment]]**
 
-## Segment
+### Segment
 A **Segment** is the **[[#^d95b46|PDU]]** that exists at the **[[#4. Transport Layer|Transport Layer]]**. It consists of a single header with information on the:
 - Source Port
 - Destination Port
