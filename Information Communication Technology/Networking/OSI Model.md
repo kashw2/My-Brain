@@ -76,7 +76,11 @@ Network Frames or as they are more commonly referred to as **Frames** make up th
 	- TCP/UDP Header [[#4. Transport Layer]]
 	- Data [[#7. Application Layer]]
 
-A **Frame** contains exactly one **Packet** made up of a single **Segment**
+A **Frame** contains exactly one **[[#Packet]]**
 
 ## Packet
-A **Packet** is made up of a sender and receivers IP address
+A **Packet** is made up of a sender and receivers IP address as well as a [[#Segment]]
+
+A **Packet** contains exactly one **[[#Segment]]**
+
+## Segment
