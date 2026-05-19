@@ -85,3 +85,5 @@ A **Packet** contains exactly one **[[#Segment]]**
 
 ## Segment
 A **Segment** is made up of data from the [[#7. Application Layer]].
+
+As a **Segment** exists at the **[[#4. Transport Layer|Transport Layer]]** it itself contains a single TCP or UDP header with information about the port in which it is transporting data to or from
