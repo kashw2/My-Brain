@@ -84,3 +84,4 @@ A **Packet** is made up of a sender and receivers IP address as well as a [[#Seg
 A **Packet** contains exactly one **[[#Segment]]**
 
 ## Segment
+A **Segment** is made up of data from the [[#7. Application Layer]]. 
