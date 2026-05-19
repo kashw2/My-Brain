@@ -6,8 +6,10 @@ The OSI model's purpose is to distinguish between roles and responsibilities in 
 
 ## Terminology
  - **Bit**: A representation of data/information in it's lowest form
- - [[#Network Frames|Frame]]: A wrapper around a packet
- - 
+ - [[#Network Frames|Frame]]: A wrapper around a **Packet**
+ - **Packet**: A wrapper around a **Segment**
+ - **Segment**: A wrapper around application data
+ - **PDU (Protocol Data Unit)**: A way of representing individual layer units such as those in [[#Hierarchy]] 
 
 ### Hierarchy
 From lowest to highest on the [[#Structure]]
@@ -62,3 +64,5 @@ Network Frames or as they are more commonly referred to as **Frames** make up th
 	- IP Header [[#3. Network Layer]]
 	- TCP/UDP Header [[#4. Transport Layer]]
 	- Data [[#7. Application Layer]]
+
+A **Frame** contains exactly one **Packet** made up of a single **Segment**
