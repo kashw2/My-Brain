@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3d1b3a3fc34502ab",
@@ -203,10 +202,11 @@
   },
   "active": "e9d6b7e64b6cd4bc",
   "lastOpenFiles": [
-    "Information Communication Technology/Development/Algorithms/Dijkstra.md",
-    "Information Communication Technology/Development/Algorithms/Algorithms.md",
-    "Excalidraw/Dijkstra Graph.md",
+    "Information Communication Technology/Development/Development.md",
     "Information Communication Technology/Networking/OSI Model.md",
+    "Information Communication Technology/Development/Algorithms/Algorithms.md",
+    "Information Communication Technology/Development/Algorithms/Dijkstra.md",
+    "Excalidraw/Dijkstra Graph.md",
     "Frames.md",
     "Information Communication Technology/Networking",
     "Information Communication Technology/Development/Functional Programming/Concepts/Applicative.md",
@@ -231,7 +231,6 @@
     "Software Engineering/Pasted image 20250202205006.png",
     "Software Engineering/Pasted image 20250202204130.png",
     "Education/Abstract Reasoning/Examples/Analogies.md",
-    "Education/Abstract Reasoning/Introduction.md",
     "Software Engineering",
     "Excalidraw/Math/Multiplication/Untitled.canvas",
     "Excalidraw/Math/Multiplication",
