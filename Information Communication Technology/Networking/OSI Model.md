@@ -65,25 +65,20 @@ The **PDU** for this layer is **[[#Data]]**
 ## Bit
 
 A **Bit** is the smallest unit of measurement of digital information in computing. It is a binary representation of data with It's purpose being to facilitate interaction with hardware logic gates. In networking this is usually implemented via an electrical, optical or radio signal.
-## Network Frames
-
-Network Frames or as they are more commonly referred to as **Frames** encapsulates the payload from [[#3. Network Layer]] and above. A single **Frame** can include headers like:
-- The MAC Header ([[#2. Data Link Layer]])
-- Embedded upper layer headers such as:
-	- IP Header [[#3. Network Layer]]
-	- TCP/UDP Header [[#4. Transport Layer]]
-	- Data [[#7. Application Layer]]
-
-A **Frame** contains exactly one **[[#Packet]]**
+## Network Frame
+A Network Frame (commonly referred to as a **Frame**) is the **[[#^d95b46|PDU]]** that exists at the **[[#2. Data Link Layer|Data Link Layer]]**. It consists of a single header with information on the:
+- Source MAC Address
+- Destination MAC Address
+As well as a payload consisting of a single **[[#Packet]]**
 
 ## Packet
 A **Packet** is the **[[#^d95b46|PDU]]** that exists at the **[[#3. Network Layer|Network Layer]]**. It consists of a single header with information on the:
 - Source IP Address
 - Destination IP Address
-As well as a payload consisting of a **[[#Segment]]**
+As well as a payload consisting of a single **[[#Segment]]**
 
 ## Segment
 A **Segment** is the **[[#^d95b46|PDU]]** that exists at the **[[#4. Transport Layer|Transport Layer]]**. It consists of a single header with information on the:
 - Source Port
 - Destination Port
-As well as a payload consisting of **Data** from the **[[#7. Application Layer|Application Layer]]**
+As well as a payload consisting of a single chunk of **Data** from the **[[#7. Application Layer|Application Layer]]**
