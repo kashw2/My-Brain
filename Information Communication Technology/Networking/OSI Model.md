@@ -87,7 +87,3 @@ A **Segment** is the **[[#^d95b46|PDU]]** that exists at the **[[#4. Transport L
 - Source Port
 - Destination Port
 As well as a payload consisting of **Data** from the **[[#7. Application Layer|Application Layer]]**
-
-A **Segment** is made up of data from the [[#7. Application Layer]].
-
-As a **Segment** exists at the **[[#4. Transport Layer|Transport Layer]]** it itself contains a single TCP or UDP header with information about the port in which it is transporting data to.
