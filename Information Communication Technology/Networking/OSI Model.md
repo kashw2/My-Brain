@@ -64,7 +64,7 @@ The **PDU** for this layer is **[[#Data]]**
 
 ## Bit
 
-A bit is the smallest unit of measurement of digital information in computing. It is a binary representation of data with It's purpose being to facilitate interaction with hardware logic gates. In networking this is usually implemented via an electrical, optical or radio signal.
+A **Bit** is the smallest unit of measurement of digital information in computing. It is a binary representation of data with It's purpose being to facilitate interaction with hardware logic gates. In networking this is usually implemented via an electrical, optical or radio signal.
 
 A **Bit** consists of exactly one **[[#Network Frames|Frame]]** 
 ## Network Frames
@@ -79,4 +79,4 @@ Network Frames or as they are more commonly referred to as **Frames** make up th
 A **Frame** contains exactly one **Packet** made up of a single **Segment**
 
 ## Packet
-A **Packet** is 
+A **Packet** is made up of a sender and receivers IP address
