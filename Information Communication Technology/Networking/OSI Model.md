@@ -9,7 +9,7 @@ The OSI model's purpose is to distinguish between roles and responsibilities in 
  - [[#Network Frames|Frame]]: A wrapper around a **Packet**
  - **Packet**: A wrapper around a **Segment**
  - **Segment**: A wrapper around application data
- - **PDU (Protocol Data Unit)**: A way of representing individual layer units such as those in [[#Hierarchy]] 
+ - **PDU (Protocol Data Unit)**: A way of representing individual layer units such as those in [[#Hierarchy]]  ^d95b46
 
 ### Hierarchy
 From lowest to highest on the [[#Structure]]
@@ -65,11 +65,9 @@ The **PDU** for this layer is **[[#Data]]**
 ## Bit
 
 A **Bit** is the smallest unit of measurement of digital information in computing. It is a binary representation of data with It's purpose being to facilitate interaction with hardware logic gates. In networking this is usually implemented via an electrical, optical or radio signal.
-
-A **Bit** consists of exactly one **[[#Network Frames|Frame]]** 
 ## Network Frames
 
-Network Frames or as they are more commonly referred to as **Frames** make up the payload from [[#3. Network Layer]] and above. A single **Frame** can include headers like:
+Network Frames or as they are more commonly referred to as **Frames** encapsulates the payload from [[#3. Network Layer]] and above. A single **Frame** can include headers like:
 - The MAC Header ([[#2. Data Link Layer]])
 - Embedded upper layer headers such as:
 	- IP Header [[#3. Network Layer]]
@@ -79,7 +77,9 @@ Network Frames or as they are more commonly referred to as **Frames** make up th
 A **Frame** contains exactly one **[[#Packet]]**
 
 ## Packet
-A **Packet** is made up of a sender and receivers IP address as well as a [[#Segment]]
+A **Packet** is the **[[#^d95b46|PDU]]** that exists at the **[[#3. Network Layer]]**. It consists of a single header
+
+A **Packet** consists of  a [[#Segment]]
 
 A **Packet** contains exactly one **[[#Segment]]**
 
