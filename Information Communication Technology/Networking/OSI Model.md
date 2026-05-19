@@ -77,15 +77,17 @@ Network Frames or as they are more commonly referred to as **Frames** encapsulat
 A **Frame** contains exactly one **[[#Packet]]**
 
 ## Packet
-A **Packet** is the **[[#^d95b46|PDU]]** that exists at the **[[#3. Network Layer]]**. It consists of a single header
-
-A **Packet** consists of  a [[#Segment]]
-
-A **Packet** contains exactly one **[[#Segment]]**
-
-As the packet exists at the **[[#3. Network Layer|Network Layer]]** it itself contains a single header with information about the IP address it is delivering data to
+A **Packet** is the **[[#^d95b46|PDU]]** that exists at the **[[#3. Network Layer|Network Layer]]**. It consists of a single header with information on the:
+- Source IP Address
+- Destination IP Address
+As well as a payload consisting of a **[[#Segment]]**
 
 ## Segment
+A **Segment** is the **[[#^d95b46|PDU]]** that exists at the **[[#4. Transport Layer|Transport Layer]]**. It consists of a single header with information on the:
+- Source Port
+- Destination Port
+As well as a payload consisting of **Data** from the **[[#7. Application Layer|Application Layer]]**
+
 A **Segment** is made up of data from the [[#7. Application Layer]].
 
 As a **Segment** exists at the **[[#4. Transport Layer|Transport Layer]]** it itself contains a single TCP or UDP header with information about the port in which it is transporting data to.
