@@ -5,12 +5,12 @@ The OSI model's purpose is to distinguish between roles and responsibilities in 
 
 ### Terminology
  - **[[#Bit]]**: A representation of data/information in it's lowest form
- - [[#Network Frames|Frame]]: A wrapper around a **Packet**
+ - **[[#Network Frames|Frame]]**: A wrapper around a **Packet**
  - **[[#Packet]]**: A wrapper around a **Segment**
- - **[[#Segment]]**: A wrapper around application data
- - **PDU (Protocol Data Unit)**: A way of representing individual layer units such as those in [[#Hierarchy]]  ^d95b46
+ - **[[#Segment]]**: A wrapper around chunks of application data
+ - **[[#PDU (Protocol Data Unit)]]**: A way of representing individual layer units such as those in [[#PDU Hierarchy|Hierarchy]]  ^d95b46
 
-### Hierarchy
+### PDU Hierarchy
 From lowest to highest on the [[#Structure]]
 - Bit
 - Frame
@@ -64,7 +64,6 @@ The responsibility of this layer is to provide data for the lower layers.
 The **PDU** for this layer is **[[#Data]]**
 
 ---
-
 
 ## PDU (Protocol Data Unit)
 ### Bit
