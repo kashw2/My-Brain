@@ -5,10 +5,10 @@ Open System Interconnect Model
 The OSI model's purpose is to distinguish between roles and responsibilities in computer network communication. It provides a hierarchical approach to understanding of the networking stack
 
 ## Terminology
- - **Bit**: A representation of data/information in it's lowest form
+ - **[[#Bit]]**: A representation of data/information in it's lowest form
  - [[#Network Frames|Frame]]: A wrapper around a **Packet**
- - **Packet**: A wrapper around a **Segment**
- - **Segment**: A wrapper around application data
+ - **[[#Packet]]**: A wrapper around a **Segment**
+ - **[[#Segment]]**: A wrapper around application data
  - **PDU (Protocol Data Unit)**: A way of representing individual layer units such as those in [[#Hierarchy]]  ^d95b46
 
 ### Hierarchy
@@ -18,6 +18,8 @@ From lowest to highest on the [[#Structure]]
 - Packet
 - Segment
 - Data
+
+---
 
 ## Structure
 
@@ -62,15 +64,16 @@ The responsibility of this layer is to provide data for the lower layers.
 
 The **PDU** for this layer is **[[#Data]]**
 
-## Bit
+---
 
+## Bit
 A **Bit** is the smallest unit of measurement of digital information in computing. It is a binary representation of data with It's purpose being to facilitate interaction with hardware logic gates. In networking this is usually implemented via an electrical, optical or radio signal.
+
 ## Network Frame
 A Network Frame (commonly referred to as a **Frame**) is the **[[#^d95b46|PDU]]** that exists at the **[[#2. Data Link Layer|Data Link Layer]]**. It consists of a single header with information on the:
 - Source MAC Address
 - Destination MAC Address
 As well as a payload consisting of a single **[[#Packet]]**
-
 ## Packet
 A **Packet** is the **[[#^d95b46|PDU]]** that exists at the **[[#3. Network Layer|Network Layer]]**. It consists of a single header with information on the:
 - Source IP Address
