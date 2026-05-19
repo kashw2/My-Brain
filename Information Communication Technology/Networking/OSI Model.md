@@ -29,22 +29,26 @@ In most cases, Layer 4 to Layer 7 are collapsed into a single layer (Layer 7) an
 
 The **Physical Layer** represents the transport of individual bits over a physical medium (such as copper, fiber, radio) on a network.
 
-This layer is not aware of anything other than individual bits.
+The **PDU** for this layer is the [[#Bit]]. It is not aware of anything else
 
 ### 2. Data Link Layer
 
 The **Data Link Layer** is responsible for organisation of individual bits (as the [[#1. Physical Layer]] would see them) into [[#Network Frames]].
 
 The MAC header lives at this Layer
+
+The **PDU** for this layer is the **[[#Network Frames|Frame]]**
 ### 3. Network Layer
 
 The **Network Layer** is responsible for routing packets between networks. The **Packet** specifically does not exist as a concept below this layer.
+
+The **PDU** for this layer is the **[[#Packet]]**
 
 ### 4. Transport Layer
 
 The **Transport Layer** implements various lower level transport protocols such as TCP and UDP. It is responsible the transport of data via **Segments** from a source to an application on the host via an address and a port.
 
-This layer is where the **Segment** exists
+The **PDU** for this layer is the **[[#Segment]]**
 
 ### 5. Session Layer
 
@@ -55,6 +59,8 @@ This layer is where the **Segment** exists
 The **Application Layer** operates with higher level client networking protocols such as HTTP, HTTPS, FTP, SMTP, SSH.
 
 The responsibility of this layer is to provide data for the lower layers.
+
+The **PDU** for this layer is **[[#Data]]**
 
 ## Bit
 
@@ -71,3 +77,6 @@ Network Frames or as they are more commonly referred to as **Frames** make up th
 	- Data [[#7. Application Layer]]
 
 A **Frame** contains exactly one **Packet** made up of a single **Segment**
+
+## Packet
+A **Packet** is 
