@@ -69,7 +69,7 @@ A **Bit** is the smallest unit of measurement of digital information in computin
 A **Bit** consists of exactly one **[[#Network Frames|Frame]]** 
 ## Network Frames
 
-Network Frames or as they are more commonly referred to as **Frames** make up the payload from [[#3. Network Layer]] and above. A single **Frame** includes headers like:
+Network Frames or as they are more commonly referred to as **Frames** make up the payload from [[#3. Network Layer]] and above. A single **Frame** can include headers like:
 - The MAC Header ([[#2. Data Link Layer]])
 - Embedded upper layer headers such as:
 	- IP Header [[#3. Network Layer]]
@@ -84,4 +84,4 @@ A **Packet** is made up of a sender and receivers IP address as well as a [[#Seg
 A **Packet** contains exactly one **[[#Segment]]**
 
 ## Segment
-A **Segment** is made up of data from the [[#7. Application Layer]]. 
+A **Segment** is made up of data from the [[#7. Application Layer]].
