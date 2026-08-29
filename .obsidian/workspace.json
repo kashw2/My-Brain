@@ -25,12 +25,14 @@
             "id": "9f9ca02abeabdf03",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Hindi/Drawing 2026-08-29 21.53.31.excalidraw.md"
+                "file": "Education/LOTE/Hindi/Alphabet.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-29 21.53.31.excalidraw"
+              "icon": "lucide-file",
+              "title": "Alphabet"
             }
           }
         ],
@@ -217,8 +219,11 @@
   },
   "active": "9f9ca02abeabdf03",
   "lastOpenFiles": [
-    "Information Communication Technology/Networking/OSI Model.md",
     "Excalidraw/Hindi/Drawing 2026-08-29 21.53.31.excalidraw.md",
+    "Education/LOTE/Hindi/Alphabet.md",
+    "Education/LOTE/Hindi",
+    "Education/LOTE",
+    "Information Communication Technology/Networking/OSI Model.md",
     "Excalidraw/Hindi/Untitled.canvas",
     "Excalidraw/Hindi",
     "Information Communication Technology/Development/Development.md",
@@ -245,7 +250,6 @@
     "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
     "Information Communication Technology/Operations/Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
     "Information Communication Technology/Operations/Operating Systems/Linux/Distributions/NixOS/NixOS.md",
-    "Information Communication Technology/Operations/Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
     "Software Engineering/Pasted image 20250202205006.png",
     "Software Engineering/Pasted image 20250202204130.png",
     "Software Engineering",
@@ -255,8 +259,6 @@
     "Education/Math",
     "Education",
     "Workloads",
-    "Information Communication Technology/Operations/Kubernetes/Workloads",
-    "Information Communication Technology/Operations/Kubernetes",
     "Excalidraw/Abstract Reasoning/Pasted image 20240601211930.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240617215827.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608194341.png",
