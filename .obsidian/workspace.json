@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "OSI Model"
             }
+          },
+          {
+            "id": "9f9ca02abeabdf03",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Hindi/Drawing 2026-08-29 21.53.31.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-08-29 21.53.31.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,10 +215,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e9d6b7e64b6cd4bc",
+  "active": "9f9ca02abeabdf03",
   "lastOpenFiles": [
-    "Information Communication Technology/Development/Development.md",
     "Information Communication Technology/Networking/OSI Model.md",
+    "Excalidraw/Hindi/Drawing 2026-08-29 21.53.31.excalidraw.md",
+    "Excalidraw/Hindi/Untitled.canvas",
+    "Excalidraw/Hindi",
+    "Information Communication Technology/Development/Development.md",
     "Information Communication Technology/Development/Algorithms/Algorithms.md",
     "Information Communication Technology/Development/Algorithms/Dijkstra.md",
     "Excalidraw/Dijkstra Graph.md",
@@ -232,7 +248,6 @@
     "Information Communication Technology/Operations/Operating Systems/Linux/Distributions/NixOS/Nix Shell.md",
     "Software Engineering/Pasted image 20250202205006.png",
     "Software Engineering/Pasted image 20250202204130.png",
-    "Education/Abstract Reasoning/Examples/Analogies.md",
     "Software Engineering",
     "Excalidraw/Math/Multiplication/Untitled.canvas",
     "Excalidraw/Math/Multiplication",
@@ -242,7 +257,6 @@
     "Workloads",
     "Information Communication Technology/Operations/Kubernetes/Workloads",
     "Information Communication Technology/Operations/Kubernetes",
-    "Information Communication Technology/Operations",
     "Excalidraw/Abstract Reasoning/Pasted image 20240601211930.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240617215827.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608194341.png",
