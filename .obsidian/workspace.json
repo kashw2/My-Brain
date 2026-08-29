@@ -25,14 +25,12 @@
             "id": "9f9ca02abeabdf03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Education/LOTE/Hindi/Language Structure.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Hindi/Vowels.md"
               },
-              "icon": "lucide-file",
-              "title": "Language Structure"
+              "icon": "excalidraw-icon",
+              "title": "Vowels"
             }
           }
         ],
@@ -220,6 +218,7 @@
   "active": "ed413258811dc5ab",
   "lastOpenFiles": [
     "Excalidraw/Hindi/Drawing 2026-08-29 21.53.31.excalidraw.md",
+    "Excalidraw/Hindi/Vowels.md",
     "Education/LOTE/Hindi/Language Structure.md",
     "Education/LOTE/Hindi",
     "Education/LOTE",
@@ -249,7 +248,6 @@
     "Information Communication Technology/Operations/Kubernetes/Introduction.md",
     "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
     "Information Communication Technology/Operations/Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
-    "Information Communication Technology/Operations/Operating Systems/Linux/Distributions/NixOS/NixOS.md",
     "Software Engineering/Pasted image 20250202205006.png",
     "Software Engineering/Pasted image 20250202204130.png",
     "Software Engineering",
