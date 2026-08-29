@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/LOTE/Hindi/Alphabet.md",
+                "file": "Education/LOTE/Hindi/Language Structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Alphabet"
+              "title": "Language Structure"
             }
           }
         ],
@@ -217,10 +217,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9f9ca02abeabdf03",
+  "active": "ed413258811dc5ab",
   "lastOpenFiles": [
     "Excalidraw/Hindi/Drawing 2026-08-29 21.53.31.excalidraw.md",
-    "Education/LOTE/Hindi/Alphabet.md",
+    "Education/LOTE/Hindi/Language Structure.md",
     "Education/LOTE/Hindi",
     "Education/LOTE",
     "Information Communication Technology/Networking/OSI Model.md",
