@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c860041d7334da04",
+        "id": "51e4fb8305b5d74e",
         "type": "tabs",
         "children": [
           {
-            "id": "3f622e9cda449eb5",
+            "id": "f34d3828a442d6e1",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3d1b3a3fc34502ab",
@@ -201,14 +200,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3f622e9cda449eb5",
+  "active": "f34d3828a442d6e1",
   "lastOpenFiles": [
+    "Education/LOTE/Hindi/Language Structure.md",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "Excalidraw/Hindi/Vowels.md",
     "Information Communication Technology/Networking/OSI Model.md",
     "Untitled 1.base",
     "Untitled.base",
-    "Excalidraw/Hindi/Vowels.md",
     "Excalidraw/Hindi/Drawing 2026-08-29 21.53.31.excalidraw.md",
-    "Education/LOTE/Hindi/Language Structure.md",
     "Education/LOTE/Hindi",
     "Education/LOTE",
     "Excalidraw/Hindi/Untitled.canvas",
@@ -240,8 +241,6 @@
     "Software Engineering",
     "Excalidraw/Math/Multiplication/Untitled.canvas",
     "Excalidraw/Math/Multiplication",
-    "Excalidraw/Math",
-    "Education/Math",
     "Excalidraw/Abstract Reasoning/Pasted image 20240601211930.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240617215827.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608194341.png",
