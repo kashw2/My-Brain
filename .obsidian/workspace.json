@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Communication Technology/Networking/Routing.md",
+                "file": "Information Communication Technology/Networking/Networking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Routing"
+              "title": "Networking"
             }
           }
         ]
@@ -204,20 +204,21 @@
   },
   "active": "e9d6b7e64b6cd4bc",
   "lastOpenFiles": [
-    "Information Communication Technology/Networking/OSI Model.md",
-    "Information Communication Technology/Networking/Routing.md",
+    "Transmission Control Protocol - TCPIP.md",
     "Information Communication Technology/Networking/Networking.md",
+    "Information Communication Technology/Networking/Routing.md",
+    "Information Communication Technology/Networking/Transmission Control Protocol - TCPIP.md",
+    "Information Communication Technology/Networking/Routing.md.tmp.291276.2889c88fafee",
+    "Information Communication Technology/Networking/Routing.md.tmp.291276.292585024da4",
+    "Information Communication Technology/Networking/Routing.md.tmp.291276.420a532514a6",
+    "Information Communication Technology/Networking/Routing.md.tmp.291276.9a9fd0ec5778",
+    "Information Communication Technology/Networking/OSI Model.md",
     "Information Communication Technology/Networking/OSI Model.md.tmp.291276.38c2c2cefab8",
     "Information Communication Technology/Networking/Networking.md.tmp.291276.fe6c7cc2bc8d",
     "Information Communication Technology/Networking/Routing.md.tmp.291276.01cd66e39139",
     "Untitled 3.base",
     "Untitled.base",
     "Untitled 2.base",
-    "Untitled 1.base",
-    "Information Communication Technology/Networking/Transmission Control Protocol - TCPIP.md",
-    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.1e4d47d66be8",
-    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.9715ee00e445",
-    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.2ff9d7915ab0",
     "Excalidraw/Hindi/Vowels.md",
     "Education/LOTE/Hindi/Language Structure.md",
     "TCP.md",

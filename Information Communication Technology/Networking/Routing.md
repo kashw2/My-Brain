@@ -11,9 +11,7 @@ No single router knows the whole path. Each router only picks the next **[[#Hop]
  - **[[#Routing Table]]**: The list a Router checks to decide where to send each Packet
  - **[[#Prefix]]**: A range of IP addresses, written like `31.91.0.0/16`
  - **[[#Default Route]]**: The route used when nothing more specific matches, written `0.0.0.0/0`
- - **[[#Autonomous System (AS)|Autonomous System]]**: An independent network run by one organisation, such as an ISP
  - **[[#NAT (Network Address Translation)|NAT]]**: Swapping a private IP address for a public one at the edge of a network
- - **[[#TTL (Time To Live)|TTL]]**: A hop counter that stops Packets looping forever
 
 ---
 
@@ -131,33 +129,13 @@ Each router still makes its own decision from its own table. The Packet carries 
 
 **Routing Protocols** are how routers share what they know with their neighbours to build their **[[#Routing Table|Routing Tables]]**.
 
-### Autonomous System (AS)
-
-The internet is made of tens of thousands of independent networks called **Autonomous Systems**. Each ISP, cloud provider and large company runs one or more, and each has its own AS number.
-
 Routing Protocols work at two levels:
 
-| | Inside one AS | Between ASes |
+| | Inside one network | Between networks |
 |---|---|---|
 | Protocol | OSPF (or IS-IS) | BGP |
-| How it works | Every router shares its links, so each router has a full map of that network | Each AS announces which Prefixes it can reach, and the list of ASes on the way |
+| How it works | Every router shares its links, so each router has a full map of that network | Each network announces which Prefixes it can reach, and the list of networks on the way |
 | Algorithm | Dijkstra's shortest path | BGP best path selection |
-| "Best" means | Lowest total link cost, usually based on link speed | The operator's business policy first (cheapest or preferred partner), then fewest ASes on the path |
+| "Best" means | Lowest total link cost, usually based on link speed | The operator's business policy first (cheapest or preferred partner), then fewest networks on the path |
 
 BGP does not pick the fastest path. It picks the path each operator prefers, which is usually the cheapest for them. This is why internet routes are not always the shortest geographically.
-
-## Loop Prevention
-
-1. **OSPF**: shortest path maps cannot contain loops by design.
-2. **BGP**: an AS rejects any route whose path already contains its own AS number.
-3. **[[#TTL (Time To Live)|TTL]]**: a safety net for anything else.
-
-### TTL (Time To Live)
-
-Every Packet carries a hop counter in its IP header called **TTL**, usually starting at 64 or 128. Each router subtracts 1, and the Packet is dropped when it reaches 0.
-
-`tracepath` uses TTL to discover each hop. `tracepath 1.1.1.1` lists every router between a device and that destination.
-
-## Failures
-
-When a link fails, the routers next to it notice, send updates to their neighbours, and recalculate their Routing Tables. This is called **convergence**. Inside one AS it takes under a second to a few seconds. Across the internet with BGP it can take seconds to minutes.
