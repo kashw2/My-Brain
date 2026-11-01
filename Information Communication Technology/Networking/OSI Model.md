@@ -127,7 +127,15 @@ Each layer only reads its own header and treats everything inside it as payload.
 
 An example of **Encapsulation** in action is:
 
+A email being sent:
+```
+Data = [SMTP request]
+Segment = [TCP header | Data]
+Packet = [IP header | TCP header | Data]
+Frame = [MAC header | IP header | TCP header]
+```
 
+The email client makes a request via the SMTP **Application Layer** protocol, from there it is wrapped in a **Segment** which includes the port (587, 465, 25, 2525 depending on client), which is then wrapped in a **Packet** which provides a router the host information (IP address) directing it to 
 
 ### Decapsulation
 
