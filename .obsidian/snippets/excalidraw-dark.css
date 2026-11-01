@@ -28,12 +28,12 @@
   }
 }
 
-/* Links: Excalidraw red */
+/* Links: highlighter yellow */
 .theme-dark {
-  --link-color: #f03e3e;
-  --link-color-hover: #ff6b6b;
-  --link-external-color: #f03e3e;
-  --link-external-color-hover: #ff6b6b;
-  --link-unresolved-color: #f03e3e; /* still drawn at 70% opacity */
-  --link-unresolved-decoration-color: rgba(240, 62, 62, 0.3);
+  --link-color: #fff067;
+  --link-color-hover: #fff7b1;
+  --link-external-color: #fff067;
+  --link-external-color-hover: #fff7b1;
+  --link-unresolved-color: #fff067; /* still drawn at 70% opacity */
+  --link-unresolved-decoration-color: rgba(255, 240, 103, 0.3);
 }
