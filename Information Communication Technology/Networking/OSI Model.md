@@ -45,7 +45,7 @@ The MAC header lives at this Layer
 The **[[#^d95b46|PDU]]** for this layer is the **[[#Network Frame|Frame]]**
 ### 3. Network Layer
 
-The **Network Layer** is responsible for routing packets between networks. The **Packet** specifically does not exist as a concept below this layer.
+The **Network Layer** is responsible for [[Routing|routing]] packets between networks. The **Packet** specifically does not exist as a concept below this layer.
 
 The **[[#^d95b46|PDU]]** for this layer is the **[[#Packet]]**
 

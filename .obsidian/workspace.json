@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Communication Technology/Networking/OSI Model.md",
+                "file": "Information Communication Technology/Networking/Routing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSI Model"
+              "title": "Routing"
             }
           }
         ]
@@ -204,22 +204,22 @@
   },
   "active": "e9d6b7e64b6cd4bc",
   "lastOpenFiles": [
-    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.1e4d47d66be8",
-    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.9715ee00e445",
-    "Information Communication Technology/Networking/Transmission Control Protocol - TCPIP.md",
     "Information Communication Technology/Networking/OSI Model.md",
-    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.2ff9d7915ab0",
-    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.b752d7ba3c0e",
-    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.4e1a2f9d070c",
+    "Information Communication Technology/Networking/Routing.md",
     "Information Communication Technology/Networking/Networking.md",
-    "Untitled.base",
+    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.38c2c2cefab8",
+    "Information Communication Technology/Networking/Networking.md.tmp.291276.fe6c7cc2bc8d",
+    "Information Communication Technology/Networking/Routing.md.tmp.291276.01cd66e39139",
     "Untitled 3.base",
+    "Untitled.base",
     "Untitled 2.base",
     "Untitled 1.base",
+    "Information Communication Technology/Networking/Transmission Control Protocol - TCPIP.md",
+    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.1e4d47d66be8",
+    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.9715ee00e445",
+    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.2ff9d7915ab0",
     "Excalidraw/Hindi/Vowels.md",
-    "Excalidraw/Hindi",
     "Education/LOTE/Hindi/Language Structure.md",
-    "Education/LOTE/Hindi",
     "TCP.md",
     "Information Communication Technology/Development/Algorithms/Algorithms.md",
     "Excalidraw/Dijkstra Graph.md",
@@ -239,7 +239,6 @@
     "Information Communication Technology/Development/Cloud/Cloud.md",
     "Information Communication Technology/Development/Cloud/Azure/Azure.md",
     "Information Communication Technology/Development/Cloud/Azure/Azure PostgreSQL.md",
-    "Information Communication Technology/Development/Cloud/Azure/Azure Linux.md",
     "Software Engineering/Pasted image 20250202205006.png",
     "Software Engineering/Pasted image 20250202204130.png",
     "Excalidraw/Math/Multiplication/Untitled.canvas",
