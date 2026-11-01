@@ -5,8 +5,8 @@
   --text-normal: #e3e3e8;
 }
 
-/* File tree: brighter, slightly bolder text */
+/* File tree: brighter text, bolder on hover */
 .theme-dark .nav-files-container {
   --nav-item-color: #f5f5fa;
-  --nav-item-weight: 500;
+  --nav-item-weight-hover: 500;
 }
