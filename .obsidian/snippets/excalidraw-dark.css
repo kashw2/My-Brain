@@ -1,35 +1,53 @@
 /*
- * Recall: colour scheme based on Dzulkifli & Mustafar (2013),
- * "The influence of colour on memory performance: a review".
- * Warm colours (red, orange, yellow) draw more attention than cool or
- * neutral ones, and attention helps memory. So warm colours are kept for
- * what you need to notice and remember; everything else is neutral or cool.
+ * Recall: colour scheme for learning and remembering, based on
+ *  - Diachenko et al. (2022), "Color education: A study on methods of
+ *    influence on memory", Heliyon 8(11) e11607
+ *  - Dzulkifli & Mustafar (2013), "The influence of colour on memory
+ *    performance: a review", Malays J Med Sci 20(2) 3-9
+ *
+ *  Background    colourless, so coloured items stand out
+ *  Structure     blue-green for large sections (headings)
+ *  Details       yellow-red for what to remember (bold terms, links)
+ *  Not content   grey for links to notes not written yet
+ *  Interface     cool violet, so it doesn't compete with the notes
  */
 
-/* Base: neutral greys (Excalidraw dark) so warm colours stand out */
+/* Background: colourless, matches Excalidraw dark */
 .theme-dark {
   --background-primary: #121212;   /* note background = Excalidraw canvas */
   --background-secondary: #232329; /* sidebars = Excalidraw toolbars */
   --text-normal: #e3e3e8;
 }
 
-/* Remember: key terms (bold) in warm orange */
+/* Structure: headings in light blue-green, shifting by level */
 .theme-dark {
-  --bold-color: #ff922b;
+  --h1-color: #74c0fc; /* blue */
+  --h2-color: #66d9e8; /* cyan */
+  --h3-color: #63e6be; /* teal */
 }
 
-/* Find: links and ==highlights== in warm yellow */
+/* Details: key terms (bold) in red, rated most helpful for memory */
+.theme-dark {
+  --bold-color: #ff6b6b;
+}
+
+/* Details: links and ==highlights== in yellow */
 .theme-dark {
   --link-color: #fff067;
   --link-color-hover: #fff7b1;
   --link-external-color: #fff067;
   --link-external-color-hover: #fff7b1;
-  --link-unresolved-color: #fff067; /* still drawn at 70% opacity */
-  --link-unresolved-decoration-color: rgba(255, 240, 103, 0.3);
   --text-highlight-bg-rgb: 255, 240, 103;
 }
 
-/* Interface: cool violet accent (set in Appearance) so buttons and menus don't compete */
+/* Not content: links to notes not written yet in grey */
+.theme-dark {
+  --link-unresolved-color: #8a8a94;
+  --link-unresolved-opacity: 1;
+  --link-unresolved-decoration-color: rgba(138, 138, 148, 0.4);
+}
+
+/* Interface: cool violet accent (set in Appearance) */
 
 /* File tree: brighter text, white and bolder on hover */
 .theme-dark .nav-files-container {
