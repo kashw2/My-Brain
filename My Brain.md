@@ -16,10 +16,6 @@
 - [[Math]]
 - [[Hindi]]
 
-## Yearly Goals
-
-- [[Yearly Goals/Yearly Goals|Yearly Goals]]
-
 ## TODO:
 
 - [ ] Learn more about [[Abstract Reasoning]]
