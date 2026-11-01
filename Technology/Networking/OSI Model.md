@@ -132,13 +132,13 @@ An example of **Encapsulation** in action is:
 
 An email being sent:
 ```
-Data = [SMTP message]
+Data    = [SMTP message]
 Segment = [TCP header | Data]
-Packet = [IP header | TCP header | Data]
-Frame = [MAC header | IP header | TCP header | Data]
+Packet  = [IP header  | TCP header | Data]
+Frame   = [MAC header | IP header  | TCP header | Data]
 ```
 
-The email client creates the email using the SMTP **[[#7. Application Layer|Application Layer]]** protocol. This is wrapped in a **[[#Segment]]**, which adds the mail server's port (587[^rfc6409] or 465[^rfc8314] when an email client sends to its mail server, 2525 as an alternative some providers accept[^sendgrid], and 25 between mail servers[^rfc5321][^rfc6409]). The Segment is then wrapped in a **[[#Packet]]**, which adds the mail server's IP address so routers can direct it across networks. Finally, the Packet is wrapped in a **[[#Network Frame|Frame]]**, which adds the MAC address of the next device on the local network, usually the home router (see [[Routing#Hop]]).
+The email client creates the email using the SMTP **[[#7. Application Layer|Application Layer]]** protocol. This is wrapped in a **[[#Segment]]**, which adds the mail server's port (587[^rfc6409] or 465[^rfc8314] when an email client sends to its mail server, and 25 between mail servers[^rfc5321][^rfc6409]). The Segment is then wrapped in a **[[#Packet]]**, which adds the mail server's IP address so routers can direct it across networks. Finally, the Packet is wrapped in a **[[#Network Frame|Frame]]**, which adds the MAC address of the next device on the local network, usually the home router (see **[[Routing#Hop|Hop]]**).
 
 ### Decapsulation
 
@@ -163,4 +163,3 @@ On the receiving side the process runs in reverse. Each layer reads and removes 
 [^rfc1812]: [RFC 1812: Requirements for IP Version 4 Routers](https://www.rfc-editor.org/rfc/rfc1812#section-5.2.4.3) — routers choose where to send a Packet using its destination IP address
 [^rfc6409]: [RFC 6409: Message Submission for Mail](https://www.rfc-editor.org/rfc/rfc6409#section-3.1) — mail clients submit on port 587, while relay between servers stays on port 25
 [^rfc8314]: [RFC 8314: Cleartext Considered Obsolete](https://www.rfc-editor.org/rfc/rfc8314#section-3.3) — port 465 for submission over TLS
-[^sendgrid]: [Twilio SendGrid: Integrating with the SMTP API](https://www.twilio.com/docs/sendgrid/for-developers/sending-email/integrating-with-the-smtp-api) — mail providers also accept port 2525

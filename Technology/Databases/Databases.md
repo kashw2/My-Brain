@@ -1,6 +1,5 @@
 - [[PostgreSQL]]
 - [[Microsoft SQL Server]]
-- [[NeonDB]]
 - [[Fauna]]
 - [[PlanetScale]]
 
