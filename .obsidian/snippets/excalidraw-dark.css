@@ -4,3 +4,9 @@
   --background-secondary: #232329; /* sidebars = Excalidraw toolbars */
   --text-normal: #e3e3e8;
 }
+
+/* File tree: brighter, slightly bolder text */
+.theme-dark .nav-files-container {
+  --nav-item-color: #f5f5fa;
+  --nav-item-weight: 500;
+}
