@@ -10,13 +10,13 @@ No single router knows the whole path. Each router only picks the next **[[#Hop]
  - **[[#Routing Table]]**: The list a Router checks to decide where to send each Packet
  - **[[#Prefix]]**: A range of IP addresses, written like `31.91.0.0/16`
  - **[[#Default Route]]**: The route used when nothing more specific matches, written `0.0.0.0/0`
- - **[[#NAT (Network Address Translation)|NAT]]**: Rewriting a Packet's IP addresses as it passes between networks, such as swapping a private address for a public one
+ - **[[#NAT (Network Address Translation)|NAT]]**: Rewriting a Packet's IP addresses as it passes between networks, such as swapping a private address for a public one[^rfc2663]
 
 ---
 
 ## Router
 
-A **Router** connects two or more networks. It reads the destination IP address of each **[[OSI Model#Packet|Packet]]** and forwards it towards that address.
+A **Router** connects two or more networks. It reads the destination IP address of each **[[OSI Model#Packet|Packet]]** and forwards it towards that address.[^wiki-router]
 
 ## Hop
 
@@ -28,20 +28,20 @@ Two layers work together at every hop:
 |---|---|---|
 | Address used | MAC address | IP address |
 | Scope | One hop, within one local network | End to end, across many networks |
-| Read by | Switches | Routers |
+| Read by | Switches[^wiki-switch] | Routers[^wiki-router] |
 | Changes at each router? | Yes, a new Frame every hop | No, the destination stays the same for the whole trip |
 
-At each router the **[[OSI Model#Network Frame|Frame]]** is removed, the IP address is read, and the Packet is wrapped in a new Frame addressed to the next device. The **[[OSI Model#2. Data Link Layer|Data Link Layer]]** only ever delivers a Frame across one hop, while the **[[OSI Model#3. Network Layer|Network Layer]]** gets the Packet to its final destination.
+At each router the **[[OSI Model#Network Frame|Frame]]** is removed, the IP address is read, and the Packet is wrapped in a new Frame addressed to the next device.[^rfc1812] The **[[OSI Model#2. Data Link Layer|Data Link Layer]]** only ever delivers a Frame across one hop, while the **[[OSI Model#3. Network Layer|Network Layer]]** gets the Packet to its final destination.
 
 ### ARP
 
-**ARP (Address Resolution Protocol)** finds the MAC address that belongs to an IP address on the local network. A device uses it to fill in the destination MAC address of the next Frame.
+**ARP (Address Resolution Protocol)** finds the MAC address that belongs to an IP address on the local network. A device uses it to fill in the destination MAC address of the next Frame.[^rfc826]
 
 ## Example Journey
 
 Sending a request from `192.168.1.38` (a device on a home network) to `31.91.21.8` (a server on an external network):
 
-1. **The device** sees `31.91.21.8` is not on the local network, so it sends the Packet to the home router (the default gateway, such as `192.168.1.1`). It uses **[[#ARP]]** to find the router's MAC address and puts it in the Frame.
+1. **The device** sees `31.91.21.8` is not on the local network, so it sends the Packet to the home router (the default gateway, such as `192.168.1.1`).[^rfc1122] It uses **[[#ARP]]** to find the router's MAC address and puts it in the Frame.
 2. **The home router** removes the Frame and reads the destination `31.91.21.8`. It swaps the private source address `192.168.1.38` for the home's public IP address (**[[#NAT (Network Address Translation)|NAT]]**), then sends the Packet to the ISP in a new Frame.
 3. **Each router on the internet** removes the Frame, reads `31.91.21.8`, picks the next router from its **[[#Routing Table]]**, and wraps the Packet in a new Frame.
 4. **The last router**, on the destination's network, uses **[[#ARP]]** to find the MAC address of `31.91.21.8` and delivers the Frame directly to it.
@@ -51,7 +51,7 @@ Sending a request from `192.168.1.38` (a device on a home network) to `31.91.21.
 
 ### NAT (Network Address Translation)
 
-Addresses such as `192.168.x.x` are private. They can't be used on the internet, and many homes use the same ones. The home router swaps the private source address for its public IP address, and keeps a table of which device sent what so replies can be passed back to the right device.
+Addresses such as `192.168.x.x` are private. They can't be used on the internet[^rfc1918], and many homes use the same ones. The home router swaps the private source address for its public IP address, and keeps a table of which device sent what so replies can be passed back to the right device.[^rfc3022]
 
 This means the source IP address changes once, at the home router. The destination IP address stays the same for the whole trip.
 
@@ -75,27 +75,27 @@ A **Routing Table** maps destination networks (**[[#Prefix|Prefixes]]**) to the 
 | `31.91.0.0/16`      | Router B |
 | `0.0.0.0/0`         | ISP      |
 
-A device's own routing table can be viewed with `ip route`.
+A device's own routing table can be viewed with `ip route`.[^ip-route]
 
 ### Prefix
 
-A **Prefix** is a range of IP addresses, written as an address followed by a slash and a number. The number is how many leading bits of the address must match, so a bigger number means a smaller, more specific range:
+A **Prefix** is a range of IP addresses, written as an address followed by a slash and a number.[^rfc4632] The number is how many leading bits of the address must match, so a bigger number means a smaller, more specific range:
 - `/0` covers every address
 - `/16` covers 65,536 addresses
 - `/24` covers 256 addresses
 - `/32` covers a single address
 
-For every bit that you add to a prefix you halve the total number of available addresses in the prefix. This also works for the inverse, for every bit that you take away, you double your total number of available addresses in your prefix.
+For every bit that you add to a prefix you halve the total number of available addresses in the prefix. This also works for the inverse, for every bit that you take away, you double your total number of available addresses in your prefix.[^rfc4632]
 
 ### Longest Prefix Match
 
-When more than one entry matches, the router picks the most specific one (the longest prefix).
+When more than one entry matches, the router picks the most specific one (the longest prefix).[^rfc1812][^rfc4632]
 
 For `31.91.21.8`, all three entries in the table above match. The `/24` entry is the most specific, so the Packet goes to Router C.
 
 ### Default Route
 
-The **Default Route** (`0.0.0.0/0`) matches every address. It means "if nothing more specific matches, send it here". A home router's table is mostly just the local network plus a Default Route pointing to the ISP.
+The **Default Route** (`0.0.0.0/0`) matches every address. It means "if nothing more specific matches, send it here".[^wiki-default] A home router's table is mostly just the local network plus a Default Route pointing to the ISP.
 
 ---
 
@@ -104,7 +104,7 @@ The **Default Route** (`0.0.0.0/0`) matches every address. It means "if nothing 
 Not every router needs to know every network:
 1. **Home routers** only know the local network. Everything else goes to the ISP through the **[[#Default Route]]**.
 2. **ISP routers** know their customers' networks, plus routes learned from other networks.
-3. **Backbone routers** know a route to every network on the internet, roughly a million entries.
+3. **Backbone routers** know a route to every network on the internet, roughly a million entries.[^cidr-report][^apnic]
 
 A Packet travels up to routers that know more, then down towards the destination, where the routing tables get more specific. This is because of **Route Aggregation** (also called summarisation):
 1. The destination's ISP knows its customers' small networks in detail, such as `31.91.21.0/24` and `31.91.22.0/24`.
@@ -112,7 +112,7 @@ A Packet travels up to routers that know more, then down towards the destination
 3. Routers far away store that one entry instead of hundreds.
 4. Once the Packet reaches that ISP, its routers use the detailed entries to find the exact customer network.
 
-Without aggregation, every router would need an entry for every small network on the internet.
+Without aggregation, every router would need an entry for every small network on the internet.[^rfc4632]
 
 ![[Route Aggregation]]
 
@@ -134,18 +134,18 @@ A **[[#Default Route]]** doesn't search for the destination. Each one is set up 
 1. **Home router**: its Default Route points to the ISP.
 2. **ISP access router** (the one a home connects to): its Default Route points further into the ISP, towards its border routers.
 3. **ISP border router**: a large ISP's border routers hold the full internet table. A small ISP's border routers point their Default Route at a larger transit provider instead.
-4. **Transit provider routers**: the routers of the largest networks have no Default Route at all. They hold a route for every public network, roughly a million entries. This is called the **default-free zone**.
+4. **Transit provider routers**: the routers of the largest networks have no Default Route at all. They hold a route for every public network, roughly a million entries. This is called the **default-free zone**.[^wiki-dfz]
 
 Each step moves the Packet to a router that knows more, so following Default Routes always ends at a router with a specific match.
 
 The default-free zone knows `31.91.0.0/16` because the destination's ISP announced it using BGP (see **[[#Routing Protocols]]**):
-1. The destination's ISP tells its neighbouring networks "I can reach `31.91.0.0/16`, send it to me".
-2. Those neighbours pass the announcement on to their neighbours, adding themselves to the path.
+1. The destination's ISP tells its neighbouring networks "I can reach `31.91.0.0/16`, send it to me".[^rfc4271]
+2. Those neighbours pass the announcement on to their neighbours, adding themselves to the path.[^rfc4271]
 3. This continues until every default-free router has an entry for `31.91.0.0/16`, saying which neighbour leads towards it.
 
 The announcement travels outwards from the destination, and Packets follow it back the other way. The Packet goes **up** using Default Routes until a router matches `31.91.0.0/16`, then comes **down** through more specific matches, as shown in the table above.
 
-If a router with no Default Route has no match, the Packet is dropped and the sender is usually told "destination unreachable". This is what happens to a private `192.168.x.x` address on the internet, as no default-free router has a route for it.
+If a router with no Default Route has no match, the Packet is dropped and the sender is usually told "destination unreachable".[^rfc1812][^rfc792] This is what happens to a private `192.168.x.x` address on the internet, as no default-free router has a route for it.
 
 Analogy: a local post office doesn't know every street overseas, so it sends all international mail to the national sorting centre. That centre knows which country each item goes to, the destination country's centre knows the city, and the local office there knows the street.
 
@@ -160,33 +160,32 @@ Routing Protocols work at two levels:
 | | Inside one network | Between networks |
 |---|---|---|
 | Protocol | OSPF (or IS-IS) | BGP |
-| How it works | Every router shares its links, so each router has a full map of that network | Each network announces which Prefixes it can reach, and the list of networks on the way |
-| Algorithm | [[Dijkstra]]'s shortest path | BGP best path selection |
-| "Best" means | Lowest total link cost, usually based on link speed | The operator's business policy first (cheapest or preferred partner), then fewest networks on the path |
+| How it works | Every router shares its links, so each router has a full map of that network[^rfc2328] | Each network announces which Prefixes it can reach, and the list of networks on the way |
+| Algorithm | [[Dijkstra]]'s shortest path[^rfc2328] | BGP best path selection |
+| "Best" means | Lowest total link cost, usually based on link speed[^cisco-ospf] | The operator's own policy first, then fewest networks on the path |
 
-BGP does not pick the fastest path. It picks the path each operator prefers, which is usually the cheapest for them. This is why internet routes are not always the shortest geographically.
+BGP does not measure speed or distance. Each network applies its own policy first, then prefers the path through the fewest networks.[^rfc4271][^wiki-bgp] This is why internet routes are not always the fastest or shortest geographically.
 
 ---
 
 ## References
 
-- [Wikipedia: Router (computing)](https://en.wikipedia.org/wiki/Router_(computing)) — routers are Layer 3 devices that forward Packets hop by hop using their routing tables
-- [Wikipedia: Network switch](https://en.wikipedia.org/wiki/Network_switch) — switches forward Frames using MAC addresses at Layer 2
-- [RFC 1812: Requirements for IP Version 4 Routers](https://www.rfc-editor.org/rfc/rfc1812#section-1) — routers replace the Frame at every hop (§1, §5.2.1.2), use the longest match (§5.2.4.3), and send Destination Unreachable when they have no route (§4.3.3.1)
-- [RFC 826: An Ethernet Address Resolution Protocol](https://www.rfc-editor.org/rfc/rfc826) — ARP turns an IP address into a MAC address on the local network
-- [RFC 1122: Requirements for Internet Hosts](https://www.rfc-editor.org/rfc/rfc1122#page-47) — devices send directly to local destinations and everything else to a default gateway (§3.3.1)
-- [RFC 5737: IPv4 Address Blocks Reserved for Documentation](https://www.rfc-editor.org/rfc/rfc5737#section-3) — 203.0.113.0/24, used for the example public IP in the Example Journey diagram
-- [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — 192.168.0.0/16 is private and isn't routed between networks
-- [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps addresses from one address realm to another, including between overlapping address ranges (§4.3, §6.1)
-- [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — many devices share one public address, and replies are translated back to the right device
-- [ip-route(8) Linux manual page](https://man7.org/linux/man-pages/man8/ip-route.8.html) — `ip route` shows the routing table
-- [RFC 4632: Classless Inter-domain Routing (CIDR)](https://www.rfc-editor.org/rfc/rfc4632#section-3.1) — Prefix notation and the number of addresses per prefix length (§3.1), Route Aggregation (§4.1), and longest match (§5.1)
-- [Wikipedia: Default route](https://en.wikipedia.org/wiki/Default_route) — 0.0.0.0/0 matches every address and is used when nothing more specific matches
-- [Wikipedia: Default-free zone](https://en.wikipedia.org/wiki/Default-free_zone) — the routers that hold the full routing table and don't need a Default Route
-- [CIDR Report](https://www.cidr-report.org/as2.0/) — size of the global IPv4 routing table (1,088,687 prefixes on 1 Nov 2026)
-- [APNIC Blog: BGP in 2025](https://blog.apnic.net/2026/01/08/bgp-in-2025/) — around 1.04 million IPv4 entries in the default-free zone at the end of 2025
-- [RFC 4271: A Border Gateway Protocol 4 (BGP-4)](https://www.rfc-editor.org/rfc/rfc4271#section-3.1) — networks announce the prefixes they can reach (§3.1), each network adds itself to the path as the announcement is passed on (§5.1.2), and local policy is applied before the shortest path (§9.1)
-- [Wikipedia: Border Gateway Protocol](https://en.wikipedia.org/wiki/Border_Gateway_Protocol) — BGP routes between networks based on paths and network policies
-- [RFC 2328: OSPF Version 2](https://www.rfc-editor.org/rfc/rfc2328#page-161) — every router has the same map of the network (§3), and routes are calculated with Dijkstra's algorithm (§16.1)
-- [Cisco: Review OSPF Frequently Asked Questions](https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/9237-9.html) — OSPF link cost is calculated from the link's bandwidth
-- [RFC 792: Internet Control Message Protocol](https://www.rfc-editor.org/rfc/rfc792#page-4) — the Destination Unreachable message
+[^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another
+[^wiki-router]: [Wikipedia: Router (computing)](https://en.wikipedia.org/wiki/Router_(computing)) — routers are Layer 3 devices that forward Packets hop by hop using their routing tables
+[^wiki-switch]: [Wikipedia: Network switch](https://en.wikipedia.org/wiki/Network_switch) — switches forward Frames using MAC addresses at Layer 2
+[^rfc1812]: [RFC 1812: Requirements for IP Version 4 Routers](https://www.rfc-editor.org/rfc/rfc1812#section-1) — routers replace the Frame at every hop (§1, §5.2.1.2), use the longest match (§5.2.4.3), and send Destination Unreachable when they have no route (§4.3.3.1)
+[^rfc826]: [RFC 826: An Ethernet Address Resolution Protocol](https://www.rfc-editor.org/rfc/rfc826) — ARP turns an IP address into a MAC address on the local network
+[^rfc1122]: [RFC 1122: Requirements for Internet Hosts](https://www.rfc-editor.org/rfc/rfc1122#page-47) — devices send directly to local destinations and everything else to a default gateway (§3.3.1)
+[^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — 192.168.0.0/16 is private and isn't routed between networks
+[^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — the home router swaps the private source address for its public one and translates replies back to the right device
+[^ip-route]: [ip-route(8) Linux manual page](https://man7.org/linux/man-pages/man8/ip-route.8.html) — `ip route` shows the routing table
+[^rfc4632]: [RFC 4632: Classless Inter-domain Routing (CIDR)](https://www.rfc-editor.org/rfc/rfc4632#section-3.1) — Prefix notation and the number of addresses per prefix length (§3.1), Route Aggregation (§4.1), and longest match (§5.1)
+[^wiki-default]: [Wikipedia: Default route](https://en.wikipedia.org/wiki/Default_route) — 0.0.0.0/0 matches every address and is used when nothing more specific matches
+[^cidr-report]: [CIDR Report](https://www.cidr-report.org/as2.0/) — size of the global IPv4 routing table (1,088,687 prefixes on 1 Nov 2026)
+[^apnic]: [APNIC Blog: BGP in 2025](https://blog.apnic.net/2026/01/08/bgp-in-2025/) — around 1.04 million IPv4 entries in the default-free zone at the end of 2025
+[^wiki-dfz]: [Wikipedia: Default-free zone](https://en.wikipedia.org/wiki/Default-free_zone) — the routers that hold the full routing table and don't need a Default Route
+[^rfc4271]: [RFC 4271: A Border Gateway Protocol 4 (BGP-4)](https://www.rfc-editor.org/rfc/rfc4271#section-3.1) — networks announce the prefixes they can reach (§3.1), each network adds itself to the path as the announcement is passed on (§5.1.2), and local policy is applied before the shortest path (§9.1)
+[^rfc792]: [RFC 792: Internet Control Message Protocol](https://www.rfc-editor.org/rfc/rfc792#page-4) — the Destination Unreachable message
+[^rfc2328]: [RFC 2328: OSPF Version 2](https://www.rfc-editor.org/rfc/rfc2328#page-161) — every router has the same map of the network (§3), and routes are calculated with Dijkstra's algorithm (§16.1)
+[^cisco-ospf]: [Cisco: Review OSPF Frequently Asked Questions](https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/9237-9.html) — OSPF link cost is calculated from the link's bandwidth
+[^wiki-bgp]: [Wikipedia: Border Gateway Protocol](https://en.wikipedia.org/wiki/Border_Gateway_Protocol) — BGP routes between networks based on paths and network policies
