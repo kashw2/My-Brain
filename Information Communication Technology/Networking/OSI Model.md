@@ -7,7 +7,8 @@ The OSI model's purpose is to distinguish between roles and responsibilities in 
  - **[[#Bit]]**: A representation of data/information in it's lowest form
  - **[[#Network Frame|Frame]]**: A wrapper around a **[[#Packet]]**
  - **[[#Packet]]**: A wrapper around a **[[#Segment]]**
- - **[[#Segment]]**: A wrapper around chunks of application data
+ - **[[#Segment]]**: A wrapper around chunks of **[[#Data|application data]]**
+ - **[[#Data]]**: The information an application sends, before any network headers are added
  - **[[#PDU (Protocol Data Unit)]]**: A way of representing individual layer units such as those in [[#PDU Hierarchy|Hierarchy]]  ^d95b46
 
 ### PDU Hierarchy
@@ -30,7 +31,7 @@ In most cases, Layer 4 to Layer 7 are collapsed into a single layer (Layer 7) an
 
 The **Physical Layer** represents the transport of individual bits over a physical medium (such as copper, fiber, radio) on a network.
 
-The **PDU** for this layer is the [[#Bit]]. It is not aware of anything else
+The **[[#^d95b46|PDU]]** for this layer is the [[#Bit]]. It is not aware of anything else
 
 ### 2. Data Link Layer
 
@@ -38,18 +39,18 @@ The **Data Link Layer** is responsible for organisation of individual bits (as t
 
 The MAC header lives at this Layer
 
-The **PDU** for this layer is the **[[#Network Frame|Frame]]**
+The **[[#^d95b46|PDU]]** for this layer is the **[[#Network Frame|Frame]]**
 ### 3. Network Layer
 
 The **Network Layer** is responsible for routing packets between networks. The **Packet** specifically does not exist as a concept below this layer.
 
-The **PDU** for this layer is the **[[#Packet]]**
+The **[[#^d95b46|PDU]]** for this layer is the **[[#Packet]]**
 
 ### 4. Transport Layer
 
 The **Transport Layer** implements various lower level transport protocols such as [[Transmission Control Protocol - TCPIP|TCP]] and [[UDP]]. It is responsible the transport of data via **Segments** from a source to an application on the host via an address and a port.
 
-The **PDU** for this layer is the **[[#Segment]]**
+The **[[#^d95b46|PDU]]** for this layer is the **[[#Segment]]**
 
 ### 5. Session Layer
 
@@ -61,7 +62,7 @@ The **Application Layer** operates with higher level client networking protocols
 
 The responsibility of this layer is to provide data for the lower layers.
 
-The **PDU** for this layer is **[[#Data]]**
+The **[[#^d95b46|PDU]]** for this layer is **[[#Data]]**
 
 ---
 
@@ -85,3 +86,8 @@ A **Segment** is the **[[#^d95b46|PDU]]** that exists at the **[[#4. Transport L
 As well as a payload consisting of a single chunk of **Data** from the **[[#7. Application Layer|Application Layer]]**
 
 ### Data
+**Data** is the **[[#^d95b46|PDU]]** that exists at the **[[#7. Application Layer|Application Layer]]** (as well as the **[[#5. Session Layer|Session]]** and **[[#6. Presentation Layer|Presentation]]** layers). It is the information an application wants to send, such as an HTTP request or an email.
+
+Unlike the lower **[[#^d95b46|PDUs]]**, it has no header added by the network stack. Any headers inside it (such as HTTP headers) belong to the application protocol, and lower layers treat all of it as payload.
+
+The **[[#4. Transport Layer|Transport Layer]]** splits Data into chunks and wraps each chunk in a **[[#Segment]]**.
