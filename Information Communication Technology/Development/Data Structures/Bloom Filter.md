@@ -18,4 +18,54 @@ If a user queries this service looking for a piece of data, a **Bloom Filter** c
 
 If the **Bloom Filter** finds that the item (usually a UID of some sort) is not in it's record set, it would allow a direct query to the database instead of hitting the cache.
 
-If however the **Bloom Filter** finds that the value is probably there then we will attempt to retrieve that value. This will work as if it wasn't there, the **Bloom Filter** would have found that the value definitely did not exist, so in this case we can be assured that inside the cache our value does exist.
+If however the **Bloom Filter** finds that the value is probably there then we will attempt to retrieve that value from the cache. This is only a "probably" though, the bits it checked could have been set by other values (a false positive). So if the value turns out not to be in the cache, we fall back to querying the database. False positives are rare, so most lookups that reach the cache will find what they need.
+
+## Examples
+
+A **Bloom Filter** is an array of bits that all start off, plus a few hash functions.
+
+- **Adding** a value runs it through each hash function, and each result picks a bit to turn on.
+- **Checking** a value runs the same hashes. If any of those bits is off, the value **definitely does not exist**. If they are all on, it **may exist**, as other values could have turned those bits on.
+
+```typescript
+// Changing the seed gives a different number for the same value, so one function can act as many hash functions
+function hash(value: string, seed: number): number {
+  let hash: number = 2166136261 ^ seed;
+  for (let i = 0; i < value.length; i++) {
+    hash = Math.imul(hash ^ value.charCodeAt(i), 16777619);
+  }
+  return hash >>> 0;
+}
+
+class BloomFilter {
+  private readonly bits: boolean[];
+  private readonly hashCount: number;
+
+  constructor(size: number, hashCount: number) {
+    this.bits = new Array(size).fill(false);
+    this.hashCount = hashCount;
+  }
+
+  add(value: string): void {
+    for (let seed = 0; seed < this.hashCount; seed++) {
+      this.bits[hash(value, seed) % this.bits.length] = true;
+    }
+  }
+
+  mightContain(value: string): boolean {
+    for (let seed = 0; seed < this.hashCount; seed++) {
+      if (!this.bits[hash(value, seed) % this.bits.length]) {
+        return false; // A bit is off, so it was never added
+      }
+    }
+    return true; // Every bit is on, so it was probably added
+  }
+}
+
+const userIds: BloomFilter = new BloomFilter(1000, 3);
+userIds.add('user-123');
+userIds.add('user-456');
+
+console.log(userIds.mightContain('user-123')); // true
+console.log(userIds.mightContain('user-999')); // false
+```
