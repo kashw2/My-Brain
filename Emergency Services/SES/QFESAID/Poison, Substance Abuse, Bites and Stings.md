@@ -51,9 +51,7 @@ The abuse of any legal or illegal substance such as:
 ### Ticks
 
 - Remove as soon as possible
-
-> [!warning] **DO NOT** squeeze the tick
-
+- **DO NOT** squeeze the tick
 - Use ether based sprays such as wart off or medifreeze (adult ticks)
 - Use permethrin cream (small ticks)
 - Wait for the tick to drop off or remove after 10 minutes
@@ -85,8 +83,7 @@ The abuse of any legal or illegal substance such as:
 
 ### Cold / Ice Compress
 
-> [!warning] Never place ice directly against the skin
-
+- Never place ice directly against the skin
 - Refresh regularly to maintain chill
 - If stung, remove stinger
 - Call 000
@@ -102,9 +99,7 @@ The abuse of any legal or illegal substance such as:
 ### Hot Water
 
 - Use water as hot as the first aid provider can tolerate
-
-> [!warning] Don't use boiling water
-
+- Don't use boiling water
 - If pain is not alleviated, try [[#Cold / Ice Compress]]
 - Call 000
 - Monitor vitals
@@ -122,8 +117,7 @@ The abuse of any legal or illegal substance such as:
 - Stops stinging cells discharging
 - May not provide pain relief
 - Primary treatment in tropical waters
-
-> [!warning] **DO NOT** use if clearly stung by **Blue-bottle Jellyfish**
+- **DO NOT** use if clearly stung by **Blue-bottle Jellyfish**
 
 ### Management
 

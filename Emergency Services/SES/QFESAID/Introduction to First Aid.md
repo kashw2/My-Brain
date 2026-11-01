@@ -208,9 +208,7 @@ Involvement with first aid:
 What do we need to know and understand to avoid injury?
 
 - Understand your own limitations and strength
-
-> [!warning] Avoid bending or twisting your back when lifting
-
+- Avoid bending or twisting your back when lifting
 - Be careful not to twist or bend a casualty's neck or back
 - If you are to move a casualty, [[Emergency Services/SES/PLAN|PLAN]] what you are going to do and explain your plan to the casualty
 

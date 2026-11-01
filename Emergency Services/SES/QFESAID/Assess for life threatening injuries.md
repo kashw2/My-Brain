@@ -38,8 +38,7 @@ Manage an unconscious casualty where you find them unless:
 
 To ensure appropriate airway management, do the following:
 
-> [!warning] Do not tilt the head until the mouth has been cleared
-
+- Do not tilt the head until the mouth has been cleared
 - Dentures are only removed if they are loose
 - All foreign material (blood, vomit, food etc) needs to be removed
 - Basic airway manoeuvre can prevent asphyxiation

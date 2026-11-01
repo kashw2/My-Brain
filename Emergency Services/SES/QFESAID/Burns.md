@@ -22,9 +22,7 @@ Used to estimate the percentage of burns a person has suffered
 - Cool with clean water
 - > 20 mins thermal, radiation or chemical burns
 - > 30 mins, bitumen burns
-
-> [!warning] **NEVER** let casualty shiver
-
+- **NEVER** let casualty shiver
 - Cover with burn dressing, damp dressing or cling wrap
 
 #### Chemical Burns

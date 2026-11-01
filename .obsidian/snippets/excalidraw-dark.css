@@ -1,9 +1,35 @@
-/* Match Obsidian's dark mode to Excalidraw's dark theme */
+/*
+ * Recall: colour scheme based on Dzulkifli & Mustafar (2013),
+ * "The influence of colour on memory performance: a review".
+ * Warm colours (red, orange, yellow) draw more attention than cool or
+ * neutral ones, and attention helps memory. So warm colours are kept for
+ * what you need to notice and remember; everything else is neutral or cool.
+ */
+
+/* Base: neutral greys (Excalidraw dark) so warm colours stand out */
 .theme-dark {
   --background-primary: #121212;   /* note background = Excalidraw canvas */
   --background-secondary: #232329; /* sidebars = Excalidraw toolbars */
   --text-normal: #e3e3e8;
 }
+
+/* Remember: key terms (bold) in warm orange */
+.theme-dark {
+  --bold-color: #ff922b;
+}
+
+/* Find: links and ==highlights== in warm yellow */
+.theme-dark {
+  --link-color: #fff067;
+  --link-color-hover: #fff7b1;
+  --link-external-color: #fff067;
+  --link-external-color-hover: #fff7b1;
+  --link-unresolved-color: #fff067; /* still drawn at 70% opacity */
+  --link-unresolved-decoration-color: rgba(255, 240, 103, 0.3);
+  --text-highlight-bg-rgb: 255, 240, 103;
+}
+
+/* Interface: cool violet accent (set in Appearance) so buttons and menus don't compete */
 
 /* File tree: brighter text, white and bolder on hover */
 .theme-dark .nav-files-container {
@@ -26,14 +52,4 @@
   .theme-dark .nav-files-container :is(.nav-file-title-content, .nav-folder-title-content) {
     transition: none;
   }
-}
-
-/* Links: highlighter yellow */
-.theme-dark {
-  --link-color: #fff067;
-  --link-color-hover: #fff7b1;
-  --link-external-color: #fff067;
-  --link-external-color-hover: #fff7b1;
-  --link-unresolved-color: #fff067; /* still drawn at 70% opacity */
-  --link-unresolved-decoration-color: rgba(255, 240, 103, 0.3);
 }

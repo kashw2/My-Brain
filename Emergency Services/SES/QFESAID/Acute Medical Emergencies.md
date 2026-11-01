@@ -187,9 +187,7 @@ Altered supply of blood to the brain
 
 - Call 000
 - Time the duration of seizure
-
-> [!warning] Keep casualty from harming themselves (do not restrain)
-
+- Keep casualty from harming themselves (do not restrain)
 - Place in recovery position when spasms cease
 - Observe and monitor
 - Provide reassurance
@@ -214,7 +212,5 @@ Altered supply of blood to the brain
 - [[DRSABCD|DRSABCD]]
 - Reduce clothing to minimum
 - Cool by fanning
-
-> [!warning] Do not overcool
-
+- Do not overcool
 - Seek medical advice

@@ -59,9 +59,7 @@ Occurs when the skin and underlying [[#Structure of Skin|Tissue]] is exposed to 
 - If medical assistance delayed, place affected part in warm water for 15 - 60 mins
 - Monitor for [[Cardiac Emergencies#Shock|Shock]]
 - Cover with dry sterile bulky protective dressing
-
-> [!warning] **DO NOT** actively warm tissue which has thawed
-
+- **DO NOT** actively warm tissue which has thawed
 - No Alcohol or Tobacco
 
 ---

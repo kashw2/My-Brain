@@ -183,8 +183,7 @@ Caused by:
 ---
 #### Embedded objects
 
-> [!warning] Do not remove object
-
+- Do not remove object
 - Expose object
 - Apply indirect pressure
 - Stabilise object
@@ -248,9 +247,7 @@ Caused by:
 - Tilt head slightly forward
 - Apply pressure to soft part of nose for 10m
 - Apply a cold compress to back of neck and forehead
-
-> [!warning] Avoid blowing nose
-
+- Avoid blowing nose
 - Seek medical assistance if bleeding > 20m
 - If result of head injury, call 000
 
@@ -273,5 +270,4 @@ Caused by:
 - Reassure
 - Lie casualty down
 - Raise legs
-
-> [!warning] Do not give medication, alcohol, food or drink
+- Do not give medication, alcohol, food or drink
