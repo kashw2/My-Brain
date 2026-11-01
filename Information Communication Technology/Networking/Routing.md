@@ -1,4 +1,3 @@
-Routing
 ## Purpose
 
 **Routing** is how a **[[OSI Model#Packet|Packet]]** gets from its source to a destination on a different network. It happens at the **[[OSI Model#3. Network Layer|Network Layer]]** and is carried out by **[[#Router|Routers]]**.

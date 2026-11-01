@@ -1,3 +1,4 @@
 - [[Yearly Goals/2023|2023]]
 - [[Yearly Goals/2024|2024]]
 - [[Yearly Goals/2025|2025]]
+- [[Yearly Goals/2026|2026]]

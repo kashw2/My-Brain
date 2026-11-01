@@ -105,3 +105,11 @@ Basically just means doing the right thing however is made up of:
 ## Notes
 
 - Involved in many types of disasters and emergency
+
+## Training
+
+- [[HRBC021]]
+- [[IMSC001]]
+- [[QFESAID]]
+- [[SEM0002]]
+- [[SEM1005]]
