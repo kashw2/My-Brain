@@ -5,8 +5,25 @@
   --text-normal: #e3e3e8;
 }
 
-/* File tree: brighter text, bolder on hover */
+/* File tree: brighter text, white and bolder on hover */
 .theme-dark .nav-files-container {
   --nav-item-color: #f5f5fa;
+  --nav-item-color-hover: #ffffff;
   --nav-item-weight-hover: 500;
+}
+
+/* File tree: violet underline slides in on hover */
+.theme-dark .nav-files-container :is(.nav-file-title-content, .nav-folder-title-content) {
+  background: linear-gradient(var(--interactive-accent), var(--interactive-accent)) 0 100% / 0 1px no-repeat;
+  transition: background-size 0.2s ease;
+  padding-bottom: 3px; /* gap between text and underline */
+  margin-bottom: -3px; /* keeps row height unchanged */
+}
+.theme-dark .nav-files-container .tree-item-self:hover :is(.nav-file-title-content, .nav-folder-title-content) {
+  background-size: 100% 1px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .theme-dark .nav-files-container :is(.nav-file-title-content, .nav-folder-title-content) {
+    transition: none;
+  }
 }
