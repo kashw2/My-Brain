@@ -132,10 +132,10 @@ A email being sent:
 Data = [SMTP request]
 Segment = [TCP header | Data]
 Packet = [IP header | TCP header | Data]
-Frame = [MAC header | IP header | TCP header]
+Frame = [MAC header | IP header | TCP header | Data]
 ```
 
-The email client makes a request via the SMTP **Application Layer** protocol, from there it is wrapped in a **Segment** which includes the port (587, 465, 25, 2525 depending on client), which is then wrapped in a **Packet** which provides a router the host information (IP address) directing it to 
+The email client makes a request via the SMTP **Application Layer** protocol, from there it is wrapped in a **Segment** which includes the port (587, 465, 25, 2525 depending on client), which is then wrapped in a **Packet** which provides a router the host information (IP address) to send to a host a **Frame** then wraps the **Packet** and provides its own MAC header to direct it to a physical machine
 
 ### Decapsulation
 
