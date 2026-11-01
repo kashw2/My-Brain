@@ -126,6 +126,27 @@ How specific the matched entry is at each hop of the **[[#Example Journey]]**:
 
 Each router still makes its own decision from its own table. The Packet carries no record of earlier choices.
 
+### How Default Routes Reach the Destination
+
+A **[[#Default Route]]** doesn't search for the destination. Each one is set up to point **upstream**, towards a router with a bigger view of the internet:
+1. **Home router**: its Default Route points to the ISP.
+2. **ISP access router** (the one a home connects to): its Default Route points further into the ISP, towards its border routers.
+3. **ISP border router**: a large ISP's border routers hold the full internet table. A small ISP's border routers point their Default Route at a larger transit provider instead.
+4. **Transit provider routers**: the routers of the largest networks have no Default Route at all. They hold a route for every public network, roughly a million entries. This is called the **default-free zone**.
+
+Each step moves the Packet to a router that knows more, so following Default Routes always ends at a router with a specific match.
+
+The default-free zone knows `31.91.0.0/16` because the destination's ISP announced it using BGP (see **[[#Routing Protocols]]**):
+1. The destination's ISP tells its neighbouring networks "I can reach `31.91.0.0/16`, send it to me".
+2. Those neighbours pass the announcement on to their neighbours, adding themselves to the path.
+3. This continues until every default-free router has an entry for `31.91.0.0/16`, saying which neighbour leads towards it.
+
+The announcement travels outwards from the destination, and Packets follow it back the other way. The Packet goes **up** using Default Routes until a router matches `31.91.0.0/16`, then comes **down** through more specific matches, as shown in the table above.
+
+If a router with no Default Route has no match, the Packet is dropped and the sender is usually told "destination unreachable". This is what happens to a private `192.168.x.x` address on the internet, as no default-free router has a route for it.
+
+Analogy: a local post office doesn't know every street overseas, so it sends all international mail to the national sorting centre. That centre knows which country each item goes to, the destination country's centre knows the city, and the local office there knows the street.
+
 ---
 
 ## Routing Protocols
