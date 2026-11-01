@@ -1,53 +1,29 @@
-/*
- * Recall: colour scheme for learning and remembering, based on
- *  - Diachenko et al. (2022), "Color education: A study on methods of
- *    influence on memory", Heliyon 8(11) e11607
- *  - Dzulkifli & Mustafar (2013), "The influence of colour on memory
- *    performance: a review", Malays J Med Sci 20(2) 3-9
- *
- *  Background    colourless, so coloured items stand out
- *  Structure     blue-green for large sections (headings)
- *  Details       yellow-red for what to remember (bold terms, links)
- *  Not content   grey for links to notes not written yet
- *  Interface     cool violet, so it doesn't compete with the notes
- */
-
-/* Background: colourless, matches Excalidraw dark */
+/* Match Obsidian's dark mode to Excalidraw's dark theme */
 .theme-dark {
   --background-primary: #121212;   /* note background = Excalidraw canvas */
   --background-secondary: #232329; /* sidebars = Excalidraw toolbars */
   --text-normal: #e3e3e8;
 }
 
-/* Structure: headings in light blue-green, shifting by level */
+/* Headings: blue, a shade darker at each level */
 .theme-dark {
-  --h1-color: #74c0fc; /* blue */
-  --h2-color: #66d9e8; /* cyan */
-  --h3-color: #63e6be; /* teal */
+  --h1-color: #74c0fc;
+  --h2-color: #4dabf7;
+  --h3-color: #339af0;
+  --h4-color: #228be6;
+  --h5-color: #1c7ed6;
+  --h6-color: #1971c2;
 }
 
-/* Details: key terms (bold) in red, rated most helpful for memory */
+/* Links: Excalidraw red */
 .theme-dark {
-  --bold-color: #ff6b6b;
+  --link-color: #f03e3e;
+  --link-color-hover: #ff6b6b;
+  --link-external-color: #f03e3e;
+  --link-external-color-hover: #ff6b6b;
+  --link-unresolved-color: #f03e3e; /* still drawn at 70% opacity */
+  --link-unresolved-decoration-color: rgba(240, 62, 62, 0.3);
 }
-
-/* Details: links and ==highlights== in yellow */
-.theme-dark {
-  --link-color: #fff067;
-  --link-color-hover: #fff7b1;
-  --link-external-color: #fff067;
-  --link-external-color-hover: #fff7b1;
-  --text-highlight-bg-rgb: 255, 240, 103;
-}
-
-/* Not content: links to notes not written yet in grey */
-.theme-dark {
-  --link-unresolved-color: #8a8a94;
-  --link-unresolved-opacity: 1;
-  --link-unresolved-decoration-color: rgba(138, 138, 148, 0.4);
-}
-
-/* Interface: cool violet accent (set in Appearance) */
 
 /* File tree: brighter text, white and bolder on hover */
 .theme-dark .nav-files-container {
