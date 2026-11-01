@@ -110,12 +110,14 @@ The **[[#4. Transport Layer|Transport Layer]]** splits Data into chunks and wrap
 **Encapsulation** is the process of each layer wrapping the **[[#^d95b46|PDU]]** from the layer above with its own header. The wrapped PDU becomes the payload of the new PDU.
 
 When sending, the PDUs are built from the top layer down:
+
 ```
 Data    = [HTTP request]
 Segment = [TCP header | Data]
 Packet  = [IP header  | TCP header | Data]
 Frame   = [MAC header | IP header  | TCP header | Data]
 ```
+
 The **[[#Network Frame|Frame]]** is then sent across the network as **[[#Bit|Bits]]** by the **[[#1. Physical Layer|Physical Layer]]**.
 
 Each layer only reads its own header and treats everything inside it as payload. For example, a router reads the IP header of a **[[#Packet]]** to decide where to send it, but never reads the **[[#Segment]]** or **[[#Data]]** inside it.

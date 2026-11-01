@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Communication Technology/Networking/OSI Model.md",
+                "file": "Information Communication Technology/Networking/Transmission Control Protocol - TCPIP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSI Model"
+              "title": "Transmission Control Protocol - TCPIP"
             }
           }
         ]
@@ -204,6 +204,8 @@
   },
   "active": "e9d6b7e64b6cd4bc",
   "lastOpenFiles": [
+    "Information Communication Technology/Networking/OSI Model.md",
+    "Information Communication Technology/Networking/Transmission Control Protocol - TCPIP.md",
     "Information Communication Technology/Networking/OSI Model.md.tmp.291276.2ff9d7915ab0",
     "Information Communication Technology/Networking/OSI Model.md.tmp.291276.b752d7ba3c0e",
     "Information Communication Technology/Networking/OSI Model.md.tmp.291276.4e1a2f9d070c",
@@ -217,9 +219,6 @@
     "Education/LOTE/Hindi/Language Structure.md",
     "Education/LOTE/Hindi",
     "Education/LOTE",
-    "Information Communication Technology/Networking/OSI Model.md.tmp.291276.8698044979ed",
-    "Information Communication Technology/Networking/Transmission Control Protocol - TCPIP.md",
-    "Information Communication Technology/Networking/OSI Model.md",
     "TCP.md",
     "Information Communication Technology/Development/Algorithms/Algorithms.md",
     "Excalidraw/Dijkstra Graph.md",
