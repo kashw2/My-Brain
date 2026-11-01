@@ -10,7 +10,7 @@ No single router knows the whole path. Each router only picks the next **[[#Hop]
  - **[[#Routing Table]]**: The list a Router checks to decide where to send each Packet
  - **[[#Prefix]]**: A range of IP addresses, written like `31.91.0.0/16`
  - **[[#Default Route]]**: The route used when nothing more specific matches, written `0.0.0.0/0`
- - **[[#NAT (Network Address Translation)|NAT]]**: Swapping a private IP address for a public one at the edge of a network
+ - **[[#NAT (Network Address Translation)|NAT]]**: Rewriting a Packet's IP addresses as it passes between networks, such as swapping a private address for a public one
 
 ---
 

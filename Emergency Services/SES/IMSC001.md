@@ -52,6 +52,16 @@ BY - When the objective should be achieved by
 
 ---
 
+## SMART
+
+**S - Specific**
+**M - Measurable**
+**A - Achievable**
+**R - Relevant**
+**T - Time-framed**
+
+---
+
 ## Span of Control
 
 Optimum Ration: 1:5 plus or minus 2
