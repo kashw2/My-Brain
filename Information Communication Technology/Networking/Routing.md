@@ -47,6 +47,8 @@ Sending a request from `192.168.1.38` (a device on a home network) to `31.91.21.
 4. **The last router**, on the destination's network, uses **[[#ARP]]** to find the MAC address of `31.91.21.8` and delivers the Frame directly to it.
 5. **The destination** **[[OSI Model#Decapsulation|decapsulates]]** the Frame back into the Packet, Segment and Data.
 
+![[Excalidraw/Networking/Example Journey]]
+
 ### NAT (Network Address Translation)
 
 Addresses such as `192.168.x.x` are private. They can't be used on the internet, and many homes use the same ones. The home router swaps the private source address for its public IP address, and keeps a table of which device sent what so replies can be passed back to the right device.
@@ -109,6 +111,8 @@ A Packet travels up to routers that know more, then down towards the destination
 4. Once the Packet reaches that ISP, its routers use the detailed entries to find the exact customer network.
 
 Without aggregation, every router would need an entry for every small network on the internet.
+
+![[Excalidraw/Networking/Route Aggregation]]
 
 How specific the matched entry is at each hop of the **[[#Example Journey]]**:
 

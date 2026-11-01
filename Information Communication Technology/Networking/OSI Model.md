@@ -3,6 +3,8 @@ Open System Interconnect Model
 
 The OSI model's purpose is to distinguish between roles and responsibilities in computer network communication. It provides a hierarchical approach to understanding of the networking stack
 
+![[Excalidraw/Networking/OSI Layers]]
+
 ### Terminology
  - **[[#Bit]]**: A representation of data/information in it's lowest form
  - **[[#Network Frame|Frame]]**: A wrapper around a **[[#Packet]]**
