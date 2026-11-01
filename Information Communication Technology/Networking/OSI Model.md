@@ -86,8 +86,19 @@ A **Segment** is the **[[#^d95b46|PDU]]** that exists at the **[[#4. Transport L
 As well as a payload consisting of a single chunk of **Data** from the **[[#7. Application Layer|Application Layer]]**
 
 ### Data
-**Data** is the **[[#^d95b46|PDU]]** that exists at the **[[#7. Application Layer|Application Layer]]** (as well as the **[[#5. Session Layer|Session]]** and **[[#6. Presentation Layer|Presentation]]** layers). It is the information an application wants to send, such as an HTTP request or an email.
+**Data** is the **[[#^d95b46|PDU]]** that exists at the **[[#7. Application Layer|Application Layer]]** (as well as the **[[#5. Session Layer|Session]]** and **[[#6. Presentation Layer|Presentation]]** layers). It is the actual message an application wants to send, such as a web page request or an email .
 
-Unlike the lower **[[#^d95b46|PDUs]]**, it has no header added by the network stack. Any headers inside it (such as HTTP headers) belong to the application protocol, and lower layers treat all of it as payload.
+Unlike the other **[[#^d95b46|PDUs]]**, Data has no network header. Instead it consists of:
+- Headers defined by the application protocol (such as HTTP, HTTPS, MQTT or SMTP)
+- The message content itself
+
+The lower layers never read inside Data. To them it is just a payload of bytes.
+
+For example, a browser requesting a web page sends this as Data:
+```
+GET /index.html HTTP/1.1
+Host: example.com
+```
+`GET /index.html` is the request and `Host` is an HTTP header. The browser and web server understand these, but the lower layers only see bytes. With HTTPS, these bytes are encrypted before they reach the **[[#4. Transport Layer|Transport Layer]]**, so the lower layers can't read them at all.
 
 The **[[#4. Transport Layer|Transport Layer]]** splits Data into chunks and wraps each chunk in a **[[#Segment]]**.
