@@ -138,7 +138,7 @@ Packet = [IP header | TCP header | Data]
 Frame = [MAC header | IP header | TCP header | Data]
 ```
 
-The email client makes a request via the SMTP **Application Layer** protocol, from there it is wrapped in a **Segment** which includes the port (587, 465, 25, 2525 depending on client), which is then wrapped in a **Packet** which provides a router the host information (IP address) to send to a host a **Frame** then wraps the **Packet** and provides its own MAC header to direct it to a physical machine
+The email client makes a request via the SMTP **Application Layer** protocol, from there it is wrapped in a **Segment** which includes the port (587 or 465 when an email client sends to its mail server, 2525 as an alternative some providers accept, and 25 between mail servers), which is then wrapped in a **Packet** which provides a router the host information (IP address) to send to a host a **Frame** then wraps the **Packet** and provides its own MAC header to direct it to a physical machine
 
 ### Decapsulation
 
