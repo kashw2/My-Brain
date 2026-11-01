@@ -16,7 +16,6 @@
 
 - [[Education/Abstract Reasoning/Abstract Reasoning|Abstract Reasoning]]
 - [[Education/Math/Math|Math]]
-- [[Education/LOTE/Hindi/Language Structure|Hindi]]
 
 ## Yearly Goals
 

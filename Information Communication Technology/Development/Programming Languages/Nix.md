@@ -69,7 +69,3 @@ The `finalAttrs` pattern is used in standard environment derivations to allow pe
 It's usefulness is described in a few sources:
 [Rryantm](https://ryantm.github.io/nixpkgs/using/overrides/)
 [NixOS](https://ryantm.github.io/nixpkgs/using/overrides/)
-
---- 
-
-## RFCs

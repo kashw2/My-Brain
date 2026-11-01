@@ -19,5 +19,3 @@ If a user queries this service looking for a piece of data, a **Bloom Filter** c
 If the **Bloom Filter** finds that the item (usually a UID of some sort) is not in it's record set, it would allow a direct query to the database instead of hitting the cache.
 
 If however the **Bloom Filter** finds that the value is probably there then we will attempt to retrieve that value. This will work as if it wasn't there, the **Bloom Filter** would have found that the value definitely did not exist, so in this case we can be assured that inside the cache our value does exist.
-
-## Inner workings
