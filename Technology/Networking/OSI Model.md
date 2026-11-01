@@ -143,9 +143,3 @@ The email client makes a request via the SMTP **Application Layer** protocol, fr
 ### Decapsulation
 
 On the receiving side the process runs in reverse. Each layer reads and removes its own header, then passes the payload up to the layer above, until the application receives the original **[[#Data]]**.
-
-### Splitting
-
-A **[[#Network Frame|Frame]]** can only carry a limited amount of data (1500 bytes for Ethernet), so the **[[#4. Transport Layer|Transport Layer]]** splits large Data into chunks, with one chunk per **[[#Segment]]**. Each Segment carries a sequence number so the receiver can put the chunks back in order.
-
-Splitting is for size, not security. Anyone capturing the traffic can reassemble the chunks. Only encryption, such as HTTPS, stops the **[[#Data]]** from being read.
