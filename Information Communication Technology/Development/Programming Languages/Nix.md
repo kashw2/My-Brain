@@ -1,4 +1,4 @@
-The **Nix** Programming Language is a [[Functional Programming|Functional Programming]] language used by the [[Operating Systems/Linux/Package Manager|Nix Package Manager]] and [[NixOS|NixOS]].
+The **Nix** Programming Language is a [[Functional Programming|Functional Programming]] language used by the [[Information Communication Technology/Operations/Operating Systems/Linux/Package Manager|Nix Package Manager]] and [[NixOS|NixOS]].
 
 ---
 

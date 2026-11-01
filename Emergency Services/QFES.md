@@ -20,5 +20,5 @@
 ### Divisions
 
 - [[QFES]]
-- [[SES/FRS|FRS]]
+- [[Emergency Services/SES/FRS|FRS]]
 - [[Emergency Services/SES/Introduction|SES]]

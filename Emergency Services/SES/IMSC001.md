@@ -28,7 +28,7 @@ Consists of:
 
 ### Management
 
-**QFES** direct agencies such as [[SES/FRS|FRS]], [[SES/RFS|RFS]] and the [[SES/Introduction|SES]] to incidents
+**QFES** direct agencies such as [[Emergency Services/SES/FRS|FRS]], [[Emergency Services/SES/RFS|RFS]] and the [[SES/Introduction|SES]] to incidents
 
 ---
 

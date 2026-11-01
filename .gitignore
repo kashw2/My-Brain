@@ -1,0 +1,6 @@
+# Obsidian pane layout, rewritten on every pane switch
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian's deleted-files bin
+.trash/
