@@ -3,6 +3,7 @@
 
 - [[Development|Development]]
 - [[Information Communication Technology/Operations/Operations|Operations]]
+- [[Networking]]
 
 ## Yearly Goals
 

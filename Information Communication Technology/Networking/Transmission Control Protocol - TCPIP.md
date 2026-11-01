@@ -1,0 +1,5 @@
+---
+aliases:
+  - TCP
+  - TCP/IP
+---

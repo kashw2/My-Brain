@@ -47,7 +47,7 @@ The **PDU** for this layer is the **[[#Packet]]**
 
 ### 4. Transport Layer
 
-The **Transport Layer** implements various lower level transport protocols such as [[TCP]] and [[UDP]]. It is responsible the transport of data via **Segments** from a source to an application on the host via an address and a port.
+The **Transport Layer** implements various lower level transport protocols such as [[Transmission Control Protocol - TCPIP|TCP]] and [[UDP]]. It is responsible the transport of data via **Segments** from a source to an application on the host via an address and a port.
 
 The **PDU** for this layer is the **[[#Segment]]**
 
