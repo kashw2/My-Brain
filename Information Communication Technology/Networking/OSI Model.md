@@ -125,6 +125,10 @@ The **[[#Network Frame|Frame]]** is then sent across the network as **[[#Bit|Bit
 
 Each layer only reads its own header and treats everything inside it as payload. For example, a router reads the IP header of a **[[#Packet]]** to decide where to send it, but never reads the **[[#Segment]]** or **[[#Data]]** inside it.
 
+An example of **Encapsulation** in action is:
+
+
+
 ### Decapsulation
 
 On the receiving side the process runs in reverse. Each layer reads and removes its own header, then passes the payload up to the layer above, until the application receives the original **[[#Data]]**.
