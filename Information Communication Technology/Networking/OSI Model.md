@@ -102,3 +102,30 @@ Host: example.com
 `GET /index.html` is the request and `Host` is an HTTP header. The browser and web server understand these, but the lower layers only see bytes. With HTTPS, these bytes are encrypted before they reach the **[[#4. Transport Layer|Transport Layer]]**, so the lower layers can't read them at all.
 
 The **[[#4. Transport Layer|Transport Layer]]** splits Data into chunks and wraps each chunk in a **[[#Segment]]**.
+
+---
+
+## Encapsulation
+
+**Encapsulation** is the process of each layer wrapping the **[[#^d95b46|PDU]]** from the layer above with its own header. The wrapped PDU becomes the payload of the new PDU.
+
+When sending, the PDUs are built from the top layer down:
+```
+Data    = [HTTP request]
+Segment = [TCP header | Data]
+Packet  = [IP header  | TCP header | Data]
+Frame   = [MAC header | IP header  | TCP header | Data]
+```
+The **[[#Network Frame|Frame]]** is then sent across the network as **[[#Bit|Bits]]** by the **[[#1. Physical Layer|Physical Layer]]**.
+
+Each layer only reads its own header and treats everything inside it as payload. For example, a router reads the IP header of a **[[#Packet]]** to decide where to send it, but never reads the **[[#Segment]]** or **[[#Data]]** inside it.
+
+### Decapsulation
+
+On the receiving side the process runs in reverse. Each layer reads and removes its own header, then passes the payload up to the layer above, until the application receives the original **[[#Data]]**.
+
+### Splitting
+
+A **[[#Network Frame|Frame]]** can only carry a limited amount of data (1500 bytes for Ethernet), so the **[[#4. Transport Layer|Transport Layer]]** splits large Data into chunks, with one chunk per **[[#Segment]]**. Each Segment carries a sequence number so the receiver can put the chunks back in order.
+
+Splitting is for size, not security. Anyone capturing the traffic can reassemble the chunks. Only encryption, such as HTTPS, stops the **[[#Data]]** from being read.
