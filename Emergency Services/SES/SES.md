@@ -108,8 +108,8 @@ Basically just means doing the right thing however is made up of:
 
 ## Training
 
-- [[HRBC021]]
-- [[IMSC001]]
-- [[QFESAID]]
-- [[SEM0002]]
-- [[SEM1005]]
+- [[HRBC021 Work Health and Safety]]
+- [[IMSC001 AIIMS Incident Management]]
+- [[QFESAID First Aid]]
+- [[SEM0002 Clients and Decision Making]]
+- [[SEM1005 Briefings and Debriefs]]

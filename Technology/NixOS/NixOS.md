@@ -1,4 +1,4 @@
-**NixOS** is a [[Linux|Linux]] distribution that provides a reproducible and code first, declarative way to define itself. It is powered by the [[Information Communication Technology/Operations/Operating Systems/Linux/Package Manager|Nix Package Manager]].
+**NixOS** is a [[Linux|Linux]] distribution that provides a reproducible and code first, declarative way to define itself. It is powered by the [[Package Manager|Nix Package Manager]].
 
 ---
 

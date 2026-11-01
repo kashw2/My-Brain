@@ -6,7 +6,7 @@
 
 - [[TypeClass|TypeClasses]]
 - [[Isomorphism|Isomorphism]]
-- [[Idemopotency]]
+- [[Idempotency]]
 - [[Pure]]
 - [[Arity]]
 - [[Product]]

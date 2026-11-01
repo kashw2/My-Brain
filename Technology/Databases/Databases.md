@@ -8,4 +8,4 @@
 
 ## Concepts
 
-- [[Information Communication Technology/Development/Databases/Concepts/Automatic Failover|Automatic Failover]]
+- [[Automatic Failover]]

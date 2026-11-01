@@ -11,7 +11,7 @@ STONITH refers to a methodology used during the recovery phase during an Automat
 
 # Examples
 
-![[Excalidraw/Automatic Failover]]
+![[Automatic Failover (diagram)]]
 
 ----
 

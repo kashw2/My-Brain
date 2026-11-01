@@ -1,11 +1,9 @@
 
 ## Area's of Interest
 
-### Information Communication Technology
+### Technology
 
-- [[Development|Development]]
-- [[Information Communication Technology/Operations/Operations|Operations]]
-- [[Networking]]
+- [[Technology]]
 
 ### Emergency Services
 
@@ -16,6 +14,7 @@
 
 - [[Education/Abstract Reasoning/Abstract Reasoning|Abstract Reasoning]]
 - [[Education/Math/Math|Math]]
+- [[Education/Hindi/Hindi|Hindi]]
 
 ## Yearly Goals
 

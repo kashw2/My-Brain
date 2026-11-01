@@ -16,3 +16,9 @@ Allows us to calculate a result of given numerical inputs without having to use 
 95131 x 7392
 ![[95131 * 7392]]
 
+
+39173 x 921
+![[39173 * 921]]
+
+92810 x 318
+![[92810 * 318]]

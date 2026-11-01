@@ -154,7 +154,7 @@ Guidelines
 
 It's a good practice to keep a record of any first aid treatment undertaken. This can be done:
 
-- Verbally to [[Emergency Services/SES/FireCom|FireCom]]
+- Verbally to [[FireCom]]
 - Wordback
 - SHE Report
 - Notebook Entry
@@ -210,7 +210,7 @@ What do we need to know and understand to avoid injury?
 - Understand your own limitations and strength
 - Avoid bending or twisting your back when lifting
 - Be careful not to twist or bend a casualty's neck or back
-- If you are to move a casualty, [[Emergency Services/SES/PLAN|PLAN]] what you are going to do and explain your plan to the casualty
+- If you are to move a casualty, [[PLAN]] what you are going to do and explain your plan to the casualty
 
 ---
 ## Communicable Diseases
@@ -272,7 +272,7 @@ The following steps can be taken to reduce the likelihood of infection:
 ---
 ## Debriefing
 
-Encourage people involved in an incident to talk to a **Peer Support Officer** / [[Emergency Services/SES/FESSN|FESSN]].
+Encourage people involved in an incident to talk to a **Peer Support Officer** / [[FESSN]].
 
 Follow stress management techniques such as:
 
