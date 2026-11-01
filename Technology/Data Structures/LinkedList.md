@@ -46,13 +46,14 @@ class ListNode<T> {
 class LinkedList<T> {
   private head: ListNode<T> | null = null;
 
-  // The new node points at the old head, then becomes the head
+  // O(1): the new node points at the old head, then becomes the head
   prepend(value: T): void {
     const node: ListNode<T> = new ListNode(value);
     node.next = this.head;
     this.head = node;
   }
 
+  // O(n): walks to the last node to attach the new one
   append(value: T): void {
     const node: ListNode<T> = new ListNode(value);
     if (this.head === null) {
@@ -61,11 +62,12 @@ class LinkedList<T> {
     }
     let current: ListNode<T> = this.head;
     while (current.next !== null) {
-      current = current.next; // Walk to the last node
+      current = current.next;
     }
     current.next = node;
   }
 
+  // O(n): walks the list to find the node before the one being removed
   remove(value: T): boolean {
     if (this.head === null) {
       return false;
@@ -85,6 +87,7 @@ class LinkedList<T> {
     return false;
   }
 
+  // O(n): may have to check every node
   contains(value: T): boolean {
     let current: ListNode<T> | null = this.head;
     while (current !== null) {
@@ -96,6 +99,7 @@ class LinkedList<T> {
     return false;
   }
 
+  // O(n): visits every node
   toArray(): T[] {
     const values: T[] = [];
     let current: ListNode<T> | null = this.head;
