@@ -123,6 +123,8 @@ Frame   = [MAC header | IP header  | TCP header | Data]
 
 The **[[#Network Frame|Frame]]** is then sent across the network as **[[#Bit|Bits]]** by the **[[#1. Physical Layer|Physical Layer]]**.
 
+![[Excalidraw/Networking/Encapsulation]]
+
 Each layer only reads its own header and treats everything inside it as payload. For example, a router reads the IP header of a **[[#Packet]]** to decide where to send it, but never reads the **[[#Segment]]** or **[[#Data]]** inside it.
 
 An example of **Encapsulation** in action is:
