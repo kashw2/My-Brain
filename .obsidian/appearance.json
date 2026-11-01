@@ -1,9 +1,12 @@
 {
-  "accentColor": "",
+  "accentColor": "#a8a5ff",
   "cssTheme": "",
   "theme": "obsidian",
   "showViewHeader": true,
   "nativeMenus": true,
   "textFontFamily": "Helvetica,Inter",
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "excalidraw-dark"
+  ]
 }

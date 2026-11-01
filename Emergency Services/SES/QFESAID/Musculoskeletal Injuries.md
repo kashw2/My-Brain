@@ -85,7 +85,8 @@ Remember:
 
 ### Management
 
-- Never replace joint into socket
+> [!warning] Never replace joint into socket
+
 - Rest and support limb
 - Apply cold pack
 - Immobilise

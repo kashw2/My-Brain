@@ -16,11 +16,10 @@ Ensure the safety of:
 - Casualty
 - Commence appropriate treatment following the [[Responding to an Emergency Situation#Basic Life Support|Basic Life Support]] flowchart
 
-Do not move the casualty unless:
-
-- Extreme weather conditions deem it essential
-- To make possible the care of airways
-- To make possible the control of severe bleeding
+> [!warning] Do not move the casualty unless:
+> - Extreme weather conditions deem it essential
+> - To make possible the care of airways
+> - To make possible the control of severe bleeding
 
 **Airways take priority over any fractures or broken bones**
 

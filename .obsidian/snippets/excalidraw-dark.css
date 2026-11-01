@@ -1,0 +1,6 @@
+/* Match Obsidian's dark mode to Excalidraw's dark theme */
+.theme-dark {
+  --background-primary: #121212;   /* note background = Excalidraw canvas */
+  --background-secondary: #232329; /* sidebars = Excalidraw toolbars */
+  --text-normal: #e3e3e8;
+}

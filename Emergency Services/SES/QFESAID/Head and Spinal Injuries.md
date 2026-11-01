@@ -86,7 +86,9 @@ Resulting from:
 - Move if necessary
 - Immobilise
 - Control external bleeding
-- Do not rush treatment
+
+> [!warning] Do not rush treatment
+
 - Maintain body temperature
 
 **Unconscious**
@@ -95,7 +97,9 @@ Resulting from:
 - If breathing, place in recovery position
 - Immobilise
 - Control external bleeding
-- Do not rush treatment
+
+> [!warning] Do not rush treatment
+
 - Maintain body temperature
 
 [[Assess for life threatening injuries#Airways|Airway]] management take priority over any spinal injury

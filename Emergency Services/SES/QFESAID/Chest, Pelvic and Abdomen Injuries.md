@@ -99,7 +99,7 @@ Any injury or trauma to the abdominal area resulting in open or closed injuries
 
 **IF BOWELS ARE EXPOSED COVER WITH MOIST NON STICK DRESSING**
 
-**DO NOT GIVE FOOD OR DRINK**
+> [!warning] **DO NOT GIVE FOOD OR DRINK**
 
 ---
 ## Pelvic Injury
