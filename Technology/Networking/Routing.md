@@ -85,7 +85,7 @@ A **Prefix** is a range of IP addresses, written as an address followed by a sla
 - `/24` covers 256 addresses
 - `/32` covers a single address
 
-For every bit that you add to a prefix you halve the total number of available addresses in the prefix
+For every bit that you add to a prefix you halve the total number of available addresses in the prefix. This also works for the inverse, for every bit that you take away, you double your total number of available addresses in your prefix.
 
 ### Longest Prefix Match
 
