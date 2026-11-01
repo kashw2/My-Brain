@@ -4,14 +4,14 @@ Data structures allow us to store and organize data, giving us the ability to be
 
 ## General
 
-- [[Software Engineering/Data Structures/LinkedList|LinkedList]]
-- [[Software Engineering/Data Structures/DoublyLinkedList|DoublyLinkedList]]
-- [[Software Engineering/Data Structures/Stack|Stack]]
-- [[Software Engineering/Data Structures/Set|Set]]
-- [[Software Engineering/Data Structures/Vector|Vector]]
+- [[LinkedList]]
+- [[DoublyLinkedList]]
+- [[Stack]]
+- [[Set]]
+- [[Vector]]
 
 ## Probabilistic Data Structures
 
 - [[Bloom Filter|Bloom Filter]]
-- [[Software Engineering/Data Structures/Cuckoo Filter|Cuckoo Filter]]
-- [[Software Engineering/Data Structures/Tries|Tries]]
+- [[Cuckoo Filter]]
+- [[Tries]]

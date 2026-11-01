@@ -2,10 +2,10 @@
 - [[Functional Programming|Functional Programming]]
 - [[Algorithms|Algorithms]]
 - [[Databases|Databases]]
-- [[Software Engineering/Networking|Networking]]
+- [[Networking]]
 - [[Data Structures|Data Structures]]
 - [[Cloud|Cloud]]
-- [[Software Engineering/Frameworks/Frameworks|Frameworks]]
+- [[Frameworks]]
 - [[Methodologies|Methodologies]]
 
 ## Languages

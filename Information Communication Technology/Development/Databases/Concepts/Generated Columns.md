@@ -9,7 +9,7 @@
 **Generated Columns** in [[PostgreSQL|PostgreSQL]] have the following characteristics:
 - **Stored Generated Columns** occupy storage as if they were normal columns.
 - **Stored Generated Columns** are updated on write to any of the columns required for it to be calculated. Write in this example refers to `INSERT` and `UPDATE`.
-- Expressions are allowed but must be [[Software Engineering/Concepts/Immutability|Immutable]].
+- Expressions are allowed but must be [[Immutability|Immutable]].
 - Expressions cannot reference another **Generated Column**.
 
 ---

@@ -4,7 +4,7 @@ A **Higher Order Function** is a Function that either takes a Function as a para
 
 **Higher Order Functions** are extremely useful functions used in a variety of different ways in programming, they're rooted in [[Functional Programming|Functional Programming]] however are possible in many different paradigms. 
 
-**Higher Order Functions** have two common occurances. As a Function that takes a function as a parameter, or as a Function that returns a Function, also known as [[Software Engineering/Functional Programming/Concepts/Function Currying|Function Currying]]
+**Higher Order Functions** have two common occurances. As a Function that takes a function as a parameter, or as a Function that returns a Function, also known as [[Function Currying]]
 
 ## Examples
 
