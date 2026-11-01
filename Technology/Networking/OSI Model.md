@@ -143,3 +143,25 @@ The email client makes a request via the SMTP **Application Layer** protocol, fr
 ### Decapsulation
 
 On the receiving side the process runs in reverse. Each layer reads and removes its own header, then passes the payload up to the layer above, until the application receives the original **[[#Data]]**.
+
+---
+
+## References
+
+- [ITU-T X.200: OSI Basic Reference Model (identical to ISO/IEC 7498-1)](https://www.itu.int/rec/T-REC-X.200-199407-I/en) — the seven layers (§6.1.2, §7), and each layer's PDU being its own control information plus the user data from the layer above (§5.6.1)
+- [Wikipedia: OSI model](https://en.wikipedia.org/wiki/OSI_model) — what each layer does, including encryption at the Presentation Layer
+- [Wikipedia: Protocol data unit](https://en.wikipedia.org/wiki/Protocol_data_unit) — the PDU names bit, frame, packet and segment
+- [Wikipedia: Encapsulation (networking)](https://en.wikipedia.org/wiki/Encapsulation_(networking)) — Encapsulation and Decapsulation
+- [Wikipedia: Ethernet frame](https://en.wikipedia.org/wiki/Ethernet_frame) — the Frame header holds the destination and source MAC addresses
+- [RFC 791: Internet Protocol](https://www.rfc-editor.org/rfc/rfc791#section-3.1) — the Packet header holds the source and destination IP addresses
+- [RFC 9293: Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293#section-3.1) — the Segment header holds the source and destination ports
+- [RFC 1812: Requirements for IP Version 4 Routers](https://www.rfc-editor.org/rfc/rfc1812#section-5.2.4.3) — routers choose where to send a Packet using its destination IP address
+- [RFC 9112: HTTP/1.1](https://www.rfc-editor.org/rfc/rfc9112#section-3) — the request line in the HTTP example, and the Host header every HTTP/1.1 request must send (§3.2)
+- [RFC 9110: HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110#section-4.2.2) — HTTPS is HTTP secured with TLS
+- [RFC 9846: The Transport Layer Security (TLS) Protocol Version 1.3](https://www.rfc-editor.org/rfc/rfc9846#section-1) — data sent over TLS is only visible to the two endpoints
+- [MDN: HTTPS](https://developer.mozilla.org/en-US/docs/Glossary/HTTPS) — HTTPS uses TLS to encrypt all communication between client and server
+- [MQTT Version 5.0 (OASIS Standard)](https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html) — MQTT is an application protocol that runs over TCP/IP
+- [RFC 5321: Simple Mail Transfer Protocol](https://www.rfc-editor.org/rfc/rfc5321#section-4.5.4.2) — SMTP and port 25
+- [RFC 6409: Message Submission for Mail](https://www.rfc-editor.org/rfc/rfc6409#section-3.1) — mail clients submit on port 587, while relay between servers stays on port 25
+- [RFC 8314: Cleartext Considered Obsolete](https://www.rfc-editor.org/rfc/rfc8314#section-3.3) — port 465 for submission over TLS
+- [Twilio SendGrid: Integrating with the SMTP API](https://www.twilio.com/docs/sendgrid/for-developers/sending-email/integrating-with-the-smtp-api) — mail providers also accept port 2525

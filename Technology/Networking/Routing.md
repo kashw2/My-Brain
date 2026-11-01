@@ -165,3 +165,28 @@ Routing Protocols work at two levels:
 | "Best" means | Lowest total link cost, usually based on link speed | The operator's business policy first (cheapest or preferred partner), then fewest networks on the path |
 
 BGP does not pick the fastest path. It picks the path each operator prefers, which is usually the cheapest for them. This is why internet routes are not always the shortest geographically.
+
+---
+
+## References
+
+- [Wikipedia: Router (computing)](https://en.wikipedia.org/wiki/Router_(computing)) — routers are Layer 3 devices that forward Packets hop by hop using their routing tables
+- [Wikipedia: Network switch](https://en.wikipedia.org/wiki/Network_switch) — switches forward Frames using MAC addresses at Layer 2
+- [RFC 1812: Requirements for IP Version 4 Routers](https://www.rfc-editor.org/rfc/rfc1812#section-1) — routers replace the Frame at every hop (§1, §5.2.1.2), use the longest match (§5.2.4.3), and send Destination Unreachable when they have no route (§4.3.3.1)
+- [RFC 826: An Ethernet Address Resolution Protocol](https://www.rfc-editor.org/rfc/rfc826) — ARP turns an IP address into a MAC address on the local network
+- [RFC 1122: Requirements for Internet Hosts](https://www.rfc-editor.org/rfc/rfc1122#page-47) — devices send directly to local destinations and everything else to a default gateway (§3.3.1)
+- [RFC 5737: IPv4 Address Blocks Reserved for Documentation](https://www.rfc-editor.org/rfc/rfc5737#section-3) — 203.0.113.0/24, used for the example public IP in the Example Journey diagram
+- [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — 192.168.0.0/16 is private and isn't routed between networks
+- [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps addresses from one address realm to another, including between overlapping address ranges (§4.3, §6.1)
+- [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — many devices share one public address, and replies are translated back to the right device
+- [ip-route(8) Linux manual page](https://man7.org/linux/man-pages/man8/ip-route.8.html) — `ip route` shows the routing table
+- [RFC 4632: Classless Inter-domain Routing (CIDR)](https://www.rfc-editor.org/rfc/rfc4632#section-3.1) — Prefix notation and the number of addresses per prefix length (§3.1), Route Aggregation (§4.1), and longest match (§5.1)
+- [Wikipedia: Default route](https://en.wikipedia.org/wiki/Default_route) — 0.0.0.0/0 matches every address and is used when nothing more specific matches
+- [Wikipedia: Default-free zone](https://en.wikipedia.org/wiki/Default-free_zone) — the routers that hold the full routing table and don't need a Default Route
+- [CIDR Report](https://www.cidr-report.org/as2.0/) — size of the global IPv4 routing table (1,088,687 prefixes on 1 Nov 2026)
+- [APNIC Blog: BGP in 2025](https://blog.apnic.net/2026/01/08/bgp-in-2025/) — around 1.04 million IPv4 entries in the default-free zone at the end of 2025
+- [RFC 4271: A Border Gateway Protocol 4 (BGP-4)](https://www.rfc-editor.org/rfc/rfc4271#section-3.1) — networks announce the prefixes they can reach (§3.1), each network adds itself to the path as the announcement is passed on (§5.1.2), and local policy is applied before the shortest path (§9.1)
+- [Wikipedia: Border Gateway Protocol](https://en.wikipedia.org/wiki/Border_Gateway_Protocol) — BGP routes between networks based on paths and network policies
+- [RFC 2328: OSPF Version 2](https://www.rfc-editor.org/rfc/rfc2328#page-161) — every router has the same map of the network (§3), and routes are calculated with Dijkstra's algorithm (§16.1)
+- [Cisco: Review OSPF Frequently Asked Questions](https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/9237-9.html) — OSPF link cost is calculated from the link's bandwidth
+- [RFC 792: Internet Control Message Protocol](https://www.rfc-editor.org/rfc/rfc792#page-4) — the Destination Unreachable message
