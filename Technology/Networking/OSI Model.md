@@ -28,7 +28,7 @@ When sending, **[[#Encapsulation]]** builds these in reverse order (Data → Bit
 
 ## Structure
 
-The OSI Model separates networking into 7 distinct layers.[^x200][^wiki-osi]
+The OSI Model separates networking into 7 distinct layers.[^wiki-osi]
 
 In most cases, Layer 4 to Layer 7 are collapsed into a single layer (Layer 7) and known colloquially as the Application Layer.
 
@@ -111,7 +111,7 @@ The **[[#4. Transport Layer|Transport Layer]]** splits Data into chunks and wrap
 
 ## Encapsulation
 
-**Encapsulation** is the process of each layer wrapping the **[[#^d95b46|PDU]]** from the layer above with its own header. The wrapped PDU becomes the payload of the new PDU.[^x200][^wiki-encap]
+**Encapsulation** is the process of each layer wrapping the **[[#^d95b46|PDU]]** from the layer above with its own header. The wrapped PDU becomes the payload of the new PDU.[^wiki-encap]
 
 When sending, the PDUs are built from the top layer down:
 
@@ -130,15 +130,15 @@ Each layer only reads its own header and treats everything inside it as payload.
 
 An example of **Encapsulation** in action is:
 
-A email being sent:
+An email being sent:
 ```
-Data = [SMTP request]
+Data = [SMTP message]
 Segment = [TCP header | Data]
 Packet = [IP header | TCP header | Data]
 Frame = [MAC header | IP header | TCP header | Data]
 ```
 
-The email client makes a request via the SMTP **Application Layer** protocol, from there it is wrapped in a **Segment** which includes the port (587[^rfc6409] or 465[^rfc8314] when an email client sends to its mail server, 2525 as an alternative some providers accept[^sendgrid], and 25 between mail servers[^rfc5321][^rfc6409]), which is then wrapped in a **Packet** which provides a router the host information (IP address) to send to a host a **Frame** then wraps the **Packet** and provides its own MAC header to direct it to a physical machine
+The email client creates the email using the SMTP **[[#7. Application Layer|Application Layer]]** protocol. This is wrapped in a **[[#Segment]]**, which adds the mail server's port (587[^rfc6409] or 465[^rfc8314] when an email client sends to its mail server, 2525 as an alternative some providers accept[^sendgrid], and 25 between mail servers[^rfc5321][^rfc6409]). The Segment is then wrapped in a **[[#Packet]]**, which adds the mail server's IP address so routers can direct it across networks. Finally, the Packet is wrapped in a **[[#Network Frame|Frame]]**, which adds the MAC address of the next device on the local network, usually the home router (see [[Routing#Hop]]).
 
 ### Decapsulation
 
@@ -149,8 +149,7 @@ On the receiving side the process runs in reverse. Each layer reads and removes 
 ## References
 
 [^wiki-pdu]: [Wikipedia: Protocol data unit](https://en.wikipedia.org/wiki/Protocol_data_unit) — the PDU names bit, frame, packet and segment
-[^x200]: [ITU-T X.200: OSI Basic Reference Model (identical to ISO/IEC 7498-1)](https://www.itu.int/rec/T-REC-X.200-199407-I/en) — the seven layers (§6.1.2, §7), and each layer's PDU being its own control information plus the user data from the layer above (§5.6.1)
-[^wiki-osi]: [Wikipedia: OSI model](https://en.wikipedia.org/wiki/OSI_model) — what each layer does, including encryption at the Presentation Layer in the OSI Layers diagram
+[^wiki-osi]: [Wikipedia: OSI model](https://en.wikipedia.org/wiki/OSI_model) — the seven layers and what each one does, including encryption at the Presentation Layer in the OSI Layers diagram
 [^wiki-eth]: [Wikipedia: Ethernet frame](https://en.wikipedia.org/wiki/Ethernet_frame) — the Frame header holds the destination and source MAC addresses
 [^rfc791]: [RFC 791: Internet Protocol](https://www.rfc-editor.org/rfc/rfc791#section-3.1) — the Packet header holds the source and destination IP addresses
 [^rfc9293]: [RFC 9293: Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293#section-3.1) — the Segment header holds the source and destination ports
