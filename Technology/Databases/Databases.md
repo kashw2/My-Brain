@@ -1,4 +1,4 @@
-- [[PostgreSQL|PostgreSQL]]
+- [[PostgreSQL]]
 - [[Microsoft SQL Server]]
 - [[NeonDB]]
 - [[Fauna]]

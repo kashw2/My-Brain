@@ -121,7 +121,7 @@ Common conditions
 
 **Unconscious**
 
-- [[DRSABCD|DRSABCD]]
+- [[DRSABCD]]
 - [[Assess for life threatening injuries#Recovery (lateral) Position|Recovery (lateral) Position]]
 
 ---
@@ -161,7 +161,7 @@ Altered supply of blood to the brain
 
 **Unconscious**
 
-- [[DRSABCD|DRSABCD]]
+- [[DRSABCD]]
 - Recovery position
 - Monitor vital signs
 
@@ -209,7 +209,7 @@ Altered supply of blood to the brain
 
 ### Management
 
-- [[DRSABCD|DRSABCD]]
+- [[DRSABCD]]
 - Reduce clothing to minimum
 - Cool by fanning
 - Do not overcool

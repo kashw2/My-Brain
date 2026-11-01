@@ -1,6 +1,6 @@
 1)
 
-![[Pasted image 20240617215827.png]]
+![[Rearrangement 1.png]]
 
 In this example, **C** is the answer.
 

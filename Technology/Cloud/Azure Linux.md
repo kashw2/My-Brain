@@ -1,4 +1,4 @@
-Azure Linux is Microsoft's Open Sourced and internally used Linux Distribution powering many Linux powered services in Azure.
+Azure Linux is Microsoft's Open Sourced and internally used [[Linux]] Distribution powering many Linux powered services in [[Azure]].
 
 ## Features
 

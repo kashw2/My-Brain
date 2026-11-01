@@ -43,7 +43,7 @@ If there is no history of Anagina, it is to be treated as heart failure
 
 **Unconscious**:
 
-- [[DRSABCD|DRSABCD]]
+- [[DRSABCD]]
 - Call 000
 
 ---
@@ -143,7 +143,7 @@ Caused by:
 - Severe bleeding
 - Major or multiple fractures
 - Major trauma
-- Severe burns
+- Severe [[Burns|burns]]
 - Severe diarrhoea / vomiting
 - Heart disorders
 - Heat stroke
@@ -166,7 +166,7 @@ Caused by:
 
 #### Management
 
-- [[DRSABCD|DRSABCD]]
+- [[DRSABCD]]
 - Control bleeding
 - Reassurance
 - Call 000

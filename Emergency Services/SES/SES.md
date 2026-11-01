@@ -1,3 +1,4 @@
+The **State Emergency Service (SES)** is a volunteer-based division of [[QFES]] and the primary responder for storm and flood events.
 
 ## History
 
@@ -23,7 +24,7 @@
 
 - Floods
 - Storm damage operation
-- Road crash resuce
+- Road crash rescue
 - Incident and Traffic management
 - Search and rescue
 - Community Outreach
@@ -37,7 +38,7 @@ Stakeholders are broken down into internal and external stakeholders.
 
 #### Internal Stakeholders
 
-- Members of [[QFES|QFES]], RFS, FRS
+- Members of [[QFES]], RFS, FRS
 - Members of SES
 
 #### External Stakeholders

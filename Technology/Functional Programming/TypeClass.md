@@ -3,8 +3,8 @@ A TypeClass is a way of grouping or categorising types that satisfy a contract. 
 ---
 
 ## Examples
-- [[Functor|Functor]]
-- [[Applicative|Applicative]]
-- [[Monad|Monad]]
-- [[Semigroup|Semigroup]]
-- [[Monoid|Monoid]]
+- [[Functor]]
+- [[Applicative]]
+- [[Monad]]
+- [[Semigroup]]
+- [[Monoid]]

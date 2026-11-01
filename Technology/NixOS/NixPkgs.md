@@ -1,4 +1,4 @@
-**NixPkgs** is the central package repository for [[NixOS|NixOS]]. 
+**NixPkgs** is the central package repository for [[NixOS]]. 
 
 ---
 
@@ -10,7 +10,7 @@
 - Small
 
 ### Stable
-The stable branch (usually denoted with a version number referring to the version of [[NixOS|NixOS]] it was built for) which contains all the packages that are running on stable builds and are likely to work without issues.
+The stable branch (usually denoted with a version number referring to the version of [[NixOS]] it was built for) which contains all the packages that are running on stable builds and are likely to work without issues.
 
 ### Unstable
 The unstable branch, containing packages that are closer to following their source than those found on stable or small channels but not close enough to be considered 'on the edge'.
@@ -22,9 +22,9 @@ The small branch, containing smaller binaries and packages that can generally al
 
 ## Updating Packages
 
-Updating packages in [[NixOS|NixOS]] can range anywhere from fairly trivial to complex.
+Updating packages in [[NixOS]] can range anywhere from fairly trivial to complex.
 
-Trivial package updates are those that usually just involve updating the package's  `version` attribute as well as it's `hash` and or `vendorHash` attributes. 
+Trivial package updates are those that usually just involve updating the package's  `version` attribute as well as its `hash` and or `vendorHash` attributes. 
 
 In cases where the package in question is hosted on GitHub, `nix-update` can do most of the work.
 

@@ -5,8 +5,8 @@ A [Monoid](https://typelevel.org/cats/typeclasses/monoid.html) is a [[TypeClass]
 ## Laws
 
 1) **Associativity** which states that regardless of the order of operations, the result must be the same making the results [[Isomorphism|Isomorphic]].
-2) **Left Identity** which states that if you have a left associative [[Product]] and combine it with a value who's identity function performs no action (Unit or Void) that the [[Product]] should be returned.
-3) **Right Identity** similar to the second law states that if you have a right associative [[Product]] and combine it with a value who's identity function performs no action (Unit or Void) that the [[Product]] should be returned.
+2) **Left Identity** which states that if you have a left associative [[Product]] and combine it with a value whose identity function performs no action (Unit or Void) that the [[Product]] should be returned.
+3) **Right Identity** similar to the second law states that if you have a right associative [[Product]] and combine it with a value whose identity function performs no action (Unit or Void) that the [[Product]] should be returned.
 
 ---
 

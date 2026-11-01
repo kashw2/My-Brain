@@ -1,11 +1,11 @@
-The **Nix** Programming Language is a [[Functional Programming|Functional Programming]] language used by the [[Package Manager|Nix Package Manager]] and [[NixOS|NixOS]].
+The **Nix** Programming Language is a [[Functional Programming]] language used by the [[Package Manager|Nix Package Manager]] and [[NixOS]].
 
 ---
 
 ## Syntax
 
 ### attribute set
-The [`{}`](https://nix.dev/tutorials/first-steps/nix-language#attribute-set) keyword is used to define an attribute set. It's Syntax is as follows
+The [`{}`](https://nix.dev/tutorials/first-steps/nix-language#attribute-set) keyword is used to define an attribute set. Its Syntax is as follows
 ```nix
 {
 	a = "a";
@@ -14,7 +14,7 @@ The [`{}`](https://nix.dev/tutorials/first-steps/nix-language#attribute-set) key
 ```
 
 ### rec
-The [`rec`](https://nix.dev/tutorials/first-steps/nix-language#recursive-attribute-set-rec)keyword is used to define a recursive set. It's Syntax is as follows
+The [`rec`](https://nix.dev/tutorials/first-steps/nix-language#recursive-attribute-set-rec)keyword is used to define a recursive set. Its Syntax is as follows
 ```nix
 rec {
 	a = "a";
@@ -24,7 +24,7 @@ rec {
 ```
 
 ### let ... in ...
-Also known as a 'let expression' or 'let binding'. The [`let`](https://nix.dev/tutorials/first-steps/nix-language#attribute-set) keyword allows assignment of names to values for repeated use in an [`in`](https://nix.dev/tutorials/first-steps/nix-language#attribute-set) block. It's Syntax is as follows
+Also known as a 'let expression' or 'let binding'. The [`let`](https://nix.dev/tutorials/first-steps/nix-language#attribute-set) keyword allows assignment of names to values for repeated use in an [`in`](https://nix.dev/tutorials/first-steps/nix-language#attribute-set) block. Its Syntax is as follows
 ```nix
 let 
 	a = 1;
@@ -66,6 +66,6 @@ with a; [b c d]
 ### finalAttrs
 The `finalAttrs` pattern is used in standard environment derivations to allow people to have greater flexibility in overriding attributes to and accessing members, steps or phases inside of a derivation. 
 
-It's usefulness is described in a few sources:
+Its usefulness is described in a few sources:
 [Rryantm](https://ryantm.github.io/nixpkgs/using/overrides/)
 [NixOS](https://ryantm.github.io/nixpkgs/using/overrides/)

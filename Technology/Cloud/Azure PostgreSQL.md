@@ -1,5 +1,5 @@
 
-# Authentication with Managed Identity
+## Authentication with Managed Identity
 
 Both [PostgreSQL Single Server](https://learn.microsoft.com/en-us/azure/postgresql/single-server/overview-single-server) and [PostgreSQL Flexible Server](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/overview) offer Authentication via Entra ID (Formally Active Directory). 
 
@@ -7,7 +7,7 @@ Using the below Terraform, you create the following resources:
 - Entra ID Application
 	- Service Principal / Managed Identity
 	- ARM Role Assignment (For Subscription Access)
-- PostgreSQL Flexible Server (With Entra ID Authentication Enabled)
+- [[PostgreSQL]] Flexible Server (With Entra ID Authentication Enabled)
 - A PostgreSQL Flexible Server Active Directory / Entra ID Administrator
 
 ```terraform
@@ -70,7 +70,7 @@ Following this, you must do the following to authenticate to the PostgreSQL Serv
 
 The following assumes a Flexible Server.
 
-- Login to Azure using the CLI under the Service Principal's credentials
+- Login to [[Azure]] using the CLI under the Service Principal's credentials
 	- `az login --service-principal -u "your principal application id" -p "your principal password / secret value" --tenant "your tenant id"`
 - Obtain your authentication token
 	- `az account get-access-token --resource https://ossrdbms-aad.database.windows.net`

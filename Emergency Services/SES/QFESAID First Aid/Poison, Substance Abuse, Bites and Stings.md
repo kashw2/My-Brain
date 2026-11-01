@@ -17,7 +17,7 @@ When talking to operators try to:
 - Find out when
 - Keep any containers
 - Refer to SDS
-- [[DRSABCD|DRSABCD]]
+- [[DRSABCD]]
 
 ## Substance Abuse
 
@@ -56,7 +56,7 @@ The abuse of any legal or illegal substance such as:
 - Use permethrin cream (small ticks)
 - Wait for the tick to drop off or remove after 10 minutes
 - Seek medical advice
-- If unconscious follow [[DRSABCD|DRSABCD]]
+- If unconscious follow [[DRSABCD]]
 
 ### PIT
 

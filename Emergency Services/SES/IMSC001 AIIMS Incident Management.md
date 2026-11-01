@@ -1,3 +1,4 @@
+Course notes on **AIIMS**, the system QFES uses to set up control and delegate responsibilities at an incident.
 
 ## AIIMS
 
@@ -28,7 +29,7 @@ Consists of:
 
 ### Management
 
-**QFES** direct agencies such as [[FRS]], [[RFS]] and the [[Emergency Services/SES/SES|SES]] to incidents
+**[[QFES]]** direct agencies such as [[FRS]], [[RFS]] and the [[SES]] to incidents
 
 ---
 

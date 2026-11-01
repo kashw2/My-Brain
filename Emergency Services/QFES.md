@@ -1,8 +1,9 @@
+**Queensland Fire and Emergency Services (QFES)** is the umbrella agency for Queensland's fire services and the SES.
 
 ## What QFES does
 
 - Provides services to entire community
-- Maintained by unique mix of 35000+ RFS, 6000 SES, 2000 Perm firefighters, 2000+ firefighters, scientists, non operation specific personal
+- Maintained by unique mix of 35000+ RFS, 6000 SES, 2000 Perm firefighters, 2000+ firefighters, scientists, non operation specific personnel
 - Protects people, property, environment
 
 ## Responds to
@@ -17,8 +18,8 @@
 - Crime scene
 - Animal disease outbreaks
 
-### Divisions
+## Divisions
 
 - [[RFS]]
 - [[FRS]]
-- [[Emergency Services/SES/SES|SES]]
+- [[SES]]

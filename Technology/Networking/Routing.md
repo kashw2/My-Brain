@@ -159,7 +159,7 @@ Routing Protocols work at two levels:
 |---|---|---|
 | Protocol | OSPF (or IS-IS) | BGP |
 | How it works | Every router shares its links, so each router has a full map of that network | Each network announces which Prefixes it can reach, and the list of networks on the way |
-| Algorithm | Dijkstra's shortest path | BGP best path selection |
+| Algorithm | [[Dijkstra]]'s shortest path | BGP best path selection |
 | "Best" means | Lowest total link cost, usually based on link speed | The operator's business policy first (cheapest or preferred partner), then fewest networks on the path |
 
 BGP does not pick the fastest path. It picks the path each operator prefers, which is usually the cheapest for them. This is why internet routes are not always the shortest geographically.

@@ -1,3 +1,4 @@
+Course notes for the QFES first aid course, one note per chapter.
 
 ## Chapters
 

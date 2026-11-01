@@ -1,13 +1,13 @@
-PostgreSQL is an Open Source, Highly Flexible [[ACID|ACID]] conforming [[Relational Database Management System]] 
+PostgreSQL is an Open Source, Highly Flexible [[ACID]] conforming [[Relational Database Management System]] 
 
 ----
 
-Written in mostly [[C]], **PostgreSQL** has built a reputation for being one of the most flexible and most easy to access with lowest barrier to entry [[Relational Database Management System|Relational Database Management Systems]] available on the market. It consistently [ranks as one of the most used](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-databases) [[Databases|Databases]] in the industry.
+Written in mostly [[C]], **PostgreSQL** has built a reputation for being one of the most flexible and most easy to access with lowest barrier to entry [[Relational Database Management System|Relational Database Management Systems]] available on the market. It consistently [ranks as one of the most used](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-databases) [[Databases]] in the industry.
 
 ## Features
 
 - High Amount of Flexibility and Customisation
-- [[Generated Columns|Generated Columns]]
+- [[Generated Columns]]
 - Conforming to many International Standards
 - High industry adoption
 - Write Ahead Logging

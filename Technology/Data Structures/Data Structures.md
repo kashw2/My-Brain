@@ -12,6 +12,6 @@ Data structures allow us to store and organize data, giving us the ability to be
 
 ## Probabilistic Data Structures
 
-- [[Bloom Filter|Bloom Filter]]
+- [[Bloom Filter]]
 - [[Cuckoo Filter]]
 - [[Tries]]

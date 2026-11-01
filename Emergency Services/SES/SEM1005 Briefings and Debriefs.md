@@ -1,3 +1,4 @@
+Course notes on two formats: **WWWW** for debriefs and **SMEACS** for briefings.
 
 ## WWWW
 

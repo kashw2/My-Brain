@@ -1,12 +1,12 @@
-Bloom filters are probabilistic [[Data Structures|Data Structures]] that present a way to quickly and efficiently determine if a value definitely does not exist or it it may exist in a record set.
+Bloom filters are probabilistic [[Data Structures]] that present a way to quickly and efficiently determine if a value definitely does not exist or it it may exist in a record set.
 
 ---
 
 ## Description
 
-The purpose of a **Bloom Filter** is to provide a way to quickly and efficiently determine if a record is possibly in a record set or if it is definitely not in a record set. It's backwards like approach to logic and reason is what powers many of the tools and pieces of software we use today. Examples of their usage can be found in:
+The purpose of a **Bloom Filter** is to provide a way to quickly and efficiently determine if a record is possibly in a record set or if it is definitely not in a record set. Its backwards like approach to logic and reason is what powers many of the tools and pieces of software we use today. Examples of their usage can be found in:
 
-- [[PostgreSQL|PostgreSQL]]
+- [[PostgreSQL]]
 - Redis
 - Cassandra
 - Oracle
@@ -16,7 +16,7 @@ A common implementation of a **Bloom Filter** is is services that have an in mem
 
 If a user queries this service looking for a piece of data, a **Bloom Filter** can be put in place as a stop gap between sending the query directly to the database versus retrieving data from the cache. 
 
-If the **Bloom Filter** finds that the item (usually a UID of some sort) is not in it's record set, it would allow a direct query to the database instead of hitting the cache.
+If the **Bloom Filter** finds that the item (usually a UID of some sort) is not in its record set, it would allow a direct query to the database instead of hitting the cache.
 
 If however the **Bloom Filter** finds that the value is probably there then we will attempt to retrieve that value from the cache. This is only a "probably" though, the bits it checked could have been set by other values (a false positive). So if the value turns out not to be in the cache, we fall back to querying the database. False positives are rare, so most lookups that reach the cache will find what they need.
 

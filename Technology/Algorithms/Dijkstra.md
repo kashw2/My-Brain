@@ -1,4 +1,4 @@
-Dijkstra is an [[Algorithms|Algorithm]] used to find the shortest path between point **A** and point **B**. It's heavily used in Networking and also has use cases in general path based distance calculations.
+Dijkstra is an [[Algorithms|Algorithm]] used to find the shortest path between point **A** and point **B**. It's heavily used in [[Networking]] and also has use cases in general path based distance calculations.
 
 Dijkstra works off of a 'cost of travel' model. It assumes that it is the cost of travel between nodes that is known, not the location of the specific node itself. For example it assumes to know that travel between point A and point B may have a cost of 8 where as a cost between point A and point C may have a cost of 3 as opposed of knowing that A's position is 0, 0; B's 1, 8; C's 3, 9 etc. This means that no location calculation's are required when implementing it.
 
@@ -36,7 +36,7 @@ function findSmallestDistance(nodes: object): object {
 }
 ```
 
-3) Create our main function that puts it all together and returns an object with the path to take and it's relative distance.
+3) Create our main function that puts it all together and returns an object with the path to take and its relative distance.
 
 ```typescript
 function dijkstra(graph: object): object {

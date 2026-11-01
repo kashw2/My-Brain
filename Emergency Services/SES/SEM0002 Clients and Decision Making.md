@@ -1,13 +1,10 @@
+Course notes on how the SES is structured, what its clients expect, and how members make decisions and handle difficult situations.
 
-# Structure
+## Structure
 
-- SES State Office
-- SES Regions
-- SES Areas
-- SES Units
-- SES Groups
+See [[SES#Structure]].
 
-# SES Functions and Activities
+## SES Functions and Activities
 
 - Flood Boat Response
 - Storm Damage Operations
@@ -17,26 +14,24 @@
 - Supporting other emergency services
 - Many more...
 
-# Stakeholders and Clients
+## Stakeholders and Clients
 
-Stakeholders become clients when:
-- The SES provides a specific service to them
-- QPS requests SES assistance
+See [[SES#Stakeholders and Clients]].
 
-# Client Expectations
+## Client Expectations
 
-## Stated
+### Stated
 
 Clearly set by the client and are based on what is said or asked
 
-## Explicit
+### Explicit
 
 Are formed on the basis of claims and promises made by organisations through mediums such as:
 - Advertising
 - Marketing
 - Public Relations
 
-## Implicit
+### Implicit
 
 Based on the clients perception of the organisation or individual brand impact, stature or reputation.
 
@@ -49,36 +44,36 @@ Generally not mentioned by people, the general public quite rightly have an impl
 - Duty of Care
 - Promptness
 
-# Decision Making
+## Decision Making
 
-## Non Programmed Decisions
+### Non Programmed Decisions
 
-### Rational
+#### Rational
 
 - Follows steps
 - Consider alternatives
-### Bounded Rational
+#### Bounded Rational
 
 - Recognised limit of decision making processes
 - Limited options to manageable set
 - Tendency to satisfy criteria
 
-### Intuitive
+#### Intuitive
 
 - Gut feeling
 - No conscious reasoning
 - Requires pattern recognition
 
-### Creative
+#### Creative
 
 - New imaginative ideas
 - Needs time
 
-## Collaborative Decision Making
+### Collaborative Decision Making
 
 Collaboration makes people feel values as a way of recognising their knowledge and opinions. It also lifts self esteem and gives motivation.
 
-### Accountability
+#### Accountability
 
 Pros:
 - Sensor of shared purpose
@@ -90,7 +85,7 @@ Cons:
 - Harder to recognise individual contributions
 - Easier to hide individual lack of effort
 
-### Conflict
+#### Conflict
 
 More likely to create conflict in a group
 
@@ -104,7 +99,7 @@ Cons:
 - May lead to tension and arguments
 - Best decision may not be reached due to compromise
 
-### Time
+#### Time
 
 More time can lead to better decision making but can come at a loss of productivity in dire situations.
 
@@ -118,7 +113,7 @@ Cons:
 - Planning and coordination takes more time
 - May lead to decisions being rushed
 
-### Summary
+#### Summary
 
 - Focus on the outcomes
 - Set clear accountability
@@ -126,53 +121,53 @@ Cons:
 - ave a clear and defined timeline for the group to follow
 - After considering all the information, make a decision
 
-## Techniques
+### Techniques
 
 - Identify the purpose of your decision
 - Gather information
 - Identify the principles to judge the alternatives
 - Brainstorm and list different possible choices
-- Evaluate each choice in terms of it's consequences
+- Evaluate each choice in terms of its consequences
 - Determine the best alternative
 - Put the decision into action
 - Evaluate the outcome of your decision and action steps
 
-## EXTRA
+### EXTRA
 
-### E - Evaluation
+#### E - Evaluation
 
 Evaluate the need, requirement, relevance or priority
 
-### X - eXamination
+#### X - eXamination
 
 Examine the risk involved, do a risk assessment 
 
-### T - Training
+#### T - Training
 
 Have you or others got the level of expertise, skill or meet the requirements to successfully undertake the activity
 
-### R - Resources
+#### R - Resources
 
 Is the availability of people, equipment, time or other resources met
 
-### A - Alternatives
+#### A - Alternatives
 
 Can other options for assistance be performed
 
-## Privacy and Confidentially
+### Privacy and Confidentiality
 
 - Ask clients to spell names unfamiliar with
 - Ask for numbers
 - Any and all information provided by clients or shareholders should be assumed to be private or confidential
 
-## Safety
+### Safety
 
-- Must comply with government and QFES legislation
+- Must comply with government and [[QFES]] legislation
 - WHS009 must be completed and submitted for accidents or near misses
 
-## Responding to Clients
+### Responding to Clients
 
-### Analysing Information
+#### Analysing Information
 
 Consider:
 - What are the organisational policies
@@ -180,9 +175,9 @@ Consider:
 - What is the organisation context relevant to the solution
 - What are possible responses to the situation
 
-## Realistic and Unrealistic Expectations
+### Realistic and Unrealistic Expectations
 
-### Meeting Client Needs
+#### Meeting Client Needs
 
 Our service covers:
 - Providing practical help
@@ -196,13 +191,13 @@ As a public service we are required to meet the following expectations for condu
 4. Ensure our private conduct maintains the integrity of the public service and our ability to perform duties
 5. Comply with legislative and or policy obligations
 
-## Managing Difficult Situations
+### Managing Difficult Situations
 
-### Conflict Management and Negotiation
+#### Conflict Management and Negotiation
 
 LSCPA
 
-#### L - Listen
+##### L - Listen
 - Actively listen
 - Don't interrupt
 - Use encourager gestures
@@ -210,20 +205,20 @@ LSCPA
 	- Eye contact
 	- Small statements
 
-#### S - Share
+##### S - Share
 - Express empathy
 	- "I can see why you feel that way"
 	- "I can see what you mean"
 
-#### C - Clarify
+##### C - Clarify
 - Ask questions
 - Active problem solving
 - Don't jump to conclusions
 
-#### P - Present
+##### P - Present
 - Work with the customer
 - Present the solution
 - Ask what they see as the resolution if not obvious
 
-#### A - Ask for Feedback
+##### A - Ask for Feedback
 - Ask if they are satisfied

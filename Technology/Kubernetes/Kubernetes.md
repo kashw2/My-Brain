@@ -1,6 +1,6 @@
 ### Workloads
 
-- [[Deployments|Deployments]]
-- [[DaemonSets|DaemonSets]]
-- [[StatefulSets|StatefulSets]]
+- [[Deployments]]
+- [[DaemonSets]]
+- [[StatefulSets]]
 - [[ReplicaSet]]

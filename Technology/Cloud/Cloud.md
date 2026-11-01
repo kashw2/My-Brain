@@ -5,6 +5,6 @@
 
 ## Providers
 
-- [[Azure|Azure]]
+- [[Azure]]
 - [[Amazon Web Services]]
 - [[Google Cloud Platform]]

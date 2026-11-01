@@ -1,2 +1,2 @@
 
-- [[Multiplication|Multiplication]]
+- [[Multiplication]]
