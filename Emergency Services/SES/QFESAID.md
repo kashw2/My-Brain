@@ -400,7 +400,7 @@ Use the **COWS** acronym when checking for response:
 **W** - What's your name?
 **S** - Squeeze my hands!
 
-These prompts are used to determine **casualty orientation** to **time**, **place**, **commands**, **[[#Level of consciousness|level of consciousness]]** and **assessing reflexes/strength/function/impairment**.
+These prompts are used to determine **casualty orientation** to **time**, **place**, **commands**, **[[#Level of Consciousness|level of consciousness]]** and **assessing reflexes/strength/function/impairment**.
 #### Level of Consciousness
 
 Use the **AVPU** system to measure and record a casualties level of consciousness.
@@ -1114,7 +1114,7 @@ When dealing with external bleeds, look for the following:
 - [[#Severe / Life Threatening Bleeds]]
 - [[#Crush injury]]
 - [[#Nose bleed]]
-- [[#Internal bleeding]]
+- [[#Internal Bleeding]]
 
 ##### Shock
 
@@ -1260,7 +1260,7 @@ High profile diseases:
 - [[#Diabetes]]
 - [[#Hypoglycemia]]
 - [[#Hyperglycemia]]
-- [[#Acute abdomen]]
+- [[#Acute Abdomen]]
 
 #### Diabetes
 
@@ -1494,7 +1494,7 @@ Altered supply of blood to the brain
 
 - [[#Fractures]]
 - [[#Dislocations]]
-- [[#Soft tissue injuries]]
+- [[#Soft Tissue Injuries]]
 	- Join sprain
 	- Muscle strain
 
@@ -1603,7 +1603,7 @@ Remember:
 - Face
 - [[#Tooth and Gum injuries|Mouth]]
 - [[#Tooth and Gum injuries|Teeth]]
-- [[#Eye Injury|Eyes]]
+- [[#Eye injury|Eyes]]
 - [[#Jaw Injury|Jaw]]
 
 #### Concussion
@@ -2172,7 +2172,7 @@ Occurs when the body is unable to cool itself sufficiently through sweating
 
 1. [[#Heat Cramps]]
 2. [[#Heat Exhaustion]]
-3. [[#Heat Stoke]]
+3. [[#Heat Stroke]]
 
 #### Heat Cramps
 

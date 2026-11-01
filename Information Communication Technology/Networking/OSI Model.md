@@ -5,7 +5,7 @@ The OSI model's purpose is to distinguish between roles and responsibilities in 
 
 ### Terminology
  - **[[#Bit]]**: A representation of data/information in it's lowest form
- - **[[#Network Frames|Frame]]**: A wrapper around a **[[#Packet]]**
+ - **[[#Network Frame|Frame]]**: A wrapper around a **[[#Packet]]**
  - **[[#Packet]]**: A wrapper around a **[[#Segment]]**
  - **[[#Segment]]**: A wrapper around chunks of application data
  - **[[#PDU (Protocol Data Unit)]]**: A way of representing individual layer units such as those in [[#PDU Hierarchy|Hierarchy]]  ^d95b46
@@ -34,11 +34,11 @@ The **PDU** for this layer is the [[#Bit]]. It is not aware of anything else
 
 ### 2. Data Link Layer
 
-The **Data Link Layer** is responsible for organisation of individual bits (as the [[#1. Physical Layer]] would see them) into [[#Network Frames]].
+The **Data Link Layer** is responsible for organisation of individual bits (as the [[#1. Physical Layer]] would see them) into [[#Network Frame|Network Frames]].
 
 The MAC header lives at this Layer
 
-The **PDU** for this layer is the **[[#Network Frames|Frame]]**
+The **PDU** for this layer is the **[[#Network Frame|Frame]]**
 ### 3. Network Layer
 
 The **Network Layer** is responsible for routing packets between networks. The **Packet** specifically does not exist as a concept below this layer.
@@ -83,3 +83,5 @@ A **Segment** is the **[[#^d95b46|PDU]]** that exists at the **[[#4. Transport L
 - Source Port
 - Destination Port
 As well as a payload consisting of a single chunk of **Data** from the **[[#7. Application Layer|Application Layer]]**
+
+### Data

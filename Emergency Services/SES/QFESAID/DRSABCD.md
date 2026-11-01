@@ -28,5 +28,5 @@ Is the casualty breathing?
 
 ## D - Defibrillation
 
-Follow guides on **[[#AED|Defibrillation]]**
+Follow guides on **[[QFESAID#AED Setup and Use|Defibrillation]]**
 
