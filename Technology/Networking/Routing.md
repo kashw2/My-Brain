@@ -70,10 +70,10 @@ All the knowledge gathering happens before the Packet arrives, so forwarding is 
 A **Routing Table** maps destination networks (**[[#Prefix|Prefixes]]**) to the next hop:
 
 | Destination network | Next hop |
-|---|---|
-| `31.91.21.0/24` | Router C |
-| `31.91.0.0/16` | Router B |
-| `0.0.0.0/0` | ISP |
+| ------------------- | -------- |
+| `31.91.21.0/24`     | Router C |
+| `31.91.0.0/16`      | Router B |
+| `0.0.0.0/0`         | ISP      |
 
 A device's own routing table can be viewed with `ip route`.
 
@@ -84,6 +84,8 @@ A **Prefix** is a range of IP addresses, written as an address followed by a sla
 - `/16` covers 65,536 addresses
 - `/24` covers 256 addresses
 - `/32` covers a single address
+
+For every bit that you add to a prefix you halve the total number of available addresses in the prefix
 
 ### Longest Prefix Match
 
