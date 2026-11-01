@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "51e4fb8305b5d74e",
+        "id": "712ca601b2d85c49",
         "type": "tabs",
         "children": [
           {
-            "id": "f34d3828a442d6e1",
+            "id": "e9d6b7e64b6cd4bc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Hindi/Vowels.md"
+                "file": "Information Communication Technology/Networking/OSI Model.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Vowels"
+              "icon": "lucide-file",
+              "title": "OSI Model"
             }
           }
         ]
@@ -200,24 +202,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f34d3828a442d6e1",
+  "active": "e9d6b7e64b6cd4bc",
   "lastOpenFiles": [
-    "Education/LOTE/Hindi/Language Structure.md",
-    "Untitled 3.base",
-    "Untitled 2.base",
-    "Excalidraw/Hindi/Vowels.md",
+    "Information Communication Technology/Networking/Transmission Control Protocol - TCPIP.md",
     "Information Communication Technology/Networking/OSI Model.md",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Excalidraw/Hindi/Drawing 2026-08-29 21.53.31.excalidraw.md",
-    "Education/LOTE/Hindi",
-    "Education/LOTE",
-    "Excalidraw/Hindi/Untitled.canvas",
-    "Excalidraw/Hindi",
-    "Information Communication Technology/Development/Development.md",
+    "TCP.md",
     "Information Communication Technology/Development/Algorithms/Algorithms.md",
-    "Information Communication Technology/Development/Algorithms/Dijkstra.md",
     "Excalidraw/Dijkstra Graph.md",
+    "Information Communication Technology/Development/Algorithms/Dijkstra.md",
+    "Information Communication Technology/Development/Development.md",
     "Frames.md",
     "Information Communication Technology/Networking",
     "Information Communication Technology/Development/Functional Programming/Concepts/Applicative.md",
@@ -236,11 +229,20 @@
     "Information Communication Technology/Development/Cloud/Azure/Azure Linux.md",
     "Information Communication Technology/Operations/Kubernetes/Introduction.md",
     "Information Communication Technology/Operations/Kubernetes/Workloads/Deployments.md",
+    "Information Communication Technology/Operations/Operating Systems/Linux/Distributions/NixOS/NixPkgs.md",
+    "Information Communication Technology/Operations/Operating Systems/Linux/Distributions/NixOS/NixOS.md",
     "Software Engineering/Pasted image 20250202205006.png",
     "Software Engineering/Pasted image 20250202204130.png",
     "Software Engineering",
     "Excalidraw/Math/Multiplication/Untitled.canvas",
     "Excalidraw/Math/Multiplication",
+    "Excalidraw/Math",
+    "Education/Math",
+    "Education",
+    "Workloads",
+    "Information Communication Technology/Operations/Kubernetes/Workloads",
+    "Information Communication Technology/Operations/Kubernetes",
+    "Information Communication Technology/Operations",
     "Excalidraw/Abstract Reasoning/Pasted image 20240601211930.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240617215827.png",
     "Excalidraw/Abstract Reasoning/Pasted image 20240608194341.png",
