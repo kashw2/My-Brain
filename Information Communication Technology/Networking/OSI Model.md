@@ -10,6 +10,7 @@ The OSI model's purpose is to distinguish between roles and responsibilities in 
  - **[[#Segment]]**: A wrapper around chunks of **[[#Data|application data]]**
  - **[[#Data]]**: The information an application sends, before any network headers are added
  - **[[#PDU (Protocol Data Unit)]]**: A way of representing individual layer units such as those in [[#PDU Hierarchy|Hierarchy]]  ^d95b46
+ - **[[#Encapsulation]]**: The process of each layer wrapping the **[[#^d95b46|PDU]]** from the layer above with its own header
 
 ### PDU Hierarchy
 From lowest to highest on the [[#Structure]]
@@ -18,6 +19,8 @@ From lowest to highest on the [[#Structure]]
 - Packet
 - Segment
 - Data
+
+When sending, **[[#Encapsulation]]** builds these in reverse order (Data → Bit). When receiving, **[[#Decapsulation]]** unwraps them in the order listed (Bit → Data).
 
 ---
 
