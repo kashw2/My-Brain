@@ -7,15 +7,19 @@ A foreign body is a foreign object
 - Check under eyelid for any foreign bodies
 - If not embedded flush out with eyewash
 - If not removed, cover both eyes and seek medical aid
-- Do not apply direct pressure
+
+> [!warning] Do not apply direct pressure
 
 ### Penetrating Object
 
 #### Management
 
 - Call 000
-- Do not remove
-- IF eyeball is out of socket, do not attempt replacement
+
+> [!warning] Do not remove
+
+> [!warning] IF eyeball is out of socket, do not attempt replacement
+
 - Stabilise penetrating object
 - Place drink cup or similar over eye and secure
 - Cover uninjured eye to reduce eye movement
@@ -27,7 +31,8 @@ A foreign body is a foreign object
 
 - Call 000
 - Flush with running water > 20m
-- Do not remove contact lenses
+
+> [!warning] Do not remove contact lenses
 
 ---
 
@@ -52,7 +57,8 @@ Any trauma, injury or underlying medical condition to the jaw
 - Support the jaw
 - Lean casualty forward
 - Call 000
-- Do not bandage jaw
+
+> [!warning] Do not bandage jaw
 
 **Unconscious**
 
