@@ -10,7 +10,6 @@ The purpose of a **Bloom Filter** is to provide a way to quickly and efficiently
 - Redis
 - Cassandra
 - Oracle
-- Old Google Search (Malicious Site Alerting)
 
 A common implementation of a **Bloom Filter** is is services that have an in memory cache but also have a connection for querying a [[Databases|Database]]. 
 
@@ -26,6 +25,21 @@ A **Bloom Filter** is an array of bits that all start off, plus a few hash funct
 
 - **Adding** a value runs it through each hash function, and each result picks a bit to turn on.
 - **Checking** a value runs the same hashes. If any of those bits is off, the value **definitely does not exist**. If they are all on, it **may exist**, as other values could have turned those bits on.
+
+Below is the filter from the code, shrunk to 10 bits (`new BloomFilter(10, 3)`), after adding `user-123` and `user-456`. Each row shows the 3 bits a value's hashes pick, with `●` for a bit that is on and `✗` for a bit that is off:
+
+```
+            0   1   2   3   4   5   6   7   8   9
+          ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┐
+          │ 0 │ 0 │ 0 │ 1 │ 1 │ 1 │ 0 │ 0 │ 1 │ 0 │
+          └───┴───┴───┴───┴───┴───┴───┴───┴───┴───┘
+user-123                ●       ●           ●         added
+user-456                ●   ●               ●         added
+user-999    ✗       ✗                   ✗             definitely does not exist
+user-202                ●   ●   ●                     may exist (false positive)
+```
+
+`user-202` was never added, but `user-123` and `user-456` turned on all 3 of its bits, so the filter says it may exist.
 
 ```typescript
 // Changing the seed gives a different number for the same value, so one function can act as many hash functions
