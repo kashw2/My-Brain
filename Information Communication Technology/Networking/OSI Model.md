@@ -86,7 +86,7 @@ A **Segment** is the **[[#^d95b46|PDU]]** that exists at the **[[#4. Transport L
 As well as a payload consisting of a single chunk of **Data** from the **[[#7. Application Layer|Application Layer]]**
 
 ### Data
-**Data** is the **[[#^d95b46|PDU]]** that exists at the **[[#7. Application Layer|Application Layer]]** (as well as the **[[#5. Session Layer|Session]]** and **[[#6. Presentation Layer|Presentation]]** layers). It is the actual message an application wants to send, such as a web page request or an email .
+**Data** is the **[[#^d95b46|PDU]]** that exists at the **[[#7. Application Layer|Application Layer]]** (as well as the **[[#5. Session Layer|Session]]** and **[[#6. Presentation Layer|Presentation]]** layers). It is the actual message an application wants to send, such as a web page request or an email.
 
 Unlike the other **[[#^d95b46|PDUs]]**, Data has no network header. Instead it consists of:
 - Headers defined by the application protocol (such as HTTP, HTTPS, MQTT or SMTP)
