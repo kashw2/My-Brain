@@ -11,5 +11,5 @@
 
 ## TODO:
 
-- [ ] Learn more about [[Education/Abstract Reasoning/Introduction|Abstract Reasoning]]
+- [ ] Learn more about [[Education/Abstract Reasoning/Abstract Reasoning|Abstract Reasoning]]
 - [ ] Look into [Qovery](https://www.qovery.com/)
