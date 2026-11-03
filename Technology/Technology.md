@@ -2,12 +2,11 @@
 ## Development
 
 - [[Functional Programming]]
+- [[Object Orientated Programming]]
 - [[Algorithms]]
 - [[Databases]]
 - [[Data Structures]]
 - [[Cloud]]
-- [[Frameworks]]
-- [[Methodologies]]
 
 ### Languages
 
