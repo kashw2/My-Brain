@@ -106,13 +106,13 @@ Not every router needs to know every network:
 2. **ISP routers** know their customers' networks, plus routes learned from other networks.
 3. **Backbone routers** know a route to every network on the internet, roughly a million entries.[^cidr-report][^apnic]
 
-A Packet travels up to routers that know more, then down towards the destination, where the routing tables get more specific. This is because of **Route Aggregation** (also called summarisation):
+A Packet travels up through **[[#Default Route]]s** until it reaches a router that knows the destination, then down towards it, where the routing tables get more specific. That second half works because of **Route Aggregation** (also called summarisation):
 1. The destination's ISP knows its customers' small networks in detail, such as `31.91.21.0/24` and `31.91.22.0/24`.
 2. It tells the rest of the internet only about one big block: "send anything in `31.91.0.0/16` to me".
 3. Routers far away store that one entry instead of hundreds.
 4. Once the Packet reaches that ISP, its routers use the detailed entries to find the exact customer network.
 
-Without aggregation, every router would need an entry for every small network on the internet.[^rfc4632]
+Without aggregation, every backbone router would need an entry for every small network on the internet.[^rfc4632]
 
 ![[Route Aggregation]]
 
