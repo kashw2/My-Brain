@@ -101,32 +101,28 @@ The **Default Route** (`0.0.0.0/0`) matches every address. It means "if nothing 
 
 ## Route Aggregation
 
-Not every router needs to know every network:
-1. **Home routers** only know the local network. Everything else goes to the ISP through the **[[#Default Route]]**.
-2. **ISP routers** know their customers' networks, plus routes learned from other networks.
-3. **Backbone routers** know a route to every network on the internet, roughly a million entries.[^cidr-report][^apnic]
+**Route Aggregation** (also called summarisation) is combining several smaller networks into one bigger block when announcing them to other networks.[^rfc4632] It changes what a network tells others, not which networks it keeps track of:
+1. The destination's ISP has customer networks such as `31.91.21.0/24` and `31.91.22.0/24`.
+2. It keeps every one of them in its own routing table, so it can deliver to the right customer.
+3. It announces only one block that covers them all: "send anything in `31.91.0.0/16` to me".
+4. Routers far away store that one entry instead of up to 256.
+5. Once a Packet reaches that ISP, **[[#Longest Prefix Match]]** picks the matching `/24` over the `/16`.
 
-A Packet travels up through **[[#Default Route]]s** until it reaches a router that knows the destination, then down towards it, where the routing tables get more specific. That second half works because of **Route Aggregation** (also called summarisation):
-1. The destination's ISP knows its customers' small networks in detail, such as `31.91.21.0/24` and `31.91.22.0/24`.
-2. It tells the rest of the internet only about one big block: "send anything in `31.91.0.0/16` to me".
-3. Routers far away store that one entry instead of hundreds.
-4. Once the Packet reaches that ISP, its routers use the detailed entries to find the exact customer network.
-
-Without aggregation, every backbone router would need an entry for every small network on the internet.[^rfc4632]
+Without aggregation, every router in the default-free zone would need an entry for every small network on the internet.[^rfc4632]
 
 ![[Route Aggregation]]
 
-How specific the matched entry is at each hop of the **[[#Example Journey]]**:
+### What Counts as Aggregation
 
-| Hop | Entry matched | How specific |
-|---|---|---|
-| Home router | `0.0.0.0/0` → ISP | Least specific (matches everything) |
-| Your ISP | `0.0.0.0/0` → upstream provider, or `31.91.0.0/16` if it has the full table | Broad |
-| Backbone router | `31.91.0.0/16` → destination's ISP | Broad |
-| Destination's ISP | `31.91.21.0/24` → customer's router | More specific |
-| Customer's router | `31.91.21.0/24` directly connected → ARP for `.8` | Final network |
+A router is aggregating when it announces one bigger block in place of several smaller networks it holds. The size of its table doesn't show this:
+- A transit provider holds about a million entries but aggregates nothing in this example. It stores aggregates that other networks announced.
+- An ISP with three entries is aggregating if it announces `120.40.0.0/16` in place of its `/24`s, and isn't if it announces each `/24` separately.
 
-Each router still makes its own decision from its own table. The Packet carries no record of earlier choices.
+A network normally aggregates only addresses it controls: its own block, or a bigger block it split up and handed to customers.
+
+### Choosing the Block to Announce
+
+The announced block should match what the network owns. `120.1.0.0/24` and `120.1.1.0/24` differ only in the last bit of the third octet, so `120.1.0.0/23` covers exactly those two. A `/22` would also cover `120.1.2.0/24` and `120.1.3.0/24`. That's fine if the network owns them, but otherwise it pulls in traffic meant for another network.
 
 ### How Default Routes Reach the Destination
 
@@ -134,7 +130,7 @@ A **[[#Default Route]]** doesn't search for the destination. Each one is set up 
 1. **Home router**: its Default Route points to the ISP.
 2. **ISP access router** (the one a home connects to): its Default Route points further into the ISP, towards its border routers.
 3. **ISP border router**: a large ISP's border routers hold the full internet table. A small ISP's border routers point their Default Route at a larger transit provider instead.
-4. **Transit provider routers**: the routers of the largest networks have no Default Route at all. They hold a route for every public network, roughly a million entries. This is called the **default-free zone**.[^wiki-dfz]
+4. **Transit provider routers**: the routers of the largest networks have no Default Route at all. They hold a route for every public network, roughly a million entries.[^cidr-report][^apnic] This is called the **default-free zone**.[^wiki-dfz]
 
 Each step moves the Packet to a router that knows more, so following Default Routes always ends at a router with a specific match.
 
@@ -143,7 +139,19 @@ The default-free zone knows `31.91.0.0/16` because the destination's ISP announc
 2. Those neighbours pass the announcement on to their neighbours, adding themselves to the path.[^rfc4271]
 3. This continues until every default-free router has an entry for `31.91.0.0/16`, saying which neighbour leads towards it.
 
-The announcement travels outwards from the destination, and Packets follow it back the other way. The Packet goes **up** using Default Routes until a router matches `31.91.0.0/16`, then comes **down** through more specific matches, as shown in the table above.
+The announcement travels outwards from the destination, and Packets follow it back the other way. The Packet goes **up** using Default Routes until a router matches `31.91.0.0/16`, then comes **down** through more specific matches, as the table below shows.
+
+How specific the matched entry is at each hop of the **[[#Example Journey]]**:
+
+| Hop | Entry matched | How specific |
+|---|---|---|
+| Home router | `0.0.0.0/0` → ISP | Least specific (matches everything) |
+| Your ISP | `0.0.0.0/0` → upstream provider, or `31.91.0.0/16` if it has the full table | Broad |
+| Transit provider | `31.91.0.0/16` → destination's ISP | Broad |
+| Destination's ISP | `31.91.21.0/24` → customer's router | More specific |
+| Customer's router | `31.91.21.0/24` directly connected → ARP for `.8` | Final network |
+
+Each router still makes its own decision from its own table. The Packet carries no record of earlier choices.
 
 If a router with no Default Route has no match, the Packet is dropped and the sender is usually told "destination unreachable".[^rfc1812][^rfc792] This is what happens to a private `192.168.x.x` address on the internet, as no default-free router has a route for it.
 
