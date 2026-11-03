@@ -14,9 +14,35 @@ NixOS employs the following concepts:
 
 ## Features
 
-- [[Nix Shell]]
-- [[Nix|Nix Programming Language]]
+### Packages
+
 - [[NixPkgs]]
+- [[Nix Store]]
+- [[Derivation|Derivations]]
+- [[Binary Cache]]
+- [[Overlays]]
+- [[Nix Garbage Collection|Garbage Collection]]
+
+### Configuration
+
+- [[Nix|Nix Programming Language]]
+- [[NixOS Modules|Module System]]
+- [[NixOS Options|Options]]
+- [[Flakes]]
+- [[Home Manager]]
+- [[Specialisations]]
+
+### System Management
+
+- [[nixos-rebuild]]
+- [[Generations|Generations & Rollbacks]]
+- [[NixOS Containers|Containers]]
+- [[NixOS Tests|VM Tests]]
+
+### Development
+
+- [[Nix Shell]]
+- [[nix-direnv]]
 
 ---
 
