@@ -8,7 +8,7 @@ An Isomorphism is occurrence of a bidirectional process of transformation betwee
 A function or process is said to be **Isomorphic** if it facilitates a transformation to a new type where it is possible to perform the inverse action on the results while maintaining its original identity.
 
 **Types**
-A type is Isomorphic is there exists a process between itself and another type to conduct a transformation where it is possible to do the inverse on the results. An example is between `List[Char]` and `String` as there exists a a process of going between the two types. Another such example is between `Int` and `BigInt` as you can freely do conversions between the two
+A type is Isomorphic is there exists a process between itself and another type to conduct a transformation where it is possible to do the inverse on the results. An example is between a [[LinkedList|List]] (`List[Char]`) and `String` as there exists a a process of going between the two types. Another such example is between `Int` and `BigInt` as you can freely do conversions between the two
 
 ---
 
@@ -21,7 +21,7 @@ object Isomorphism {
 }
 ```
 
-The above allows us to freely transform between a List and a String and back without any data loss meaning the two share an Isomorphism.
+The above allows us to freely transform between a [[LinkedList|List]] and a String and back without any data loss meaning the two share an Isomorphism.
 
 ---
 
