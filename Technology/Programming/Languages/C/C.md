@@ -11,8 +11,6 @@ C is a compiled, [[Static Typing|Statically Typed]], procedural Programming Lang
 - Structs and unions for grouping data, no [[Class|Classes]] or built in [[Object Orientated Programming|OOP]]
 - The preprocessor (`#include`, `#define`, macros)
 - Undefined behaviour, reading past the end of an array or using freed memory isn't an error, it's just wrong
-- The C ABI is the common ground other languages use to call each other's code
-- GCC, Clang (built on [[Low Level Virtual Machine|LLVM]]) and MSVC are the main compilers
 
 ## Examples
 

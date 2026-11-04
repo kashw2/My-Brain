@@ -4,15 +4,11 @@ JavaScript is a dynamically typed, multi-paradigm Programming Language and the s
 
 ## Features
 
-- Dynamic typing, types are checked at runtime not compile time. Adding [[Static Typing]] on top is the whole point of [[TypeScript]]
+- Dynamic typing, types are checked at runtime not compile time
 - Prototype based [[Inheritance]], the `class` keyword is syntax sugar over prototypes
 - First class functions, so [[Higher Order Functions]] like `map`, `filter` and `reduce` are everyday tools
 - Closures, a function keeps access to the variables in scope where it was created
 - Single threaded event loop, async work is handled with callbacks, Promises and `async` / `await`
-- Standardised as ECMAScript
-- Runs in the browser and on the server (Node.js, Deno, Bun)
-- npm as the main [[Package Manager]]
-- Compile target for [[TypeScript]] and for [[Scala]] via Scala.js
 
 ## Examples
 

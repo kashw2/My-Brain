@@ -15,8 +15,7 @@ Java is a compiled, [[Static Typing|Statically Typed]], [[Object Orientated Prog
 - [[Pattern Matching]] in `switch` and `instanceof`
 - Lambdas and the Streams API for [[Higher Order Functions]]
 - Checked exceptions, the compiler forces you to handle or declare them
-- Garbage collected, no manual memory management unlike [[C]]
-- Maven and Gradle are the common build tools
+- Garbage collected, no manual memory management
 
 ## Examples
 

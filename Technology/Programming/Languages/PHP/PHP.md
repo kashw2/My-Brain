@@ -13,10 +13,8 @@ PHP is a dynamically typed, interpreted, general purpose scripting language buil
 - Constructor property promotion, declare and assign fields straight from the constructor
 - Enums, including backed enums with a `string` or `int` value
 - `match` expressions, a stricter `switch` that returns a value
-- No [[Method Overloading]] in the [[Java]] sense, declaring a method twice is a fatal error
-- [[Generics]] are usually written in docblocks and checked by static analysers like PHPStan and Psalm
-- Traditionally a shared nothing request model, each request starts with a fresh state and nothing carries over
-- Composer as its [[Package Manager]]
+- No [[Method Overloading]], declaring a method twice is a fatal error
+- No native [[Generics]]
 
 ## Examples
 

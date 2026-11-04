@@ -8,14 +8,13 @@ Haskell is a compiled, [[Static Typing|Statically Typed]], purely [[Functional P
 - [[Lazy|Lazy Evaluation]], nothing is computed until it's needed, which makes infinite lists possible
 - [[Static Typing]] with type inference, most type signatures are optional (but good practice)
 - [[Immutability]] everywhere, there's no reassignment
-- [[TypeClass|TypeClasses]], the original version of the pattern Scala encodes with [[Trait|Traits]] and [[Implicits]]
+- [[TypeClass|TypeClasses]], declared with `class` and implemented with `instance`
 - [[Kinds|Higher Kinded Types]]
 - [[Algebraic Data Types]] and [[Pattern Matching]]
-- [[Function Currying|Automatic Currying]], every function takes exactly one argument. Both the language and currying are named after the logician Haskell Curry
+- [[Function Currying|Automatic Currying]], every function takes exactly one argument
 - [[Function Composition]] with the `.` operator
-- `do` notation, Haskell's equivalent of Scala's [[For Comprehension]]
+- `do` notation, sequences [[Monad]] steps one after another
 - [[Functor]], [[Applicative]] and [[Monad]] are part of the standard Prelude
-- GHC is the main compiler, Cabal and Stack are the common build tools
 
 ## Examples
 
