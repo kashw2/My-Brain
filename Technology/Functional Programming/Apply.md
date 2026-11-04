@@ -1,4 +1,4 @@
-[Apply](https://typelevel.org/cats/typeclasses/apply.html) is a [[TypeClass]] that abstracts over a type constructor and provides an `ap` method, as well as `map2` and `product` for combining independent values. It extends [[Functor]], and [[Applicative]] is an Apply with `pure` added.
+[Apply](https://typelevel.org/cats/api/cats/Apply.html) is a [[TypeClass]] that abstracts over a type constructor and provides an `ap` method, as well as `map2` and `product` for combining independent values. It extends [[Functor]], and [[Applicative]] is an Apply with `pure` added.
 
 ---
 
@@ -17,7 +17,7 @@ Some types can combine values but can't create one from nothing with `pure`. A `
 
 ## Laws
 
-According to the [TypeLevel Apply Documentation](https://typelevel.org/cats/typeclasses/apply.html), an Apply must satisfy the [[Functor]] laws plus:
+According to the [TypeLevel Apply API Docs](https://typelevel.org/cats/api/cats/Apply.html), an Apply must satisfy the [[Functor]] laws plus:
 
 1) **Composition** which states that applying functions with `ap` must be associative, applying `f` then `g` using `ap` twice is the same as composing them first and applying once, see [[Function Composition]].
 
@@ -53,5 +53,5 @@ import cats.syntax.all._
 
 ### References
 
-[TypeLevel Scala](https://typelevel.org/cats/typeclasses/apply.html)
+[TypeLevel Scala](https://typelevel.org/cats/api/cats/Apply.html)
 [Haskell Wiki](https://wiki.haskell.org/Typeclassopedia#Applicative)

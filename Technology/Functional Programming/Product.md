@@ -49,4 +49,4 @@ type User = {
 ### References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Product_type)
-- [TypeLevel Scala](https://typelevel.org/cats/typeclasses/semigroupal.html)
+- [TypeLevel Scala](https://typelevel.org/cats/api/cats/Semigroupal.html)

@@ -12,6 +12,12 @@
 
 - [[Scala]]
 - [[Nix]]
+- [[Haskell]]
+- [[Java]]
+- [[PHP]]
+- [[TypeScript]]
+- [[JavaScript]]
+- [[C]]
 
 ## Operations
 
