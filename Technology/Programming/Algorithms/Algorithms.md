@@ -1,5 +1,5 @@
 
 ## Distance Finding
 
-- [[A Star|A*]]
+- [[A*]]
 - [[Dijkstra]]
