@@ -16,7 +16,6 @@ Haskell is a compiled, [[Static Typing|Statically Typed]], purely [[Functional P
 - `do` notation, Haskell's equivalent of Scala's [[For Comprehension]]
 - [[Functor]], [[Applicative]] and [[Monad]] are part of the standard Prelude
 - GHC is the main compiler, Cabal and Stack are the common build tools
-- [[NixPkgs]] packages a large share of the Haskell ecosystem under `haskellPackages`
 
 ## Examples
 
