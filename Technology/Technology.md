@@ -1,23 +1,9 @@
 
 ## Development
 
-- [[Functional Programming]]
-- [[Object Orientated Programming]]
-- [[Algorithms]]
+- [[Programming]]
 - [[Databases]]
-- [[Data Structures]]
 - [[Cloud]]
-
-### Languages
-
-- [[Scala]]
-- [[Nix]]
-- [[Haskell]]
-- [[Java]]
-- [[PHP]]
-- [[TypeScript]]
-- [[JavaScript]]
-- [[C]]
 
 ## Operations
 
