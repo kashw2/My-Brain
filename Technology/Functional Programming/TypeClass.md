@@ -4,7 +4,18 @@ A TypeClass is a way of grouping or categorising types that satisfy a contract. 
 
 ## Examples
 - [[Functor]]
+- [[Apply]]
 - [[Applicative]]
+- [[FlatMap]]
 - [[Monad]]
 - [[Semigroup]]
 - [[Monoid]]
+- [[Bifunctor]]
+- [[Bifoldable]]
+- [[Bimonad]]
+
+---
+
+## Hierarchy
+
+![[TypeClass Hierarchy]]

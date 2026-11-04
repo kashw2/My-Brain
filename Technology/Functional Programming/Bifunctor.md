@@ -49,6 +49,11 @@ result.leftMap(e => s"Request failed: ${e.getMessage}")
 
 ---
 
+## Hierarchy
+
+![[TypeClass Hierarchy]]
+
+
 ### References
 
 [TypeLevel Scala](https://typelevel.org/cats/typeclasses/bifunctor.html)

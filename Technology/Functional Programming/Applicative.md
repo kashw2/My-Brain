@@ -28,7 +28,7 @@ trait Applicative[F[_]] extends Functor[F] {
 
 ## Hierarchy
 
-![[Applicative Hierarchy]]
+![[TypeClass Hierarchy]]
 
 
 

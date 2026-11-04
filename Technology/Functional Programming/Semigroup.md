@@ -30,7 +30,7 @@ interface Semigroup<A> {
 
 ## Hierarchy
 
-![[Semigroup Hierarchy]]
+![[TypeClass Hierarchy]]
 
 ### References
 

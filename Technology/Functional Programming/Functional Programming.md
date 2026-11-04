@@ -26,6 +26,7 @@
 
 ## TypeClasses
 
+- [[TypeClass Hierarchy]]
 - [[Semigroup]]
 - [[Monoid]]
 - [[Functor]]

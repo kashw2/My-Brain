@@ -27,7 +27,7 @@ trait Monad[F[_]] extends FlatMap[F] with Applicative[F]
 
 ## Hierarchy
 
-![[Monad Hierarchy]]
+![[TypeClass Hierarchy]]
 
 
 ### References

@@ -47,7 +47,7 @@ B.extract(wrapped) // 42
 
 ## Hierarchy
 
-![[Monad Hierarchy]]
+![[TypeClass Hierarchy]]
 
 
 ### References

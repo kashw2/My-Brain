@@ -50,7 +50,7 @@ const Array: Functor<Array<any>> = {
 
 ## Hierarchy
 
-![[Functor Hierarchy]]
+![[TypeClass Hierarchy]]
 
 
 ### References

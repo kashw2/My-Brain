@@ -36,7 +36,7 @@ interface Monoid<A> extends Semigroup<A> {
 
 ## Hierarchy
 
-![[Monoid Hierarchy]]
+![[TypeClass Hierarchy]]
 
 
 ### References

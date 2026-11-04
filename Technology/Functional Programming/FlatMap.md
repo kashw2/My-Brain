@@ -57,7 +57,7 @@ val orders2: Option[List[Order]] = for {
 
 ## Hierarchy
 
-![[Monad Hierarchy]]
+![[TypeClass Hierarchy]]
 
 
 ### References

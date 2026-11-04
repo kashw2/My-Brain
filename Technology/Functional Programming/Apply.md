@@ -48,7 +48,7 @@ import cats.syntax.all._
 
 ## Hierarchy
 
-![[Applicative Hierarchy]]
+![[TypeClass Hierarchy]]
 
 
 ### References

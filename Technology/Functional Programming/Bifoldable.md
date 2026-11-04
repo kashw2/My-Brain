@@ -42,6 +42,11 @@ failed.bifoldMap(_.length, _.toString.length) // 4
 
 ---
 
+## Hierarchy
+
+![[TypeClass Hierarchy]]
+
+
 ### References
 
 [TypeLevel Scala](https://typelevel.org/cats/api/cats/Bifoldable.html)
