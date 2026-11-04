@@ -60,7 +60,7 @@ case object Empty extends Stack[Nothing]
 final case class NonEmpty[+A](top: A, rest: Stack[A]) extends Stack[A]
 
 val stack: Stack[String] = Empty.push("a").push("b")
-stack.pop // Some((b, NonEmpty(a, Empty)))
+stack.pop // Some((b,NonEmpty(a,Empty)))
 Empty.pop // None
 ```
 

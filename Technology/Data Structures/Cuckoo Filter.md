@@ -5,10 +5,7 @@ A **Cuckoo Filter** is a probabilistic [[Data Structures|Data Structure]] that, 
 ## How it Works
 
 **Fingerprints in Buckets**
-The filter is a table of buckets, each with a few slots (usually 4). Adding a value stores a short fingerprint of it, say 8 bits, in one of two possible buckets. Checking a value just means looking for its fingerprint in those two buckets.
-
-**Two Homes per Value**
-The first bucket comes from hashing the value. The second is the first bucket XOR the hash of the fingerprint. The trick is that from a fingerprint and the bucket it's sitting in, you can always work out its other bucket without the original value, which is what lets fingerprints be moved around.
+The filter is a table of buckets, each with a few slots (usually 4). Adding a value stores a short fingerprint of it (say 8 bits) in one of two buckets: the first comes from hashing the value, the second is the first XOR the hash of the fingerprint. That XOR trick means you can always work out a fingerprint's other bucket from the fingerprint and the bucket it's in, without the original value, which is what lets fingerprints be moved around. Checking a value just means looking for its fingerprint in its two buckets.
 
 **Kicking Out the Cuckoo**
 If both buckets are full, the new fingerprint takes a random slot and the one it pushed out moves to *its* other bucket, possibly pushing out another, like a cuckoo chick shoving eggs out of the nest. After a few hundred kicks without finding space the filter counts as full. With 4 slots per bucket that doesn't happen until it's about 95% full.
@@ -32,18 +29,12 @@ Pick a Cuckoo Filter when you need deletes, or when you want a false positive ra
 ## Examples
 
 ```typescript
-// Same hash as the Bloom Filter example, the seed turns one function into several
-function hash(value: string, seed: number): number {
-	let hash: number = 2166136261 ^ seed;
-	for (let i = 0; i < value.length; i++) {
-		hash = Math.imul(hash ^ value.charCodeAt(i), 16777619);
-	}
-	return hash >>> 0;
-}
+// The same hash as the Bloom Filter example, squashed onto one line
+const hash = (value: string, seed: number): number =>
+	value.split('').reduce((h, c) => Math.imul(h ^ c.charCodeAt(0), 16777619), 2166136261 ^ seed) >>> 0;
 
 class CuckooFilter {
-	private readonly buckets: number[][];
-	private readonly slots: number = 4;
+	private readonly buckets: number[][]; // Each bucket holds up to 4 fingerprints
 	private readonly mask: number;
 
 	// bucketCount must be a power of two so the XOR trick always lands on a real bucket
@@ -68,13 +59,13 @@ class CuckooFilter {
 		let [fingerprint, index] = this.locate(value);
 		for (let kick = 0; kick < 500; kick++) {
 			for (const i of [index, this.other(index, fingerprint)]) {
-				if (this.buckets[i].length < this.slots) {
+				if (this.buckets[i].length < 4) {
 					this.buckets[i].push(fingerprint);
 					return true;
 				}
 			}
 			// Both full: swap with a random resident, then find a home for that one instead
-			const slot: number = Math.floor(Math.random() * this.slots);
+			const slot: number = Math.floor(Math.random() * 4);
 			[fingerprint, this.buckets[index][slot]] = [this.buckets[index][slot], fingerprint];
 			index = this.other(index, fingerprint);
 		}
@@ -89,14 +80,9 @@ class CuckooFilter {
 	// Only remove values you know were added
 	remove(value: string): boolean {
 		const [fingerprint, first, second] = this.locate(value);
-		for (const bucket of [this.buckets[first], this.buckets[second]]) {
-			const slot: number = bucket.indexOf(fingerprint);
-			if (slot !== -1) {
-				bucket.splice(slot, 1);
-				return true;
-			}
-		}
-		return false;
+		const bucket: number[] | undefined = [this.buckets[first], this.buckets[second]].find(b => b.includes(fingerprint));
+		bucket?.splice(bucket.indexOf(fingerprint), 1);
+		return bucket !== undefined;
 	}
 }
 
