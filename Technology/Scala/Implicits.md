@@ -53,7 +53,7 @@ display(42) // "Int(42)", the compiler passes Show.intShow
 ```
 
 ```scala
-// Scala 3
+// Scala 3, same Show trait as above
 object Show {
 	given intShow: Show[Int] = new Show[Int] {
 		def show(a: Int): String = s"Int($a)"
@@ -61,9 +61,6 @@ object Show {
 }
 
 def display[A](a: A)(using s: Show[A]): String = s.show(a)
-
-def displayAll[A: Show](items: List[A]): String =
-	items.map(a => summon[Show[A]].show(a)).mkString(", ")
 
 extension [A](a: A)(using s: Show[A]) {
 	def show: String = s.show(a)

@@ -63,25 +63,7 @@ val (name, age) = ("Alex", 30)
 List(Circle(1), Rectangle(2, 3)).collect { case Rectangle(w, h) => w * h } // List(6.0)
 ```
 
-```typescript
-// TypeScript gets close with a switch on a discriminated union
-type Shape =
-	| { kind: "circle"; radius: number }
-	| { kind: "rectangle"; width: number; height: number };
-
-function area(shape: Shape): number {
-	switch (shape.kind) {
-		case "circle":
-			return Math.PI * shape.radius ** 2;
-		case "rectangle":
-			return shape.width * shape.height;
-		default: {
-			const unreachable: never = shape; // compile error if a case is missed
-			throw new Error(`Unknown shape ${unreachable}`);
-		}
-	}
-}
-```
+[[TypeScript]] has no `match`, the closest thing is a `switch` on a discriminated union (see [[Algebraic Data Types]]), with a `never` check in the `default` case to get exhaustiveness.
 
 ---
 

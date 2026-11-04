@@ -74,4 +74,4 @@ async function total(): Promise<number> {
 
 - [Scala Docs](https://docs.scala-lang.org/tour/for-comprehensions.html)
 - [Scala 3 Book: for Expressions](https://docs.scala-lang.org/scala3/book/control-structures.html)
-- [Scala FAQ: How does yield work?](https://docs.scala-lang.org/tutorials/FAQ/yield.html)
+- [Scala FAQ: How does for / yield work?](https://docs.scala-lang.org/tutorials/FAQ/index.html#how-does-for--yield-work)
