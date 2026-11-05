@@ -54,8 +54,7 @@ The Port doesn't always change. Some NATs keep the private Port when it's free, 
 
 On the way out, the home router rewrites the source address and **[[#Port]]**, and saves the pair in its **[[#Translation Table]]**. On the way back, it uses that entry to rewrite the destination to the PC's address and Port.[^rfc3022]
 
-The router finds the PC from the reply's destination **[[#Port]]** (`62001`), not from a MAC address:[^rfc3022]
- - The PC's MAC address isn't in the reply, as each **[[OSI Model#Network Frame|Frame]]** only covers one **[[Routing#Hop|Hop]]**
+The router finds the PC from the reply's destination **[[#Port]]** (`62001`):[^rfc3022]
  - Reading the Port means NAT works with the TCP/UDP header (**[[OSI Model#4. Transport Layer|Transport Layer]]**), not just the IP header (see **[[#Headers NAT Changes]]**)[^rfc3022]
  - After rewriting the destination, the router finds the PC's MAC address with **[[Routing#ARP|ARP]]**, like it would for any other Packet
 
