@@ -51,6 +51,8 @@ Sending a request from `192.168.1.38` (a device on a home network) to `31.91.21.
 
 ### NAT (Network Address Translation)
 
+See **[[NAT]]** for the full note.
+
 Addresses such as `192.168.x.x` are private. They can't be used on the internet[^rfc1918], and many homes use the same ones. The home router swaps the private source address for its public IP address, and keeps a table of which device sent what so replies can be passed back to the right device.[^rfc3022]
 
 This means the source IP address changes once, at the home router. The destination IP address stays the same for the whole trip.
