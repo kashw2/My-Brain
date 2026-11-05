@@ -31,7 +31,7 @@ Two layers work together at every hop:
 | Read by | Switches[^wiki-switch] | Routers[^wiki-router] |
 | Changes at each router? | Yes, a new Frame every hop | No, the destination stays the same for the whole trip |
 
-At each router the **[[OSI Model#Network Frame|Frame]]** is removed, the IP address is read, and the Packet is wrapped in a new Frame addressed to the next device.[^rfc1812] The **[[OSI Model#2. Data Link Layer|Data Link Layer]]** only ever delivers a Frame across one hop, while the **[[OSI Model#3. Network Layer|Network Layer]]** gets the Packet to its final destination.
+At each router the **[[OSI Model#Network Frame|Frame]]** is removed, the IP address is read, and the Packet is wrapped in a new Frame addressed to the next device.[^rfc1812] The new Frame has new MAC addresses: the source is the router's own MAC address, and the destination is the next device's MAC address, found with **[[#ARP]]**.[^rfc1812] The **[[OSI Model#2. Data Link Layer|Data Link Layer]]** only ever delivers a Frame across one hop, while the **[[OSI Model#3. Network Layer|Network Layer]]** gets the Packet to its final destination.
 
 ### ARP
 
@@ -183,7 +183,7 @@ BGP does not measure speed or distance. Each network applies its own policy firs
 [^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another
 [^wiki-router]: [Wikipedia: Router (computing)](https://en.wikipedia.org/wiki/Router_(computing)) — routers are Layer 3 devices that forward Packets hop by hop using their routing tables
 [^wiki-switch]: [Wikipedia: Network switch](https://en.wikipedia.org/wiki/Network_switch) — switches forward Frames using MAC addresses at Layer 2
-[^rfc1812]: [RFC 1812: Requirements for IP Version 4 Routers](https://www.rfc-editor.org/rfc/rfc1812#section-1) — routers replace the Frame at every hop (§1, §5.2.1.2), use the longest match (§5.2.4.3), and send Destination Unreachable when they have no route (§4.3.3.1)
+[^rfc1812]: [RFC 1812: Requirements for IP Version 4 Routers](https://www.rfc-editor.org/rfc/rfc1812#section-1) — routers replace the Frame at every hop (§1, §5.2.1.2), the new Frame is addressed to the next hop's Link Layer address (§5.2.1.2) and its source is the sending router's own (§3.2), use the longest match (§5.2.4.3), and send Destination Unreachable when they have no route (§4.3.3.1)
 [^rfc826]: [RFC 826: An Ethernet Address Resolution Protocol](https://www.rfc-editor.org/rfc/rfc826) — ARP turns an IP address into a MAC address on the local network
 [^rfc1122]: [RFC 1122: Requirements for Internet Hosts](https://www.rfc-editor.org/rfc/rfc1122#page-47) — devices send directly to local destinations and everything else to a default gateway (§3.3.1)
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — 192.168.0.0/16 is private and isn't routed between networks

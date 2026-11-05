@@ -20,7 +20,7 @@ Three ranges are reserved for private networks:[^rfc1918]
 | `172.16.0.0` to `172.31.255.255` | `172.16.0.0/12` |
 | `192.168.0.0` to `192.168.255.255` | `192.168.0.0/16` |
 
-Anyone can use these without asking, so many networks use the same ones at the same time. Because of this, routers on the internet reject routes for them, and don't forward Packets to or from them.[^rfc1918]
+Anyone can use these without asking, so many networks use the same ones at the same time. Because of this, routers on the internet reject routes for them, and don't forward **[[OSI Model#Packet|Packets]]** to or from them.[^rfc1918]
 
 ---
 
@@ -37,7 +37,7 @@ The **Translation Table** maps the router's Public IP:**[[#Port]]** to the Priva
 
 ### Why the Source Is Rewritten
 
-The server replies by swapping the source and destination, so whatever the router writes as the source on the way out comes back as the destination.[^rfc3022] The router writes the same `203.0.113.7:62001` into the Packet and into its Translation Table, so the reply always carries a key the table already has.
+The server replies by swapping the source and destination, so whatever the router writes as the source on the way out comes back as the destination.[^rfc3022] The router writes the same `203.0.113.7:62001` into the **[[OSI Model#Packet|Packet]]** and into its Translation Table, so the reply always carries a key the table already has.
 
 | Rewritten on the way out | Why |
 |---|---|
@@ -56,11 +56,11 @@ On the way out, the home router rewrites the source address and **[[#Port]]**, a
 
 The router finds the PC from the reply's destination **[[#Port]]** (`62001`):[^rfc3022]
  - Reading the Port means NAT works with the TCP/UDP header (**[[OSI Model#4. Transport Layer|Transport Layer]]**), not just the IP header (see **[[#Headers NAT Changes]]**)[^rfc3022]
- - After rewriting the destination, the router finds the PC's MAC address with **[[Routing#ARP|ARP]]**, like it would for any other Packet
+ - After rewriting the destination, the router finds the PC's MAC address with **[[Routing#ARP|ARP]]**, like it would for any other **[[OSI Model#Packet|Packet]]**
 
 ### Headers NAT Changes
 
-NAT rewrites two headers inside the same Packet:[^rfc3022]
+NAT rewrites two headers inside the same **[[OSI Model#Packet|Packet]]**:[^rfc3022]
 
 | Layer | Header | On the way out | On the way back |
 |---|---|---|---|
