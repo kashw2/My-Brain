@@ -24,6 +24,19 @@ Anyone can use these without asking, so many networks use the same ones at the s
 
 ---
 
+## Translation Table
+
+The **Translation Table** maps the router's Public IP:**[[#Port]]** to the Private IP:Port of the device that sent the request:[^rfc3022]
+
+| Public IP:Port | Private IP:Port |
+|---|---|
+| `203.0.113.7:62001` | `192.168.1.38:51000` |
+
+ - **The public Port makes each entry unique**: a home router has one **[[#Public Address]]**, so every entry shares it[^rfc3022]
+ - **The private Port is needed too**: the PC can have several connections open at once, and the Port says which one the reply belongs to[^rfc9293]
+
+---
+
 ## Example Journey
 
 ![[NAT Example Journey]]
@@ -41,4 +54,5 @@ The router finds the PC from the reply's destination **[[#Port]]** (`62001`), no
 
 [^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
-[^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — the home router rewrites the source address and Port on the way out and the destination address and Port on the way back (§2.2), the pair is saved when the first Packet goes out (§3.1), and the TCP/UDP header is rewritten along with the IP header (§4.1)
+[^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — a home router shares one public address, NAPT maps a public address and Port to a private address and Port, and the router rewrites the source address and Port on the way out and the destination address and Port on the way back (§2.2), the pair is saved when the first Packet goes out (§3.1), and the TCP/UDP header is rewritten along with the IP header (§4.1)
+[^rfc9293]: [RFC 9293: Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293#section-2.2) — Port numbers identify application services and keep separate connections apart
