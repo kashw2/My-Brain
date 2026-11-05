@@ -24,12 +24,14 @@ A **Hop** is one step of the journey between two devices on the same local netwo
 
 Two layers work together at every hop:
 
-| | Layer 2 (Data Link) | Layer 3 (Network) |
-|---|---|---|
-| Address used | MAC address | IP address |
-| Scope | One hop, within one local network | End to end, across many networks |
-| Read by | Switches[^wiki-switch] | Routers[^wiki-router] |
-| Changes at each router? | Yes, a new Frame every hop | No, the destination stays the same for the whole trip |
+|                         | Layer 2 (Data Link)               | Layer 3 (Network)                                     |
+| ----------------------- | --------------------------------- | ----------------------------------------------------- |
+| Address used            | MAC address                       | IP address                                            |
+| Scope                   | One hop, within one local network | End to end, across many networks                      |
+| Read by                 | Switches                          | Routers                                               |
+| Changes at each router? | Yes, a new Frame every hop        | No, the destination stays the same for the whole trip |
+
+Switches forward Frames using MAC addresses,[^wiki-switch] while routers forward Packets using IP addresses.[^wiki-router]
 
 At each router the **[[OSI Model#Network Frame|Frame]]** is removed, the IP address is read, and the Packet is wrapped in a new Frame addressed to the next device.[^rfc1812] The new Frame has new MAC addresses: the source is the router's own MAC address, and the destination is the next device's MAC address, found with **[[#ARP]]**.[^rfc1812] The **[[OSI Model#2. Data Link Layer|Data Link Layer]]** only ever delivers a Frame across one hop, while the **[[OSI Model#3. Network Layer|Network Layer]]** gets the Packet to its final destination.
 
