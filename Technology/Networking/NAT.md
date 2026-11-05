@@ -24,7 +24,16 @@ Anyone can use these without asking, so many networks use the same ones at the s
 
 ---
 
+## Example Journey
+
+![[NAT Example Journey]]
+
+On the way out, the home router rewrites the source address and **[[#Port]]**, and saves the pair in its **[[#Translation Table]]**. On the way back, it uses that entry to rewrite the destination to the PC's address and Port.[^rfc3022]
+
+---
+
 ## References
 
 [^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
+[^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — the home router rewrites the source address and Port on the way out and the destination address and Port on the way back (§2.2), and the pair is saved when the first Packet goes out (§3.1)
