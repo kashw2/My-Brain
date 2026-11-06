@@ -27,7 +27,7 @@ In this example, **B** is the correct answer, to figure this out:
 
 In this example, **C** is the answer.
 
-![[Analogy 4 (diagram).excalidraw]]
+![[Analogy 4.excalidraw]]
 
 The above image denotes the pattern in which the items move in the image.
 
