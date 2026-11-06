@@ -5,6 +5,7 @@ Network Address Translation
  - **[[#Public Address]]**: An address that is unique across the whole internet[^rfc1918]
  - **[[#Port]]**: A number in the TCP or UDP header that identifies which application a connection belongs to
  - **[[#Translation Table]]**: The router's record of which inside device each translated connection belongs to
+ - **[[#Static NAT]]**: NAT that maps one Private Address to one Public Address with a fixed rule, with no Ports
  - **[[#NAPT (Network Address Port Translation)|NAPT]]**: NAT that also rewrites Ports, so many devices can share one Public Address
  - **[[#Port Forwarding]]**: A fixed rule that sends traffic arriving on a public Port to one device inside
 
@@ -24,7 +25,24 @@ Anyone can use these without asking, so many networks use the same ones at the s
 
 ---
 
+## Static NAT
+
+A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]]** and one **[[#Public Address]]**, set by hand and always present:[^rfc3022]
+
+| Private IP | Public IP |
+|---|---|
+| `192.168.1.10` | `203.0.113.7` |
+
+ - **No Ports**: the device owns a whole Public Address, so replies are told apart by IP alone and the router never reads the TCP/UDP header (contrast **[[#Headers NAT Changes]]**)[^rfc3022]
+ - **This is "Basic NAT"**: translating the IP only is what RFC 3022 calls Basic NAT; NAPT is the version that adds Ports so one Public Address can be shared[^rfc3022]
+ - **"Static" means the binding is fixed**: it exists before any traffic, rather than being created from a pool when the first **[[OSI Model#Packet|Packet]]** goes out[^rfc3022]
+ - **Works both directions**: because the mapping is already there, an outside host can start a connection to the Public Address, so Static NAT is used to publish an inside server (contrast **[[#Port Forwarding]]**, which publishes a server using one shared address and a Port)[^rfc2663]
+
+---
+
 ## Translation Table
+
+This only applies to **[[#NAPT (Network Address Port Translation)|NAPT]]**. **[[#Static NAT]]** has no such table, just a fixed IP ↔ IP binding with no Ports.
 
 The **Translation Table** maps the router's Public IP:**[[#Port]]** to the Private IP:Port of the device that sent the request:[^rfc3022]
 
@@ -77,6 +95,6 @@ The **[[OSI Model#Network Frame|Frame]]** (L2) is replaced at every **[[Routing#
 
 [^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
-[^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — a home router shares one public address, NAPT maps a public address and Port to a private address and Port, the router rewrites the source address and Port on the way out and the destination address and Port on the way back, the reply comes back addressed to the router's public address and Port, and ICMP query identifiers are rewritten in place of Ports (§2.2), the pair is saved when the first Packet goes out (§3.1), and the IP and TCP/UDP headers and checksums are rewritten, with the TCP/UDP checksum covering the IP addresses (§4.1)
+[^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — Basic NAT translates the IP address only while NAPT also translates Ports (§2.1–2.2), a home router shares one public address, NAPT maps a public address and Port to a private address and Port, the router rewrites the source address and Port on the way out and the destination address and Port on the way back, the reply comes back addressed to the router's public address and Port, and ICMP query identifiers are rewritten in place of Ports (§2.2), the pair is saved when the first Packet goes out (§3.1), and the IP and TCP/UDP headers and checksums are rewritten, with the TCP/UDP checksum covering the IP addresses (§4.1)
 [^rfc9293]: [RFC 9293: Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293#section-2.2) — Port numbers identify application services and keep separate connections apart
 [^rfc4787]: [RFC 4787: NAT Behavioral Requirements for Unicast UDP](https://www.rfc-editor.org/rfc/rfc4787#section-4.2.1) — some NATs keep the private Port when it is free and pick a different one when it would clash
