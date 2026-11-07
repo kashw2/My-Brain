@@ -58,6 +58,7 @@ The **Translation Table** maps the router's Public IP:**[[#Port]]** to the Priva
 
  - **The public Port makes each entry unique**: a home router has one **[[#Public Address]]**, so every entry shares it[^rfc3022]
  - **The private Port is needed too**: the PC can have several connections open at once, and the Port says which one the reply belongs to[^rfc9293]
+ - **The PC's OS picks the private Port**: when an app opens a connection, the OS picks a free Port for it, called an *ephemeral Port*[^rfc6056]
 
 ### Why the Source Is Rewritten
 
@@ -104,5 +105,6 @@ The **[[OSI Model#Network Frame|Frame]]** (L2) is replaced at every **[[Routing#
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges and which class networks each one covers in pre-CIDR terms, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
 [^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — NAT lets many home devices share the single address the provider assigns to their router (§1), Basic NAT translates the IP address only while NAPT also translates Ports (§2.1–2.2), a home router shares one public address, NAPT maps a public address and Port to a private address and Port, the router rewrites the source address and Port on the way out and the destination address and Port on the way back, the reply comes back addressed to the router's public address and Port, and ICMP query identifiers are rewritten in place of Ports (§2.2), the pair is saved when the first Packet goes out (§3.1), and the IP and TCP/UDP headers and checksums are rewritten, with the TCP/UDP checksum covering the IP addresses (§4.1)
 [^rfc9293]: [RFC 9293: Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293#section-2.2) — Port numbers identify application services and keep separate connections apart
+[^rfc6056]: [RFC 6056: Recommendations for Transport-Protocol Port Randomization](https://www.rfc-editor.org/rfc/rfc6056#section-1) — the client app normally leaves its Port unspecified, so the networking stack picks it automatically, and these are called ephemeral Ports (§1)
 [^rfc4787]: [RFC 4787: NAT Behavioral Requirements for Unicast UDP](https://www.rfc-editor.org/rfc/rfc4787#section-4.2.1) — some NATs keep the private Port when it is free and pick a different one when it would clash
 [^cisco]: [Cisco: Configure Network Address Translation](https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/13772-12.html) — a static translation is statically configured, is placed in the translation table without the need for any traffic, and stays there as long as the configuration is present
