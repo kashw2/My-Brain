@@ -33,6 +33,7 @@ A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]
 |---|---|
 | `192.168.1.10` | `203.0.113.7` |
 
+ - **Network Layer only**: Static NAT works purely at the **[[OSI Model#3. Network Layer|Network Layer]]** (L3), rewriting only the IP header — it never touches the **[[OSI Model#4. Transport Layer|Transport Layer]]** (L4)
  - **No Ports**: the device owns a whole Public Address, so replies are told apart by IP alone and the router never reads the TCP/UDP header (contrast **[[#Headers NAT Changes]]**)[^rfc3022]
  - **This is "Basic NAT"**: translating the IP only is what RFC 3022 calls Basic NAT; NAPT is the version that adds Ports so one Public Address can be shared[^rfc3022]
  - **"Static" means the binding is fixed**: it exists before any traffic, rather than being created from a pool when the first **[[OSI Model#Packet|Packet]]** goes out[^rfc3022]
@@ -42,7 +43,7 @@ A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]
 
 ## Translation Table
 
-This only applies to **[[#NAPT (Network Address Port Translation)|NAPT]]**. **[[#Static NAT]]** has no such table, just a fixed IP ↔ IP binding with no Ports.
+This only applies to **[[#NAPT (Network Address Port Translation)|NAPT]]**. The Translation Table is dynamic state the router builds at runtime: a row per connection, keyed on Ports, that grows as connections open and times out when they go idle. **[[#Static NAT]]** has no such table, just a fixed IP ↔ IP binding set by hand, with no Ports and no per-connection state.
 
 The **Translation Table** maps the router's Public IP:**[[#Port]]** to the Private IP:Port of the device that sent the request:[^rfc3022]
 
