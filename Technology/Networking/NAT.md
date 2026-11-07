@@ -39,8 +39,8 @@ A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]
 |---|---|
 | `192.168.1.10` | `203.0.113.7` |
 
- - **Network Layer only**: Static NAT works purely at the **[[OSI Model#3. Network Layer|Network Layer]]** (L3), rewriting only the IP header — it never touches the **[[OSI Model#4. Transport Layer|Transport Layer]]** (L4)
- - **No Ports**: the device owns a whole Public Address, so replies are told apart by IP alone and the router never reads the TCP/UDP header (contrast **[[#Headers NAT Changes]]**)[^rfc3022]
+ - **Translates only the IP address**: Static NAT translates at the **[[OSI Model#3. Network Layer|Network Layer]]** (L3). It still updates the TCP/UDP checksum, because that checksum covers the IP addresses, but it never changes the Ports (see **[[#Headers NAT Changes]]**)[^rfc3022]
+ - **No Ports**: the device owns a whole Public Address, so replies are told apart by IP alone and the router never needs a Port to find the device (contrast **[[#Headers NAT Changes]]**)[^rfc3022]
  - **This is "Basic NAT"**: translating the IP only is what RFC 3022 calls Basic NAT; NAPT is the version that adds Ports so one Public Address can be shared[^rfc3022]
  - **Works both directions**: because the mapping is already there, an outside host can start a connection to the Public Address, so Static NAT is used to publish an inside server (contrast **[[#Port Forwarding]]**, which publishes a server using one shared address and a Port)[^rfc2663]
 
@@ -91,7 +91,7 @@ NAT rewrites two headers inside the same **[[OSI Model#Packet|Packet]]**:[^rfc30
 | **[[OSI Model#3. Network Layer\|Network]]** (L3) | IP | Source IP address and the IP checksum | Destination IP address and the IP checksum |
 | **[[OSI Model#4. Transport Layer\|Transport]]** (L4) | TCP/UDP | Source Port and the TCP/UDP checksum | Destination Port and the TCP/UDP checksum |
 
-The TCP/UDP checksum also covers the IP addresses, so it has to be recalculated even when only the IP address changes.[^rfc3022] Ping has no Port, so NAPT rewrites its ICMP query identifier instead.[^rfc3022]
+The TCP/UDP checksum also covers the IP addresses, so it has to be recalculated even when only the IP address changes. That's why **[[#Static NAT]]** still changes the TCP/UDP header, even though it leaves the Ports alone.[^rfc3022] Ping has no Port, so NAPT rewrites its ICMP query identifier instead.[^rfc3022]
 
 The **[[OSI Model#Network Frame|Frame]]** (L2) is replaced at every **[[Routing#Hop|Hop]]** by every router, so that part isn't NAT.
 
