@@ -1,5 +1,11 @@
 Network Address Translation
-## Terminology
+## Purpose
+
+**NAT** was created to conserve IPv4 addresses, which were running out.[^rfc1631] Instead of every device needing its own **[[#Public Address]]**, devices use **[[#Private Address|Private Addresses]]** that are reused in other networks, and the **[[Routing#Router|Router]]** at the edge swaps them for a Public Address as traffic crosses it.[^rfc1631]
+
+This is how every device in a home shares the single Public Address the ISP gives the home router.[^rfc3022]
+
+### Terminology
  - **[[#NAT (Network Address Translation)|NAT]]**: A **[[Routing#Router|Router]]** rewriting the IP addresses in a **[[OSI Model#Packet|Packet]]** as it passes from one network to another[^rfc2663]
  - **[[#Private Address]]**: An address that only means something inside one local network, such as `192.168.1.38`
  - **[[#Public Address]]**: An address that is unique across the whole internet[^rfc1918]
@@ -95,7 +101,7 @@ The **[[OSI Model#Network Frame|Frame]]** (L2) is replaced at every **[[Routing#
 
 [^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another, a static binding is a one-to-one mapping kept for the lifetime of NAT operation (§3.1.1), and it is fixed rather than made at session startup (§3.2.1)
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges and which class networks each one covers in pre-CIDR terms, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
-[^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — Basic NAT translates the IP address only while NAPT also translates Ports (§2.1–2.2), a home router shares one public address, NAPT maps a public address and Port to a private address and Port, the router rewrites the source address and Port on the way out and the destination address and Port on the way back, the reply comes back addressed to the router's public address and Port, and ICMP query identifiers are rewritten in place of Ports (§2.2), the pair is saved when the first Packet goes out (§3.1), and the IP and TCP/UDP headers and checksums are rewritten, with the TCP/UDP checksum covering the IP addresses (§4.1)
+[^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — NAT connects a network of private addresses to one of globally unique addresses (Abstract), it is needed because internal addresses can't be used outside the network, and it lets many home devices share the single address the provider assigns to their router (§1), Basic NAT translates the IP address only while NAPT also translates Ports (§2.1–2.2), a home router shares one public address, NAPT maps a public address and Port to a private address and Port, the router rewrites the source address and Port on the way out and the destination address and Port on the way back, the reply comes back addressed to the router's public address and Port, and ICMP query identifiers are rewritten in place of Ports (§2.2), the pair is saved when the first Packet goes out (§3.1), and the IP and TCP/UDP headers and checksums are rewritten, with the TCP/UDP checksum covering the IP addresses (§4.1)
 [^rfc9293]: [RFC 9293: Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293#section-2.2) — Port numbers identify application services and keep separate connections apart
 [^rfc4787]: [RFC 4787: NAT Behavioral Requirements for Unicast UDP](https://www.rfc-editor.org/rfc/rfc4787#section-4.2.1) — some NATs keep the private Port when it is free and pick a different one when it would clash
 [^cisco]: [Cisco: Configure Network Address Translation](https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/13772-12.html) — a static translation is statically configured, is placed in the translation table without the need for any traffic, and stays there as long as the configuration is present
