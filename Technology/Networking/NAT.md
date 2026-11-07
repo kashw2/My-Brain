@@ -27,7 +27,7 @@ Anyone can use these without asking, so many networks use the same ones at the s
 
 ## Static NAT
 
-A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]]** and one **[[#Public Address]]**, set by hand and always present:[^rfc3022]
+A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]]** and one **[[#Public Address]]**. You set the pair by hand in the router's config, so it exists before any traffic and stays exactly as set until you change it:[^rfc2663][^cisco]
 
 | Private IP | Public IP |
 |---|---|
@@ -36,7 +36,6 @@ A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]
  - **Network Layer only**: Static NAT works purely at the **[[OSI Model#3. Network Layer|Network Layer]]** (L3), rewriting only the IP header — it never touches the **[[OSI Model#4. Transport Layer|Transport Layer]]** (L4)
  - **No Ports**: the device owns a whole Public Address, so replies are told apart by IP alone and the router never reads the TCP/UDP header (contrast **[[#Headers NAT Changes]]**)[^rfc3022]
  - **This is "Basic NAT"**: translating the IP only is what RFC 3022 calls Basic NAT; NAPT is the version that adds Ports so one Public Address can be shared[^rfc3022]
- - **"Static" means you set the binding**: you write the pair into the router's config, so it exists before any traffic and stays exactly as set until you change it. The router never picks or changes it on its own[^rfc2663][^cisco]
  - **Works both directions**: because the mapping is already there, an outside host can start a connection to the Public Address, so Static NAT is used to publish an inside server (contrast **[[#Port Forwarding]]**, which publishes a server using one shared address and a Port)[^rfc2663]
 
 ---
