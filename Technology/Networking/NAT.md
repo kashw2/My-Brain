@@ -36,7 +36,7 @@ A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]
  - **Network Layer only**: Static NAT works purely at the **[[OSI Model#3. Network Layer|Network Layer]]** (L3), rewriting only the IP header — it never touches the **[[OSI Model#4. Transport Layer|Transport Layer]]** (L4)
  - **No Ports**: the device owns a whole Public Address, so replies are told apart by IP alone and the router never reads the TCP/UDP header (contrast **[[#Headers NAT Changes]]**)[^rfc3022]
  - **This is "Basic NAT"**: translating the IP only is what RFC 3022 calls Basic NAT; NAPT is the version that adds Ports so one Public Address can be shared[^rfc3022]
- - **"Static" means the binding is fixed**: it exists before any traffic, rather than being created from a pool when the first **[[OSI Model#Packet|Packet]]** goes out[^rfc3022]
+ - **"Static" means you set the binding**: you write the pair into the router's config, so it exists before any traffic and stays exactly as set until you change it. The router never picks or changes it on its own[^rfc2663][^pfsense]
  - **Works both directions**: because the mapping is already there, an outside host can start a connection to the Public Address, so Static NAT is used to publish an inside server (contrast **[[#Port Forwarding]]**, which publishes a server using one shared address and a Port)[^rfc2663]
 
 ---
@@ -94,8 +94,9 @@ The **[[OSI Model#Network Frame|Frame]]** (L2) is replaced at every **[[Routing#
 
 ## References
 
-[^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another
+[^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another, a static binding is a one-to-one mapping kept for the lifetime of NAT operation (§3.1.1), and it is fixed rather than made at session startup (§3.2.1)
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
 [^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — Basic NAT translates the IP address only while NAPT also translates Ports (§2.1–2.2), a home router shares one public address, NAPT maps a public address and Port to a private address and Port, the router rewrites the source address and Port on the way out and the destination address and Port on the way back, the reply comes back addressed to the router's public address and Port, and ICMP query identifiers are rewritten in place of Ports (§2.2), the pair is saved when the first Packet goes out (§3.1), and the IP and TCP/UDP headers and checksums are rewritten, with the TCP/UDP checksum covering the IP addresses (§4.1)
 [^rfc9293]: [RFC 9293: Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293#section-2.2) — Port numbers identify application services and keep separate connections apart
 [^rfc4787]: [RFC 4787: NAT Behavioral Requirements for Unicast UDP](https://www.rfc-editor.org/rfc/rfc4787#section-4.2.1) — some NATs keep the private Port when it is free and pick a different one when it would clash
+[^pfsense]: [pfSense Documentation: 1:1 NAT](https://docs.netgate.com/pfsense/en/latest/nat/1-1.html) — 1:1 NAT is a rule you configure that maps one external IP address to one internal IP address, and it translates inbound packets started by external hosts
