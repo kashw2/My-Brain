@@ -39,10 +39,9 @@ A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]
 |---|---|
 | `192.168.1.10` | `203.0.113.7` |
 
- - **Translates only the IP address**: Static NAT translates at the **[[OSI Model#3. Network Layer|Network Layer]]** (L3) and never changes the Ports[^rfc3022]
- - **No Ports**: the device owns a whole Public Address, so replies are told apart by IP alone and the router never needs a Port to find the device (contrast **[[#Headers NAT Changes]]**)[^rfc3022]
+ - **Translates only the IP address**: Static NAT translates at the **[[OSI Model#3. Network Layer|Network Layer]]** (L3) and never changes the Ports. The device owns a whole Public Address, so replies are told apart by IP alone and the router never needs a Port to find the device[^rfc3022]
  - **This is "Basic NAT"**: translating the IP only is what RFC 3022 calls Basic NAT; NAPT is the version that adds Ports so one Public Address can be shared[^rfc3022]
- - **Works both directions**: because the mapping is already there, an outside host can start a connection to the Public Address, so Static NAT is used to publish an inside server (contrast **[[#Port Forwarding]]**, which publishes a server using one shared address and a Port)[^rfc2663]
+ - **Bi-directional**: because the mapping is already there, an outside host can start a connection to the Public Address, not just the inside device. RFC 2663 calls this Bi-directional (or Two-Way) NAT. Static NAT is used to publish an inside server (contrast **[[#Port Forwarding]]**, which publishes a server using one shared address and a Port)[^rfc2663]
 
 ---
 
@@ -101,7 +100,7 @@ The **[[OSI Model#Network Frame|Frame]]** (L2) is replaced at every **[[Routing#
 ## References
 
 [^rfc1631]: [RFC 1631: The IP Network Address Translator (NAT)](https://www.rfc-editor.org/rfc/rfc1631) — the original NAT proposal: a short-term solution to IP address depletion, where addresses inside a network aren't globally unique and are reused in other networks, and the NAT at the border pairs them with globally unique addresses (Abstract)
-[^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another, a static binding is a one-to-one mapping kept for the lifetime of NAT operation (§3.1.1), and it is fixed rather than made at session startup (§3.2.1)
+[^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another, a static binding is a one-to-one mapping kept for the lifetime of NAT operation (§3.1.1), and it is fixed rather than made at session startup (§3.2.1), and Bi-directional (Two-Way) NAT lets sessions be started from the public network as well as the private one (§4.2)
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges and which class networks each one covers in pre-CIDR terms, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
 [^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — NAT lets many home devices share the single address the provider assigns to their router (§1), Basic NAT translates the IP address only while NAPT also translates Ports (§2.1–2.2), a home router shares one public address, NAPT maps a public address and Port to a private address and Port, the router rewrites the source address and Port on the way out and the destination address and Port on the way back, the reply comes back addressed to the router's public address and Port, and ICMP query identifiers are rewritten in place of Ports (§2.2), the pair is saved when the first Packet goes out (§3.1), and the IP and TCP/UDP headers and checksums are rewritten, with the TCP/UDP checksum covering the IP addresses (§4.1)
 [^rfc9293]: [RFC 9293: Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293#section-2.2) — Port numbers identify application services and keep separate connections apart
