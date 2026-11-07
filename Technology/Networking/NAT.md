@@ -15,11 +15,11 @@ Network Address Translation
 
 Three ranges are reserved for private networks:[^rfc1918]
 
-| Range | Prefix |
-|---|---|
-| `10.0.0.0` to `10.255.255.255` | `10.0.0.0/8` |
-| `172.16.0.0` to `172.31.255.255` | `172.16.0.0/12` |
-| `192.168.0.0` to `192.168.255.255` | `192.168.0.0/16` |
+| Range | Prefix | Class |
+|---|---|---|
+| `10.0.0.0` to `10.255.255.255` | `10.0.0.0/8` | 1 Class A network |
+| `172.16.0.0` to `172.31.255.255` | `172.16.0.0/12` | 16 Class B networks |
+| `192.168.0.0` to `192.168.255.255` | `192.168.0.0/16` | 256 Class C networks |
 
 Anyone can use these without asking, so many networks use the same ones at the same time. Because of this, routers on the internet reject routes for them, and don't forward **[[OSI Model#Packet|Packets]]** to or from them.[^rfc1918]
 
@@ -94,7 +94,7 @@ The **[[OSI Model#Network Frame|Frame]]** (L2) is replaced at every **[[Routing#
 ## References
 
 [^rfc2663]: [RFC 2663: NAT Terminology and Considerations](https://www.rfc-editor.org/rfc/rfc2663#section-3) — NAT maps IP addresses from one network to another, a static binding is a one-to-one mapping kept for the lifetime of NAT operation (§3.1.1), and it is fixed rather than made at session startup (§3.2.1)
-[^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
+[^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges and which class networks each one covers in pre-CIDR terms, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
 [^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-2.2) — Basic NAT translates the IP address only while NAPT also translates Ports (§2.1–2.2), a home router shares one public address, NAPT maps a public address and Port to a private address and Port, the router rewrites the source address and Port on the way out and the destination address and Port on the way back, the reply comes back addressed to the router's public address and Port, and ICMP query identifiers are rewritten in place of Ports (§2.2), the pair is saved when the first Packet goes out (§3.1), and the IP and TCP/UDP headers and checksums are rewritten, with the TCP/UDP checksum covering the IP addresses (§4.1)
 [^rfc9293]: [RFC 9293: Transmission Control Protocol (TCP)](https://www.rfc-editor.org/rfc/rfc9293#section-2.2) — Port numbers identify application services and keep separate connections apart
 [^rfc4787]: [RFC 4787: NAT Behavioral Requirements for Unicast UDP](https://www.rfc-editor.org/rfc/rfc4787#section-4.2.1) — some NATs keep the private Port when it is free and pick a different one when it would clash
