@@ -59,12 +59,6 @@ Addresses such as `192.168.x.x` are private. They can't be used on the internet[
 
 This means the source IP address changes once, at the home router. The destination IP address stays the same for the whole trip.
 
-### Where Headers Change
-
-Across the whole journey, a header only changes in two places: the **[[OSI Model#Network Frame|Frame]]** (L2) is replaced at every **[[#Hop]]**, and the home router rewrites the source IP (**[[#NAT (Network Address Translation)|NAT]]**) and source **[[OSI Model#4. Transport Layer|Port]]** (NAPT, see **[[NAT#Headers NAT Changes]]**). The **[[OSI Model#Packet|Packet's]]** headers are otherwise added once by **[[OSI Model#Encapsulation|Encapsulation]]** at the source and removed by **[[OSI Model#Decapsulation|Decapsulation]]** at the destination.
-
-![[Header Changes]]
-
 ---
 
 ## Routing vs Forwarding
