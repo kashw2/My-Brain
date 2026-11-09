@@ -1,14 +1,14 @@
 Network Address Translation
 ## Purpose
 
-**NAT** was created to conserve IPv4 addresses, which were running out.[^rfc1631] Instead of every device needing its own **[[#Public Address]]**, devices use **[[#Private Address|Private Addresses]]** that are reused in other networks, and the **[[Routing#Router|Router]]** at the edge swaps them for a Public Address as traffic crosses it.[^rfc1631]
+**NAT** was created to conserve IPv4 addresses, which were running out.[^rfc1631] Instead of every device needing its own **[[IP Address#Public Address|Public Address]]**, devices use **[[#Private Address|Private Addresses]]** that are reused in other networks, and the **[[Routing#Router|Router]]** at the edge swaps them for a Public Address as traffic crosses it.[^rfc1631]
 
 This is how every device in a home shares the single Public Address the ISP gives the home router.[^rfc3022]
 
 ### Terminology
  - **[[#NAT (Network Address Translation)|NAT]]**: A **[[Routing#Router|Router]]** rewriting the IP addresses in a **[[OSI Model#Packet|Packet]]** as it passes from one network to another[^rfc2663]
  - **[[#Private Address]]**: An address that only means something inside one local network, such as `192.168.1.38`
- - **[[#Public Address]]**: An address that is unique across the whole internet[^rfc1918]
+ - **[[IP Address#Public Address|Public Address]]**: An address that is unique across the whole internet[^rfc1918]
  - **[[#Port]]**: A number in the TCP or UDP header that identifies which application a connection belongs to
  - **[[#Translation Table]]**: The router's record of which inside device each translated connection belongs to
  - **[[#Static NAT]]**: NAT that maps one Private Address to one Public Address with a fixed rule, with no Ports
@@ -33,7 +33,7 @@ Anyone can use these without asking, so many networks use the same ones at the s
 
 ## Static NAT
 
-A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]]** and one **[[#Public Address]]**. You set the pair by hand in the router's config, so it exists before any traffic and stays exactly as set until you change it:[^rfc2663][^cisco]
+A **Static NAT** is a fixed one-to-one mapping between one **[[#Private Address]]** and one **[[IP Address#Public Address|Public Address]]**. You set the pair by hand in the router's config, so it exists before any traffic and stays exactly as set until you change it:[^rfc2663][^cisco]
 
 | Private IP | Public IP |
 |---|---|
@@ -55,7 +55,7 @@ The **Translation Table** maps the router's Public IP:**[[#Port]]** to the Priva
 |---|---|
 | `203.0.113.7:62001` | `192.168.1.38:51000` |
 
- - **The public Port makes each entry unique**: a home router has one **[[#Public Address]]**, so every entry shares it[^rfc3022]
+ - **The public Port makes each entry unique**: a home router has one **[[IP Address#Public Address|Public Address]]**, so every entry shares it[^rfc3022]
  - **The private Port is needed too**: the PC can have several connections open at once, and the Port says which one the reply belongs to[^rfc9293]
  - **The PC's OS picks the private Port**: when an app opens a connection, the OS picks a free Port for it, called an *ephemeral Port*[^rfc6056]
 

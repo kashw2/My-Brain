@@ -92,11 +92,18 @@ Anyone can use these without asking, so many networks use the same ones at the s
 
 ---
 
+## Public Address
+
+A **Public Address** is unique across the whole internet.[^rfc1918] IANA hands out blocks to the Regional Internet Registries, which hand smaller blocks to ISPs, which assign them to their customers.[^rfc4632] A home gets one from its ISP, and the home router shares it with every device inside using **[[NAT]]**.[^rfc3022]
+
+---
+
 ## References
 
 [^rfc791]: [RFC 791: Internet Protocol](https://www.rfc-editor.org/rfc/rfc791#section-2.3) — an address indicates where a device is, and is four Octets (32 bits) (§2.3), the addresses in the header are used to send a Packet towards its destination (§1.4), and the header holds the source and destination addresses, in version 4 of IP (§3.1)
 [^rfc4291]: [RFC 4291: IP Version 6 Addressing Architecture](https://www.rfc-editor.org/rfc/rfc4291#section-2) — IPv6 addresses are 128 bits (§2)
 [^wiki-dotdec]: [Wikipedia: Dot-decimal notation](https://en.wikipedia.org/wiki/Dot-decimal_notation) — IPv4 addresses are written as four decimal numbers from 0 to 255, separated by dots
-[^rfc4632]: [RFC 4632: Classless Inter-domain Routing (CIDR)](https://www.rfc-editor.org/rfc/rfc4632#section-3.1) — an IPv4 address is split into the network number and the bits that number individual devices, Prefix notation is an address, a slash, and the number of network bits, and the number of addresses per prefix length (§3.1)
+[^rfc4632]: [RFC 4632: Classless Inter-domain Routing (CIDR)](https://www.rfc-editor.org/rfc/rfc4632#section-3.1) — an IPv4 address is split into the network number and the bits that number individual devices, Prefix notation is an address, a slash, and the number of network bits, the number of addresses per prefix length, and that IANA allocates blocks to the Regional Internet Registries, which allocate smaller blocks to ISPs, which pass addresses on to their customers (§3.1)
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges and which class networks each one covers in pre-CIDR terms, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
 [^rfc1122]: [RFC 1122: Requirements for Internet Hosts](https://www.rfc-editor.org/rfc/rfc1122#page-47) — a device compares the network bits of the destination with its own, sends directly when they match, and sends through a gateway when they don't (§3.3.1.1)
+[^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-1) — home users have a single IP address assigned to their router by their provider, and NAPT lets every device in the network share it (§1)
