@@ -93,7 +93,7 @@ For every bit that you add to a prefix you halve the total number of available a
 
 ### Longest Prefix Match
 
-When more than one entry matches, the router picks the most specific one (the longest prefix).[^rfc1812][^rfc4632]
+When more than one entry matches, the router picks the most specific one (the longest **[[IP Address#Prefix|prefix]]**).[^rfc1812][^rfc4632]
 
 For `31.91.21.8`, all three entries in the table above match. The `/24` entry is the most specific, so the Packet goes to Router C.
 
