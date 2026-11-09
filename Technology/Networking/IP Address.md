@@ -34,11 +34,17 @@ Every address is split into two parts:[^rfc4632]
  - **Network Part**: the leading bits, which say which network the device is on
  - **Host Part**: the remaining bits, which say which device it is on that network
 
-The **[[#Prefix]]** length says how many bits are in the Network Part.[^rfc4632] For `192.168.1.38/24`:
+The **[[#Prefix]]** length says how many bits are in the Network Part.[^rfc4632]
 
-| Network Part (first 24 bits) | Host Part (last 8 bits) |
-| ---------------------------- | ----------------------- |
-| `192.168.1`                  | `38`                    |
+For example, a home network using `192.168.1.0/24` has a 24-bit Network Part and an 8-bit Host Part:
+
+| Device      | Address        | Network Part (first 24 bits) | Host Part (last 8 bits) |
+| ----------- | -------------- | ---------------------------- | ----------------------- |
+| Home router | `192.168.1.1`  | `192.168.1`                  | `1`                     |
+| PC          | `192.168.1.38` | `192.168.1`                  | `38`                    |
+| Phone       | `192.168.1.52` | `192.168.1`                  | `52`                    |
+
+All three share the Network Part `192.168.1`, so they're on the same network. Each one has a different Host Part, which tells them apart.
 
 ---
 
