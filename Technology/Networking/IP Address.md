@@ -72,6 +72,8 @@ A **Prefix** is a range of IP addresses, written as an address followed by a sla
 - `/24` covers **256** addresses
 - `/32` covers a **single** address
 
+A Prefix holds 2^(32 − prefix length) addresses, because every bit left over after the cut goes to the **[[#Network and Host Parts|Host Part]]**.[^rfc4632] For `/24` that's 2⁸ = **256**, and for `/16` it's 2¹⁶ = **65,536**.
+
 For every bit that you add to a prefix you halve the total number of available addresses in the prefix. This also works for the inverse, for every bit that you take away, you double your total number of available addresses in your prefix.[^rfc4632]
 
 ---
