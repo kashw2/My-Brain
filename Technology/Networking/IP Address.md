@@ -12,6 +12,7 @@ An **IP Address** says where a device is on a network.[^rfc791] Every **[[OSI Mo
  - **[[#Network and Host Parts|Network Part]]**: The leading bits of an address, which say which network it belongs to[^rfc4632]
  - **[[#Network and Host Parts|Host Part]]**: The remaining bits, which say which device it is on that network[^rfc4632]
  - **[[#Prefix]]**: A range of IP addresses, written like `31.91.0.0/16`
+ - **[[#Subnet Mask]]**: A Prefix written out in full as 32 bits, such as `255.255.255.0` for `/24`[^rfc4632]
  - **[[#Class]]**: The old way of splitting an address into its Network and Host Parts, fixed by its leading bits[^rfc791]
  - **[[#Private Address]]**: An address that only means something inside one local network, such as `192.168.1.38`
  - **[[#Public Address]]**: An address that is unique across the whole internet[^rfc1918]
@@ -79,6 +80,25 @@ For every bit that you add to a prefix you halve the total number of available a
 
 ---
 
+## Subnet Mask
+
+A **Subnet Mask** is a **[[#Prefix]]** written out as 32 bits: `1`s for the **[[#Network and Host Parts|Network Part]]**, then `0`s for the Host Part.[^rfc4632] Count the `1`s to get the Prefix:
+
+| Mask              | Binary                                | Prefix |
+| ----------------- | ------------------------------------- | ------ |
+| `255.255.255.0`   | `11111111.11111111.11111111.00000000` | `/24`  |
+| `255.255.255.192` | `11111111.11111111.11111111.11000000` | `/26`  |
+
+The `1`s fill from the left, so each Octet can only be one of these:
+
+| `1`s  | 0   | 1     | 2     | 3     | 4     | 5     | 6     | 7     | 8     |
+| ----- | --- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Octet | `0` | `128` | `192` | `224` | `240` | `248` | `252` | `254` | `255` |
+
+Masking an address keeps the bits under the `1`s and zeroes the rest, leaving the network address: `192.168.1.38` masked with `255.255.255.0` is `192.168.1.0`.[^rfc4632] A device masks the destination and its own address, and if they match, the destination is on its network.[^rfc1122]
+
+---
+
 ## Class
 
 Before **[[#Prefix|Prefixes]]**, an address's leading bits decided where the **[[#Network and Host Parts|Network and Host Parts]]** split. There were three formats, called **Classes**:[^rfc791]
@@ -122,7 +142,7 @@ A **Public Address** is unique across the whole internet.[^rfc1918] IANA hands o
 [^rfc791]: [RFC 791: Internet Protocol](https://www.rfc-editor.org/rfc/rfc791#section-2.3) — an address indicates where a device is, is four Octets (32 bits), and comes in three classes whose leading bits set the network and local parts (§2.3), the addresses in the header are used to send a Packet towards its destination (§1.4), and the header holds the source and destination addresses, in version 4 of IP (§3.1)
 [^rfc4291]: [RFC 4291: IP Version 6 Addressing Architecture](https://www.rfc-editor.org/rfc/rfc4291#section-2) — IPv6 addresses are 128 bits (§2)
 [^wiki-dotdec]: [Wikipedia: Dot-decimal notation](https://en.wikipedia.org/wiki/Dot-decimal_notation) — IPv4 addresses are written as four decimal numbers from 0 to 255, separated by dots
-[^rfc4632]: [RFC 4632: Classless Inter-domain Routing (CIDR)](https://www.rfc-editor.org/rfc/rfc4632#section-3.1) — an IPv4 address is split into the network number and the bits that number individual devices, Prefix notation is an address, a slash, and the number of network bits, the number of addresses per prefix length, legacy Class B and C networks are the same as /16 and /24 prefixes, prefixes replaced the three fixed network sizes with any power-of-two size, and that IANA allocates blocks to the Regional Internet Registries, which allocate smaller blocks to ISPs, which pass addresses on to their customers (§3.1)
+[^rfc4632]: [RFC 4632: Classless Inter-domain Routing (CIDR)](https://www.rfc-editor.org/rfc/rfc4632#section-3.1) — an IPv4 address is split into the network number and the bits that number individual devices, Prefix notation is an address, a slash, and the number of network bits, a prefix length is the same as a mask whose first bits are ones and the rest zeros, used to extract the network portion, the number of addresses per prefix length, legacy Class B and C networks are the same as /16 and /24 prefixes, prefixes replaced the three fixed network sizes with any power-of-two size, and IANA allocates blocks to the Regional Internet Registries, which allocate smaller blocks to ISPs, which pass addresses on to their customers (§3.1), and the mask must be contiguous (§5.1)
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges and which class networks each one covers in pre-CIDR terms, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
-[^rfc1122]: [RFC 1122: Requirements for Internet Hosts](https://www.rfc-editor.org/rfc/rfc1122#page-47) — a device compares the network bits of the destination with its own, sends directly when they match, and sends through a gateway when they don't (§3.3.1.1)
+[^rfc1122]: [RFC 1122: Requirements for Internet Hosts](https://www.rfc-editor.org/rfc/rfc1122#page-47) — a device uses its address mask to extract the network bits of the destination and of its own address, compares them, sends directly when they match, and sends through a gateway when they don't (§3.3.1.1)
 [^rfc3022]: [RFC 3022: Traditional IP Network Address Translator](https://www.rfc-editor.org/rfc/rfc3022#section-1) — home users have a single IP address assigned to their router by their provider, and NAPT lets every device in the network share it (§1)
