@@ -46,6 +46,22 @@ For example, a home network using `192.168.1.0/24` has a 24-bit Network Part and
 
 All three share the Network Part `192.168.1`, so they're on the same network. Each one has a different Host Part, which tells them apart.
 
+The **[[#Prefix]]** decides where the split is, so whether two addresses are on the same network depends on it. With `/24`, `192.168.2.38` is on a different network from `192.168.1.38`:
+
+| Address        | Prefix | Network Part | Host Part | Network                      |
+| -------------- | ------ | ------------ | --------- | ---------------------------- |
+| `192.168.1.38` | `/24`  | `192.168.1`  | `38`      | `192.168.1.0/24`             |
+| `192.168.2.38` | `/24`  | `192.168.2`  | `38`      | `192.168.2.0/24` (different) |
+
+With `/16`, the third Octet moves into the Host Part, so the same two addresses are on the same network:
+
+| Address        | Prefix | Network Part | Host Part | Network                 |
+| -------------- | ------ | ------------ | --------- | ----------------------- |
+| `192.168.1.38` | `/16`  | `192.168`    | `1.38`    | `192.168.0.0/16`        |
+| `192.168.2.38` | `/16`  | `192.168`    | `2.38`    | `192.168.0.0/16` (same) |
+
+A device compares the destination's Network Part with its own. If they match, it sends the **[[OSI Model#Packet|Packet]]** straight to the destination. If they don't, it sends it to the router (see **[[Routing#Example Journey|Example Journey]]**).[^rfc1122]
+
 ---
 
 ## Prefix
@@ -81,3 +97,4 @@ Anyone can use these without asking, so many networks use the same ones at the s
 [^wiki-dotdec]: [Wikipedia: Dot-decimal notation](https://en.wikipedia.org/wiki/Dot-decimal_notation) — IPv4 addresses are written as four decimal numbers from 0 to 255, separated by dots
 [^rfc4632]: [RFC 4632: Classless Inter-domain Routing (CIDR)](https://www.rfc-editor.org/rfc/rfc4632#section-3.1) — an IPv4 address is split into the network number and the bits that number individual devices, Prefix notation is an address, a slash, and the number of network bits, and the number of addresses per prefix length (§3.1)
 [^rfc1918]: [RFC 1918: Address Allocation for Private Internets](https://www.rfc-editor.org/rfc/rfc1918#section-3) — globally unique addresses, the three private ranges and which class networks each one covers in pre-CIDR terms, that anyone can use them, and that routers reject routes for them and don't forward Packets to or from them (§3)
+[^rfc1122]: [RFC 1122: Requirements for Internet Hosts](https://www.rfc-editor.org/rfc/rfc1122#page-47) — a device compares the network bits of the destination with its own, sends directly when they match, and sends through a gateway when they don't (§3.3.1.1)
