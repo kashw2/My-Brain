@@ -122,8 +122,6 @@ For `192.168.1.0/24`, the Host Part is the last 8 bits:
 
 The last address is only `.255` when the Host Part is the whole last Octet. With `/26` the Host Part is the last 6 bits, so `192.168.1.64/26` ends at `.127`:[^wiki-subnet]
 
-An easy way to work this out is that `192.168.1.0/24` gives 256 addresses, for every bit we add we half our address space so `/25` gets us 128, `/26` gives us 64 meaning that if we were starting at `192.168.1.64` with a `/26` prefix we would add those 64 addresses 
-
 | Address                           | Host Part (last 6 bits) | Use               |
 | --------------------------------- | ----------------------- | ----------------- |
 | `192.168.1.64`                    | `000000`                | Network Address   |
@@ -131,6 +129,8 @@ An easy way to work this out is that `192.168.1.0/24` gives 256 addresses, for e
 | `192.168.1.127`                   | `111111`                | Broadcast Address |
 
 To find them for any address, mask it to get the Network Address (see **[[#Subnet Mask]]**), then set every Host Part bit to `1` to get the Broadcast Address.
+
+You can also count: the Broadcast Address is the Network Address + the number of addresses − 1. For `192.168.1.64/26` that's 64 + 64 − 1 = **127**. The −1 is there because the Network Address is itself the first of the 64 addresses, so only 63 more come after it.
 
 Losing these two leaves **254** addresses for devices in a `/24`, and **62** in a `/26`.[^wiki-subnet]
 
