@@ -1,4 +1,8 @@
 
+## Fundamentals
+
+- [[Binary]]
+
 ## Development
 
 - [[Programming]]
