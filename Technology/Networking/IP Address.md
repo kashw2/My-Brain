@@ -32,6 +32,36 @@ An **[[#IPv4]]** address is 32 bits long, split into four Octets of 8 bits each.
 
 An Octet is 8 bits, so it can hold 256 values. That's why each number stops at 255.
 
+### Converting to Binary
+
+Each Octet is converted on its own. Every bit in an Octet has a value, doubling from right to left:
+
+| Bit value | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
+| --------- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+Go left to right, and at each bit ask whether its value fits into what's left of the number:
+ - **Yes**: write `1` and subtract the value
+ - **No**: write `0` and move on
+
+For `38`, the last Octet of `192.168.1.38`:
+
+| Bit value | Fits into what's left? | Bit | Left after    |
+| --------- | ---------------------- | --- | ------------- |
+| 128       | 38: no                 | `0` | 38            |
+| 64        | 38: no                 | `0` | 38            |
+| 32        | 38: yes                | `1` | 38 − 32 = 6   |
+| 16        | 6: no                  | `0` | 6             |
+| 8         | 6: no                  | `0` | 6             |
+| 4         | 6: yes                 | `1` | 6 − 4 = 2     |
+| 2         | 2: yes                 | `1` | 2 − 2 = 0     |
+| 1         | 0: no                  | `0` | 0             |
+
+Reading the Bit column from top to bottom gives `00100110`.
+ - The bit is `1` whenever the value fits, even when nothing is left after subtracting
+ - Always write all 8 bits, including the leading `0`s
+
+To check, or to convert back, add up the values that have a `1`: 32 + 4 + 2 = **38**.
+
 ### Network and Host Parts
 
 Every address is split into two parts:[^rfc4632]
