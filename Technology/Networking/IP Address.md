@@ -122,6 +122,8 @@ For `192.168.1.0/24`, the Host Part is the last 8 bits:
 
 The last address is only `.255` when the Host Part is the whole last Octet. With `/26` the Host Part is the last 6 bits, so `192.168.1.64/26` ends at `.127`:[^wiki-subnet]
 
+An easy way to work this out is that `192.168.1.0/24` gives 256 addresses, for every bit we add we half our address space so `/25` gets us 128, `/26` gives us 64 meaning that for 
+
 | Address                           | Host Part (last 6 bits) | Use               |
 | --------------------------------- | ----------------------- | ----------------- |
 | `192.168.1.64`                    | `000000`                | Network Address   |
