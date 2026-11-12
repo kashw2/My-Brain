@@ -116,6 +116,14 @@ That 2^(`0`s) is also how many addresses the network holds when the mask splits 
 4. 8 − 5 = **3** `1`s in the last Octet
 5. 24 + 3 = **`/27`**
 
+To find the power in step 3, halve the number until you reach 1 and count the halvings:
+
+```
+32 → 16 → 8 → 4 → 2 → 1
+```
+
+That's 5 halvings, so 32 = 2⁵.
+
 **From `1`s to an Octet value**, using 3 `1`s:
 1. 8 − 3 = **5** `0`s
 2. 2⁵ = **32**
