@@ -164,7 +164,16 @@ To find which network any address is in, determine the blocks within the host pa
 | `255.255.255.248` | `248`         | `8`                    | `/29`  |
 | `255.255.192.0`   | `192`         | `64` (in the 3rd Octet) | `/18`  |
 
-A clean mask with no partial Octet (`255.255.255.0`, a `/24`) sits exactly on an Octet boundary, so the block is a whole Octet (256).
+**Clean boundaries have no magic number.** When the mask is all `255`s then all `0`s — `/8`, `/16`, `/24`, `/32` — the split lands exactly on an Octet boundary, so there's no partial Octet to divide. The block is a whole number of Octets (or a single address), and the Network and Broadcast Addresses read straight off:
+
+| Prefix | Mask | Block is… | Network / Broadcast |
+| ------ | ----------------- | -------------------------- | --------------------------- |
+| `/8`   | `255.0.0.0`       | the whole last 3 Octets    | `x.0.0.0` / `x.255.255.255` |
+| `/16`  | `255.255.0.0`     | the whole last 2 Octets    | `x.x.0.0` / `x.x.255.255`   |
+| `/24`  | `255.255.255.0`   | the whole last Octet (256) | `x.x.x.0` / `x.x.x.255`     |
+| `/32`  | `255.255.255.255` | a single address           | the address itself          |
+
+The magic number only earns its keep when a block is a *fraction* of an Octet (mask Octet `128`–`254`), because that's the only time one Octet holds more than one network.
 
 With `/26` the block size is 64, so an Octet has only four possible networks (256 / 64 = 4):
 
