@@ -168,6 +168,8 @@ So `192.168.1.200/26` sits in the `.192` block: Network `192.168.1.192`, Broadca
 
 The boundary falls in whichever Octet the mask splits. For `/26` that's the last Octet; for a shorter Prefix like `/18` it's the third Octet, and the Octets below it just run `0`–`255` inside the block.
 
+![[Network Boundaries]]
+
 Losing these two leaves **254** addresses for devices in a `/24`, and **62** in a `/26`.[^wiki-subnet]
 
 ---
