@@ -151,13 +151,11 @@ You can also count: the Broadcast Address is the Network Address + the number of
 
 A network always starts on a fixed **boundary**: a multiple of its own size. The Network Address is **not** whatever address you happen to start from — it's the start of the block that address falls in. The **block size** is the number of addresses the network holds (`256 − the mask Octet`, or `2^(Host bits)`), and networks of that size can only begin at `0`, one block, two blocks, and so on.
 
-To find which network any address is in, determine the blocks within the host part
-
-To find which network any address is in, round its Octet **down** to the nearest multiple of the block size:
+To find which network any address is in, determine the blocks within the host part and take your address and round **down** to the start of nearest range:
  - **Network Octet** = host Octet − (host Octet mod block size)
  - **Broadcast Octet** = Network Octet + block size − 1
 
-With `/26` the block size is 64, so an Octet has only four possible networks:
+With `/26` the block size is 64, so an Octet has only four possible networks (256 / 64 = 4):
 
 | Range         | Network Address | Broadcast Address |
 | ------------- | --------------- | ----------------- |
