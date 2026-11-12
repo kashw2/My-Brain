@@ -86,25 +86,36 @@ For every bit that you add to a prefix you halve the total number of available a
 
 ## Subnet Mask
 
-A **Subnet Mask** is a **[[#Prefix]]** written out as 32 bits: `1`s for the **[[#Network and Host Parts|Network Part]]**, then `0`s for the Host Part.[^rfc4632] Count the `1`s to get the Prefix:
+A **Subnet Mask** is a **[[#Prefix]]** written out as 32 bits: `1`s for the **[[#Network and Host Parts|Network Part]]**, then `0`s for the Host Part.[^rfc4632] So the Prefix is simply the count of `1`s:
 
 | Mask              | Binary                                | Prefix |
 | ----------------- | ------------------------------------- | ------ |
 | `255.255.255.0`   | `11111111.11111111.11111111.00000000` | `/24`  |
 | `255.255.255.192` | `11111111.11111111.11111111.11000000` | `/26`  |
 
-The `1`s fill from the left, so each Octet can only be one of these:
+### The nine Octet values
+
+The `1`s fill from the left with no gaps, so each Octet can only be one of nine values:
 
 | `1`s  | 0   | 1     | 2     | 3     | 4     | 5     | 6     | 7     | 8     |
 | ----- | --- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | Octet | `0` | `128` | `192` | `224` | `240` | `248` | `252` | `254` | `255` |
 
-To calculate a value instead of looking it up, use **256 − 2^(number of `0`s)**:
- - **`1`s → value**: 3 `1`s means 5 `0`s, so 256 − 2⁵ = 256 − 32 = `224`
- - **Value → `1`s**: `240` → 256 − 240 = 16 = 2⁴, so 4 `0`s and 4 `1`s
- - **Addresses**: in the last Octet, the 2^(`0`s) is also how many addresses the network holds. `255.255.255.192` → 256 − 192 = **64**, the same as a `/26` from the **[[#Prefix]]** count (2⁶ = **64**)
+### Calculating instead of memorising
+
+It all comes from one formula, where `0`s is the number of `0` bits in the Octet:
+
+**Octet value = 256 − 2^(`0`s)** — and that same **2^(`0`s)** is how many addresses the network holds when the mask splits the last Octet.
+
+| To find… | Use | Example |
+| --- | --- | --- |
+| Octet value from the `1`s | 256 − 2^(`0`s) | 3 `1`s → 5 `0`s → 256 − 2⁵ = `224` |
+| `1`s from an Octet value | 256 − value = 2^(`0`s) | `240` → 256 − 240 = 2⁴ → 4 `0`s, 4 `1`s |
+| Addresses in the network | 2^(`0`s) | `192` → 256 − 192 = 2⁶ = **64** (a `/26`) |
 
 **Example** — `255.255.255.224`: 256 − 224 = **32** = 2⁵, so 5 `0`s and 3 `1`s. The three `1`s extend the Prefix to `/27` (24 + 3), and the 2⁵ = **32** addresses per network match the **[[#Prefix]]** count 2^(32 − 27) = 2⁵ = **32**.
+
+### Masking
 
 Masking an address keeps the bits under the `1`s and zeroes the rest, leaving the **[[#Network and Broadcast Addresses|Network Address]]**: `192.168.1.38` masked with `255.255.255.0` is `192.168.1.0`.[^rfc4632] A device masks the destination and its own address, and if they match, the destination is on its network.[^rfc1122]
 
