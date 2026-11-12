@@ -104,6 +104,8 @@ To calculate a value instead of looking it up, use **256 − 2^(number of `0`s)*
  - **Value → `1`s**: `240` → 256 − 240 = 16 = 2⁴, so 4 `0`s and 4 `1`s
  - **Addresses**: in the last Octet, the 2^(`0`s) is also how many addresses the network holds. `255.255.255.192` → 256 − 192 = **64**, the same as a `/26` from the **[[#Prefix]]** count (2⁶ = **64**)
 
+**Example** — `255.255.255.224`: 256 − 224 = **32** = 2⁵, so 5 `0`s and 3 `1`s. The three `1`s extend the Prefix to `/27` (24 + 3), and the 2⁵ = **32** addresses per network match the **[[#Prefix]]** count 2^(32 − 27) = 2⁵ = **32**.
+
 Masking an address keeps the bits under the `1`s and zeroes the rest, leaving the **[[#Network and Broadcast Addresses|Network Address]]**: `192.168.1.38` masked with `255.255.255.0` is `192.168.1.0`.[^rfc4632] A device masks the destination and its own address, and if they match, the destination is on its network.[^rfc1122]
 
 ---
