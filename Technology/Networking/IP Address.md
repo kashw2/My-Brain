@@ -149,11 +149,22 @@ You can also count: the Broadcast Address is the Network Address + the number of
 
 ### Finding the Block
 
-A network always starts on a fixed **boundary**: a multiple of its own size. The Network Address is **not** whatever address you happen to start from — it's the start of the block that address falls in. The **block size** is the number of addresses the network holds (`256 − the mask Octet`, or `2^(Host bits)`), and networks of that size can only begin at `0`, one block, two blocks, and so on.
+A network always starts on a fixed **boundary**: a multiple of its own size. The Network Address is **not** whatever address you happen to start from — it's the start of the block that address falls in. The **block size** is the number of addresses the network holds (`256 − the partial mask Octet`, or `2^(Host bits)`), and networks of that size can only begin at `0`, one block, two blocks, and so on.
 
 To find which network any address is in, determine the blocks within the host part and take your address and round **down** to the start of nearest range:
  - **Network Octet** = host Octet − (host Octet mod block size)
  - **Broadcast Octet** = Network Octet + block size − 1
+
+**The magic number.** The block size comes straight from the mask: it's `256 −` the **partial Octet** (the one that's not `255` or `0`, which is where the split falls). This is called the *magic number* — it's both the block size and the step between Network Addresses:
+
+| Mask              | Partial Octet | Magic number (`256 −`) | Prefix |
+| ----------------- | ------------- | ---------------------- | ------ |
+| `255.255.255.192` | `192`         | `64`                   | `/26`  |
+| `255.255.255.224` | `224`         | `32`                   | `/27`  |
+| `255.255.255.248` | `248`         | `8`                    | `/29`  |
+| `255.255.192.0`   | `192`         | `64` (in the 3rd Octet) | `/18`  |
+
+A clean mask with no partial Octet (`255.255.255.0`, a `/24`) sits exactly on an Octet boundary, so the block is a whole Octet (256).
 
 With `/26` the block size is 64, so an Octet has only four possible networks (256 / 64 = 4):
 
