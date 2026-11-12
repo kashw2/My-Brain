@@ -147,6 +147,27 @@ To find them for any address, mask it to get the Network Address (see **[[#Subne
 
 You can also count: the Broadcast Address is the Network Address + the number of addresses − 1. For `192.168.1.64/26` that's 64 + 64 − 1 = **127**. The −1 is there because the Network Address is itself the first of the 64 addresses, so only 63 more come after it.
 
+### Finding the Block
+
+A network always starts on a fixed **boundary**: a multiple of its own size. The Network Address is **not** whatever address you happen to start from — it's the start of the block that address falls in. The **block size** is the number of addresses the network holds (`256 − the mask Octet`, or `2^(Host bits)`), and networks of that size can only begin at `0`, one block, two blocks, and so on.
+
+To find which network any address is in, round its Octet **down** to the nearest multiple of the block size:
+ - **Network Octet** = host Octet − (host Octet mod block size)
+ - **Broadcast Octet** = Network Octet + block size − 1
+
+With `/26` the block size is 64, so an Octet has only four possible networks:
+
+| Range         | Network Address | Broadcast Address |
+| ------------- | --------------- | ----------------- |
+| `.0` – `.63`    | `.0`            | `.63`             |
+| `.64` – `.127`  | `.64`           | `.127`            |
+| `.128` – `.191` | `.128`          | `.191`            |
+| `.192` – `.255` | `.192`          | `.255`            |
+
+So `192.168.1.200/26` sits in the `.192` block: Network `192.168.1.192`, Broadcast `192.168.1.255`. And `192.168.1.60` and `192.168.1.70` are **not** on the same network — `.60` is in the `.0` block, `.70` is in the `.64` block.
+
+The boundary falls in whichever Octet the mask splits. For `/26` that's the last Octet; for a shorter Prefix like `/18` it's the third Octet, and the Octets below it just run `0`–`255` inside the block.
+
 Losing these two leaves **254** addresses for devices in a `/24`, and **62** in a `/26`.[^wiki-subnet]
 
 ---
