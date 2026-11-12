@@ -92,7 +92,7 @@ A **Subnet Mask** is a **[[#Prefix]]** written out as 32 bits: `1`s for the **[[
 | ----------------- | ------------------------------------- | ------ |
 | `255.255.255.0`   | `11111111.11111111.11111111.00000000` | `/24`  |
 | `255.255.255.192` | `11111111.11111111.11111111.11000000` | `/26`  |
-
++
 ### The nine Octet values
 
 The `1`s fill from the left with no gaps, so each Octet can only be one of nine values:
