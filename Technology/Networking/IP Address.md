@@ -103,33 +103,17 @@ The `1`s fill from the left with no gaps, so each Octet can only be one of nine 
 
 ### Calculating instead of memorising
 
-Every value in the table comes from one rule:
+It all comes from one formula, where `0`s is the number of `0` bits in the Octet:
 
-**256 − Octet value = 2^(`0`s)**
+**Octet value = 256 − 2^(`0`s)** — and that same **2^(`0`s)** is how many addresses the network holds when the mask splits the last Octet.
 
-That 2^(`0`s) is also how many addresses the network holds when the mask splits the last Octet.
+| To find… | Use | Example |
+| --- | --- | --- |
+| Octet value from the `1`s | 256 − 2^(`0`s) | 3 `1`s → 5 `0`s → 256 − 2⁵ = `224` |
+| `1`s from an Octet value | 256 − value = 2^(`0`s) | `240` → 256 − 240 = 2⁴ → 4 `0`s, 4 `1`s |
+| Addresses in the network | 2^(`0`s) | `192` → 256 − 192 = 2⁶ = **64** (a `/26`) |
 
-**From a mask to a Prefix**, using `255.255.255.224`:
-1. Each `255` is 8 `1`s, so `255.255.255` is **24** `1`s
-2. 256 − 224 = **32** addresses in the network
-3. 32 = 2⁵, so the last Octet has **5** `0`s (`11100000`)
-4. 8 − 5 = **3** `1`s in the last Octet
-5. 24 + 3 = **`/27`**
-
-To find the power in step 3, halve the number until you reach 1 and count the halvings:
-
-```
-32 → 16 → 8 → 4 → 2 → 1
-```
-
-That's 5 halvings, so 32 = 2⁵.
-
-**From `1`s to an Octet value**, using 3 `1`s:
-1. 8 − 3 = **5** `0`s
-2. 2⁵ = **32**
-3. 256 − 32 = **`224`**
-
-The 32 addresses match the **[[#Prefix]]** count: 2^(32 − 27) = 2⁵ = **32**.
+**Example** — `255.255.255.224`: 256 − 224 = **32** = 2⁵, so 5 `0`s and 3 `1`s. The three `1`s extend the Prefix to `/27` (24 + 3), and the 2⁵ = **32** addresses per network match the **[[#Prefix]]** count 2^(32 − 27) = 2⁵ = **32**.
 
 ### Masking
 
