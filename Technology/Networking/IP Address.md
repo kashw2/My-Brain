@@ -164,14 +164,20 @@ To find which network any address is in, determine the blocks within the host pa
 | `255.255.255.248` | `248`         | `8`                    | `/29`  |
 | `255.255.192.0`   | `192`         | `64` (in the 3rd Octet) | `/18`  |
 
-**Clean boundaries have no magic number.** When the mask is all `255`s then all `0`s — `/8`, `/16`, `/24`, `/32` — the split lands exactly on an Octet boundary, so there's no partial Octet to divide. The block is a whole number of Octets (or a single address), and the Network and Broadcast Addresses read straight off:
+**Masks with no partial Octet.** When every Octet of the mask is `255` or `0` (`/8`, `/16`, `/24` and `/32`), the Network Part ends exactly at the end of an Octet. There's no partial Octet, so there's no magic number to work out. The Host Part is made of whole Octets, so:
+ - the **Network Address** is the address with every Host Part Octet set to `0`
+ - the **Broadcast Address** is the address with every Host Part Octet set to `255`
 
-| Prefix | Mask | Block is… | Network / Broadcast |
-| ------ | ----------------- | -------------------------- | --------------------------- |
-| `/8`   | `255.0.0.0`       | the whole last 3 Octets    | `x.0.0.0` / `x.255.255.255` |
-| `/16`  | `255.255.0.0`     | the whole last 2 Octets    | `x.x.0.0` / `x.x.255.255`   |
-| `/24`  | `255.255.255.0`   | the whole last Octet (256) | `x.x.x.0` / `x.x.x.255`     |
-| `/32`  | `255.255.255.255` | a single address           | the address itself          |
+For `192.168.1.38`:
+
+| Prefix | Mask              | Host Part     | Network Address | Broadcast Address |
+| ------ | ----------------- | ------------- | --------------- | ----------------- |
+| `/8`   | `255.0.0.0`       | Last 3 Octets | `192.0.0.0`     | `192.255.255.255` |
+| `/16`  | `255.255.0.0`     | Last 2 Octets | `192.168.0.0`   | `192.168.255.255` |
+| `/24`  | `255.255.255.0`   | Last Octet    | `192.168.1.0`   | `192.168.1.255`   |
+| `/32`  | `255.255.255.255` | None          | `192.168.1.38`  | `192.168.1.38`    |
+
+With `/32` there's no Host Part to change, so the network is just the one address.
 
 The magic number only earns its keep when a block is a *fraction* of an Octet (mask Octet `128`–`254`), because that's the only time one Octet holds more than one network.
 
