@@ -3,10 +3,10 @@
 **Subnetting** is dividing a network into smaller networks.[^wiki-subnet] Each one is set by a **[[IP Address#Subnet Mask|Subnet Mask]]**, and the mask tells you how many addresses the network holds and which **[[IP Address#Network and Broadcast Addresses|Network and Broadcast Addresses]]** an address belongs to.
 
 ### Terminology
- - **[[#Finding the Block|Partial Octet]]**: The mask Octet that isn't `255` or `0`, where the Network Part ends
- - **[[#Finding the Block|Block Size]]**: The number of addresses one network holds
+ - **[[#From a mask|Partial Octet]]**: The mask Octet that isn't `255` or `0`, where the Network Part ends
+ - **[[#Finding the Block|Block Size]]**: The step between Network Addresses, in the Octet where the Prefix ends
  - **[[#Finding the Block|Boundary]]**: Where a network can start: a multiple of its Block Size
- - **[[#Finding the Block|Magic Number]]**: `256 −` the Partial Octet. It's the Block Size and the step between Network Addresses
+ - **[[#From a mask|Magic Number]]**: `256 −` the Partial Octet. It's the Block Size and the step between Network Addresses
 
 ---
 
@@ -36,26 +36,52 @@ It all comes from one formula, where `0`s is the number of `0` bits in the Octet
 
 ## Finding the Block
 
-A network always starts on a fixed **boundary**: a multiple of its own size. The Network Address is **not** whatever address you happen to start from — it's the start of the block that address falls in. The **block size** is the number of addresses the network holds (`256 − the partial mask Octet`, or `2^(Host bits)`), and networks of that size can only begin at `0`, one block, two blocks, and so on.
+A network can only start on a **boundary**: a multiple of its **block size**, in the Octet where the Prefix ends. The Network Address is the start of the block an address falls in, not the address itself.
 
-To find which network any address is in, determine the blocks within the host part and take your address and round **down** to the start of nearest range:
- - **Network Octet** = host Octet − (host Octet mod block size)
- - **Broadcast Octet** = Network Octet + block size − 1
+### Steps
 
-**The magic number.** The block size comes straight from the mask: it's `256 −` the **partial Octet** (the one that's not `255` or `0`, which is where the split falls). This is called the *magic number* — it's both the block size and the step between Network Addresses:
+The boundaries are in the Octet the Prefix ends in:
 
-| Mask              | Partial Octet | Magic number (`256 −`) | Prefix |
-| ----------------- | ------------- | ---------------------- | ------ |
-| `255.255.255.192` | `192`         | `64`                   | `/26`  |
-| `255.255.255.224` | `224`         | `32`                   | `/27`  |
-| `255.255.255.248` | `248`         | `8`                    | `/29`  |
-| `255.255.192.0`   | `192`         | `64` (in the 3rd Octet) | `/18`  |
+| Prefix | `/1`–`/8` | `/9`–`/16` | `/17`–`/24` | `/25`–`/32` |
+| ------ | --------- | ---------- | ----------- | ----------- |
+| Octet  | 1st       | 2nd        | 3rd         | 4th         |
 
-**Masks with no partial Octet.** When every Octet of the mask is `255` or `0` (`/8`, `/16`, `/24` and `/32`), the Network Part ends exactly at the end of an Octet. There's no partial Octet, so there's no magic number to work out. The Host Part is made of whole Octets, so:
- - the **Network Address** is the address with every Host Part Octet set to `0`
- - the **Broadcast Address** is the address with every Host Part Octet set to `255`
+1. **`1`s in that Octet** = Prefix − 8 for each Octet before it. **`0`s** = 8 − `1`s
+2. **Block size** = 2^(`0`s)
+3. **Boundaries** = 0, then add the block size each time, up to 256
+4. **Network Address**: keep the Octets before, use the largest boundary ≤ the address's Octet, and set every Octet after to `0`
+5. **Broadcast Address**: keep the Octets before, use the next boundary − 1, and set every Octet after to `255`
 
-For `192.168.1.38`:
+|                   | `192.168.1.200/26`  | `10.0.77.5/18`      | `172.20.5.9/12`            |
+| ----------------- | ------------------- | ------------------- | -------------------------- |
+| Octet             | 4th                 | 3rd                 | 2nd                        |
+| `1`s / `0`s       | 26 − 24 = 2 / 6     | 18 − 16 = 2 / 6     | 12 − 8 = 4 / 4             |
+| Block size        | 2⁶ = 64             | 2⁶ = 64             | 2⁴ = 16                    |
+| Address's Octet   | 200                 | 77                  | 20                         |
+| Boundaries        | 0, 64, 128, **192** | 0, **64**, 128, 192 | 0, **16**, 32, 48 …        |
+| Network Address   | `192.168.1.192`     | `10.0.64.0`         | `172.16.0.0`               |
+| Broadcast Address | `192.168.1.255`     | `10.0.127.255`      | `172.31.255.255`           |
+| Addresses         | 64                  | 64 × 256 = 16,384   | 16 × 256 × 256 = 1,048,576 |
+
+The block size is only the number of addresses when the Prefix ends in the 4th Octet. For every Octet after the one it ends in, multiply by 256.
+
+### Why boundaries are multiples of the block size
+
+A Network Address has every Host Part bit set to `0`. With 6 `0`s in the Octet, the last 6 bits are only all `0` at four values:
+
+| Octet  | `0`         | `64`        | `128`       | `192`       |
+| ------ | ----------- | ----------- | ----------- | ----------- |
+| Binary | `00 000000` | `01 000000` | `10 000000` | `11 000000` |
+
+So `192.168.1.60` and `192.168.1.70` are **not** on the same `/26` network: `.60` is in the `.0` block, and `.70` is in the `.64` block.
+
+### From a mask
+
+With a mask in place of a Prefix, the block size is `256 −` the **partial Octet**: the mask Octet that isn't `255` or `0`. This is called the **magic number**. For `255.255.192.0`, 256 − 192 = **64** in the 3rd Octet, the same as `/18`.
+
+### Masks with no partial Octet
+
+With `/8`, `/16`, `/24` or `/32`, the Prefix ends exactly at the end of an Octet, so there are no boundaries to find. Keep the Network Part Octets, then set the rest to `0` for the Network Address and `255` for the Broadcast Address. For `192.168.1.38`:
 
 | Prefix | Mask              | Host Part     | Network Address | Broadcast Address |
 | ------ | ----------------- | ------------- | --------------- | ----------------- |
@@ -65,21 +91,6 @@ For `192.168.1.38`:
 | `/32`  | `255.255.255.255` | None          | `192.168.1.38`  | `192.168.1.38`    |
 
 With `/32` there's no Host Part to change, so the network is just the one address.
-
-The magic number only earns its keep when a block is a *fraction* of an Octet (mask Octet `128`–`254`), because that's the only time one Octet holds more than one network.
-
-With `/26` the block size is 64, so an Octet has only four possible networks (256 / 64 = 4):
-
-| Range         | Network Address | Broadcast Address |
-| ------------- | --------------- | ----------------- |
-| `.0` – `.63`    | `.0`            | `.63`             |
-| `.64` – `.127`  | `.64`           | `.127`            |
-| `.128` – `.191` | `.128`          | `.191`            |
-| `.192` – `.255` | `.192`          | `.255`            |
-
-So `192.168.1.200/26` sits in the `.192` block: Network `192.168.1.192`, Broadcast `192.168.1.255`. And `192.168.1.60` and `192.168.1.70` are **not** on the same network — `.60` is in the `.0` block, `.70` is in the `.64` block.
-
-The boundary falls in whichever Octet the mask splits. For `/26` that's the last Octet; for a shorter Prefix like `/18` it's the third Octet, and the Octets below it just run `0`–`255` inside the block.
 
 ![[Network Boundaries]]
 
