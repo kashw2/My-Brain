@@ -24,11 +24,11 @@ It all comes from one formula, where `0`s is the number of `0` bits in the Octet
 
 **Octet value = 256 − 2^(`0`s)** — and that same **2^(`0`s)** is how many addresses the network holds when the mask splits the last Octet.
 
-| To find… | Use | Example |
-| --- | --- | --- |
-| Octet value from the `1`s | 256 − 2^(`0`s) | 3 `1`s → 5 `0`s → 256 − 2⁵ = `224` |
-| `1`s from an Octet value | 256 − value = 2^(`0`s) | `240` → 256 − 240 = 2⁴ → 4 `0`s, 4 `1`s |
-| Addresses in the network | 2^(`0`s) | `192` → 256 − 192 = 2⁶ = **64** (a `/26`) |
+| To find…                  | Use                    | Example                                   |
+| ------------------------- | ---------------------- | ----------------------------------------- |
+| Octet value from the `1`s | 256 − 2^(`0`s)         | 3 `1`s → 5 `0`s → 256 − 2⁵ = `224`        |
+| `1`s from an Octet value  | 256 − value = 2^(`0`s) | `240` → 256 − 240 = 2⁴ → 4 `0`s, 4 `1`s   |
+| Addresses in the network  | 2^(`0`s)               | `192` → 256 − 192 = 2⁶ = **64** (a `/26`) |
 
 **Example** — `255.255.255.224`: 256 − 224 = **32** = 2⁵, so 5 `0`s and 3 `1`s. The three `1`s extend the Prefix to `/27` (24 + 3), and the 2⁵ = **32** addresses per network match the **[[IP Address#Prefix|Prefix]]** count 2^(32 − 27) = 2⁵ = **32**.
 
