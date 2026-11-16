@@ -8,5 +8,6 @@
   "interfaceFontFamily": "",
   "enabledCssSnippets": [
     "excalidraw-dark"
-  ]
+  ],
+  "showRibbon": true
 }
