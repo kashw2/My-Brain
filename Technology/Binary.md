@@ -29,18 +29,9 @@ Go left to right through the **[[#Bit Value|Bit Values]]**, and at each bit ask 
 
 For `38`, the last **[[IP Address#Structure|Octet]]** of the **[[IP Address]]** `192.168.1.38`:
 
-| Bit value | Fits into what's left? | Bit | Left after  |
-| --------- | ---------------------- | --- | ----------- |
-| 128       | 38: no                 | `0` | 38          |
-| 64        | 38: no                 | `0` | 38          |
-| 32        | 38: yes                | `1` | 38 − 32 = 6 |
-| 16        | 6: no                  | `0` | 6           |
-| 8         | 6: no                  | `0` | 6           |
-| 4         | 6: yes                 | `1` | 6 − 4 = 2   |
-| 2         | 2: yes                 | `1` | 2 − 2 = 0   |
-| 1         | 0: no                  | `0` | 0           |
+![[Converting to Binary]]
 
-Reading the Bit column from top to bottom gives `00100110`.
+Reading the Bit row from left to right gives `00100110`.
  - The bit is `1` whenever the value fits, even when nothing is left after subtracting
  - An Octet is always 8 bits, so write all 8, including the leading `0`s
 
