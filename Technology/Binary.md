@@ -23,16 +23,16 @@ A binary number's value is the Bit Values that have a `1` added together.[^wiki-
 
 ## Converting to Binary
 
-Go left to right through the **[[#Bit Value|Bit Values]]**, and at each bit ask whether its value fits into what's left of the number:
- - **Yes**: write `1` and subtract the value
- - **No**: write `0` and move on
+Go left to right through the **[[#Bit Value|Bit Values]]**, and at each bit subtract its value from what's left of the number:
+ - **It works** (the answer is `0` or more): write `1`, and the answer is what's left for the next bit
+ - **Too big** (the answer would go below `0`): write `0`, and what's left stays the same
 
 For `38`, the last **[[IP Address#Structure|Octet]]** of the **[[IP Address]]** `192.168.1.38`:
 
-![[Converting to Binary]]
+![[Converting to Binary|700]]
 
 Reading the Bit row from left to right gives `00100110`.
- - The bit is `1` whenever the value fits, even when nothing is left after subtracting
+ - An answer of exactly `0` still works, so the bit is `1` (2 − 2 = 0)
  - An Octet is always 8 bits, so write all 8, including the leading `0`s
 
 Adding up the Bit Values that have a `1` does two jobs:
