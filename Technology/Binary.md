@@ -39,6 +39,8 @@ Adding up the Bit Values that have a `1` does two jobs:
  - **Verify a result**: the sum should match the number you started with: 32 + 4 + 2 = **38**
  - **Convert bits to decimal**: the sum is the number the bits represent[^wiki-binary]
 
+![[Converting to Decimal|700]]
+
 ---
 
 ## References
