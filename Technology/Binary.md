@@ -44,7 +44,9 @@ Reading the Bit column from top to bottom gives `00100110`.
  - The bit is `1` whenever the value fits, even when nothing is left after subtracting
  - An Octet is always 8 bits, so write all 8, including the leading `0`s
 
-To check, or to convert back, add up the Bit Values that have a `1`: 32 + 4 + 2 = **38**.[^wiki-binary]
+Adding up the Bit Values that have a `1` does two jobs:
+ - **Verify a result**: the sum should match the number you started with: 32 + 4 + 2 = **38**
+ - **Convert bits to decimal**: the sum is the number the bits represent[^wiki-binary]
 
 ---
 
