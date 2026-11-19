@@ -94,6 +94,8 @@ With `/32` there's no Host Part to change, so the network is just the one addres
 
 ![[Network Boundaries]]
 
+![[Line Method]]
+
 ---
 
 ## References

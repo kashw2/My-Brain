@@ -2,5 +2,6 @@
   "attachmentFolderPath": "./",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "openBehavior": "file:My Brain.md"
+  "openBehavior": "file:My Brain.md",
+  "trashOption": "none"
 }
