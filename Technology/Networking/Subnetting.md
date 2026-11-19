@@ -65,6 +65,8 @@ The boundaries are in the Octet the Prefix ends in:
 
 The block size is only the number of addresses when the Prefix ends in the 4th Octet. For every Octet after the one it ends in, multiply by 256.
 
+![[Line Method]]
+
 ### Why boundaries are multiples of the block size
 
 A Network Address has every Host Part bit set to `0`. With 6 `0`s in the Octet, the last 6 bits are only all `0` at four values:
@@ -74,6 +76,8 @@ A Network Address has every Host Part bit set to `0`. With 6 `0`s in the Octet, 
 | Binary | `00 000000` | `01 000000` | `10 000000` | `11 000000` |
 
 So `192.168.1.60` and `192.168.1.70` are **not** on the same `/26` network: `.60` is in the `.0` block, and `.70` is in the `.64` block.
+
+![[Network Boundaries]]
 
 ### From a mask
 
@@ -91,10 +95,6 @@ With `/8`, `/16`, `/24` or `/32`, the Prefix ends exactly at the end of an Octet
 | `/32`  | `255.255.255.255` | None          | `192.168.1.38`  | `192.168.1.38`    |
 
 With `/32` there's no Host Part to change, so the network is just the one address.
-
-![[Network Boundaries]]
-
-![[Line Method]]
 
 ---
 
