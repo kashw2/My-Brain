@@ -75,7 +75,7 @@ A Network Address has every Host Part bit set to `0`. With 6 `0`s in the Octet, 
 | ------ | ----------- | ----------- | ----------- | ----------- |
 | Binary | `00 000000` | `01 000000` | `10 000000` | `11 000000` |
 
-So `192.168.1.60` and `192.168.1.70` are **not** on the same `/26` network: `.60` is in the `.0` block, and `.70` is in the `.64` block.
+So `192.168.1.60` and `192.168.1.70` are **not** on the same `/26` network: `.60` is in the `.0` block, and `.70` is in the `.64` block. This is because the `/26` prefix's 
 
 ![[Network Boundaries]]
 
