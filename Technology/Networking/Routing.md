@@ -198,6 +198,6 @@ BGP does not measure speed or distance. Each network applies its own policy firs
 [^wiki-dfz]: [Wikipedia: Default-free zone](https://en.wikipedia.org/wiki/Default-free_zone) — the routers that hold the full routing table and don't need a Default Route
 [^rfc4271]: [RFC 4271: A Border Gateway Protocol 4 (BGP-4)](https://www.rfc-editor.org/rfc/rfc4271#section-3.1) — networks announce the prefixes they can reach (§3.1), each network adds itself to the path as the announcement is passed on (§5.1.2), and local policy is applied before the shortest path (§9.1)
 [^rfc792]: [RFC 792: Internet Control Message Protocol](https://www.rfc-editor.org/rfc/rfc792#page-4) — the Destination Unreachable message
-[^rfc2328]: [RFC 2328: OSPF Version 2](https://www.rfc-editor.org/rfc/rfc2328#page-161) — every router has the same map of the network (§3), and routes are calculated with Dijkstra's algorithm (§16.1)
+[^rfc2328]: [RFC 2328: OSPF Version 2](https://www.rfc-editor.org/rfc/rfc2328#page-161) — every router has the same map of the network (§1.1), and routes are calculated with Dijkstra's algorithm (§16.1)
 [^cisco-ospf]: [Cisco: Review OSPF Frequently Asked Questions](https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/9237-9.html) — OSPF link cost is calculated from the link's bandwidth
 [^wiki-bgp]: [Wikipedia: Border Gateway Protocol](https://en.wikipedia.org/wiki/Border_Gateway_Protocol) — BGP routes between networks based on paths and network policies
