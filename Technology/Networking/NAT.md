@@ -63,10 +63,10 @@ The **Translation Table** maps the router's Public IP:**[[#Port]]** to the Priva
 
 The server replies by swapping the source and destination, so whatever the router writes as the source on the way out comes back as the destination.[^rfc3022] The router writes the same `203.0.113.7:62001` into the **[[OSI Model#Packet|Packet]]** and into its Translation Table, so the reply always carries a key the table already has.
 
-| Rewritten on the way out | Why |
-|---|---|
+| Rewritten on the way out                  | Why                                                                                                                           |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Source IP: `192.168.1.38` → `203.0.113.7` | So the reply can reach the router. A reply addressed to a **[[#Private Address]]** would be dropped on the internet[^rfc1918] |
-| Source Port: `51000` → `62001` | So the reply matches exactly one entry. Two devices can use the same private Port |
+| Source Port: `51000` → `62001`            | So the reply matches exactly one entry. Two devices can use the same private Port                                             |
 
 The Port doesn't always change. Some NATs keep the private Port when it's free, and only pick a new one when it would clash with another entry.[^rfc4787]
 
