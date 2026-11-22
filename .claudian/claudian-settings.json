@@ -2,7 +2,7 @@
   "userName": "",
   "permissionMode": "auto",
   "model": "haiku",
-  "effortLevel": "max",
+  "effortLevel": "xhigh",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
