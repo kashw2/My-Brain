@@ -24,6 +24,12 @@ A **[[#Switch]]** keeps a **MAC Address Table** that records which port each MAC
 
 The mapping isn't 1:1, it's many-to-one. One port can have many MAC addresses, which is common when the port connects to another switch, but each MAC address is only on one port.[^ciscopress-mac-table] In the table above, port 4 connects to Switch 2, so both devices on Switch 2 are reachable through port 4.
 
+When a **[[OSI Model#Network Frame|Frame]]** arrives, the switch looks up its destination MAC address in the table:
+- **Found:** the Frame goes out of that port only.[^ciscopress-mac-table]
+- **Not found:** the switch **[[#Flooding|floods]]** it.[^ciscopress-mac-table] Each device that gets a copy discards it unless the destination MAC address is its own.[^ciscopress-mac-address]
+
+![[MAC Address Table Lookup|692]]
+
 ---
 
 ## References
@@ -35,4 +41,5 @@ The mapping isn't 1:1, it's many-to-one. One port can have many MAC addresses, w
 [^wiki-dot1q]: [Wikipedia: IEEE 802.1Q](https://en.wikipedia.org/wiki/IEEE_802.1Q) — 802.1Q adds a tag to each Frame to show which VLAN it belongs to
 [^wiki-stp]: [Wikipedia: Spanning Tree Protocol](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol) — STP blocks ports on redundant links between switches to build a loop-free topology
 [^wiki-etherchannel]: [Wikipedia: EtherChannel](https://en.wikipedia.org/wiki/EtherChannel) — EtherChannel groups several physical Ethernet links into one logical link
-[^ciscopress-mac-table]: [Cisco Press: The MAC Address Table (7.3)](https://www.ciscopress.com/articles/article.asp?p=3089352&seqNum=6) — one port can have many MAC addresses, which is common when it connects to another switch (7.3.4), and a MAC address that turns up on a different port has its entry replaced, so each MAC address is only on one port (7.3.2)
+[^ciscopress-mac-table]: [Cisco Press: The MAC Address Table (7.3)](https://www.ciscopress.com/articles/article.asp?p=3089352&seqNum=6) — one port can have many MAC addresses, which is common when it connects to another switch (7.3.4), and a MAC address that turns up on a different port has its entry replaced, so each MAC address is only on one port, and a Frame whose destination MAC address is in the table goes out that port only, while one that isn't goes out every port except the one it came in on (7.3.2)
+[^ciscopress-mac-address]: [Cisco Press: Ethernet MAC Address (7.2)](https://www.ciscopress.com/articles/article.asp?p=3089352&seqNum=5) — a device discards a Frame whose destination MAC address doesn't match its own (7.2.3)
