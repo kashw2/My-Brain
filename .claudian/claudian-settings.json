@@ -61,8 +61,8 @@
       "selectedModels": [
         {
           "value": "opus",
-          "label": "Opus 5.5",
-          "description": "For complex work and everyday tasks",
+          "label": "Opus",
+          "description": "Opus 5.5 · Best for everyday, complex tasks",
           "resolvedModel": "claude-opus-5-5",
           "reasoningMetadataResolved": true,
           "supportedEffortLevels": [
