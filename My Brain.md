@@ -19,4 +19,3 @@
 ## TODO:
 
 - [ ] Learn more about [[Abstract Reasoning]]
-- [ ] Look into [Qovery](https://www.qovery.com/)
